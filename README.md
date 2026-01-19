@@ -20,7 +20,7 @@ npm install
 
 # Compilation et exécution
 
-Il faut ouvrir 2 terminales:
+Il faut ouvrir 2 terminaux:
 - un pour le back-end
 - un pour le front-end
 
