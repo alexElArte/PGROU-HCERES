@@ -1,0 +1,216 @@
+.activity-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.header {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.header h3 {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.activityList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.activityList ul {
+    list-style: none;
+    width: 40vw;
+    margin-top: 50px;
+}
+
+.activityList ul li {
+    display: flex;
+    align-items: center;
+    background-color: #cfcfcf;
+    margin-bottom: 7px;
+    padding: 10px;
+}
+
+.activityList ul :hover {
+    background-color: #08d;
+    cursor: pointer;
+}
+
+.activityList ul li span div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: black;
+    margin-right: 12px;
+}
+
+.activityList ul li span a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.activityList ul li span a:hover {
+    text-decoration: underline;
+}
+
+
+/* Form */
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.form {
+    position: relative;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    padding: 20px;
+    width: 40vw;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    overflow-y: scroll;
+}
+
+
+.title {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+    padding-left: 15px;
+    border-left: solid #08d;
+}
+
+.label {
+    display: block;
+    color: #15172b;
+    font-size: 16px;
+    font-weight: 550;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-left: solid #08d;
+    padding-left: 10px;
+}
+
+
+.input-container {
+    height: 50px;
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    outline: 0;
+    border: 1px solid #ccc;
+}
+
+.input-container:focus {
+    border: 1px solid #1180ff;
+    box-shadow: 0 0 0 0.2rem rgba(47, 161, 255, 0.25);
+}
+
+.textarea {
+    resize: vertical;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.textarea:focus {
+    border: 1px solid #1180ff;
+    box-shadow: 0 0 0 0.2rem rgba(47, 161, 255, 0.25);
+}
+
+.datePicker {
+    height: 50px;
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    outline: 0;
+    border: 1px solid #ccc;
+}
+
+.submit {
+    display: block;
+    align-items: center;
+    background-color: #08d;
+    border-radius: 5px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 40%;
+    outline: 0;
+    text-align: center;
+    width: 20%;
+}
+
+.submit:active {
+    background-color: #06b;
+}
+
+
+.close-button {
+    transition: all 0.5s ease;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: #df765c;
+    padding: 1.5px 7px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    text-decoration: none;
+    color: white;
+    -webkit-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: -3px 1px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+.close-button:hover {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+
+select {
+    text-align-last: right;
+}
+
+.dropdown-menu {
+    max-height: 50vh;
+    overflow-y: scroll;
+}
+
+.big-button {
+    font-size: 2rem;
+    padding: 3rem 4rem;
+}

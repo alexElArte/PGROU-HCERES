@@ -1,0 +1,32 @@
+id_activity;start_date;name_company_involved;project_title;agreement_amount;end_date
+1;01/01/12;SATT Connectus;DC-SIGN Ihnibitors;19500;01/01/15
+2;01/01/16;OSEImmunotherapeutics;Evaluate whether CLEC-1 blockade could represent a therapeutical strategy to enhance T cell mediated immune responses ;25000;01/01/17
+3;01/01/18;OSEImmunotherapeutics;Decipher the role of the novel myeloid immune checkpoint receptor CLEC-1 and application for cancer therapy;156000;01/01/21
+4;12/07/05;UCB BIOPHARMA;To understand the relationship between IL-22 and IL-22BP in moderate to severe AD;350000;01/01/22
+5;01/01/17;TxCell / SANGAMO;Therapeutic use of CD8+ Treg;910920;01/01/20
+6;01/01/18;TxCell / SANGAMO;CAR CD4+ Treg in transplantation;30300;01/01/20
+7;01/01/15;OMT-Teneobio;Generation and characterization of immunoglobulin humanized rats;450000;01/01/20
+8;01/01/18;Genoway;Du rat vers la souris: amélioration de techniques d'édition du génome par CRISPR/Cas9 et dévt de modèles animaux appliqués à l'étude de gènes;102000;01/01/21
+9;12/07/05;Owkin, Apricity;Healthchain, national consortium in big data for precision medecine (T. Freour is coordinator of the fertility axis);200000;01/01/21
+10;01/01/18;SANOFI;iAward: Deciphering the role of CD28H on NK cells;100000;01/01/19
+11;01/01/19;SANOFI;iAward-extension: Deciphering the role of CD28H on NK cells;17000;01/01/19
+12;01/01/19;OSEImmunotherapeutics;Évaluation du blocage de l'interaction SIRPy/CD47 comme stratégie thérapeutique en transplantation et maladies chroniques auto-immunes et inflammatoires;55435;01/01/21
+13;01/01/16;NOVARTIS;Etude de l'accommodation en transplantation ABO incompatible et en situation d'allo-immunisation;96290;01/01/18
+14;01/01/16;OSEImmunotherapeutics;MDScan: Contrôle des cellules myéloides suppressives par SIRP-alpha:investigation dans le carcinome hépatocellulalre (INCa grant);386000;01/01/20
+15;01/01/17;OSEImmunotherapeutics;EFFI-CLIN :Nouvelle génération d’inhibiteurs de checkpoint en immunothérapie du cancer (BPI France);1344000;01/01/22
+16;01/01/13;EFFIMUNE;EFFI-MAB: Développement d’une nouvelle génération d’anticorps à double activité pour le traitement des maladies auto-immunes et de la leucémie aigüe (BPI France);495800;01/01/19
+17;12/07/05;SANDOZ;Single cell/RNA Seq in kidney graft biopsies;20000;01/01/21
+18;01/01/16;NOVARTIS;Etude phénotypique de l'infiltrat dans la fibrose et la microcirculation sur biopsie de greffons à 1 an;53710;01/01/18
+19;01/01/15;NOVARTIS;VALBIO 12 - Intégration des biomarqueurs transcriptomiques dans les scores de risque post greffe;115000;01/01/18
+20;01/01/15;SANOFI;DIVAT- sustain to the multicenter cohort;90000;01/01/18
+21;01/01/15;GENZYME;Effects of teriflunomide on MAIT cells in RRMS patients;42760;01/01/18
+22;01/01/16;GENZYME;Immune metabolic signature of CD8 T cells in multiple sclerosis patients treated with Teriflunomide;65440;01/01/19
+23;01/01/18;Roche;Impact of Ocrelizumab on T and B cells in RRMS patients;900000;01/01/23
+24;01/01/16;GENZYME;Immune metabolic signature of CD8 T cells in multiple sclerosis patients treated with Teriflunomide;65440;01/01/19
+25;01/01/19;GoLiver;Modifications génétiques pour la greffe d'hépatocytes dérivés d'iPS humaines;120000;01/01/21
+26;12/07/05;Ligand;Generation of a transgenic rat model of SARS-CoV-2 infection.;50000;01/01/21
+27;12/07/05;AbolerIS Pharma;Anti-CD45RC;250000;01/01/23
+28;01/01/18;BioMerieux;Clinical evaluation of rapid multiplex PCR for the diagnosis of hospital-acquired pneumonia;50000;01/01/20
+29;12/07/05;Olgram;Role of sulfoconjugates for treatment and prevention of infections caused by multiresistant bacteria (ANR LabCom);200000;01/01/21
+30;12/07/05;BioMerieux and Merck;Host-targeted approaches for the prevention and the treatment of hospital-acquired pneumonia;20000;01/01/24
+31;01/01/15;TEVA;Transcriptomic of EAE astrocytes after laquinimod treatment;68000;01/01/17

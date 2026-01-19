@@ -1,0 +1,167 @@
+id_activity;date_project_start;id_type;partner_entity;country_state_city;pi_partners;mail_partners;active_project;ref_joint_publication;umr1064_coordinated;agreement_signed;number_resulting_publications;associated_funding
+1;01/01/12;2;Ospedale San Raffaelle;Milan, Italy;"Gregori, S; gregori.silvia@hsr.it";"Gregori, S; gregori.silvia@hsr.it";false;Amodio G, Cichy J, Conde P, Matteoli G, Moreau A, Ochando J, Oral BH, Pekarova M, Ryan EJ, Roth J, Sohrabi Y, Cuturi MC, Gregori S. Role of myeloid regulatory cells (MRCs) in maintaining tissue homeostasis and promoting tolerance in autoimmunity, inflammatory disease and transplantation. Cancer Immunol Immunother. Oct. 2018.;false;true;1;EU
+2;01/01/13;2;Nuffield Department of Surgical Sciences;Oxford, UK;"Issa, F; fadi.issa@nds.ox.ac.uk";"Issa, F; fadi.issa@nds.ox.ac.uk";false;;false;true;;EU
+3;01/01/12;2;University Hospital Regensburg;Regensburg, Germany;"Geissler, E; Edward.Geissler@klinik.uni-regensburg.de";"Geissler, E; Edward.Geissler@klinik.uni-regensburg.de";true;Sawitzki B, Harden PN, Reinke P, Moreau A, Hutchinson JA, Game D, Tang Q, Guinan EC, Battaglia M, Burlingham WJ, Roberts I, Streitz M, Josien R, Böger C, Scotta C, Crisalli K, Hester JL, Juerchott K, Braudeau C, James B, Contreras L, van der Net J, Bergler T, Petchey, W, Dupas N, Kapinsky M, Mutzbauer I, Issa F, Ahrens N, Meyenberg C, Kunzendorf U, Knechtle SJ, Grinyo J, Morris PJ, Brent L, Bushell A, Turka LA, Bluestone JA, Lechler RI, Schlitt H, Cuturi MC, Schlickeiser S, Friend P, Miloud T, Scheffold A, Secchi A, Markmann JF, Kang SM, Hilton R, Banas B, Blancho G, Volk HD, Lombardi G, Wood KJ, Geissler EK. The ONE Study: Evaluation of Regulatory Cell Therapy in Kidney Transplantation Using a Harmonized Trial Design. The Lancet.;false;true;1;EU
+4;01/01/12;2;"Institute of Medical
+Immunology";Berlin, Germany;"Sawitzki, B; birgit.sawitzki@charite.de";"Sawitzki, B; birgit.sawitzki@charite.de";true;Sawitzki B, Harden PN, Reinke P, Moreau A, Hutchinson JA, Game D, Tang Q, Guinan EC, Battaglia M, Burlingham WJ, Roberts I, Streitz M, Josien R, Böger C, Scotta C, Crisalli K, Hester JL, Juerchott K, Braudeau C, James B, Contreras L, van der Net J, Bergler T, Petchey, W, Dupas N, Kapinsky M, Mutzbauer I, Issa F, Ahrens N, Meyenberg C, Kunzendorf U, Knechtle SJ, Grinyo J, Morris PJ, Brent L, Bushell A, Turka LA, Bluestone JA, Lechler RI, Schlitt H, Cuturi MC, Schlickeiser S, Friend P, Miloud T, Scheffold A, Secchi A, Markmann JF, Kang SM, Hilton R, Banas B, Blancho G, Volk HD, Lombardi G, Wood KJ, Geissler EK. The ONE Study: Evaluation of Regulatory Cell Therapy in Kidney Transplantation Using a Harmonized Trial Design. The Lancet.;false;true;1;EU
+5;01/01/15;4;Instituto pasteur Montevideo;Uruguay;marcelo Hill mhill@pasteur.edu.uy;marcelo Hill mhill@pasteur.edu.uy;true;cancer cell;false;;;ecos sud
+6;01/01/12;2;Centre for Analytical Science;loughborough, UK;"Managh, A; A.J.Managh@lboro.ac.uk";"Managh, A; A.J.Managh@lboro.ac.uk";false;"Marin E, Bouchet-Delbos L, Renoult O, Louvet C, Nerriere-Daguin V, Managh AJ, Even A, Giraud M, Vu Manh TP, Aguesse A, Bériou G, Chiffoleau E, Alliot-Licht B, Prieur X, Croyal M, Hutchinson JA, Obermajer N, Geissler EK, Vanhove B, Blancho G, Dalod M, Josien R, Pecqueur C, Cuturi MC* and Moreau A*. Human tolerogenic dendritic cells regulate immune responses through lactate synthesis. Cell metabolism. Déc. 2019;30(6):1075-1090.";true;false;1;EU
+7;01/01/16;2;Institut du Thorax;Nantes, France;"Prieur, X; xavier.prieur@univ-nantes.fr";"Prieur, X; xavier.prieur@univ-nantes.fr";true;"Marin E, Bouchet-Delbos L, Renoult O, Louvet C, Nerriere-Daguin V, Managh AJ, Even A, Giraud M, Vu Manh TP, Aguesse A, Bériou G, Chiffoleau E, Alliot-Licht B, Prieur X, Croyal M, Hutchinson JA, Obermajer N, Geissler EK, Vanhove B, Blancho G, Dalod M, Josien R, Pecqueur C, Cuturi MC* and Moreau A*. Human tolerogenic dendritic cells regulate immune responses through lactate synthesis. Cell metabolism. Déc. 2019;30(6):1075-1090.";true;false;1;ANR
+8;01/01/16;2;CRCINA;Nantes, France;"Pecqueur,C; claire.pecqueur@univ-nantes.fr";"Pecqueur,C; claire.pecqueur@univ-nantes.fr";true;"Marin E, Bouchet-Delbos L, Renoult O, Louvet C, Nerriere-Daguin V, Managh AJ, Even A, Giraud M, Vu Manh TP, Aguesse A, Bériou G, Chiffoleau E, Alliot-Licht B, Prieur X, Croyal M, Hutchinson JA, Obermajer N, Geissler EK, Vanhove B, Blancho G, Dalod M, Josien R, Pecqueur C, Cuturi MC* and Moreau A*. Human tolerogenic dendritic cells regulate immune responses through lactate synthesis. Cell metabolism. Déc. 2019;30(6):1075-1090.";true;false;1;ANR
+9;01/01/16;2;CIML;Marseille, France;"Dalod, M; dalod@ciml.univ-mrs.fr";"Dalod, M; dalod@ciml.univ-mrs.fr";false;"Marin E, Bouchet-Delbos L, Renoult O, Louvet C, Nerriere-Daguin V, Managh AJ, Even A, Giraud M, Vu Manh TP, Aguesse A, Bériou G, Chiffoleau E, Alliot-Licht B, Prieur X, Croyal M, Hutchinson JA, Obermajer N, Geissler EK, Vanhove B, Blancho G, Dalod M, Josien R, Pecqueur C, Cuturi MC* and Moreau A*. Human tolerogenic dendritic cells regulate immune responses through lactate synthesis. Cell metabolism. Déc. 2019;30(6):1075-1090.";true;false;1;ANR
+10;01/01/15;2;centre for medical mycology;Exeter, UK;Brown G, gordon.brown@exeter.ac.uk;Brown G, gordon.brown@exeter.ac.uk;true;;;false;;
+11;01/01/18;1;CRCINA;Nantes, France;"Saulquin X ; xavier.saulquin@univ-nantes.fr";"Saulquin X ; xavier.saulquin@univ-nantes.fr";true;;true;false;;ANR
+12;01/01/19;1;University of Tübingen;Tübingen, Germany;"Stehle T ; thilo.stehle@uni-tuebingen.de";"Stehle T ; thilo.stehle@uni-tuebingen.de";true;;true;false;;ANR
+13;01/01/20;2;CNRS, IRD Montpellier;Montpellier, France;Bravo IN, ignacio.bravo@ird.fr;Bravo IN, ignacio.bravo@ird.fr;true;;true;false;;Region Pays de la Loire
+14;01/01/14;1;CEISAM lab, UN;Nantes, France;Sébastien Gouin (sebastien.gouin@univ-nantes.fr);Sébastien Gouin (sebastien.gouin@univ-nantes.fr);false;"Polymeric mannosides prevent DC-SIGN-mediated cell-infection by cytomegalovirus. Brument S, Cheneau C, Brissonnet Y, Deniaud D, Halary F, Gouin SG. Org Biomol Chem. 2017 Sep 20;15(36):7660-7671. doi: 10.1039/c7ob01569k. PMID: 28871303";true;;;
+15;01/01/18;1;GeM, Ecole Centrale de Nantes;Nantes, France;J-Y Hascoët (jean-yves.hascoet@ec-nantes.fr);J-Y Hascoët (jean-yves.hascoet@ec-nantes.fr);true;;true;true;;UN
+16;01/01/19;2;MERLN Institute;Maastricht, The Netherlands;Carlos Mota (c.mota@maastrichtuniversity.nl);Carlos Mota (c.mota@maastrichtuniversity.nl);true;;false;true;;UN
+17;01/01/20;2;LMU, University of Toronto;Munich Germany, Toronto Canada;juris@ai.utoronto.ca Thomas.Schulze@med.uni-muenchen.de;juris@ai.utoronto.ca Thomas.Schulze@med.uni-muenchen.de;true;;true;true;;
+18;01/01/18;2;CHU Nantes;Nantes;antoine.roquilly@univ-nantes.fr;antoine.roquilly@univ-nantes.fr;true;PMID: 32424365;false;false;1;
+19;01/01/18;4;University of Exeter;Exeter/UK;drabhinge@gmail.com Akshay Bhinge;drabhinge@gmail.com Akshay Bhinge;true;;;false;;
+20;01/01/18;1;University of Nantes;Nantes;Nathalie Gaborit;Nathalie Gaborit;true;;false;false;;
+21;01/01/19;4;CHU Nantes;Nantes;Karim Ashenoune;Karim Ashenoune;true;(in press) JID;false;false;1;
+22;01/01/20;2;EA 3826;Nantes, France;Roquilly A, antoine.roquilly@chu-nantes.fr;Roquilly A, antoine.roquilly@chu-nantes.fr;true;;false;false;;ANR Flash COVID
+23;01/01/17;2;Institut du Thorax;Nantes, France;Cariou B, Bertrand.cariou@chu-nantes.fr;Cariou B, Bertrand.cariou@chu-nantes.fr;true;;true;false;;Pari Scientifique Region PdL
+24;01/01/15;2;EA 3826;Nantes, France;Asehnoune K, karim.asehnoune@chu-nantes.fr;Asehnoune K, karim.asehnoune@chu-nantes.fr;true;"Broquet et al. Sci Rep 2017; Broquet et al, Mol Immunol 2019";false;false;;NA
+25;01/01/15;2;UMR 1235, IMAD;Nantes, France;Bourreille A, arnaud.bourreille@chu-nantes.fr;Bourreille A, arnaud.bourreille@chu-nantes.fr;true;Martin et al. Mucosal Immunol 2016;true;false;;ECCO, AFA
+26;01/01/15;2;Service de Medecine Interne CHU Nantes;Nantes, France;Hamidou M, mohamed.hamidou@chu-nantes.fr;Hamidou M, mohamed.hamidou@chu-nantes.fr;false;"Braudeau et al., J Autoimmun 2016; Braudeau et al Front Immunol 2017";true;false;;NA
+27;01/01/15;2;Charité Hospital;Berlin, Germany;Sabat R, robert.sabat@charite.de;Sabat R, robert.sabat@charite.de;false;Martin et al. J Immunol 2017;true;false;;NA
+28;01/01/16;2;Institut Curie;Paris, France;Soumelis V, vassili.soumelis@aphp.fr;Soumelis V, vassili.soumelis@aphp.fr;false;Salabert-Le Guen et al, JACI 2018;true;false;;NA
+29;01/01/17;2;CRCINA;Nantes, France;Le Pendu, J jacques.lependu@univ-nantes.fr;Le Pendu, J jacques.lependu@univ-nantes.fr;true;;;true;1;ANR/DGOS
+30;01/01/16;2;InCell Art;France;Bruno Pitard;Bruno Pitard;false;;false;true;0;FUI-BPI France
+31;01/01/20;2;"INRAE UMR703-Oniris
+CNRS UMR5223, Université Lyon1";Nantes, France;"Karl Rouger
+karl.rouger@inra.fr
+Marie-Thérèse Charreyre 
+marie-therese.charreyre@ens-lyon.fr";"Karl Rouger
+karl.rouger@inra.fr
+Marie-Thérèse Charreyre 
+marie-therese.charreyre@ens-lyon.fr";false;submitted;true;;;AFM-Telethon
+32;01/01/20;2;"CRTI Team 2&3, 
+Département d'Hépato-Gastroentérologie,CHU de Nantes";Nantes, France;"Gille Blancho, 
+Isabelle Archambeaud";"Gille Blancho, 
+Isabelle Archambeaud";false;submitted;true;true;;INCa
+33;01/01/15;2;"Institute of Liver 
+Studies, King’s College Hospital";Londres, UK;"Alberto Sanchez-Fueyo
+sanchez_fueyo@kcl.ac.uk
+";"Alberto Sanchez-Fueyo
+sanchez_fueyo@kcl.ac.uk
+";false;Dumontet et al, Liver Int. 2015.;true;false;1;AFEF
+34;01/01/21;2;"Institute of Liver 
+Studies, King’s College Hospital
+CHU de Rennes, Service de transplantation hépatique";"Londres, UK
+Rennes, France";"Alberto Sanchez-Fueyo
+sanchez_fueyo@kcl.ac.uk
+Pauline Houssel-Debry
+pauline.houssel-debry@chu-rennes.fr";"Alberto Sanchez-Fueyo
+sanchez_fueyo@kcl.ac.uk
+Pauline Houssel-Debry
+pauline.houssel-debry@chu-rennes.fr";true;;true;false;;AFEF
+35;01/01/22;2;"CIML,
+CHU de Nantes, 
+Service d'Hépato-gastroentérologie";"Marseille, France
+Nantes, France";"Pierre Milpied 
+milpied@ciml.univ-mrs.fr
+Jérôme Gournay
+jerome.gournay@chu-nantes.fr";"Pierre Milpied 
+milpied@ciml.univ-mrs.fr
+Jérôme Gournay
+jerome.gournay@chu-nantes.fr";true;"Renand et al 
+J Hepatol 2020";true;;1;ANR-DGOS
+36;01/01/21;4;Autonomous University of Madrid;Madrid, Spain;Juan Antonio Moreno Guitierrez;Juan Antonio Moreno Guitierrez;true;;;;;
+37;01/01/22;2;CHU Vaudois;Lausanne, Switzerland;Renaud Du Pasquier, renaud.du-pasquier@chuv.ch;Renaud Du Pasquier, renaud.du-pasquier@chuv.ch;true;;;;;
+38;01/01/22;2;University Paris Diderot;Paris, France;Maria Miteva;Maria Miteva;true;Martini VY et al Bioinformatics 2015;;;1;
+39;01/01/22;2;IPMC;Montpellier, France;Véronique Braud;Véronique Braud;true;;;;;
+40;01/01/22;2;Reynolds Family Spine Laboratory, Rutgers University;Newark, NJ, USA;Stella Elkabes;Stella Elkabes;true;;;;;
+41;01/01/21;2;Service de microbiologie, CHU de Brest;Brest, France;Geneviève Hery-Arnaud, genevieve.hery-arnaud@chu-brest.fr;Geneviève Hery-Arnaud, genevieve.hery-arnaud@chu-brest.fr;true;Vallino A et al Neurol Neuroimmunol Neuroinflamm 2020;;;1;
+42;01/01/22;2;Micalis;Jouy-en-Josas, France;Hervé Blottière;Hervé Blottière;true;;;;;
+43;01/01/00;2;Micmac U1236;Rennes, France;Laure Michel, laure.michel@chu-rennes.fr;Laure Michel, laure.michel@chu-rennes.fr;true;Vallino A et al Neurol Neuroimmunol Neuroinflamm 2020, Nicol B et al J Autoimmun 2018, Couloume L et al Mult Scler 2019, Laplaud DA et al Neurology 2019, Balloy G et al J Neurol 2018, Cobo-Calvo A et al Neurology 2018, Salou M et al Clin Immunol 2016, Salou M et al Ann Clin Transl Neurol 2015, Chesneau M et al JASN 2015;;;9;
+44;01/01/18;1;Department of Pathobiology, School of Veterinary Medicine, University of Pennsylvania;Philadelphia, PA, USA;Jorge Ivan Alvarez;Jorge Ivan Alvarez;true;Rothammer V et al Nature 2018;;;1;
+45;01/01/19;2;Centre de Physiopathologie Toulouse-Purpan (CPTP);Toulouse, France;Rolan Liblau, Roland.Liblau@inserm.fr;Rolan Liblau, Roland.Liblau@inserm.fr;false;Gross CC Nat Comm 2019;;;1;
+46;01/01/21;2;Umass medical school;Worcester, MA, USA;Uri Galili, uri.galili@umassmed.edu;Uri Galili, uri.galili@umassmed.edu;true;;;;;
+47;01/01/21;2;Bar Ilan University;Israel;Omri Koren;Omri Koren;true;;;;;
+48;;2;Sphere;Nantes, France;Yohann Foucher;Yohann Foucher;true;Chatton A et al Sci Rep 2020, Laplaud DA Neurology 2019, Barbin L et al Neurology 2016;;;3;
+49;01/01/22;2;Département de chimie , Université de Montréal;Montréal, Québec, Canada;Jeffrey W Keillor;Jeffrey W Keillor;true;;;;;
+50;;2;Service de Neurologie, Hôpital Neurologique Pierre Wertheimer, Hospices Civils de Lyon;Lyon, France;Sandra Vukusic;Sandra Vukusic;true;Ayrignac X Brain 2015, Barbin L Neurology 2016, Tourbah A Mult Scler 2016, Lavie C Mult Scler 2019, Laplaud DA Neurology 2019, Vukusic S et al JAMA Neurol 2019;;;6;
+51;;2;GDR CNRS;France;Dr Martine Meunier, martine.meunier@inserm.fr, Dr Emmanuel Procyk, emmanuel.procyk@inserm.fr,;Dr Martine Meunier, martine.meunier@inserm.fr, Dr Emmanuel Procyk, emmanuel.procyk@inserm.fr,;true;;false;false;;CNRS
+52;01/01/20;2;KU Lueven;Lueven, Belgium;Pr Mark Wear, mark.wear@uzlueven.be;Pr Mark Wear, mark.wear@uzlueven.be;false;;false;true;;KU Lueven
+53;01/01/19;4;Aichi Medical University, Department of Kidney Disease and Transplant Immunology,;JAPAN;Pr Takaaki Kobayashi,;Pr Takaaki Kobayashi,;true;;false;;;JSPS Summer Program 2019, JAPAN
+54;01/01/20;2;NUIG;Gallway, Ireland;Matthew Griffin, matthew.griffin@nuigalway.ie;Matthew Griffin, matthew.griffin@nuigalway.ie;true;;false;true;11;FP7
+55;01/01/20;2;NUIG;Gallway, Ireland;Matthew Griffin, matthew.griffin@nuigalway.ie;Matthew Griffin, matthew.griffin@nuigalway.ie;true;;false;true;11;FP7
+56;01/01/17;2;CHARITE UNIVERSITY HOSPITAL;Berlin, Germany;Petra Reinke, petra.reinke@charite.de;Petra Reinke, petra.reinke@charite.de;false;;false;true;5;FP7
+57;01/01/17;2;CHARITE UNIVERSITY HOSPITAL;Berlin, Germany;Petra Reinke, petra.reinke@charite.de;Petra Reinke, petra.reinke@charite.de;false;;false;true;5;FP7
+58;01/01/17;2;PADUA UNIVERSITY HOSPITAL;Padua, Italy;Emanuele COZZI, emanuele.cozzi@unipd.it;Emanuele COZZI, emanuele.cozzi@unipd.it;false;;false;true;4;FP7
+59;01/01/13;2;"Institute of Liver 
+Studies, King’s College Hospital
+CHU de Rennes, Service de transplantation hépatique";"Londres, UK
+Rennes, France";"Alberto Sanchez-Fueyo
+sanchez_fueyo@kcl.ac.uk
+Pauline Houssel-Debry
+pauline.houssel-debry@chu-rennes.fr";"Alberto Sanchez-Fueyo
+sanchez_fueyo@kcl.ac.uk
+Pauline Houssel-Debry
+pauline.houssel-debry@chu-rennes.fr";true;;true;;;
+60;01/01/20;2;John Hopkins University;USA;Yanxun Xu;Yanxun Xu;true;;true;false;;NA
+61;01/01/20;2;university Hospital;Paris Necker, Paris Saint Louis, Nice, Lyon , Grenoble, Saint Etienne, Montpellier, 1825;;;true;;true;true;;private/university of Nantes
+62;01/01/20;2;university Hospital;Oslo, Barcelona, Louvain;;;true;BMC nephrol 2019;true;true;1;University Hospital of Nantes
+63;01/01/20;2;university Hospital;Paris Necker, Paris Saint Louis, Nice, Lyon , Grenoble, Saint Etienne, Montpellier, 1825;;;true;;true;true;;private/university of Nantes
+64;01/01/20;2;university Hospital;Oslo, Barcelona, Louvain;;;true;BMC nephrol 2019;true;true;1;University Hospital of Nantes
+65;01/01/16;4;NIH/NCI, Frederick National Lab;Frederick MD, USA;CA Winkler, winklerc@mail.nih.gov;CA Winkler, winklerc@mail.nih.gov;true;"DK et al. NDT 2017; Gutierrez et al. KI 2018; Gutierrez et al. Circ Genom Precis Med 2018; Asharam et al KI Reports 2018; An et al. Front Immunol 2019; Gutierrez et al AJKD 2019; Cha et al. Sci Rep 2020; Chaudhary et al. CJASN 2020";false;;;
+66;01/01/16;2;Wake Forest School of Medicine;Winston-Salem NC, USA;B Freedman, bfreedma@wakehealth.edu;B Freedman, bfreedma@wakehealth.edu;false;Freedman et al. AJKD 2018;false;;;
+67;01/01/16;2;Vanderbilt institute of global health;Nashville TN, USA;W Wester, william.wester@vumc.org;W Wester, william.wester@vumc.org;true;Limou et al. HIV pharmacogenetics and pharmacogenomics: from bench to bedside. In: Genomic and Personalized Medicine, 3rd edition, Elsevier, Ginsburg GS, Willard HF, Tsalik EL, Woods CW (Eds.), 2019;false;;;
+68;01/01/16;2;NIH/NIDDK;Bethesda MD, USA;A Parsa, afshin.parsa@nih.gov;A Parsa, afshin.parsa@nih.gov;false;"Limou et al. KI 2016; Parsa et al. JASN 2017; Limou et al. CJASN 2018";false;;;
+69;01/01/18;4;Department of Internal Medicine, Hôpital de Bukavu, Université Catholique de Bukavu, Bukavu, DRC / Department of Nephrology, Cliniques universitaires Saint-Luc, Université Catholique de Louvain, Brussels, Belgium;Bukavu, RDC;M Massimango, masimax2003@gmail.com;M Massimango, masimax2003@gmail.com;true;"Masimango et al. Kidney Int Reports 2020; One in prep.";false;;;
+70;01/01/17;1;Hopital de Jour de Bobo Dioulasso;Bobo Dioulasso, Burkina Faso;Firmin Kaboré, nongodo@yahoo.fr;Firmin Kaboré, nongodo@yahoo.fr;true;"Kaboré et al. Nephrol Ther 2019; Kaboré et al. BMC Nephrol 2019; one in prep";true;;;
+71;01/01/18;2;HEGP;Paris, France;V Fremeaux-Bacchi, veronique.fremeaux-bacchi@aphp.fr;V Fremeaux-Bacchi, veronique.fremeaux-bacchi@aphp.fr;true;"Frémeaux-Bacchi et al. CJASN 2019; Le Clech et al. KI 2019";false;;;
+72;01/01/19;2;Institute of Human Virology;Baltimore MD, USA;Mohammad Sajadi, msajadi@ihv.umaryland.edu;Mohammad Sajadi, msajadi@ihv.umaryland.edu;true;;true;;;
+73;01/01/16;2;Albert Einstein College of Medicine;Bronx NY, USA;F Kaskel, frederick.kaskel@einstein.yu.edu;F Kaskel, frederick.kaskel@einstein.yu.edu;true;;true;;;
+74;01/01/18;3;International Consortium w/ more 30 partners;;https://www.ihiw18.org/component-bio-informatics/snp-hla-reference/;https://www.ihiw18.org/component-bio-informatics/snp-hla-reference/;true;;true;;;
+75;01/01/18;4;Departamento de Genética e Biologia Evolutiva;Sao Paulo, Brazil;Diogo Meyer, diogo@ib.usp.br;Diogo Meyer, diogo@ib.usp.br;true;;true;;;
+76;01/01/18;4;APHP;Paris, France;Laurent Mesnard, laurent.mesnard@aphp.fr;Laurent Mesnard, laurent.mesnard@aphp.fr;true;;true;;;
+77;01/01/20;3;International Consortium;;http://www.hlacovid19.org/;http://www.hlacovid19.org/;true;;;;;
+78;01/01/17;2;NIH/NIDDK;Bethesda MD, USA;A Parsa, afshin.parsa@nih.gov;A Parsa, afshin.parsa@nih.gov;false;Limou et al. CJASN 2018;false;;;
+79;01/01/18;2;Departamento de Patologia;Botucatu, Brazil;Erick Castelli, erick.castelli@gmail.com;Erick Castelli, erick.castelli@gmail.com;true;;true;;;
+80;01/01/19;2;CHU de Nantes;Nantes, France;Elise Launay, Elise.LAUNAY@chu-nantes.fr;Elise Launay, Elise.LAUNAY@chu-nantes.fr;true;;false;;;
+81;01/01/17;2;UCSF;San Francisco CA, USA;Doug Goodin, Douglas.Goodin@ucsf.edu;Doug Goodin, Douglas.Goodin@ucsf.edu;true;;false;;;
+82;01/01/19;2;EFS;Nantes, France;Florent Delbos, Florent.Delbos@efs.sante.fr;Florent Delbos, Florent.Delbos@efs.sante.fr;true;;true;;;
+83;01/01/18;2;Department of Clinical Neurosciences;Cambridge, UK;Steven Sawcer, sjs1016@cam.ac.uk;Steven Sawcer, sjs1016@cam.ac.uk;true;;false;;;
+84;01/01/17;2;UC Denver;Denver, USA;Kathleen Barnes, KATHLEEN.BARNES@UCDENVER.EDU;Kathleen Barnes, KATHLEEN.BARNES@UCDENVER.EDU;true;Vince et al. JACI 2020;true;;;
+85;01/01/16;2;NMDP;Minneapolis, USA;Martin Maiers, mmaiers@NMDP.ORG;Martin Maiers, mmaiers@NMDP.ORG;true;;true;;;
+86;01/01/18;2;EFS;Nantes, France;Katia Gagne, Katia.Gagne@efs.sante.fr;Katia Gagne, Katia.Gagne@efs.sante.fr;true;;true;;;
+87;01/01/19;2;Lab of Microbioly and Immunology;Australia, Victoria, Melbourne;J. Villadangos j.villadangos@unimelb.edu.au;J. Villadangos j.villadangos@unimelb.edu.au;true;PMID: 32424365;false;true;1;Australian (NHMRC)
+88;01/01/13;4;Lab of Microbioly and Immunology;Australia, Victoria, Melbourne;J. Villadangos j.villadangos@unimelb.edu.au;J. Villadangos j.villadangos@unimelb.edu.au;false;PMID: 28723546, PMID: 25200952;;true;6;Mobility
+89;01/01/18;4;Lab of Microbioly and Immunology;Australia, Victoria, Melbourne;J. Villadangos j.villadangos@unimelb.edu.au;J. Villadangos j.villadangos@unimelb.edu.au;false;;false;true;6;Mobility
+90;01/01/18;2;Dpt of immunology, University of Zurich;Switzerland, Zurich;B. Becher (becher@immunology.uzh.ch);B. Becher (becher@immunology.uzh.ch);true;PMID: 31182406;true;true;1;EU H2020, ANR MRSEI
+91;01/01/18;2;University of Detroit;US, Michigan, Detroit;R. Dickson (rodickso@med.umich.edu);R. Dickson (rodickso@med.umich.edu);true;PMID: 31182406;true;true;1;EU H2020, ANR MRSEI
+92;01/01/18;2;Radboud Center for Infectious Diseases, Radboud University Medical Center;Netherlands, Nijmegen;M. Netea (Mihai.Netea@radboudumc.nl);M. Netea (Mihai.Netea@radboudumc.nl);true;PMID: 31182406;true;true;1;EU H2020, ANR MRSEI
+93;01/01/19;2;Institut Pasteur de Lille;France, Lille;F. Trottein (francois.trottein@pasteur-lille.fr);F. Trottein (francois.trottein@pasteur-lille.fr);true;;true;;;
+94;01/01/12;2;Conway Institute / University College Dublin;Ireland;CT Taylor (cormac.taylor@ucd.ie);CT Taylor (cormac.taylor@ucd.ie);false;PMID: 28368464;false;false;1;
+95;01/01/17;2;"Istituto Nazionale Tumori ""Pascale""";Italy, Napoli;L. Buonaguro (l.buonaguro@istitutotumori.na.it);L. Buonaguro (l.buonaguro@istitutotumori.na.it);true;;false;true;;ERA-NET JTC 2015
+96;01/01/17;2;RSU-Oncology institute;Latvia, Riga;E. Miklaševi?s (Edvins.Miklasevics@rsu.lv);E. Miklaševi?s (Edvins.Miklasevics@rsu.lv);true;;false;true;;ERA-NET JTC 2015
+97;01/01/17;2;University of Navarra;Spain, Pamplona;B. Sangro (bsangro@unav.es);B. Sangro (bsangro@unav.es);true;;false;true;;ERA-NET JTC 2015
+98;01/01/17;2;University of Leuven-Trace;Belgium, Leuven;F. Amant (frederic.amant@uzleuven.be);F. Amant (frederic.amant@uzleuven.be);true;;false;true;;ERA-NET JTC 2015
+99;01/01/17;2;Ospedale San Raffaele;Italy, Milano;L. Lopalco (lopalco.lucia@hsr.it);L. Lopalco (lopalco.lucia@hsr.it);true;;false;true;;ERA-NET JTC 2015
+100;01/01/17;2;University of Tallinn;Estonia, Tallinn;T. Maimets (Toivo.Maimets@ut.ee);T. Maimets (Toivo.Maimets@ut.ee);true;;false;true;;ERA-NET JTC 2015
+101;01/01/18;2;Research Service, Louis Stokes Cleveland VA Medical Center;Cleveland, Ohio, USA;A. Bonomo (robert.bonomo@va.gov);A. Bonomo (robert.bonomo@va.gov);false;PMID: 30858223;false;;1;Not applicable
+102;01/01/15;2;CIRI, INSERM U1111;Lyon, France;F. Laurent (frederic.laurent@univ-lyon1.fr);F. Laurent (frederic.laurent@univ-lyon1.fr);false;PMID: 26918656;false;;1;Not applicable
+103;01/01/23;2;University of Helsinki;Finland;Eliisa Keka?la?inen (Eliisa.kekalainen@helsinki.fi);Eliisa Keka?la?inen (Eliisa.kekalainen@helsinki.fi);true;;false;false;;ANR - European Joint Program Rare Diseases (EJP RD)
+104;01/01/23;2;University of Helsinki;Finland;Part Peterson, part.peterson@ut.ee;Part Peterson, part.peterson@ut.ee;true;Ossart et al., J Immunol, 2017;false;true;;ANR - European Joint Program Rare Diseases (EJP RD)
+105;01/01/23;2;University of Helsinki;Finland;Luis Graca lgraca&medicina.ulisboa.pt;Luis Graca lgraca&medicina.ulisboa.pt;true;;false;false;;ANR - European Joint Program Rare Diseases (EJP RD)
+106;01/01/19;2;stem cell Institute Cambridge;Cambridge;Anna Philpott ap113@cam.ac.uk;Anna Philpott ap113@cam.ac.uk;true;;false;false;;wellcome trust
+107;01/01/22;2;Charité University;Berlin, Germany;Petra Reinke, petra.reinke@charite.de;Petra Reinke, petra.reinke@charite.de;true;;false;true;;H2020
+108;01/01/22;2;TIGEM;Italy;Luigi Naldini, luigi.naldini@hsr.it;Luigi Naldini, luigi.naldini@hsr.it;true;;false;true;;H2020
+109;01/01/20;2;Henri Mondor;Paris;Sébastien Maury, sebastien.maury@aphp.fr;Sébastien Maury, sebastien.maury@aphp.fr;true;Boucault et al., Blood Advances, 2020;true;;1;Centaure
+110;01/01/19;2;BC Children's Hospital Research Institute;Vancouver, Canada;Megan Levings, mlevings@cfri.ca;Megan Levings, mlevings@cfri.ca;false;;true;true;1;Labex IGO
+111;01/01/20;2;CIML;Marseille;Magali Irla, irla@ciml.univ-mrs.fr;Magali Irla, irla@ciml.univ-mrs.fr;true;;false;false;;
+112;01/01/22;2;Weizman Institute;Israel;Oren Parnas, oren.parnas@gmail.com;Oren Parnas, oren.parnas@gmail.com;true;;true;false;;
+113;01/01/22;2;Monash University;Australia;Stephanie Gras, sgras@monash.edu.au;Stephanie Gras, sgras@monash.edu.au;true;Picarda et al., Cell Reports, 2019;true;true;;Etoile Montante Pays de la Loire
+114;01/01/22;2;VUMC;Pays bas;Maria Themeli, m.themeli@amsterdamumc.nl;Maria Themeli, m.themeli@amsterdamumc.nl;true;;true;true;;Region Pays de la Loire, Paris Scientifique
+115;01/01/22;2;Crick Institute;UK;K. Niakan, kathy.niakan@crick.ac.uk;K. Niakan, kathy.niakan@crick.ac.uk;true;Gueri et al, Nature, 2020;true;false;;
+116;01/01/22;2;University of Brussel;Belgium;H. van de Velde, Hilde.VandeVelde@uzbrussel.be;H. van de Velde, Hilde.VandeVelde@uzbrussel.be;true;Gueri et al, Nature, 2020;true;false;;
+117;01/01/22;2;KU Leuven;Belgium;V. Pasque, vincent.pasque@kuleuven.be;V. Pasque, vincent.pasque@kuleuven.be;true;"Kilens et al, Nat Com 2018; Meistermann et al, in revision, 2020";true;false;;
+118;01/01/22;2;Monash University;Australia;J. Polo, jose.polo@monash.edu;J. Polo, jose.polo@monash.edu;true;david et al, stem cell research 2014, Liu et al, Nature, 2020;false;false;;
+119;01/01/23;2;IMBA;Austria;N. Rivron, nicolas.rivron@imba.oeaw.ac.at;N. Rivron, nicolas.rivron@imba.oeaw.ac.at;true;Castel et al, in revision, 2020;;true;;
+120;01/01/23;2;Institut Cochin;Paris, France;Roberto Mallone (roberto.mallone@inserm.fr);Roberto Mallone (roberto.mallone@inserm.fr);true;;false;;;Helmsley Charity Trust
+121;01/01/23;2;Institut Cochin;Paris, France;Roberto Mallone (roberto.mallone@inserm.fr);Roberto Mallone (roberto.mallone@inserm.fr);true;;false;true;;ANR AAPG2019
+122;01/01/22;2;CIML;Marseille, France;Magali Irla, irla@ciml.univ-mrs.fr;Magali Irla, irla@ciml.univ-mrs.fr;true;;false;false;;

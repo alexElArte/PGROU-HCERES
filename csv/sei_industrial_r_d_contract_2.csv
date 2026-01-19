@@ -1,0 +1,32 @@
+id_contract,Contract start date,Name of PI,Name of the company involved,Project title,Amount of the agreement,Start and end dates
+1,2012,Halary,SATT Connectus,DC-SIGN Ihnibitors,19500,2012-2015,
+2,2016,Chiffoleau,OSEImmunotherapeutics,"Evaluate whether CLEC-1 blockade could represent a therapeutical strategy to enhance T cell mediated immune responses",25000,2016-2017
+3,2018,Chiffoleau,OSEImmunotherapeutics,"Decipher the role of the novel myeloid immune checkpoint receptor CLEC-1 and application for cancer therapy",156000,2018-2021
+4,2020,Josien,UCB BIOPHARMA,"To understand the relationship between IL-22 and IL-22BP in moderate to severe AD",350000,2020-2022
+5,2016,"Guillonneau/Anegon","TxCell / SANGAMO","Therapeutic use of CD8+ Treg",910920,2017-2020
+6,2017,"Guillonneau/Anegon","TxCell / SANGAMO","CAR CD4+ Treg in transplantation",30300,2018-2020
+7,2015,Anegon,OMT-Teneobio,"Generation and characterization of immunoglobulin humanized rats",450000,2015-2020
+8,2018,Anegon,Genoway,"Du rat vers la souris: amélioration de techniques d'édition du génome par CRISPR/Cas9 et dévt de modèles animaux appliqués à l'étude de gènes",102000,2018-2021
+9,2020,Fréour,"Owkin, Apricity","Healthchain, national consortium in big data for precision medecine (T. Freour is coordinator of the fertility axis)",200000,2020-2021
+10,2018,Haspot,SANOFI,"iAward: Deciphering the role of CD28H on NK cells",100000,2018-2019
+11,2019,Haspot,SANOFI,"iAward-extension: Deciphering the role of CD28H on NK cells",17000,2019
+12,2019,Haspot,OSEImmunotherapeutics,"Évaluation du blocage de l'interaction SIRPy/CD47 comme stratégie thérapeutique en transplantation et maladies chroniques auto-immunes et inflammatoires ",55435,2019-2021
+13,2016,Blancho,NOVARTIS,"Etude de l'accommodation en transplantation ABO incompatible et en situation d'allo-immunisation",96290,2016-2018
+14,2016,"Blancho/Vanhove",OSEImmunotherapeutics,"MDScan: Contrôle des cellules myéloides suppressives par SIRP-alpha:investigation dans le carcinome hépatocellulalre (INCa grant)",386000,2016-2020
+15,2017,Blancho,OSEImmunotherapeutics,"EFFI-CLIN :Nouvelle génération d’inhibiteurs de checkpoint en immunothérapie du cancer (BPI France)",1344000,2017-2022
+16,2013,"Blancho/Vanhove",EFFIMUNE,"EFFI-MAB: Développement d’une nouvelle génération d’anticorps à double activité pour le traitement des maladies auto-immunes et de la leucémie aigüe (BPI France)",495800,2013-2019,01/09/2015-31/05/2018
+17,2020,Ville,SANDOZ,"Single cell/RNA Seq in kidney graft biopsies",20000,2020/2021,
+18,2016,Giral,NOVARTIS,"Etude phénotypique de l'infiltrat dans la fibrose et la microcirculation sur biopsie de greffons à 1 an",53710,2016-2018
+19,2015,Giral,NOVARTIS,"VALBIO 12 - Intégration des biomarqueurs transcriptomiques dans les scores de risque post greffe",115000,2015-2018
+20,2015,Giral,SANOFI,"DIVAT- sustain to the multicenter cohort",90000,2015-2018
+21,2015,Laplaud,GENZYME,"Effects of teriflunomide on MAIT cells in RRMS patients",42760,2015-2018
+22,2016,Laplaud,GENZYME,"Immune metabolic signature of CD8 T cells in multiple sclerosis patients treated with Teriflunomide",65440,2016-2019
+23,2018,Laplaud,Roche,"Impact of Ocrelizumab on T and B cells in RRMS patients",900000,2018-2023
+24,2016,Degauque,GENZYME,"Immune metabolic signature of CD8 T cells in multiple sclerosis patients treated with Teriflunomide",65440,2016-2019,
+25,2019,Anegon,GoLiver,"Modifications génétiques pour la greffe d'hépatocytes dérivés d'iPS humaines",120000,2019-2021,
+26,2020,Anegon,Ligand,"Generation of a transgenic rat model of SARS-CoV-2 infection.",50000,2020-2021
+27,2020,"Guillonneau/Anegon",AbolerIS Pharma,"Anti-CD45RC",250000,2020-2023
+28,2018,Roquilly,BioMerieux,"Clinical evaluation of rapid multiplex PCR for the diagnosis of hospital-acquired pneumonia",50000,2018-2020
+29,2020,Asehnoune,Olgram,"Role of sulfoconjugates for treatment and prevention of infections caused by multiresistant bacteria (ANR LabCom)",200000,2020-2021
+30,2020,Roquilly,"BioMerieux and Merck","Host-targeted approaches for the prevention and the treatment of hospital-acquired pneumonia",20000,2020-2024
+31,2015,Nicot,TEVA,"Transcriptomic of EAE astrocytes after laquinimod treatment",68000,2015-2017

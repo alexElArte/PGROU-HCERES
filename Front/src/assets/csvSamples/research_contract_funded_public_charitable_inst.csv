@@ -1,0 +1,249 @@
+id_activity;date_contract_award;funding_institution;project_title;start_year;end_year;grant_amount;id_type
+1;01/01/19;EU / ERA NET NEURON;MulioBio - Multi-level integrative ‘omics to identify biomarkers in a Schizophrenia and other major psychoses;2020;2023;249372;2
+2;01/01/15;EU / H2020 - MSCA Individual fellowship;MINERVA - Micro-RNAs of Neutrophils in Renal ANCA-associated Vasculitis;2015;2017;173000;2
+3;01/01/18;EU / H2020 - MSCA Individual fellowship;KiT-FIG - Kidney Transplantation - Functional ImmunoGenomics;2019;2021;196707;2
+4;01/01/20;EU H2020;HAP2 Host-targeted approach for the prevention and treatment of hospital-acquired pneumonia;2020;2024;1500000;2
+5;01/01/15;EU / H2020 - MSCA Individual fellowship;DISTRICT - Deciphering the role of TRIB1 in Regulatory T cells;2017;2019;185076;2
+6;01/01/19;EU / H2020 - MSCA International Training Network;INsTRuCT - INnovative Training in Myeloid Regulatory Cell Therapy;2019;2023;274802;3
+7;01/01/19;EU / H2020;HAP2 - Host-targeted Approaches for the Prevention and the treatment of Hospital-Acquired Pneumonia;2019;2024;488532;3
+8;01/01/18;EU / H2020;RESHAPE project - Reshaping undesired Inflammation in challenged Tissue Homeostasis by Next-Generation regulatory T cell (Treg) Approaches – from Advanced Technology Developments to First-in-Human Trials;2019;2022;2023468;3
+9;01/01/18;EU / H2020;UPGRADE project - Unlocking Precision Gene Therapy;2019;2023;300000;3
+10;01/01/19;European Joint Program Rare Diseases (EJP RD);TARID - Thymic Abnormalities in Rare Immunological Diseases;2020;2023;243558;3
+11;01/01/19;European Joint Program Rare Diseases (EJP RD);TARID - Thymic Abnormalities in Rare Immunological Diseases;2020;2023;243558;3
+12;01/01/17;EU / H2020;The EUTRAIN Ibox System for improving diagnosis and risk stratificaiton in Kidney transplant patients;2017;2022;472596;3
+13;01/01/16;EU / H2020 - MSCA International Training Network;TRAIN - Tribbles Research and Innovation Network;2016;2020;64800;3
+14;01/01/17;EU / H2020;The EUTRAIN Ibox System for improving diagnosis and risk stratificaiton in Kidney transplant patients;2017;2022;493596;3
+15;01/01/19;National Health and Medical Research Council of Australia ;Functional impairment of mouse and human dendritic cells following Systemic Inflammatory Response Syndrome (SIRS): towards novel diagnostics and treatments;2019;2023;280000;5
+16;01/01/15;Agence de la Biomédecine;Decipher the role of CLEC-1 in human DCs and the subsequent CD4+ Th17 polarization.;2015;2018;30000;6
+17;01/01/16;ANR JCJC;CX3CR1, a crucial marker to define the further clinical trials of cell therapy using tolerogenic dendritic cells;2016;2019;344736;6
+18;01/01/16;Agence de la Biomédecine;Obtention et évaluation in vitro des anticorps humains monoclonaux neutralisant le polyomavirus BK;2017;2020;20000;6
+19;01/01/17;ANR PRC;BKNaB - Interplay between BK polyomavirus genetic evolution and humoral response: Toward new biomarkers of severe infection and antibody based immunotherapy;2017;2021;310716;6
+20;01/01/18;ANR PRCE;C-LECT-INHIB - Application for cancer therapy of the novel myeloid immune checkpoint receptor CLEC-1.;2018;2021;326615;6
+21;01/01/15;Agence de la Biomédecine;Génération d’anticorps monoclonaux (AcMo) humains anti-CD45RC humain;2015;2018;15000;6
+22;01/01/16;Agence de la Biomédecine;Interleukine-34, inducteur de tolérance et biomarqueur;2016;2019;34000;6
+23;01/01/17;ANR JCJC;hIL34-Tol - Immune tolerance by IL-34: new biomarker and potential immunotherapy;2017;2020;316656;6
+24;01/01/18;ANR PRC;COLT-45RC - Anti-CD45RC MAb therapy: a new treatment for inhibiting GVHD;2018;2021;382689;6
+25;01/01/15;ATIP Avenir;Complement activation and soluble Flt1-induced antiangiogenic state during acute renal inflammatory diseases;2015;2016;60000;6
+26;01/01/15;INCa;MDScan - Contrôle des cellules myéloïdes suppressives par SIRP-alpha: investigation dans le carcinome hépatocellulaire;2016;2020;269012;6
+27;01/01/15;ANR JCJC;MINERVA - Micro-RNAs of Neutrophils in Renal ANCA-associated Vasculitis;2016;2019;274000;6
+28;01/01/15;INSERM - ATIP Avenir;Introduction Médecine de Précision en transplantation rénale;2015;2019;260000;6
+29;01/01/18;ANR - MRSEI;The european LUng Transplantation and INnovation (LUTIN) project for Data-driven integrative indication and risk stratification in Lung- transplantation;2018;2019;30000;6
+30;01/01/18;Agence de la Biomédecine;Transplantation rénale – Investigation génomique des donneurs vivants ;2018;2021;30000;6
+31;01/01/19;Agence de la Biomédecine;KiT-TEMRA - Transplantation rénale - exploration génomique et phénotypique des cellules CD8 TEMRA ;2019;2022;35000;6
+32;01/01/18;ANR;"MRSEI : for the creation of the European Network ""Host-targetted Approaches for hospital-acquired pneumonia""";2018;2020;29999;6
+33;01/01/20;ANR;COVARDS : Role of the respiratory dysbiosis in the physiopathology of acute respiratory distress syndrome of COVID pneumonia;2020;2021;80000;6
+34;01/01/19;DGOS;REMICRUSH : Assessment of Remifentanil for Rapid Sequence Induction and Intubation in Full Stomach Patient Compared to Muscle Relaxant;2019;2021;25000;6
+35;01/01/16;DGOS;PACMAN : Dexamethasone for the prevention of respiratory complications after major surgery;2017;2020;50000;6
+36;01/01/15;ANSM;Transnephron : Impact of the Composition of Packed Red Blood Cell Supernatant on Renal Dysfunction and Posttransfusion Immunomodulation;2016;2020;150000;6
+37;01/01/15;Agence de la Biomédecine;Définition et Contrôle de l’inflammation microvasculaire au cours du rejet humoral;2015;2018;20000;6
+38;01/01/17;ANR PRC;BIKET - GZMB+ B cells, key factor of cell immunity in human?;2017;2020;343831;6
+39;01/01/18;Agence de la Biomédecine;Etude de la tranglutaminase 2 dans la dysfonction chronique du greffon pulmonaire;2018;2021;10000;6
+40;01/01/19;ANR PRC;DISTAL - Deciphering the self-antigen specific T cell signature of autoimmune liver diseases;2019;2022;259900;6
+41;01/01/15;DGOS;Biomarqueurs IBD;2015;2017;30600;7
+42;01/01/20;ANR;COVARDS - Investigation of the host-pathogens interactions to understand thephysiopathology of acute respiratory distress syndrome in patientsinfected with COVID-19;2020;2021;55750;7
+43;01/01/15;INCa;MDScan - Contrôle des cellules myéloïdes suppressives par SIRP-alpha: investigation dans le carcinome hépatocellulaire;2016;2020;11757;7
+44;01/01/16;ANR PRC;SAPHIR - Impact of the modulation of Soluble epoxide hydrolase enzymatic Activities on Pulmonary HypertensIon and Right ventricular dysfunction in experimental and human heart failure;2017;2021;37800;7
+45;01/01/16;ANR PRC;GSD1Nephro - Molecular characterization of the long-term onset of nephropathy and new treatments in glycogen storage disease type 1;2016;2021;138672;7
+46;01/01/17;ANR PRC;TOLGEN - In vivo AAV-­-based gene transfer to the muscle: Deciphering host immune responses;2017;2020;30000;7
+47;01/01/19;ANR PRC;BeAT1D - Benign Islet Autoimmunity: Mechanisms of Progression toward Type 1 Diabetes;2019;2023;49248;7
+48;01/01/17;BPI;EFFI-CLIN - Nouvelle génération d’inhibiteurs de checkpoint en immunothérapie du cancer;2017;2022;1344932;7
+49;01/01/16;DGOS;NEO-ADDICT - Addiction et dépendance primaire aux médicaments analgésiques: développement d’outils prédictifs à partir des modifications précoces des comportements d’utilisation identifiés en médecine ambulatoire;2016;2019;50000;7
+50;01/01/20;ANR;AI by/for Human, Health and Industry (PhD fellowships in Artificial Intelligence);2020;2025;50000;7
+51;01/01/19;ANR;Degradable synthetic antibacterial copolymers for therapeutic applications;2020;2024;108972;7
+52;01/01/15;INCa;MDScan - Contrôle des cellules myéloïdes suppressives par SIRP-alpha: investigation dans le carcinome hépatocellulaire;2016;2020;105517;7
+53;01/01/18;ANR PRC;PRELUD - PREdiction of chronic LUng allograft Dysfunction;2018;2022;401760;7
+54;01/01/20;BPI;POLYCOR;2020;2022;264720;7
+55;01/01/16;ANR PRC;ToxME - Integrated in silico approach to understand polymorphism and drug side effects related to drug metabolizing enzymes;2016;2020;96790;7
+56;01/01/19;ANR PRC;SMART in MS - LYMPHOCYTES: SUPERVISORS OF MICROGLIAL ACTIVATION AND REMYELINATION in MUTIPLE SCLEROSIS PATIENT;2019;2023;173880;7
+57;01/01/17;PIA2 - RHU;KTD Innov - Kidney Transplantation Diagnostics Innovation;2017;2022;1029404;8
+58;01/01/15;Investissements d'avenir TEFOR;Génération de rats KO et KI à l'aide de nucléases spécifiques de gènes;2015;2019;300000;9
+59;01/01/16;PIA2 - RHU;I-Lite - Innovations pour l'ingénierie tissulaire du foie;2016;2021;581880;9
+60;01/01/17;PIA2 - RHU;KTD Innov - Kidney Transplantation Diagnostics Innovation;2017;2022;927204;9
+61;01/01/15;Fondation du Rein;Deciphering the potential of Bregs to induce tolerance in transplantation: from rodents to pre-clinical studies.;2015;2017;30000;10
+62;01/01/15;AFA (Association François Aupetit);Evaluation de l’intérêt du blocage thérapeutique de l’IL-22BP au cours de la maladie de Crohn;2015;2017;20000;10
+63;01/01/16;FRM;Financement de thèse M. Lancien - Regulation of type 17 immunity by intracellular ion flows;2016;2019;93600;10
+64;01/01/16;Fondation Bettencourt Schueller;Host/protozoan interactions at the mucosal site ;2016;2017;25000;10
+65;01/01/16;ECCO (European Crohn and Colitis Organization);IL22BPCD - To assess the therapeutic value of IL-22BP blockade in Crohn’s disease ;2017;2019;30000;10
+66;01/01/16;AFA (Association François Aupetit);Rôle et mécanismes d’action de l’IL-22BP en tant que cible thérapeutique dans la maladie de Crohn;2017;2018;15000;10
+67;01/01/16;ProGreffe foundation;PhD fellowship for E. Marin Millan;2016;2019;88237;10
+68;01/01/17;Fondation Centaure;Isolation and in vitro characterization of neutralizing human monoclonal antibodies against BK polyomavirus;2017;2019;30000;10
+69;01/01/17;Ligue contre le cancer;Decipher the role and the therapeutic potential of the C-type lectin receptor CLEC-1 in tumor immunity;2018;2019;25000;10
+70;01/01/19;Fondation ProGreffe;Postdoctoral fellowship - Investigating the gene regulatory mechanisms of immune cell responses during kidney transplantation rejection;2019;2021;110000;10
+71;01/01/19;ProGreffe foundation;Postdoctoral fellowship for D. Sinha;2019;2021;87824;10
+72;01/01/17;ProGreffe foundation;Postdoctoral fellowship for L. Usero Redrejo;2017;2019;91200;10
+73;01/01/15;ARSEP (Fondation pour l'Aide à la Recherche sur la Sclérose En Plaques);Role des Tregs CD8+CD45RClow dans la Sclérose en plaques;2015;2016;50000;10
+74;01/01/15;Fondation de l'Avenir;Médecine régénérative avec des hépatocytes allogéniques issus de cellules souches pluripotentes et une stimulation de la tolérance par une inhibition pharmacologique de CD28 pour traiter les maladies hépatiques;2015;2016;35267;10
+75;01/01/16;Fondation du Rein;Etude du potentiel de l’IL-34 comme biomarqueur et immunothérapie;2017;2019;30000;10
+76;01/01/16;FRM;Financement 4è année de thèse S. Kilens - Generation of human naive pluripotent stem cell lines: a gateway to expand regenerative medicine’s potential.;2016;2017;30000;10
+77;01/01/16;ProGreffe foundation;PhD fellowship for R. Rispal;2016;2019;99022;10
+78;01/01/17;ARSEP (Fondation pour l'Aide à la Recherche sur la Sclérose En Plaques);CD8 Treg dans SEP;2017;2019;50000;10
+79;01/01/18;Fondation Centaure;Anti-CD45RC MAb therapy: a new treatment to inhibit GVHD;2018;2020;40000;10
+80;01/01/19;ProGreffe foundation;PhD fellowship for N. Provin;2019;2022;89244;10
+81;01/01/19;FRM;Financement 4è année de thèse - CAR-Tregs à partir de cellules iPSC (CRiPS);2019;2020;34200;10
+82;01/01/19;Fondation Grand Ouest;ABIS-45RC et ABIS-34: Analyse PK/PD souris et primate;2019;2020;10000;10
+83;01/01/19;Fondation Béatrice Denys;Support à la création de l'entreprise Aboleris;2019;2021;80000;10
+84;01/01/15;Ligue contre le cancer;Contrôle des cellules myéloïdes suppressives par SIRP-alpha: investigation dans le carcinome hépatocellulaire;2016;2016;26000;10
+85;01/01/15;Fondation du Rein;MINERVA - Micro-ARNs des neutrophiles dans les vascularites à ANCA;2015;2017;20000;10
+86;01/01/16;Fondation Centaure;Financement de 3 ans de thèse - Etude de l’accommodation en transplantation ABO incompatible et en situation d’allo-immunisation;2017;2020;96300;10
+87;01/01/18;Sanofi (i-Award);Deciphering the role of CD28H on NK cells;2018;2019;100000;10
+88;01/01/18;AFU (Association Française d'Urologie);Financement d'une année de M2 sur perfusion de transplants pancréatiques;2018;2019;23000;10
+89;01/01/19;Sanofi (i-Award);Deciphering the role of CD28H on NK cells (prolongation);2019;2019;17000;10
+90;01/01/16;ARSEP (Fondation pour l'Aide à la Recherche sur la Sclérose En Plaques);MIOMS - Utilisation d’un bracelet connecté pour la détection et la quantification de la dysfonction des membres dans la sclérose en plaques;2016;2017;25000;10
+91;01/01/17;Société Francophone de Néphrologie, Dialyse et Transplantation;Première exploration des déterminants génétiques de la fonction rénale chez les donneurs vivants;2017;2018;30000;10
+92;01/01/18;ARSEP (Fondation pour l'Aide à la Recherche sur la Sclérose En Plaques);Stratification immunologico-génétique des patients appartenant au spectre des neuro-myélites optiques à la lumière des scores de charge génétique associée à la sclérose en plaques;2018;2020;49620;10
+93;01/01/18;Fondation du Rein;Understanding renal phosphate wasting : whole-exome sequencing approach and study of the Pit-2 phosphate sensor murine model inactivation;2018;2020;10000;10
+94;01/01/18;SFNDT / Association Polykystose France;Projet PKAN (PolyKystose et ANévrisme) : Recherche des déterminants génétiques pour le développement d’anévrismes intracrâniens chez les patients atteints de polykystose rénale autosomique dominante;2019;2020;15000;10
+95;01/01/18;FRM;Financement d'un M2 médico-scientifique - Etude PKAN (PolyKystose et ANévrisme) recherche des déterminants génétiques du développement des anévrismes intracrâniens chez les patients atteints de polykystose rénale autosomique dominante;2018;2019;34008;10
+96;01/01/17;IRSRPL (Institut de Recherche en santé respiratoire des Pays de Loire;Role and importance of quorum sensing deficient strains of Pseudomonas aeruginosa isolated during ventilator associated pneumonia;2017;2019;35700;10
+97;01/01/18;Fondation Les gueules cassées;Role of the transcription factor Blimp1 in the susceptibility to infections of brain-injured patients.;2017;2018;30000;10
+98;01/01/18;Ligue contre le cancer;Alteration of immunity against melanoma during Pseudomonas aeruginosa pneumonia;2018;2019;80000;10
+99;01/01/20;IRSRPL (Institut de Recherche en santé respiratoire des Pays de Loire;Genomic characterization of Pseudomonas aeruginosa strains isolated from VAP and study of their interaction with commensal bacteria from pulmonary microbiota.;2021;2023;43893;10
+100;01/01/15;Fondation Centaure;Dynamic of CD8 T cell selection in blood and biopsy of patients with subclinical intragraft inflammatory infiltrates.;2015;2016;49800;10
+101;01/01/15;FRM;Rôle des cellules B GZMB+ dans l'immunorégulation (financement M2 de Sabine Le Bot (interne néphro));2015;2016;31200;10
+102;01/01/15;Fondation Centaure;Tfh and DSA prediction;2015;2016;38000;10
+103;01/01/15;VLM (Vaincre la Mucoviscidose);Etude du profil lymphocytaire T régulateur comme biomarqueur prédictif de la dysfonction chronique du greffon pulmonaire.;2015;2017;25000;10
+104;01/01/15;SFT (Société Francophone de Transplantation);financement d'une 4è année de thèse - Induction  de Lt CD8+ régulateurs allospécifiques par transfert de gènes d'une molécule CMH I dans le foie;2015;2016;30000;10
+105;01/01/16;Fondation Centaure;Tfh as biomarkers in allograft outcome;2016;2018;50000;10
+106;01/01/16;Fondation Centaure;Immunosignaling in B cells;2016;2018;50000;10
+107;01/01/16;Fondation Centaure;Define the endothelium damage induced by TEMRA CD8 T cells from kidney transplant recipients;2016;2018;40000;10
+108;01/01/16;SFT (Société Francophone de Transplantation);Financement de 1 an de thèse - Identification des biomarqueurs de l’activité de l’IL-7 sur les lymphocytes T CD4+ et T CD8+ humains;2016;2017;30000;10
+109;01/01/16;VLM (Vaincre la Mucoviscidose);Etude du profil lymphocytaire B régulateur comme biomarqueur prédictif de la dysfonction chronique du greffon pulmonaire.;2016;2018;150000;10
+110;01/01/16;ALBI (Association de Lutte contre les maladies inflammatoires du foie et des voies biliaires);Caractérisation phénotypique et fonctionnelle des populations lymphocytaires à partir de PBMC de patients atteints d'hépatite autoimmune;2016;2017;5000;10
+111;01/01/16;AFM Téléthon;Allogeneic Tolerance Induction by Liver targeted gene transfer with AAV;2017;2019;50000;10
+112;01/01/17;Fondation Centaure;Generation of GZMB+ Bregs from human IPS stem cells;2017;2018;50000;10
+113;01/01/17;Fondation Centaure;GZMB+ B cells, key factor of cell immunity in human?;2017;2018;50000;10
+114;01/01/17;Fondation Centaure;Evaluation of a new composite biomarker (cSoT) to early spot at risk kidney transplanted patients to present immunological events in their 5 years follow-up (CAMARO);2017;2018;48000;10
+115;01/01/17;AFEF;Fonctional characterization of newly identified immune cells subsets altered in onset autoimmune hepatitis;2017;2019;30000;10
+116;01/01/18;IRSRPL (Institut de Recherche en Santé Respiratoire des Pays de la Loire);Etude de la réponse lymphocytaire B dans les phénotypes d’asthme sévère hyperéosinophiliques allergique et non allergique;2018;2020;70000;10
+117;01/01/18;AFM Téléthon;Financement pour 2è année de thèse - Characterization of liver induced allospecific CD8 regulatory T lymphocytes;2018;2019;30000;10
+118;01/01/19;IRSRPL (Institut de Recherche en Santé Respiratoire des Pays de la Loire); Etude du rôle de la transglutaminase 2 dans la dysfonction chronique pulmonaire après greffe in vivo;2019;2021;66560;10
+119;01/01/19;IRSRPL (Institut de Recherche en Santé Respiratoire des Pays de la Loire);Infection HCMV et rejet chronique en transplantation pulmonaire: analyse d'un nouveau facteur de risque lié à la réponse immune dirigée contre le virus;2019;2022;43600;10
+120;01/01/19;VLM (Vaincre la Mucoviscidose);Contrôle immun de l'infection par le Cytomegalovirus chez le transplanté et dysfonction chronique du greffon pulmonaire: définition et analyse d'un nouveau facteur de risque;2019;2022;30000;10
+121;01/01/19;AFEF;Etude de lymphocytes T CD8+ aux propriétés suppressives induits dans le foie en conditions allogéniques chez les patients transplantés hépatiques.;2019;2020;40000;10
+122;01/01/20;IRSRPL;B-Bac - Étude de la réponse lymphocytaire B aux métabolites bactériens et/ou aux souches bactériennes du microbiote pulmonaire;2020;2022;207900;10
+123;01/01/15;ARSEP (Fondation pour l'Aide à la Recherche sur la Sclérose En Plaques);Linking TCR sequence of Expanded CD8 cells to their functional phenotype at the single cell level in central nervous system, CSF and blood of patients with Multiple Sclerosis;2015;2017;75000;10
+124;01/01/15;FRC;Linking TCR sequence of expanded CD8 cells to their functional phenotype at the single cell level in CNS, CSF and blood of MS patients;2015;2016;30000;10
+125;01/01/15;FRC;Characterization of infiltrated T cells and interaction in CNS in MS: laser capture microdessection;2015;2015;210000;10
+126;01/01/17;ARSEP (Fondation pour l'Aide à la Recherche sur la Sclérose En Plaques);LiTE CD8 function in MS: Linking TCR sequence of Expanded CD8 cells to their functional phenotype at the single-cell level in central nervous system, CSF and blood of patients with Multiple Sclerosis.;2017;2018;98500;10
+127;01/01/18;ARSEP (Fondation pour l'Aide à la Recherche sur la Sclérose En Plaques);High dimensional single cell profiling of memory CD8 T cells in Multiple sclerosis. ;2018;2019;107000;10
+128;01/01/18;VLM (Vaincre la Mucoviscidose);Rôle de la transglutaminase 2 dans la dysfonction chronique du greffon pulmonaire;2018;2019;15000;10
+129;01/01/18;INCR (Institut des Neurosciences Cliniques de Rennes);B cell differenciation in MS;2018;2020;60000;10
+130;01/01/15;VLM (Vaincre la Mucoviscidose);CFTR-linked genes involved in host defense against P. aeruginosa ;2015;2016;13500;11
+131;01/01/16;Fondation BMS;Inactivation des gènes PDCD1 et TIGIT dans des lymphocyte T spécifiques de mélanome à visée de transfert adoptif;2016;2017;9000;11
+132;01/01/20;Foundation Helmsley;From Benign Islet Autoimmunity to Type 1 Diabetes: Mechanistic CD8+ T-Cell Biomarkers of Progression;2020;2022;68000;11
+133;01/01/19;Ligue contre le cancer;Etude de la voie IL-7/IL-7R dans le mésothéliome pleural malin.;2020;2020;21500;11
+134;01/01/18;ARSEP (Fondation pour l'Aide à la Recherche sur la Sclérose En Plaques);Analyzse des sous populations deof T cell subpopulations in MS patients at different stage of disease ;2018;2019;10000;11
+135;01/01/19;ARSEP (Fondation pour l'Aide à la Recherche sur la Sclérose En Plaques);Contribution de of LTL1/CD161 l’interaction LTL1/CD161 dans la régulation des réponses immunitairesimmune response regulation associated to MS ;2019;2020;25000;11
+136;01/01/19;ARSEP (Fondation pour l'Aide à la Recherche sur la Sclérose En Plaques);Common and Specific Information from Neuroimaging and Smartphone-Connected Motion Sensor Gait Data in Multiple Sclerosis;2020;2022;50000;11
+137;01/01/19;ESPID (European Society for Paediatric Infectious Diseases);Causal genetic variants in pneumococcal sepsis: exome analysis in children with extreme phenotype;2020;2021;8960;11
+138;01/01/17;Région Pays de la Loire - Pari scientifique;METABIMMUN  - Rôles des molécules immunorégulatrices TMEM176A/B et IL-22BP au cours de l’obésité et du syndrome métabolique;2018;2021;138065;12
+139;01/01/18;Région Pays de la Loire;INSET  -  Interactions système immunitaire / muqueuses;2019;2022;144000;12
+140;01/01/18;Région Pays de la Loire;Nouveaux outils haute définition pour une médecine de précision en transplantatlon et maladies dysimmunitaires;2019;2022;292000;12
+141;01/01/19;Région Pays de la Loire - Pari scientifique;DENISOVIRUS - Mise en évidence d'un transfert de polyomavirus entre les Denisovans et les populations H.sapiens modernes;2019;2022;150000;12
+142;01/01/19;Région Pays de la Loire - Etoiles montantes;Epicellome - An integrative functional genomic approach to reveal gene regulatory alterations in complex tissues;2019;2022;129056;12
+143;01/01/15;Région Pays de la Loire - Thesis fellowship;Thèse co-financée Inserm / Région - Induction de tolérance par ciblage de la molécule CD45RC : mécanisme et potentiel en transplantation humaine;2015;2018;93424;12
+144;01/01/16;Région Pays de la Loire - Pari scientifique;TIPS - Retour vers le futur immun: Tregs à partir d’iPSC;2016;2019;200000;12
+145;01/01/17;Région Pays de la Loire - Etoiles montantes;Lymphocytes Tregs CD8+ spécifiques d’antigènes : génération, caractérisation et rôle en transplantation;2017;2021;83000;12
+146;01/01/18;Région Pays de la Loire - Connect Talent;EpiFate -Epigenetic programming and reprogramming of cell fate;2018;2023;900000;12
+147;01/01/18;Région Pays de la Loire - Thesis fellowship;Thèse co-financée Inserm / Région G. Castel - Caractérisation du destin cellulaire trophoblastique à l’aide de nouveaux modèles cellulaires.;2018;2021;55000;12
+148;01/01/18;Région Pays de la Loire;INSET - Interactions système immunitaire / endothélium;2019;2022;294920;12
+149;01/01/15;Région Pays de la Loire - Connect Talent;MD Pred Med - Pioneering Personalised Medicine for Transplantation in pre- and post- transplant phases - Multifactorial Diseases Predictive Medicine;2015;2020;963600;12
+150;01/01/18;Région Pays de la Loire - Etoiles montantes;KiT-GENIE - Investigation génomique de problématiques cliniques majeures en transplantation rénale;2018;2021;130000;12
+151;01/01/19;Région Pays de la Loire - Thesis fellowship;Thèse co-financée Inserm / Région V. Douillard: Développement d'outils bioinformatiques d'apprentissage de données multiomiques pour le suivi personnalisé du transplanté rénal ;2019;2022;96000;12
+152;01/01/19;Région Pays de la Loire - Thesis fellowship;Thèse co-financée Inserm / Région S. Sayadi - « Architecture distribuée au service d’application d’aide à la décision médicale »;2019;2022;96000;12
+153;01/01/17;Région Pays de la Loire - Etoiles montantes;Etoiles montantes en Pays de la Loire : Approches ciblées sur l’immunodépression postcritique pour la prévention et le traitement des pneumonies acquises en réanimation – « Targeted Host Approaches for the Prevention and Treatment of Hospital-acquired pneumonia – HAP2 project » ;2018;2020;150000;12
+154;01/01/16;Région Pays de la Loire - Thesis fellowship;Allocation  de thèse Inserm/ Région F. Dubois - Caractérisation et génération des Breg à partir de cellules souches pluripotentes;2016;2019;90000;12
+155;01/01/18;Région Pays de la Loire - Pari scientifique;LOIRE - TIMES - Role of IgA and their receptors in MS;2019;2022;150000;12
+156;01/01/17;Région Pays de la Loire - Pari scientifique;REGIOCARD - REGulome et physIOpatholgie CARDiaque;2017;2018;10000;13
+157;01/01/16;Labex IGO;Boosting anti-tumor response by conferring cysteine autonomy to T cells;2016;2019;171000;14
+158;01/01/18;Labex IGO;Decipher the role of the inhibitory myeloid C-type lectin-like receptor CLEC-1 in Foxp3+ Treg induction and anti-tumor response.;2018;2020;84000;14
+159;01/01/15;DHU Oncogreffe;Anti CD45 RC rat humanisé;2015;2016;25000;14
+160;01/01/15;Labex IGO;HOT - HO-1 and tolerance ;2015;2017;114000;14
+161;01/01/15;DHU Oncogreffe;Génération d’anticorps monoclonaux (AcMo) humains anti-CD45RC humain;2015;2016;25000;14
+162;01/01/15;DHU Oncogreffe;Rôle de p53 et de ses isoformes dans la réponse aux rayonnements alpha et X;2015;2016;7000;14
+163;01/01/15;IHU CESTI;Développement clinique d'une approche de médecine régénérative basée sur la transplantation d'hépatocytes dérivés de cellules souches embryonnaires humaines;2015;2016;25000;14
+164;01/01/16;Labex IGO;CAR- T Regs;2016;2019;114000;14
+165;01/01/16;Labex IGO;Tolerogenic actions of IL34;2016;2019;146000;14
+166;01/01/16;IHU CESTI; anti-CD45RC - Génération et caractérisation d’anticorps monoclonaux contre CD45RC, un nouveau traitement inducteur de tolérance en transplantation;2016;2018;50000;14
+167;01/01/17;Labex IGO;GVHD34 - Treatment of GVHD by IL34 to induce immune tolerance ;2017;2018;50000;14
+168;01/01/18;NExT - Interdisciplinary project;DL4IVF - A precision medicine approach to improve IVF success rate through combination of automated image analysis and deep learning;2018;2021;170000;14
+169;01/01/19;NExT;ABIS - Tolerance in transplantation and automimmune diseases by anti-CD45RC treatment;2020;2023;299772;14
+170;01/01/16;DHU Oncogreffe;Compréhension et modulation des alloréactivités lymphocytaires NK et T impliquées dans la maladie du Greffon contre l’hôte en greffes haploidentiques de cellules souches hématopoïétiques;2016;2018;10000;14
+171;01/01/19;NExT - International Research Partnership;SHLARC: SNP-HLA Reference Consortium;2019;2022;400000;14
+172;01/01/19;NExT - Cluster;DELPHI - A DEep Learning Proposal for Health sciences & Innovation ;2019;2022;0;14
+173;01/01/19;Labex IGO;"KiT-DSApredict - Artificial intelligence algorithms to predict donor specific antibody development in kidney
+transplanted patients";2020;2020;10000;14
+174;01/01/16;IHU CESTI;Tuning of human NK and T cell reactivity by novel soluble NKG2D ligands: a new checkpoint for combined immunotherapy;2016;2018;50000;14
+175;01/01/16;Labex IGO;CD8+CD28NEG T cells, a threat to transplantation ?;2016;2019;155000;14
+176;01/01/18;Labex IGO;Tracking auto-reactive CD4 T cells in autoimmune diseases and during immune  related adverse events after immunotherapy targeting checkpoint inhibitor;2018;2020;84000;14
+177;01/01/20;NExT - Junior Talent;IBDMNP - Exploring the mechanisms of inflammatory MNP-mediated anti-TNF resistance in Crohn’s disease;2020;2023;228805;14
+178;01/01/19;NExT - Cluster;IBD Next -  Inflammatory Bowel Disease Precision Medicine ;2019;2022;0;15
+179;01/01/16;Labex IGO;Combining adoptive T cell transfer of engineered PD-1 deficient specific T cells with ?-radioimmunotherapy for melanoma treatment;2016;2019;45000;15
+180;01/01/18;NExT - Cluster;SysMics - Toward Systems Medicine based on Genomics;2018;2021;0;15
+181;01/01/18;NExT - Cluster;FaMe - Human Factor for Medical Technologies;2018;2021;0;15
+182;01/01/16;Labex IGO;CD8+CD28NEG T cells, a threat to transplantation ?;2016;2019;71500;15
+183;01/01/18;NExT - Cluster;Hema NexT- Cross the NEXT frontiers : Understanding and treating Hematological malignancies: A multidisciplinary and integrative research cluster project of the Nouvelle Université de Nantes (NUN);2018;2021;0;15
+184;01/01/18;NExT - Cluster;SysMics - Toward Systems Medicine based on Genomics;2018;2021;0;15
+185;01/01/19;NExT - Cluster;DRAHT -  Digital and Robotic for AutonoMy and HealTh;2019;2022;0;15
+186;01/01/19;NExT - Cluster;GENDER - Des études de genre en sciences humaines et sociales aux problématiques émergentes en santé et dans le numérique;2019;2022;0;15
+187;01/01/19;NExT - Cluster;LungO2 -  Lung innOvatiOn;2019;2022;0;15
+188;01/01/18;Labex IGO;Tracking B cell differentiation in Multiple Sclerosis: from the blood to the CNS;2018;2021;15200;15
+189;01/01/15;CHU de Nantes ;IL22BPIBD - Etude du rôle de l’inhibiteur soluble de l’IL-22, l’IL-22 binding protein (IL-22BP), dans les maladies inflammatoires chroniques de l’intestin;2015;2017;48000;16
+190;01/01/17;Université de Nantes;Développement d'un modèle expérimental de muqueuse humaine immuno-compétente par impression 3D;2017;2018;20000;16
+191;01/01/17;PHC UTIQUE (TUNISIE);soutien thèse en co-tutelle avec la Tunisie - Sources cellulaires et role de l’Interleukine-22 binding protein (IL-22BP) dans le contrôle des actions homéostatiques de l’IL-22 dans l’intestin;2017;2018;8225;16
+192;01/01/18;Université de Nantes;Développement d'un modèle expérimental de muqueuse humaine immuno-compétente par bioimpression 3D;2018;2021;150000;16
+193;01/01/19;Ambassade de France au Vietnam;Bourse de mobilité pour coopération franco-vietnamienne - Influence du génotype APOBEC3B sur les infections à polyomavirus BK après transplantation rénale;;;4700;16
+194;01/01/15;Inserm Transfert;Développement  pré-clinique d’IL34 ;2015;2016;38000;16
+195;01/01/15;SATT Ouest Valorisation;Génération d’anticorps monoclonaux (AcMo) humains anti-CD45RC humain;2015;2017;231000;16
+196;01/01/15;SATT Ouest Valorisation;Développement de Solutions Thérapeutiques Cellulaires Innovantes basées sur les Cellules Souches Pluripotentes Pour le Traitement de Maladies du Foie;2016;2018;200000;16
+197;01/01/15;Université de Nantes;Traitement des hépatites fulminantes par une approche de médecine régénératrice;2015;2016;20000;16
+198;01/01/15;RFI Vacarme;Etude fonctionnelle du transporteur ABCC6 sur cellules Rénales et Hépatocytes dérivés d’Ips;2015;2017;15000;16
+199;01/01/16;CELPHEDIA;Utilisation des CRISPRs CPf1 pour la génération d'animaux génétiquement modifiés;2016;2017;5000;16
+200;01/01/16;Finox biotech;KINETOMIC - Combination of morphokinetic analysis and secretomic ;2016;2019;211500;16
+201;01/01/16;RFI Bioregate;HYDROgels micellaires PHOtoréticulables BIphasiQues;2016;2017;10000;16
+202;01/01/16;RFI Vacarme;Etude fonctionnelle du transporteur ABCC6 sur cellules Rénales et Hépatocytes dérivés d’iPS ;2016;2018;5500;16
+203;01/01/16;BPI - iLab starts up;Développement de Solutions Thérapeutiques Cellulaires Innovantes  Pour le Traitement des Maladies du Foie;2016;2018;275000;16
+204;01/01/18;RFI Bioregate;ThymiPS - Restore the immune system: functional Thymus from iPS ;2018;2020;50000;16
+205;01/01/15;Université de Nantes;Etude du blocage spécifique de CD28 in vitro lors de la GVHD chez les patients et in vivo chez la souris humanisée, quid de l’effet GVL ?;2016;2017;10000;16
+206;01/01/20;SATT Ouest Valorisation;New NK Cells Engager;2020;2021;383800;16
+207;01/01/17;CHU de Nantes;La polykystose rénale comme modèle d’intégration des données génomiques et phénotypiques des maladies complexes;2017;2019;25000;16
+208;01/01/18;GIS IBISA;Financement associé à la cohorte REFGENSEP;2019;2020;62000;16
+209;01/01/19;Université de Sao Paulo;"Réseau ""Pathogen-Host Interaction and the Search for Biomarkers in infection"" entre Brésil et France";;NA;0;16
+210;01/01/18;CHU de Nantes;IBIS-Virus : Reactivation of herpes virus in brain-injured patienrts;2018;2019;40000;16
+211;01/01/20;SPILF (Société de Pathologie infectieuse de langue française);Bourse de recherche SPILF (Travaux Romain Lamberet : Role of epithelial cells in the activation of NK cells during lung infection with Pseudomonas aeruginosa: Impact of IL22.;2017;2017;10000;16
+212;01/01/15;CHU de Nantes;EKITE - Création d'un entrepot de données européen ;2015;2018;150000;16
+213;01/01/15;Cancéropôle Grand Ouest;HIIGO - Inflammation and infection in chronic hematological malignancies;2015;2017;30000;16
+214;01/01/16;Genzyme;Immune-metabolic signature of CD8 T cells in multiple sclerosis patients treated with Teriflunomide;2016;2019;67500;16
+215;01/01/19;CHU de Nantes;ICART - Etude de l’association entre IgE anti-DSA, atopie et survenue d’un rejet en transplantation rénale ;2019;2020;39614;16
+216;01/01/19;CHU de Nantes ;Immunomonitorage CD8 Après Déplétion lymphocytaire B dans les vascularites à ANCA;2019;2022;51500;16
+217;01/01/19;Norwegian Regional Health Authorities;Single cell approach towards personalized medicine in rheumatoid arthritis;2020;2024;50000;16
+218;01/01/20;ANR;"HISTOCOVID - Analyse histologique des lésions pulmonaires induites par le
+SARScov2 chez les patients décédés d’insuffisance respiratoire
+aiguë en réanimation
+";2020;2021;5000;7
+219;01/01/20;VLM (Vaincre la Mucoviscidose);Etude du rôle de la transglutaminase 2 dans la dysfonction chronique du greffon pulmonaire;2021;2021;40980;10
+220;01/01/20;EDMUS Foundation; OutcoMS - FROM GENETICS TO TRANSCRIPTOMICS TO UNRAVEL THE MECHANISMS BEHIND A POOR OUTCOME IN MULTIPLE SCLEROSIS ;2020;2023;100000;10
+221;01/01/20;ANR;TRIS - Role of TNRF2 expressed by regulatory T cells (Treg) in immunosuppression induced by sepsis;2021;2024;163160;7
+222;01/01/20;ARSEP (Fondation pour l'Aide à la Recherche sur la Sclérose En Plaques);"Elucidating the genetic architecture of Neuro-Myelitis Optica Spectrum Disorders patients using the
+Multiple Sclerosis genetic burden score.";2021;2022;103520;10
+223;01/01/20;Labex IGO;NEXT GENERATION IL-34 and application in diseases;2020;2023;230000;14
+224;01/01/20;Labex IGO;;;;;14
+225;01/01/20;Labex IGO;Role of lactic acid in the tumor escape mediated by mononuclear phagocytes;2020;2023;150000;14
+226;01/01/20;ANR JCJC;BOOSTIVF - Improving IVF through integration of morphological and molecular analyses.;2021;2024;245400;6
+227;01/01/20;ANR JCJC;CDMNP - Dissecting mononuclear phagocytes heterogeneity in Crohn’s disease;2020;2024;401746;6
+228;01/01/20;IRSRPL;"Etude de la réponse lymphocytaire B in vitro à des métabolites bactériens et/ou des souches bactériennes
+pulmonaires dans un modèle de compartimentation avec culture primaire de CEB humaine en interface liquide";2020;2021;58150;10
+229;01/01/20;IRSRPL;Etude du rôle de la Transglutaminase 2 dans la dysfonction chronique du greffon pulmonaire;2020;2020;22165;10
+230;01/01/20;"PIA3 ""Grands défis du numérique""";Consortium Heathchain - volet Fertilité;2020;2022;280000;9
+231;01/01/20;Région Pays de la Loire - Thesis fellowship;Cofinancement thèse de P. Salomon dans le cadre du projet MULIOBIO (titre de la thèse: Intégration de plusieurs niveaux omiques pour identifier des biomarqueurs de la schizophrénie et des autres psychoses majeures);2020;2023;46000;12
+232;01/01/20;Région Pays de la Loire - Thesis fellowship;Cofinancement d'une thèse  dans le cadre du projet HAP2 (titre de la thèse: Intégration du virome respiratoire comme biomarqueur pronostique et de réponse à l’immunothérapie au cours des pneumopathies acquises à l’hôpital.);2020;2023;46000;12
+233;01/01/20;Région Pays de la Loire - Thesis fellowship;Cofinancement d'une thèse  dans le cadre du projet TARID (titre de la thèse: Caractérisation des facteurs moléculaires thymiques responsables du contrôle de l’autoimmunité);2020;2023;46000;12
+234;01/01/20;Ministère de la Recherche;Bourse de thèse Constance Onfray (Contrat Doctoral d'Etat);2020;2023;96000;6
+235;01/01/20;SFT (Société Francophone de Transplantation);Bourse de master Thibaut Letellier;2020;2021;12000;10
+236;01/01/20;INCR (Institut des Neurosciences Cliniques de Rennes);TranscriMS - A cell-type specific transcriptomic approach to unravel molecular targets associated with pejorative outcomes in multiple sclerosis;2020;2022;50000;10
+237;01/01/20;FET Open;BIRDIE- Bioprinting on-chip microphysiological models of humanized kidney tubulointerstitium;2021;2025;943750;3
+238;01/01/20;Fondation Bettencourt Schueller - Prix Jeune Chercheurs;Mieux comprendre les mécanismes de rejet lors des transplantations de rein - funding for a stay in Cambridge Biomedical Campus, UK;2021;2021;25000;10
+239;01/01/15;Région Pays de la Loire;Acquisition d'un compteur de nanoparticules ;;;15960;
+240;01/01/18;Région Pays de la Loire;MultiMACS;;;9000;
+241;01/01/18;Université de Nantes;remplacement réseau de distribution CO2;;;10000;
+242;01/01/19;Université de Nantes;Financement pour l'achat de nouveaux thermocycleurs;;;22000;

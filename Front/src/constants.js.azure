@@ -1,0 +1,3 @@
+// see https://youtu.be/qFy9v454GyY
+// and https://websitebeaver.com/deploy-create-react-app-to-azure-app-services
+export const API_URL = "https://hceres-api-2.azurewebsites.net"

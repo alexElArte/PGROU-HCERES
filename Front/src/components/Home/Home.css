@@ -1,0 +1,85 @@
+.container1{
+  border-color: darkblue;
+  border-style: solid;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, darkblue 90%);
+  height: 100vh;
+  align-items: center;
+}
+.left-side {
+  flex: 1; /* prend la moitié gauche */
+  padding-left: 20px; /* décale le texte vers la droite */
+  padding-top: -200px;
+}
+
+.right-side {
+  flex: 1; /* prend la moitié droite */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 112px;
+}
+
+.pg {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 84px;
+}
+
+.labo {
+  width: 650px;
+}
+
+/* add a media query for screens smaller than 600px */
+@media only screen and (max-width: 800px) {
+  /* make the container take up 100% of the screen width */
+  .container1 {
+    width: 100%;
+    /* Change to a solid background color */
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, darkblue 90%);
+  }
+
+  /* adjust the font size for smaller screens */
+  .pg {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  /* make the image smaller for smaller screens */
+  .labo {
+    width: 300px;
+  }
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+/* Add a media query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+  .container1 {
+    /* Change to a single column layout */
+    grid-template-columns: 1fr;
+  }
+}

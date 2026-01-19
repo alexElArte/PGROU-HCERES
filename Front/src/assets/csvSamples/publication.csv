@@ -1,0 +1,828 @@
+id_activity;title;authors;source;publication_date;pmid;impact_factor;clinic;pdc;colab_inter;colab_intra_crti;id_choice
+1;[Learning pathologic anatomy during medicalformation: Understanding the contribution of the motivation];Toquet C, Normand A, Guihard G;Ann Pathol;01/01/18;29843971;0.415;false;true;false;false;1
+2;[COLT: Ten years of research in lung transplantation, results andperspectives];"Tissot A, Foureau A, Brosseau C, Danger R, Roux A, Bernasconi E, Gomez C,Durand M, Picard BR, Le Pavec J, Claustre J, Lacoste P, Benmerad M, Pain M,Siroux V, Royer PJ, Mordant P, Reynaud-Gaubert M, Kessler R, Brugière O, MornexJF, Dromer C, Dahan M, Knoop C, Boussaud V, Koutsokera A, Botturi-Cavaillès K,Durand E, Loy J, Nicod L, Pison C, Brouard S, Blanc FX, Magnan A; consortiumCOLT";Rev Mal Respir;01/01/18;30100530;0.545;false;true;true;false;3
+3;[Pyelo-ureteral anastomosis, for stenosis of the kidney transplantureter, by laparoscopic approach with robotic assistance];Hedhli O, Karam G, de Vergie S, Nedellec M, Lefevre M, Bouchot O, Rigaud J,Branchereau J;Prog Urol;01/01/18;30217430;0.586;true;true;false;false;1
+4;[Renal transplantation on vascular prosthesis];"Nédélec M, Glémain P, Rigaud J, Karam G, Thuret R, Badet L, Kleinclauss F,
+Timsit MO, Branchereau J";Prog Urol;01/01/19;31447181;0.586;true;true;false;false;1
+5;" [Next generation of anti-immune checkpoints
+antibodies].";Bonnefoy N, Olive D, Vanhove B.;M S-MED SCI;01/01/19;31903901;0.661;false;true;false;false;2
+6;[Key role of allopeptide-specificCD8(+) Tregs in transplantation];Picarda É, Ossart J, Bézie S, Guillonneau C;M S-MED SCI;01/01/15;25658725;0.661;false;true;false;false;2
+7;"[Update in severe asthma
+physiopathology and treatments]";Hassoun D, Moui A, Colas L, Blanc FX, Magnan A;Rev Med Interne;01/01/19;31128859;0.81;true;false;false;false;2
+8;[Retroperitoneal fibrosis in adults:Main characteristics and relevance of the diagnostic procedures based on aretrospective multicenter study on 77 cases];Lioger B, Yahiaoui Y, Kahn JE, Fakhouri F, Belenfant X, Papo T, Magnant J,Maillot F, Vordos D, Godeau B, Michel M;Rev Med Interne;01/01/16;26415922;0.81;true;false;false;false;1
+9;Balancing the genetic risk of APOL1 kidney diseasevariants;Kaboré NF, Limou S;Nephrol Ther;01/01/19;30981400;0.812;false;true;true;false;2
+10;[Clinical approach to primary membranoproliferativeglomerulonephritis];Fakhouri F;Nephrol Ther;01/01/16;26972096;0.812;true;true;false;false;3
+11;In Vitro and In Vivo Assessment of T, B andMyeloid Cells Suppressive Activity and Humoral Responses from TransplantRecipients;Bézie S, Usal C, Guillonneau C;J VISUAL-JAPAN;01/01/17;28829428;0.879;false;true;false;false;1
+12;Differentiation of human dendritic cell subsets forimmune tolerance induction;Deluce-Kakwata-Nkor N, Lamendour L, Chabot V, Héraud A, Ivanovic Z, Halary F,Dehaut F, Velge-Roussel F;Transfus Clin Biol;01/01/18;28967606;1.029;false;false;false;false;1
+13;Early and irreversible recurrenceMPO-ANCA-positive glomerulonephritis after renal transplantation;Le Berre L, Dufay A, Cantarovich D, Meurette A, Audrain M, Giral M, BlanchoG, Fakhouri F, Hourmant M, Dantal J;Clin Nephrol;01/01/15;25345380;1.079;false;true;false;true;1
+14;The autoimmune concept of multiplesclerosis;Nicol B, Salou M, Laplaud DA, Wekerle H;Presse Med;01/01/15;25813101;1.167;false;true;true;false;2
+15;Multiple sclerosis: From new concepts to updates on management;Laplaud DA;Presse Med;01/01/15;25823830;1.167;true;true;false;false;2
+16;Understanding Lung Immunopathology Caused by the Human Metapneumovirus:Implications for Rational Vaccine Design;Palavecino CE, Cespedes PF, Lay MK, Riedel CA, Kalergis AM, Bueno SM;Crit Rev Immunol;01/01/15;26559227;1.191;false;true;true;false;1
+17;Pregnancy-related thrombotic microangiopathies: Clues fromcomplement biology;Fakhouri F;Transfus Apher Sci;01/01/16;27158062;1.412;true;true;false;false;3
+18;Study of the impacts of patient-educators on the course of basic sciences in dental studies;Renard E, Alliot-Licht B, Gross O, Roger-Leroi V, Marchand C;Eur J Dent Educ;01/01/15;24628743;1.531;false;true;false;false;1
+19;Transplant nephrectomy after graft failure: is it so risky? Impact on morbidity, mortality and alloimmunization;Chowaniec Y, Luyckx F, Karam G, Glemain P, Dantal J, Rigaud J, Branchereau J;Int Urol Nephrol;01/01/18;30120679;1.596;true;true;false;true;1
+20;"Living-donor kidney transplantation:
+comparison of sequential and simultaneous surgical organizations";"Prudhomme T, Benoit T, Mittal S, Roumiguié M, Mesnard B, Broudeur L, Kervella 
+D, Sallusto F, Doumerc N, Binhazzaa M, Iborra F, Soulié M, Blancho G, Kamar N,
+Thuret R, Karam G, Gamé X, Branchereau J";Int Urol Nephrol;01/01/20;31894558;1.596;true;true;true;false;1
+21;"Inflammatory optic neuropathy in granulomatosis with polyangiitis
+can mimick isolated idiopathic optic neuritis";"Clément M, Néel A, Toulgoat F, Weber M, Godmer P, Hutin P, Hamidou M,
+Lebranchu P";Eur J Ophthalmol;01/01/19;31744325;1.716;true;false;false;true;1
+22;Immediate Loading of Two Unsplinted Implants in Edentulous Patients with Mandibular Overdentures: A 10-year Retrospective Review of Patients from a Previously Conducted 1-year Cohort Study;Rignon-Bret C, Wulfman C, Hadida A, Renouard F, Gourraud PA, Naveau A. ;INT J ORAL MAX IMPL;01/01/19;30695092;1.734;true;false;false;false;1
+23;"Can we extrapolate from a Cmah (-/-) 
+Ldlr (-/-) mouse model a susceptibility for atherosclerosis in humans?";Soulillou JP, Cozzi E, Galli C, Bach JM.;P NATL ACAD SCI USA;01/01/20;31964838;1.803;false;true;true;false;3
+24;A pilot study comparing corifollitropin alfa associated with hp-HMG versus highdose rFSH antagonist protocols for ovarian stimulation in poor responders;Mendret-Pellerin S, Leperlier F, Reignier A, Lefebvre T, Barrière P, Freour T;HUM FERTIL;01/01/18;30129813;1.803;true;true;false;false;1
+25;"Should
+artificial shrinkage be performed prior to blastocyst vitrification? A systematic
+review of the literature and meta-analysis. ";Boyard J, Reignier A, Chtourou S, Lefebvre T, Barrière P, Fréour T.;Hum FertIL;01/01/20;31973647;1.803;false;true;false;false;2
+26;Embryo development, fetal growthand postnatal phenotype of eGFP lambs generated by lentiviral transgenesis;Crispo M, Vilariño M, dos Santos-Neto PC, Núñez-Olivera R, Cuadro F, Barrera N, Mulet AP, Nguyen TH, Anegón I, Menchaca A;Transgenic Res;01/01/15;25048992;1.817;false;false;true;false;1
+27;Transgenic animals and genetic engineering techniques Nantes, France, 2-3 July, 2015;Ménoret S, Tesson L, Remy S, Usal C, Ouisse LH, Brusselle L, Chenouard V,Nguyen TH, David L, Anegon I;Transgenic Res;01/01/15;26358113;1.817;false;true;false;false;3
+28;Advances in transgenic animal models and techniques;Ménoret S, Tesson L, Remy S, Usal C, Ouisse LH, Brusselle L, Chenouard V, Anegon I;Transgenic Res;01/01/17;28780744;1.817;false;true;false;false;2
+29;Automated and manual sperm analysis: united we stand, divided wefall;Freour T;ANDROLOGIA;01/01/15;26234376;1.84;true;true;false;false;3
+30;Sperm cryopreservation and assisted reproductive technology outcome in patients with spinal cord injury;Reignier A, Lammers J, Splingart C, Redhead D, Labat JJ, Mirallié S, Barrière P, Freour T;Andrologia;01/01/17;28718894;1.84;true;true;false;false;1
+31;An R(2) -curve for evaluating the accuracyof dynamic predictions;Fournier MC, Dantan E, Blanche P;Stat Med;01/01/17;29205452;1.847;false;true;false;false;1
+32;Inverse probability weighting tocontrol confounding in an illness-death model for interval-censored data;Gillaizeau F, Sénage T, Le Borgne F, Le Tourneau T, Roussel JC, Leffondrè K,Porcher R, Giraudeau B, Dantan E, Foucher Y;Stat Med;01/01/18;29205409;1.847;false;true;true;false;1
+33;Comparisons of the performance of different statistical tests for time-to-event analysis withconfounding factors: practical illustrations in kidney transplantation;Le Borgne F, Giraudeau B, Querard AH, Giral M, Foucher Y;Stat Med;01/01/15;26514380;1.847;false;true;false;false;1
+34;[Extra-oral signs to look for in patients exhibiting oral warningsigns of genetic diseases];Alliot-Licht B, Lusson C, Hyon I, Dajean-Trutaud S, Le Caignec C,Lopez-Cazaux S;CR BIOL;01/01/15;25528675;1.867;true;true;false;false;1
+35;"IgG? light and heavy chain
+amyloidosis secondary to a B-cell lymphoproliferative disorder, whole picture on 
+a renal biopsy";Ville S, Kandel C, Delaunay J, Cantarovich D;Nephrology;01/01/19;31726478;1.913;true;true;false;false;1
+36;PREventing Delayed GraftFunction by Driving Immunosuppressive InduCtion Treatment (PREDICT-DGF): studyprotocol for a randomized controlled trial;Chapal M, Foucher Y, Marguerite M, Neau K, Papuchon E, Daguin P, Morélon E,Mourad G, Cassuto E, Ladrière M, Legendre C, Giral M;Trials;01/01/15;26099226;1.975;false;true;false;false;1
+37;Association between early ?hCG kinetics, blastocyst morphology and pregnancyoutcome in a single-blastocyst transfer program;Girard JM, Simorre M, Leperlier F, Reignier A, Lefebvre T, Barriere P, Freour T;EUR J OBSTET GYN R B;01/01/18;29734084;2.024;false;true;false;false;1
+38;"The EKiTE network
+(epidemiology in kidney transplantation - a European validated database): an
+initiative epidemiological and translational European collaborative research";"Lorent M, Foucher Y, Kerleau K, Brouard S, Baayen C, Lebouter S, Naesens M,
+Bestard Matamoros O, Åsberg A, Giral M; EKiTE consortium";BMC Nephrol;01/01/19;"
+31601177";2.088;false;true;true;false;1
+39;Prospective, multicenter, controlledstudy of quality of life, psychological adjustment process and medical outcomesof patients receiving a preemptive kidney transplant compared to a similarpopulation of recipients after a dialysis period of less than three years--ThePreKit-QoL study protocol;Sébille V, Hardouin JB, Giral M, Bonnaud-Antignac A, Tessier P, Papuchon E,Jobert A, Faurel-Paul E, Gentile S, Cassuto E, Morélon E, Rostaing L, Glotz D,Sberro-Soussan R, Foucher Y, Meurette A;BMC Nephrol;01/01/16;26785745;2.088;false;true;false;false;1
+40;A personalized follow-up of kidney transplant recipients using video conferencingbased on a 1-year scoring system predictive of long term graft failure (TELEGRAFTstudy): protocol for a randomized controlled trial;Foucher Y, Meurette A, Daguin P, Bonnaud-Antignac A, Hardouin JB, Chailan S, Neau K, Papuchon E, Gaboriau S, Legendre C, Morélon E, Tessier P, Giral M;BMC Nephrol;01/01/15;25631635;2.088;false;true;false;false;1
+41;"Chronic kidney disease and HIV in
+the era of antiretroviral treatment: findings from a 10-year cohort study in a
+west African setting";"Kaboré NF, Poda A, Zoungrana J, Da O, Ciaffi L, Semdé A, Yaméogo I, Sawadogo
+AB, Delaporte E, Meda N, Limou S, Cournil A";BMC Nephrol;01/01/19;31064340;2.088;false;false;true;false;1
+42;Subclinical Saccadic Eye Movement Dysfunction in Pediatric Multiple Sclerosis;Yousef A, Devereux M, Gourraud PA, Jonzzon S, Suleiman L, Waubant E, Green A, Graves JS;J Child Neurol;01/01/18;30463467;2.092;true;false;true;false;1
+43;Is therean association between PAWP/WBP2NL sequence, expression, and distribution insperm cells and fertilization failures in ICSI cycles?;Freour T, Barragan M, Torra-Massana M, Ferrer-Vaquer A, Vassena R;Mol Reprod Dev;01/01/17;29271520;2.124;true;true;true;false;1
+44;Hypothermic pulsatile perfusion of human pancreas: Preliminarytechnical feasibility study based on histology;Branchereau J, Renaudin K, Kervella D, Bernadet S, Karam G, Blancho G,Cantarovich D;Cryobiology;01/01/18;30292812;2.141;false;true;false;true;1
+45;Targeted clinical audits immediately following the establishment of clinicalpractice guidelines for multiple sclerosis in 17 neurology departments: Apragmatic and collaborative study;Lairy G, Zephir H, Ouallet JC, Le Page E, Laplaud D, Bensa C, De Seze J;REV NEUROL-FRANCE;01/01/15;25912471;2.177;true;false;false;false;2
+46;Can we discontinue disease-modifying treatments in multiplesclerosis patients? Yes;Laplaud D;REV NEUROL-FRANCE;01/01/17;27955826;2.177;true;true;false;false;3
+47;Is the Choosing Wisely(®) campaign model applicable to the management of multiplesclerosis in France? A GRESEP pilot study;Trumbic B, Zéphir H, Ouallet JC, Le Page E, Laplaud D, Bensa C, de Sèze J;REV NEUROL-FRANCE;01/01/17;29128151;2.177;true;false;false;false;3
+48;B cells in operationaltolerance;Chesneau M, Danger R, Soulillou JP, Brouard S;Hum Immunol;01/01/18;29458071;2.202;false;true;false;false;2
+49;Expression of MHC classI-related molecules MICA, HLA-E and EPCR shape endothelial cells with uniquefunctions in innate and adaptive immunity;Gavlovsky PJ, Tonnerre P, Guitton C, Charreau B;Hum Immunol;01/01/16;26916837;2.202;false;true;false;false;1
+50;Pathogenesis ofnon-HLA antibodies in solid organ transplantation: Where do we stand?;Delville M, Charreau B, Rabant M, Legendre C, Anglicheau D;Hum Immunol;01/01/16;27237040;2.202;false;false;false;false;1
+51;Sialylation of antibodies in kidney recipients withde novo donor specific antibody, with or without antibody mediated rejection;Malard-Castagnet S, Dugast E, Degauque N, Pallier A, Soulillou JP, Cesbron A, Giral M, Harb J, Brouard S;Hum Immunol;01/01/16;26546874;2.202;false;true;false;false;1
+52;Multidimensional reduction of multicentric cohort heterogeneity: An alternativemethod to increase statistical power and robustness;Le Gall C, Laurent J, Vince N, Lizee A, Agrawal A, Walencik A, Rettman P,Gagne K, Retiere C, Hollenbach J, Cesbron A, Limou S, Gourraud PA;Hum Immunol;01/01/16;27262455;2.202;false;true;true;false;1
+53;The TRANSPLANTEX initiative;Bahram S, Carapito R, Gourraud PA, Charron D;Hum Immunol;01/01/16;27881245;2.202;false;false;false;false;3
+54;Genetic screening of male patients with primaryhypogammaglobulinemia can guide diagnosis and clinical management;"Vince N, Mouillot G, Malphettes M, Limou S, Boutboul D, Guignet A, Bertrand V,Pellet P, Gourraud PA, Debré P, Oksenhendler E, Théodorou I, Fieschi C; DEFIStudy Group";Hum Immunol;01/01/18;29709555;2.202;true;true;false;false;1
+55;Preface Genes don't care;Anegon I, Nguyen TH;Curr Gene Ther;01/01/15;25632944;2.218;false;true;false;false;3
+56;CFTRinactivation by lentiviral vector-mediated RNA interference and CRISPR-Cas9genome editing in human airway epithelial cells;Bellec J, Bacchetta M, Losa D, Anegon I, Chanson M, Nguyen TH;Curr Gene Ther;01/01/15;26264708;2.218;false;true;false;false;1
+57;"""My Life Needs Editing"" (Mort Sahl) and Genome EditingNeeds Ethics";Anegon I, Nguyen TH;Curr Gene Ther;01/01/16;26844694;2.218;false;true;false;false;3
+58;"Benign Prostatic Hyperplasia Endoscopic Surgical Procedures in
+Kidney Transplant Recipients: A Comparison Between Holmium Laser Enucleation of
+the Prostate, GreenLight Photoselective Vaporization of the Prostate, and
+Transurethral Resection of the Prostate.";"Prudhomme T, Marquette T, Péré M, Patard PM, Michiels C, Sallusto F, Rigaud J,
+Glémain P, Kamar N, Blancho G, Soulié M, Rischmann P, Karam G, Gamé X, Robert G, 
+Branchereau J.";J Endourol;01/01/18;31588793;2.267;true;true;false;false;1
+59;New insights andcurrent tools for genetically engineered (GE) sheep and goats;Menchaca A, Anegon I, Whitelaw CB, Baldassarre H, Crispo M;Theriogenology;01/01/16;27155732;2.299;false;false;true;false;3
+60;Antigen-specific single Bcell sorting and expression-cloning from immunoglobulin humanized rats: a rapidand versatile method for the generation of high affinity and discriminative humanmonoclonal antibodies;Ouisse LH, Gautreau-Rolland L, Devilder MC, Osborn M, Moyon M, Visentin J,Halary F, Bruggemann M, Buelow R, Anegon I, Saulquin X;BMC Biotechnol;01/01/17;28081707;2.303;false;true;false;true;1
+61;Rapid and reliable diagnosisof Wilson disease using X-ray fluorescence;Kaš?áková S, Kewish CM, Rouzière S, Schmitt F, Sobesky R, Poupon J, Sandt C, Francou B, Somogyi A, Samuel D, Jacquemin E, Dubart-Kupperschmitt A, Nguyen TH,Bazin D, Duclos-Vallée JC, Guettier C, Le Naour F;J CLIN PATHOL;01/01/16;27499926;2.346;true;false;false;false;1
+62;Minimum information about tolerogenicantigen-presenting cells (MITAP): a first step towards reproducibility andstandardisation of cellular therapies;Lord P, Spiering R, Aguillon JC, Anderson AE, Appel S, Benitez-Ribas D, TenBrinke A, Broere F, Cools N, Cuturi MC, Diboll J, Geissler EK, Giannoukakis N,Gregori S, van Ham SM, Lattimer S, Marshall L, Harry RA, Hutchinson JA, IsaacsJD, Joosten I, van Kooten C, Lopez Diaz de Cerio A, Nikolic T, Oral HB,Sofronic-Milosavljevic L, Ritter T, Riquelme P, Thomson AW, Trucco M, Vives-Pi M,Martinez-Caceres EM, Hilkens CM;PeerJ;01/01/16;27635311;2.353;false;false;true;false;1
+63;"Ex-situ
+hypothermic perfusion of non-human primate pancreas: A feasibility study";"Prudhomme T, Renaudin K, Lo Faro L, Cantarovich D, Kervella D, Minault D,
+Hervouet J, Le Bas-Bernardet S, Karam G, Blancho G, Branchereau J";ARTIF ORGANS;01/01/20;;2.379;false;true;true;true;1
+64;Standardized and weighted time-dependent receiver operatingcharacteristic curves to evaluate the intrinsic prognostic capacities of a markerby taking into account confounding factors;Le Borgne F, Combescure C, Gillaizeau F, Giral M, Chapal M, Giraudeau B,Foucher Y;Stat Methods Med Res;01/01/17;28633603;2.388;false;true;false;false;1
+65;Optimal threshold estimatorof a prognostic marker by maximizing a time-dependent expected utility functionfor a patient-centered stratified medicine;Dantan E, Foucher Y, Lorent M, Giral M, Tessier P;Stat Methods Med Res;01/01/16;28937334;2.388;false;true;false;false;1
+66;A multistate additive relativesurvival semi-Markov model;Gillaizeau F, Dantan E, Giral M, Foucher Y;Stat Methods Med Res;01/01/17;26056059;2.388;false;true;false;false;1
+67;Clinical contribution of myositis-related antibodies detected byimmunoblot to idiopathic inflammatory myositis: A one-year retrospective study;Lecouffe-Desprets M, Hémont C, Néel A, Toquet C, Masseau A, Hamidou M, Josien R, Martin JC;Autoimmunity;01/01/18;29463118;2.403;false;true;false;true;1
+68;Comparison of longitudinal quality of life outcomes in preemptive and dialyzed patients on waiting list for kidney transplantation;Auneau-Enjalbert L, Hardouin J-B, Blanchin M, Giral M, Morelon E, Cassuto E, Meurette A, Sébille V. ;Qual Life Res;01/01/19;31784856;2.488;true;false;true;false;1
+69;A quick and robust MHC typing method forfree-ranging and captive primate species;de Groot N, Stanbury K, de Vos-Rouweler AJ, de Groot NG, Poirier N, Blancho G,de Luna C, Doxiadis GG, Bontrop RE;Immunogenetics;01/01/17;28084496;2.492;false;false;true;false;1
+70;MHC class I diversity of olive baboons (Papio anubis)unravelled by next-generation sequencing;van der Wiel MKH, Doxiadis GGM, de Groot N, Otting N, de Groot NG, Poirier N, Blancho G, Bontrop RE;Immunogenetics;01/01/18;29478145;2.492;false;false;true;false;1
+71;"Genetic overlap between autoimmune diseases
+and non-Hodgkin lymphoma subtypes";"Din L, Sheikh M, Kosaraju N, Smedby KE, Bernatsky S, Berndt SI, Skibola CF,
+Nieters A, Wang S, McKay JD, Cocco P, Maynadié M, Foretová L, Staines A, Mack TM,
+de Sanjosé S, Vyse TJ, Padyukov L, Monnereau A, Arslan AA, Moore A, Brooks-Wilson
+AR, Novak AJ, Glimelius B, Birmann BM, Link BK, Stewart C, Vajdic CM, Haioun C,
+Magnani C, Conti DV, Cox DG, Casabonne D, Albanes D, Kane E, Roman E, Muzi G,
+Salles G, Giles GG, Adami HO, Ghesquières H, De Vivo I, Clavel J, Cerhan JR,
+Spinelli JJ, Hofmann J, Vijai J, Curtin K, Costenbader KH, Onel K, Offit K, Teras
+LR, Morton L, Conde L, Miligi L, Melbye M, Ennas MG, Liebow M, Purdue MP, Glenn
+M, Southey MC, Din M, Rothman N, Camp NJ, Wong Doo N, Becker N, Pradhan N, Bracci
+PM, Boffetta P, Vineis P, Brennan P, Kraft P, Lan Q, Severson RK, Vermeulen RCH, 
+Milne RL, Kaaks R, Travis RC, Weinstein SJ, Chanock SJ, Ansell SM, Slager SL,
+Zheng T, Zhang Y, Benavente Y, Taub Z, Madireddy L, Gourraud PA, Oksenberg JR,
+Cozen W, Hjalgrim H, Khankhanian P";Genet Epidemiol;01/01/19;31407831;2.5;false;false;true;false;1
+72;Modulating the function of the immune system by thyroidhormones and thyrotropin;Jara EL, Muñoz-Durango N, Llanos C, Fardella C, González PA, Bueno SM,Kalergis AM, Riedel CA;Immunol Lett;01/01/17;28216261;2.552;false;false;true;false;1
+73;The killerimmunoglobulin-like receptor KIR3DL1 in combination with HLA-Bw4 is protectiveagainst multiple sclerosis in African Americans;Hollenbach JA, Pando MJ, Caillier SJ, Gourraud PA, Oksenberg JR;Genes Immun;01/01/16;26866467;2.631;false;false;true;false;1
+74;Anew protoparvovirus in human fecal samples and cutaneous T cell lymphomas(mycosis fungoides);Phan TG, Dreno B, da Costa AC, Li L, Orlandi P, Deng X, Kapusinszky B,Siqueira J, Knol AC, Halary F, Dantal J, Alexander KA, Pesavento PA, Delwart E;Virology;01/01/16;27393975;2.657;false;false;true;true;1
+75;New insights about excisable pathogenicityislands in Salmonella and their contribution to virulence;Nieto PA, Pardo-Roa C, Salazar-Echegarai FJ, Tobar HE, Coronado-Arrázola I,Riedel CA, Kalergis AM, Bueno SM;Microbes Infect;01/01/16;26939722;2.669;false;true;true;false;1
+76;Contribution of autophagy to antiviral immunity;Rey-Jurado E, Riedel CA, González PA, Bueno SM, Kalergis AM;FEBS Lett;01/01/15;26297829;2.675;false;true;true;false;1
+77;"Predictive medicine in multiple sclerosis: A systematic
+review";"Havas J, Leray E, Rollot F, Casey R, Michel L, Lejeune F, Wiertlewski S,
+Laplaud D, Foucher Y";MULT SCLER RELAT DIS;01/01/20;32004856;2.725;false;true;false;false;2
+78;"Feasibility and safety of laparoscopic living donor nephrectomy in
+case of right kidney and multiple-renal artery kidney: a systematic review of the
+literature";"Broudeur L, Karam G, Chelghaf I, De Vergie S, Rigaud J, Perrouin Verbe MA,
+Branchereau J";World J Urol;01/01/19;31129713;2.761;true;true;false;false;1
+79;Mortality Prediction after the First Year of Kidney Transplantation: An Observational Study on Two European Cohorts;Lorent M, Giral M, Pascual M, Koller MT, Steiger J, Trébern-Launay K, LegendreC, Kreis H, Mourad G, Garrigue V, Rostaing L, Kamar N, Kessler M, Ladrière M,Morelon E, Buron F, Golshayan D, Foucher Y;PLoS One;01/01/16;27152510;2.776;false;true;true;false;1
+80;Anti-EBOVGP IgGs Lacking ?1-3-Galactose and Neu5Gc Prolong Survival and Decrease BloodViral Load in EBOV-Infected Guinea Pigs;Reynard O, Jacquot F, Evanno G, Mai HL, Salama A, Martinet B, Duvaux O, Bach JM, Conchon S, Judor JP, Perota A, Lagutina I, Duchi R, Lazzari G, Le Berre L,Perreault H, Lheriteau E, Raoul H, Volchkov V, Galli C, Soulillou JP;PLoS One;01/01/16;27280712;2.776;false;true;true;false;1
+81;PrenylatedPolyphenols from Clusiaceae and Calophyllaceae with Immunomodulatory Activity on Endothelial Cells;Rouger C, Pagie S, Derbré S, Le Ray AM, Richomme P, Charreau B;PLoS One;01/01/16;27907087;2.776;false;true;false;false;1
+82;Sequential Targeting of CD52 and TNF Allows Early Minimization Therapy in Kidney Transplantation: From a Biomarker to Targeting in a Proof-Of-Concept Trial;Viklicky O, Hruba P, Tomiuk S, Schmitz S, Gerstmayer B, Sawitzki B, Miqueu P, Mrazova P, Tycova I, Svobodova E, Honsova E, Janssen U, Volk HD, Reinke P;PLoS One;01/01/17;28085915;2.776;false;false;true;false;1
+83;Bone marrow cell extract promotes the regeneration of irradiatedbone;Michel G, Blery P, Henoux M, Guicheux J, Weiss P, Brouard S, Malard O,Espitalier F;PLoS One;01/01/17;28542343;2.776;false;false;false;false;1
+84;Fibrinogen-like protein2/fibroleukin induces long-term allograft survival in a rat model throughregulatory B cells;Bézie S, Picarda E, Tesson L, Renaudin K, Durand J, Ménoret S, Mérieau E,Chiffoleau E, Guillonneau C, Caron L, Anegon I;PLoS One;01/01/15;25763980;2.776;false;true;false;true;1
+85;Biomarkers of IgAvasculitis nephritis in children;"Pillebout E, Jamin A, Ayari H, Housset P, Pierre M, Sauvaget V, Viglietti D,Deschenes G, Monteiro RC, Berthelot L; HSPrognosis group";PLoS One;01/01/17;29190714;2.776;false;true;false;false;1
+86;Characterization of brain dystrophins absence and impact in dystrophin-deficient Dmdmdx rat model.;"Caudal D, François V, Lafoux A, Ledevin M, Anegon I, Le Guiner C, Larcher T,
+Huchet C";PLoS One;01/01/20;32160266;2.776;false;false;false;false;1
+87;Combining ?-Radioimmunotherapy and Adoptive T Cell Therapy toPotentiate Tumor Destruction;Ménager J, Gorin JB, Maurel C, Drujont L, Gouard S, Louvet C, Chérel M,Faivre-Chauvet A, Morgenstern A, Bruchertseifer F, Davodeau F, Gaschet J,Guilloux Y;PLoS One;01/01/15;26098691;2.776;false;false;false;false;1
+88;Efficient Generation ofMyostatin Knock-Out Sheep Using CRISPR/Cas9 Technology and Microinjection intoZygotes;Crispo M, Mulet AP, Tesson L, Barrera N, Cuadro F, dos Santos-Neto PC, Nguyen TH, Crénéguy A, Brusselle L, Anegón I, Menchaca A;PLoS One;01/01/15;26305800;2.776;false;false;true;false;1
+89;AnNS5A single optimized method to determine genotype, subtype and resistanceprofiles of Hepatitis C strains;Andre-Garnier E, Besse B, Rodallec A, Ribeyrol O, Ferre V, Luco C, Le Guen L,Bourgeois N, Gournay J, Billaud E, Raffi F, Coste-Burel M, Imbert-Marcille BM;PLoS One;01/01/17;28727784;2.776;false;true;false;false;1
+90;Highly conserved extendedhaplotypes of the major histocompatibility complex and their relationship tomultiple sclerosis susceptibility;Goodin DS, Khankhanian P, Gourraud PA, Vince N;PLoS One;01/01/18;29438392;2.776;false;true;true;false;1
+91;Multiplex CRISPR/Cas9system impairs HCMV replication by excising an essential viral gene;Gergen J, Coulon F, Creneguy A, Elain-Duret N, Gutierrez A, Pinkenburg O,Verhoeyen E, Anegon I, Nguyen TH, Halary FA, Haspot F;PLoS One;01/01/18;29447206;2.776;false;true;false;true;1
+92;Quantitative and qualitative changes in anti-Neu5Gc antibodyresponse following rabbit anti-thymocyte IgG induction in kidney allograftrecipients;Rousse J, Salama A, Leviatan Ben-Arye S, Hruba P, Slatinska J, Evanno G,Duvaux O, Blanchard D, Yu H, Chen X, Bach JM, Padler-Karavani V, Viklicky O,Soulillou JP;Eur J Clin Invest;01/01/19;30620396;2.784;false;true;true;false;1
+93;Receptor activating NF-?B ligand (RANKL) is a constitutiveintracellular protein in resting human basophils and is strongly induced on theirsurface by interleukin 3;Poli C, Martin JC, Braudeau C, Bériou G, Hemont C, Charrier C, Guérin S,Heslan M, Josien R;Immunobiology;01/01/15;25433635;2.798;false;true;false;false;1
+94;An international consensus approach to the management ofatypical hemolytic uremic syndrome in children;"Loirat C, Fakhouri F, Ariceta G, Besbas N, Bitzan M, Bjerre A, Coppo R, Emma F, Johnson S, Karpman D, Landau D, Langman CB, Lapeyraque AL, Licht C, Nester C, Pecoraro C, Riedl M, van de Kar NC, Van de Walle J, Vivarelli M, Frémeaux-Bacchi V; HUS International";Pediatr Nephrol;01/01/16;25859752;2.816;true;false;true;false;1
+95;Translational implications of endothelial cell dysfunction inassociation with chronic allograft rejection;Bruneau S, Wedel J, Fakhouri F, Nakayama H, Boneschansker L, Irimia D, DalyKP, Briscoe DM;Pediatr Nephrol;01/01/16;25903640;2.816;false;true;true;false;2
+96;Does sperm origin affect embryo morphokinetic parameters?;Lammers J, Reignier A, Splingart C, Catteau A, David L, Barriere P, Freour T;J ASSIST REPROD GEN;01/01/15;26109332;2.82;false;true;false;false;1
+97;PLC? sequence, protein levels, and distribution in human sperm do not correlate with semencharacteristics and fertilization rates after ICSI;Ferrer-Vaquer A, Barragan M, Freour T, Vernaeve V, Vassena R;J ASSIST REPROD GEN;01/01/16;27138933;2.82;true;false;true;false;1
+98;WBP2NL/PAWPmRNA and protein expression in sperm cells are not related to semen parameters,fertilization rate, or reproductive outcome;Freour T, Barragan M, Ferrer-Vaquer A, Rodríguez A, Vassena R;J ASSIST REPROD GEN;01/01/17;28444612;2.82;true;true;true;false;1
+99;Time-lapse imaging systems in IVFlaboratories: a French national survey;Boueilh T, Reignier A, Barriere P, Freour T;J ASSIST REPROD GEN;01/01/18;30187427;2.82;false;true;false;false;1
+100;"Performance of Day 5 KIDScore™ morphokinetic prediction models of implantation
+and live birth after single blastocyst transfer";"Reignier A, Girard JM, Lammers J, Chtourou S, Lefebvre T, Barriere P, Freour
+T";J ASSIST REPROD GEN;01/01/19;31444634;2.82;false;true;false;false;1
+101;Phenotypic analysis of immunocompetent cells inhealthy human dental pulp;Gaudin A, Renard E, Hill M, Bouchet-Delbos L, Bienvenu-Louvet G, Farges JC,Cuturi MC, Alliot-Licht B;J ENDODONT;01/01/15;25702858;2.833;false;true;false;false;1
+102;Selective CD28 antagonistprevents Aldara-induced skin inflammation in non-human primates;Poirier N, Chevalier M, Mary C, Hervouet J, Minault D, Le Bas-Bernardet S,Belarif L, Daguin V, Cassagnau E, Vanhove B, Blancho G;Exp Dermatol;01/01/16;26513536;2.868;false;true;false;false;1
+103;Hormonal Modulation ofDendritic Cells Differentiation, Maturation and Function: Implications for theInitiation and Progress of Systemic Autoimmunity;Mackern-Oberti JP, Jara EL, Riedel CA, Kalergis AM;ARCH IMMUNOL THER EX;01/01/17;27585815;2.878;false;true;true;false;1
+104;Characterization of N-glycosylation and amino acid sequencefeatures of immunoglobulins from swine;Lopez PG, Girard L, Buist M, de Oliveira AG, Bodnar E, Salama A, SoulillouJP, Perreault H;GLYCOCONJUGATE J;01/01/16;26586247;2.926;false;false;true;false;1
+105;Adverse pregnancy and neo-nataloutcomes after assisted reproductive treatment in patients with pelvicendometriosis: a case-control study;Jacques M, Freour T, Barriere P, Ploteau S;Reprod Biomed Online;01/01/16;27068240;2.93;true;false;false;false;1
+106;Can time-lapse parameters predictembryo ploidy? A systematic review;Reignier A, Lammers J, Barriere P, Freour T;Reprod Biomed Online;01/01/18;29398421;2.93;false;true;false;false;2
+107;Ovarian reserve and response to stimulation in women undergoing fertility preservation according to malignancy type;Lefebvre T, Mirallié S, Leperlier F, Reignier A, Barriere P, Freour T;Reprod Biomed Online;01/01/18;29784618;2.93;true;true;false;false;1
+108;Revisiting theassociation between smoking and female fertility using the oocyte donation model;Freour T, Massart P, García D, Vassena R, Rodríguez A;Reprod Biomed Online;01/01/18;30366838;2.93;true;true;false;false;1
+109;Morphokinetic parameters in chromosomal translocation carriers undergoingpreimplantation genetic testing;Lammers J, Reignier A, Splingart C, Moradkhani K, Barriere P, Fréour T;Reprod Biomed Online;01/01/18;30579822;2.93;false;true;false;false;1
+110;"Patient
+perceptions and understanding of treatment instructions for ovarian stimulation
+during infertility treatment";Barrière P, Avril C, Benmahmoud-Zoubir A, Bénard N, Dejager S;Reprod Biomed Online;01/01/19;31993512;2.93;true;true;false;false;1
+111;"Real-world effectiveness of Fertistartkit® treatment in women
+undergoing ART in French clinical practice: a retrospective multicentre study.";"Languille S, Massin N, Santulli P, Ozanon C, Kazdar N, Lechat X, Soriano E,
+Frantz-Blancpain S, Callec R, Guerif F, Anahory T, Rongières C, Chevalier N,
+Barriere P";Reprod Biomed Online;01/01/20;32201114;2.93;true;true;false;false;1
+112;A standardized flow cytometry procedure for the monitoring of regulatory T cells in clinical trials;Fabien P, Michèle B, Guillaume M, Cécile B, Pierre P, Isabelle P, Jacques T,Myriam L, David K, Michelle R;CYTOM PART B-CLIN CY;01/01/18;29316248;2.938;false;false;false;false;1
+113;Renal cortical volume: High correlation with pre- and post-operative renal function in living kidney donors;Gardan E, Jacquemont L, Perret C, Heudes PM, Gourraud PA, Hourmant M, Frampas E, Limou S;Eur J Radiol;01/01/18;29362141;2.948;true;true;false;true;1
+114;"Impact of stem cell graft on early viral infections and
+immune reconstitution after allogeneic transplantation in adults.";"Illiaquer M, Imbert-Marcille BM, Guillaume T, Planche L, Rimbert M,
+Bressollette-Bodin C, Le Bourgeois A, Peterlin P, Garnier A, Le Houerou C, Moreau
+P, Mohty M, Chevallier P.";J Clin Virol;01/01/17;28601677;3.02;true;false;false;false;1
+115;FOCIS goes south: advances intranslational and clinical immunology;Kalergis AM, Anegon I, González PA;IMMUNOTHERAPY-UK;01/01/17;28877630;3.028;false;true;true;true;3
+116;"Immunotherapies intransplantation and cancer: 22nd NAT meeting/2nd NAT LabEx IGO joint meeting; 1-2June 2017, Nantes, France";Simon S, Charpentier M, Anegon I, Labarriere N;IMMUNOTHERAPY-UK;01/01/17;29338607;3.028;false;true;false;false;3
+117;Food antigens and Transglutaminase 2 in IgA nephropathy: Molecular links between gut and kidney.;Abbad L, Monteiro RC, Berthelot L.;Mol Immunol;01/01/20;32135400;3.064;false;true;true;false;2
+118;Are the Decrease in Circulating anti-?1,3-Gal IgG and the Lower Content of Galactosyl Transferase A1 in the Microbiota of Patients With Multiple Sclerosis a Novel Environmental Risk Factor for the Disease?;Montassier E, Berthelot L , Soulillou J-P;Mol Immunol;01/01/18;29195140;3.064;false;true;false;false;1
+119;Phenotype and functions of B cells in patients with acute braininjuries;Chenouard A, Chesneau M, Braza F, Dejoie T, Cinotti R, Roquilly A, Brouard S,Asehnoune K;Mol Immunol;01/01/15;26364142;3.064;false;true;false;false;1
+120;A tribute to Mohamed Daha;Soulillou JP;Mol Immunol;01/01/15;26597201;3.064;false;true;false;false;3
+121;"Interleukin-22 regulates interferon lambda expression in a
+mice model of pseudomonas aeruginosa pneumonia";"Broquet A, Besbes A, Martin J, Jacqueline C, Vourc'h M, Roquilly A, Caillon J,
+Josien R, Asehnoune K";Mol Immunol;01/01/20;31855807;3.064;false;false;false;false;1
+122;Elevated IL-3 and IL-12p40 levels in the lowerairway of infants with RSV-induced bronchiolitis correlate with recurrentwheezing;Bertrand P, Lay MK, Piedimonte G, Brockmann PE, Palavecino CE, Hernández J,León MA, Kalergis AM, Bueno SM;Cytokine;01/01/15;26299549;3.078;false;false;true;false;1
+123;"Blood biomarkers of kidney transplant 
+rejection, an endless search?";Jacquemont L, Soulillou JP, Degauque N.;Expert Rev Mol Diagn;01/01/17;28571481;3.099;false;true;false;false;2
+124;Needs for Systems Approaches to Better Treat Individuals With Severe Asthma: Predicting Phenotypes and Responses to Treatments.;Colas L, Hassoun D, Magnan A. ;Front Med;01/01/20;32296705;3.113;true;true;false;false;2
+125;Human odontoblast-like cells produce nitric oxide withantibacterial activity upon TLR2 activation;Farges JC, Bellanger A, Ducret M, Aubert-Foucher E, Richard B, Alliot-LichtB, Bleicher F, Carrouel F;Front Physiol;01/01/15;26157393;3.201;false;false;false;false;1
+126;Manufacturing of dental pulpcell-based products from human third molars: current strategies and futureinvestigations;Ducret M, Fabre H, Degoul O, Atzeni G, McGuckin C, Forraz N, Alliot-Licht B, Mallein-Gerin F, Perrier-Groult E, Farges JC;Front Physiol;01/01/15;26300779;3.201;false;false;false;false;1
+127;Immunophenotyping Reveals theDiversity of Human Dental Pulp Mesenchymal Stromal Cells In vivo and TheirEvolution upon In vitro Amplification;Ducret M, Fabre H, Degoul O, Atzeni G, McGuckin C, Forraz N, Mallein-Gerin F, Perrier-Groult E, Alliot-Licht B, Farges JC;Front Physiol;01/01/16;27877132;3.201;false;false;false;false;1
+128;Absolute Quantitation of Glycoforms of Two Human IgGSubclasses Using Synthetic Fc Peptides and Glycopeptides;Roy R, Ang E, Komatsu E, Domalaon R, Bosseboeuf A, Harb J, Hermouet S, KrokhinO, Schweizer F, Perreault H;J AM SOC MASS SPECTR;01/01/18;29796736;3.202;false;false;true;false;1
+129;A single, low dose of a cGMP recombinant BCG vaccine elicitsprotective T cell immunity against the human respiratory syncytial virusinfection and prevents lung pathology in mice;Céspedes PF, Rey-Jurado E, Espinoza JA, Rivera CA, Canedo-Marroquín G, BuenoSM, Kalergis AM;Vaccine;01/01/17;28065474;3.269;false;true;true;false;1
+130;Vasculitides induced by cocaine and/or levamisole;Néel A, Agard C, Hamidou M;Joint Bone Spine;01/01/18;28602438;3.278;true;true;false;false;3
+131;Essential role forCD103+ cells in the pathogenesis of spondyloarthritides;Berthelot JM, Le Goff B, Martin J, Maugars Y, Josien R;Joint Bone Spine;01/01/15;25241337;3.278;false;true;false;false;2
+132;Decreased Frequency of Circulating MyelinOligodendrocyte Glycoprotein B Lymphocytes in Patients with Relapsing-RemittingMultiple Sclerosis;Elong Ngono A, Lepetit M, Reindl M, Garcia A, Guillot F, Genty A, Chesneau M, Salou M, Michel L, Lefrere F, Schanda K, Imbert-Marcille BM, Degauque N, Nicot A,Brouard S, Laplaud DA, Soulillou JP;J Immunol Res;01/01/15;26090495;3.404;false;true;true;true;1
+133;Current challenges in human tooth revitalization;Ducret M, Fabre H, Celle A, Mallein-Gerin F, Perrier-Groult E, Alliot-Licht B,Farges JC;BIOMED MATER;01/01/17;28372291;3.44;false;false;false;false;1
+134;Imprinting of maternal thyroidhormones in the offspring;Opazo MC, Haensgen H, Bohmwald K, Venegas LF, Boudin H, Elorza AA, Simon F,Fardella C, Bueno SM, Kalergis AM, Riedel CA;Int Rev Immunol;01/01/17;28272924;3.481;false;false;true;false;1
+135;"Generation of cattle knockout for
+galactose-?1,3-galactose and N-glycolylneuraminic acid antigens";"Perota A, Lagutina I, Duchi R, Zanfrini E, Lazzari G, Judor JP, Conchon S,
+Bach JM, Bottio T, Gerosa G, Costa C, Galiñanes M, Roussel JC, Padler-Karavani V,
+Cozzi E, Soulillou JP, Galli C";Xenotransplantation;01/01/19;31115108;3.484;false;false;true;false;1
+136;"Elicited and pre-existing
+anti-Neu5Gc antibodies differentially affect human endothelial cells
+transcriptome";"Le Berre L, Danger R, Mai HL, Amon R, Leviatan Ben-Arye S, Bruneau S, Senage
+T, Perreault H, Teraiya M, Nguyen TVH, Le Tourneau T, Yu H, Chen X, Galli C,
+Roussel JC, Manez R, Costa C, Brouard S, Galinanes M, Harris KM, Gitelman S,
+Cozzi E, Charreau B, Padler-Karavani V, Soulillou JP";Xenotransplantation;01/01/19;31293002;3.484;false;true;true;true;1
+137;Potential deleterious role ofanti-Neu5Gc antibodies in xenotransplantation;Salama A, Evanno G, Harb J, Soulillou JP;Xenotransplantation;01/01/15;25308416;3.484;false;true;false;false;2
+138;Characterization of immunogenic Neu5Gc inbioprosthetic heart valves;Reuven EM, Leviatan Ben-Arye S, Marshanski T, Breimer ME, Yu H, Fellah-HebiaI, Roussel JC, Costa C, Galiñanes M, Mañez R, Le Tourneau T, Soulillou JP, Cozzi E, Chen X, Padler-Karavani V;Xenotransplantation;01/01/16;27610947;3.484;false;false;true;false;1
+139;"Regenerative cell therapy for the treatment of hyperbilirubinemic
+Gunn rats with fresh and frozen human induced pluripotent stem cells-derived
+hepatic stem cells";"Fourrier A, Delbos F, Menoret S, Collet C, Thi Thuy LT, Myara A, Petit F,
+Tolosa L, Laplanche S, Gómez-Lechón MJ, Labrune P, Anegon I, Vallier L, Garnier
+D, Nguyen TH";Xenotransplantation;01/01/19;31342573;3.484;false;true;true;false;1
+140;Polymeric mannosides prevent DC-SIGN-mediated cell-infection by cytomegalovirus;Brument S, Cheneau C, Brissonnet Y, Deniaud D, Halary F, Gouin SG;ORG BIOMOL CHEM;01/01/17;28871303;3.49;false;true;false;false;1
+141;Significant variation between SNP-based HLA imputations indiverse populations: the last mile is the hardest;Pappas DJ, Lizee A, Paunic V, Beutner KR, Motyer A, Vukcevic D, Leslie S,Biesiada J, Meller J, Taylor KD, Zheng X, Zhao LP, Gourraud PA, Hollenbach JA,Mack SJ, Maiers M;Pharmacogenomics J;01/01/17;28440342;3.503;false;false;true;false;1
+142;"Large-Scale ""OMICS"" Studies to Explore the
+Physiopatholgy of HIV-1 Infection";Le Clerc S, Limou S, Zagury JF;Front Genet;01/01/19;31572435;3.517;false;false;true;true;2
+143;Impact of antiviralprophylaxis in adults EBV seronegative kidney recipients on early and late PTLDonset: a retrospective cohort study;Ville S, Imbert-Marcille BM, Coste-Burel M, Garandeau C, Meurette A,Cantarovitch D, Giral M, Hourmant M, Blancho G, Dantal J;Transpl Int;01/01/18;29057508;3.526;true;true;false;true;1
+144;The 1-year RenalBiopsy Index (1-RBI): a scoring system to drive biopsy indication at 1-yearpost-kidney transplantation;Giral M, Renaudin K, Naesens M, Luning R, Anglicheau D, Morelon E, Huneau A,Paul C, Brouard S, Couvrat-Desvergnes G, Foucher Y, Dantan E;Transpl Int;01/01/18;29893433;3.526;false;true;true;false;1
+145;The weekend effect in kidney transplantation outcomes: a French cohort-based study.;"Ville S, Branchereau J, Cornuaud A, Dantal J, Legendre C, Buron F, Morelon E, 
+Garrigue V, Lequentrec M, Albano L, Cassuto E, Girerd S, Ladrière M, Glotz D,
+Lefaucher C, Kerleau C, Foucher Y, Giral M; DIVAT consortium. ";Transpl Int;01/01/20;32428980;3.526;true;true;false;true;1
+146;Comparison of survival outcomes between ExpandedCriteria Donor and Standard Criteria Donor kidney transplant recipients: asystematic review and meta-analysis;Querard AH, Foucher Y, Combescure C, Dantan E, Larmet D, Lorent M, PouteauLM, Giral M, Gillaizeau F;Transpl Int;01/01/16;26756928;3.526;false;true;true;false;1
+147;Vitamin D deficiency is an independent risk factor for PTDM afterkidney transplantation;Le Fur A, Fournier MC, Gillaizeau F, Masson D, Giral M, Cariou B, CantarovichD, Dantal J;Transpl Int;01/01/16;26426441;3.526;false;true;false;false;1
+148;Ispre-transplant sensitization against angiotensin II type 1 receptor still a risk factor of graft and patient outcome in kidney transplantation in the anti-HLALuminex era? A retrospective study;Deltombe C, Gillaizeau F, Anglicheau D, Morelon E, Trébern-Launay K, LeBorgne F, Rimbert M, Guérif P, Malard-Castagnet S, Foucher Y, Giral M;Transpl Int;01/01/17;28686316;3.526;false;true;false;true;1
+149;Reconsidering the detection of tolerance toindividualize immunosuppression minimization and to improve long-term kidneygraft outcomes;Baron D, Giral M, Brouard S;Transpl Int;01/01/15;25851900;3.526;false;true;false;false;2
+150;Current status of immunosuppressive minimization andtolerance strategies;Brouard S, Budde K;Transpl Int;01/01/15;26178312;3.526;false;true;true;false;3
+151;Tolerogenic dendritic celltherapy in organ transplantation;Moreau A, Alliot-Licht B, Cuturi MC, Blancho G;Transpl Int;01/01/17;27864897;3.526;false;true;false;true;2
+152;An extension of the RITUX-ERAH study, multicenter randomized clinical trial comparing rituximab to placebo in acute antibody-mediated rejection after renal transplantation. ;"Bailly E, Ville S, Blancho G, Morelon E, Bamoulid J, Caillard S, Chatelet V,
+Malvezzi P, Tourret J, Vuiblet V, Anglicheau D, Bertrand D, Grimbert P, Haidar F,
+Hazzan M, Kamar N, Merville P, Mousson C, Pernin V, Pouteil-Noble C, Purgus R,
+Sayegh J, Westeel PF, Sautenet B, Gatault P, Büchler M. ";Transpl Int;01/01/20;32279367;3.526;true;false;false;false;1
+153;Transcriptomics analysis and human preimplantationdevelopment;Freour T, Vassena R;J Proteomics;01/01/17;27765633;3.537;false;true;false;false;2
+154;Evasion of early antiviral responses by herpes simplex viruses;Suazo PA, Ibañez FJ, Retamal-Díaz AR, Paz-Fiblas MV, Bueno SM, Kalergis AM,González PA;MEDIAT INFLAMM;01/01/15;25918478;3.545;false;false;true;false;1
+155;ental Pulp Defence and Repair Mechanisms in Dental Caries;Farges JC, Alliot-Licht B, Renard E, Ducret M, Gaudin A, Smith AJ, Cooper PR;MEDIAT INFLAMM;01/01/15;26538821;3.545;false;false;true;false;1
+156;Neuropathologic,phenotypic and functional analyses of Mucosal Associated Invariant T cells inMultiple Sclerosis;Salou M, Nicol B, Garcia A, Baron D, Michel L, Elong-Ngono A, Hulin P,Nedellec S, Jacq-Foucher M, Le Frère F, Jousset N, Bourreille A, Wiertlewski S,Soulillou JP, Brouard S, Nicot AB, Degauque N, Laplaud DA;Clin Immunol;01/01/16;27050759;3.548;false;true;false;false;1
+157;Decrease of blood anti-?1,3 Galactose Abs levels in multiple sclerosis (MS) andclinically isolated syndrome (CIS) patients;Le Berre L, Rousse J, Gourraud PA, Imbert-Marcille BM, Salama A, Evanno G,Semana G, Nicot A, Dugast E, Guérif P, Adjaoud C, Freour T, Brouard S, AgbalikaF, Marignier R, Brassat D, Laplaud DA, Drouet E, Van Pesch V, Soulillou JP;Clin Immunol;01/01/17;28506921;3.548;false;true;true;true;1
+158;Standardized whole blood stimulationimproves immunomonitoring of induced immune responses in multi-center study;"Duffy D, Rouilly V, Braudeau C, Corbière V, Djebali R, Ungeheuer MN, JosienR, LaBrie ST, Lantz O, Louis D, Martinez-Caceres E, Mascart F, Ruiz de MoralesJG, Ottone C, Redjah L, Guen NS, Savenay A, Schmolz M, Toubert A, Albert ML;Multinational FOCIS Centers of Excellence";Clin Immunol;01/01/17;28943400;3.548;false;false;true;false;1
+159;"A dominant vimentin
+variant causes a rare syndrome with premature aging.";"Cogné B, Bouameur JE, Hayot G, Latypova X, Pattabiraman S, Caillaud A,
+Si-Tayeb K, Besnard T, Küry S, Chariau C, Gaignerie A, David L, Bordure P,
+Kaganovich D, Bézieau S, Golzio C, Magin TM, Isidor B.";Eur J Hum Genet;01/01/20;32066935;3.65;false;false;true;false;1
+160;Carbonmonoxide inhibits T cell activation in target organs during systemic lupuserythematosus;Mackern-Oberti JP, Obreque J, Méndez GP, Llanos C, Kalergis AM;Clin Exp Immunol;01/01/15;26095291;3.711;false;true;true;false;1
+161;Clinical efficacy of a new CD28-targeting antagonist of T cell co-stimulation in a non-human primate model of collagen-induced arthritis;Vierboom MP, Breedveld E, Kap YS, Mary C, Poirier N, 't Hart BA, Vanhove B;Clin Exp Immunol;01/01/16;26540618;3.711;false;true;true;false;1
+162;Anticomplement Treatment in Atypical and Typical Hemolytic Uremic Syndrome;Fakhouri F, Loirat C;Semin Hematol;01/01/18;30032752;3.738;true;true;false;false;2
+163;Modulation of Antiviral Immunity byHeme Oxygenase-1;Espinoza JA, González PA, Kalergis AM;Am J Pathol;01/01/17;28082120;3.762;false;true;true;false;1
+164;Looking for Missing Proteins in theProteome of Human Spermatozoa: An Update;Vandenbrouck Y, Lane L, Carapito C, Duek P, Rondel K, Bruley C, Macron C,Gonzalez de Peredo A, Couté Y, Chaoui K, Com E, Gateau A, Hesse AM, Marcellin M, Méar L, Mouton-Barbosa E, Robin T, Burlet-Schiltz O, Cianferani S, Ferro M,Freour T, Lindskog C, Garin J, Pineau C;J Proteome Res;01/01/16;27444420;3.78;false;false;true;false;1
+165;Validating Missing Proteins in Human Sperm Cells by Targeted Mass-Spectrometry- and Antibody-based Methods;Carapito C, Duek P, Macron C, Seffals M, Rondel K, Delalande F, Lindskog C,Freour T, Vandenbrouck Y, Lane L, Pineau C;J PROTEOME RES;01/01/17;28891297;3.78;false;false;true;false;1
+166;Characterization of immunoglobulins through analysisof N-glycopeptides by MALDI-TOF MS;Komatsu E, Buist M, Roy R, Gomes de Oliveira AG, Bodnar E, Salama A,Soulillou JP, Perreault H;Methods;01/01/16;26773578;3.782;false;false;true;false;1
+167;Excess iodideinduces an acute inhibition of the sodium/iodide symporter in thyroid male ratcells by increasing reactive oxygen species;Arriagada AA, Albornoz E, Opazo MC, Becerra A, Vidal G, Fardella C, Michea L, Carrasco N, Simon F, Elorza AA, Bueno SM, Kalergis AM, Riedel CA;Endocrinology;01/01/15;25594695;3.8;false;true;true;false;3
+168;Gestational Hypothyroidism Improves the Ability of the Female Offspring to ClearStreptococcus pneumoniae Infection and to Recover From Pneumococcal Pneumonia;Nieto PA, Peñaloza HF, Salazar-Echegarai FJ, Castellanos RM, Opazo MC,Venegas L, Padilla O, Kalergis AM, Riedel CA, Bueno SM;Endocrinology;01/01/16;27035652;3.8;false;true;true;false;2
+169;TLR3 promotes MMP-9 production in primaryhuman airway epithelial cells through Wnt/?-catenin signaling;"Royer PJ, Henrio K, Pain M, Loy J, Roux A, Tissot A, Lacoste P, Pison C,Brouard S, Magnan A; COLT consortium";RESP RES;01/01/17;29237464;3.829;false;true;false;false;1
+170;Patients with ANCA-associated vasculitis admitted to the intensive care unit with acute vasculitis manifestations: a retrospective and comparativemulticentric study;Demiselle J, Auchabie J, Beloncle F, Gatault P, Grangé S, Du Cheyron D,Dellamonica J, Boyer S, Beauport DT, Piquilloud L, Letheulle J, Guitton C,Chudeau N, Geri G, Fourrier F, Robert R, Guérot E, Boisramé-Helms J, Galichon P, Dequin PF, Lautrette A, Bollaert PE, Meziani F, Guillevin L, Lerolle N, AugustoJF;Ann Intensive Care;01/01/17;28382598;3.931;true;false;true;false;1
+171;Liraglutide in whole-pancreas transplant patients with impaired glucose homoeostasis: A case series;Cariou B, Bernard C, Cantarovich D;Diabetes Metab;01/01/15;25457472;4.008;true;true;false;false;1
+172;Indications for islet or pancreatic transplantation: Statement of the TREPID Working Group onbehalf of the Société Francophone du Diabète (SFD), Société Francaised'Endocrinologie (SFE), Société Francophone de Transplantation (SFT) and Société Française de Néphrologie-Dialyse-Transplantation (SFNDT);Wojtusciszyn A, Branchereau J, Esposito L, Badet L, Buron F, Chetboun M,Kessler L, Morelon E, Berney T, Pattou F, Benhamou PY, Vantyghem MC;Diabetes Metab;01/01/19;30223084;4.008;true;false;true;false;2
+173;ROR?t+ cells selectively express redundantcation channels linked to the Golgi apparatus;Drujont L, Lemoine A, Moreau A, Bienvenu G, Lancien M, Cens T, Guillot F,Bériou G, Bouchet-Delbos L, Fehling HJ, Chiffoleau E, Nicot AB, Charnet P, MartinJC, Josien R, Cuturi MC, Louvet C;SCI REP-UK;01/01/16;27009467;4.011;false;true;false;true;1
+174;Homology-directed repair inrodent zygotes using Cas9 and TALEN engineered proteins;Ménoret S, De Cian A, Tesson L, Remy S, Usal C, Boulé JB, Boix C, Fontanière S, Crénéguy A, Nguyen TH, Brusselle L, Thinard R, Gauguier D, Concordet JP,Cherifi Y, Fraichard A, Giovannangeli C, Anegon I;SCI REP-UK;01/01/15;26442875;4.011;false;true;false;false;1
+175;Comparative transcriptomic analysis of human and Drosophilaextracellular vesicles;Lefebvre FA, Benoit Bouvrette LP, Perras L, Blanchet-Cohen A, Garnier D, Rak J, Lécuyer É;SCI REP-UK;01/01/16;27282340;4.011;false;false;true;false;1
+176;Comparative Analysis of piggyBac,CRISPR/Cas9 and TALEN Mediated BAC Transgenesis in the Zygote for the Generation of Humanized SIRPA Rats;Jung CJ, Ménoret S, Brusselle L, Tesson L, Usal C, Chenouard V, Remy S, OuisseLH, Poirier N, Vanhove B, de Jong PJ, Anegon I;SCI REP-UK;01/01/16;27530248;4.011;false;true;false;true;1
+177;Interleulin-22 is negatively correlated with neutrophil recruitment in the lungs in a Pseudomonas aeruginosa pneumonia model.;Broquet A, Jacqueline C, Davieau M, Besbe A, Roquilly A, Martin J, Caillon J, Dumoutier L, Renauld JC, Heslan M, Josien R, Asehnoune K;SCI REP-UK;01/01/17;28887540;4.011;false;false;false;false;1
+178;Generation of gene-edited rats by delivery of CRISPR/Cas9 protein and donorDNA into intact zygotes using electroporation;Remy S, Chenouard V, Tesson L, Usal C, Ménoret S, Brusselle L, Heslan JM,Nguyen TH, Bellien J, Merot J, De Cian A, Giovannangeli C, Concordet JP, AnegonI;SCI REP-UK;01/01/17;29185448;4.011;false;true;false;false;1
+179;Galectin-1 is required for the regulatory function of Bcells;Alhabbab R, Blair P, Smyth LA, Ratnasothy K, Peng Q, Moreau A, Lechler R,Elgueta R, Lombardi G;SCI REP-UK;01/01/18;29426942;4.011;false;false;false;false;1
+180;Expansion of human primary hepatocytes in vitro through theiramplification as liver progenitors in a 3D organoid system;Garnier D, Li R, Delbos F, Fourrier A, Collet C, Guguen-Guillouzo C, Chesné C,Nguyen TH;SCI REP-UK;01/01/18;29844473;4.011;false;true;false;false;1
+181;Lipoxin A(4) Attenuates the InflammatoryResponse in Stem Cells of the Apical Papilla via ALX/FPR2;Gaudin A, Tolar M, Peters OA;SCI REP-UK;01/01/18;29892010;4.011;false;true;true;false;1
+182;"Urine-derived cells
+provide a readily accessible cell type for feeder-free mRNA reprogramming";"Gaignerie A, Lefort N, Rousselle M, Forest-Choquet V, Flippe L,
+Francois-Campion V, Girardeau A, Caillaud A, Chariau C, Francheteau Q, Derevier
+A, Chaubron F, Knöbel S, Gaborit N, Si-Tayeb K, David L.";SCI REP-UK;01/01/18;30254308;4.011;false;true;false;false;1
+183;"Contribution of SLC22A12 on hypouricemia
+and its clinical significance for screening purposes";"Cha DH, Gee HY, Cachau R, Choi JM, Park D, Jee SH, Ryu S, Kim KK, Won HH,
+Limou S, Myung W, Winkler CA, Cho SK";SCI REP-UK;01/01/19;31591475;4.011;false;false;true;false;1
+184;"Resistin expression in human monocytes is controlled by two linked
+promoter SNPs mediating NFKB p50/p50 binding and C-methylation";"Kumar D, Lee B, Puan KJ, Lee W, Luis BS, Yusof N, Andiappan AK, Del Rosario R,
+Poschmann J, Kumar P, DeLibero G, Singhal A, Prabhakar S, De Yun W, Poidinger M, 
+Rötzschke O";SCI REP-UK;01/01/19;31645609;4.011;false;false;true;false;1
+185;"Role of indoleamine 2,3-dioxygenase 
+in testicular immune-privilege";"Gualdoni GS, Jacobo PV, Sobarzo CM, Pérez CV, Matzkin ME, Höcht C, Frungieri
+MB, Hill M, Anegon I, Lustig L, Guazzone VA";SCI REP-UK;01/01/19;31685866;4.011;false;false;true;false;1
+186;Otoferlin gene editing in sheep via CRISPR-assisted ssODN-mediated Homology Directed Repair;"Menchaca A, Dos Santos-Neto PC, Souza-Neves M, Cuadro F, Mulet AP, Tesson L,
+Chenouard V, Guiffès A, Heslan JM, Gantier M, Anegón I, Crispo M.";SCI REP-UK;01/01/20;32265471;4.011;false;false;true;false;1
+187;Involvement of the CX3CL1(fractalkine)/CX3CR1 pathway in the pathogenesis of acute graft-versus-hostdisease;Brissot E, Bossard C, Malard F, Braudeau C, Chevallier P, Guillaume T,Delaunay J, Josien R, Gregoire M, Gaugler B, Mohty M;J LEUKOCYTE BIOL;01/01/15;25420917;4.012;false;false;false;false;1
+188;Novel therapies and vaccines against the humanrespiratory syncytial virus;Rivera CA, Gómez RS, Díaz RA, Céspedes PF, Espinoza JA, González PA, RiedelCA, Bueno SM, Kalergis AM;EXPERT OPIN INV DRUG;01/01/15;26457559;4.031;false;true;true;false;1
+189;Cytomegalovirus-Infected Primary Endothelial Cells TriggerNKG2C+ Natural Killer Cells;Djaoud Z, Riou R, Gavlovsky PJ, Mehlal S, Bressollette C, Gérard N, Gagne K,Charreau B, Retière C;J Innate Immun;01/01/16;27116381;4.085;false;false;false;true;1
+190;Inhibition of complement improves graft outcomein a pig model of kidney autotransplantation;Delpech PO, Thuillier R, SaintYves T, Danion J, Le Pape S, van Amersfoort ES, Oortwijn B, Blancho G, Hauet T;J Transl Med;01/01/16;27663514;4.098;false;false;false;false;1
+191;"Newborn Screening for Severe Combined Immunodeficiency: Analytic and 
+Clinical Performance of the T Cell Receptor Excision Circle Assay in France
+(DEPISTREC Study)";"Audrain MAP, Léger AJC, Hémont CAF, Mirallié SM, Cheillan D, Rimbert MGM, Le
+Thuaut AM, Sébille-Rivain VA, Prat A, Pinel EMQ, Divry E, Dert CGL, Fournier MAG,
+Thomas CJC";J Clin Immunol;01/01/18;30251145;4.128;true;false;false;false;1
+192;Carbon monoxide down-modulates Toll-likereceptor 4/MD2 expression on innate immune cells and reduces endotoxic shocksusceptibility;Riquelme SA, Bueno SM, Kalergis AM;Immunology;01/01/15;25179131;4.147;false;true;true;false;1
+193;Interleukin-10 plays a keyrole in the modulation of neutrophils recruitment and lung inflammation duringinfection by Streptococcus pneumoniae;Peñaloza HF, Nieto PA, Muñoz-Durango N, Salazar-Echegarai FJ, Torres J, PargaMJ, Alvarez-Lobos M, Riedel CA, Kalergis AM, Bueno SM;Immunology;01/01/15;26032199;4.147;false;true;true;false;1
+194;Contributionof dendritic cells to the autoimmune pathology of systemic lupus erythematosus;Mackern-Oberti JP, Llanos C, Riedel CA, Bueno SM, Kalergis AM;Immunology;01/01/15;26173489;4.147;false;true;true;false;1
+195;Contribution of Fc? receptors to human respiratorysyncytial virus pathogenesis and the impairment of T-cell activation by dendriticcells;Gómez RS, Ramirez BA, Céspedes PF, Cautivo KM, Riquelme SA, Prado CE,González PA, Kalergis AM;Immunology;01/01/16;26451966;4.147;false;true;true;false;1
+196;Modulation of antigen processing byhaem-oxygenase 1 Implications on inflammation and tolerance;Riquelme SA, Carreño LJ, Espinoza JA, Mackern-Oberti JP, Alvarez-Lobos MM,Riedel CA, Bueno SM, Kalergis AM;Immunology;01/01/16;26938875;4.147;false;true;false;false;1
+197;Human neonatal hepatocyte transplantation induces long-termrescue of unconjugated hyperbilirubinemia in the Gunn rat;Tolosa L, López S, Pareja E, Donato MT, Myara A, Nguyen TH, Castell JV,Gómez-Lechón MJ;LIVER TRANSPLANT;01/01/15;25821167;4.159;false;false;false;false;1
+198;Improving hepatocyte engraftment following hepatocyte transplantationusing repeated reversible portal vein embolization in rats;Gaillard M, Tranchart H, Lainas P, Trassard O, Remy S, Dubart-Kupperschmitt A,Dagher I;LIVER TRANSPLANT;01/01/18;30358068;4.159;false;false;false;false;1
+199;Maternal Protein Restriction in Rats Alters the Expression of Genes Involved in Mitochondrial Metabolism and Epitranscriptomics in Fetal Hypothalamus.;"Frapin M, Guignard S, Meistermann D, Grit I, Moullé VS, Paillé V, Parnet P,
+Amarger V.";Nutrients;01/01/20;32438566;4.171;false;false;false;false;1
+200;Genetic Restoration of Heme Oxygenase-1 Expression Protects from Type 1 Diabetes in NOD Mice;Pogu J, Tzima S, Kollias G, Anegon I, Blancou P, Simon T;INT J MOL SCI;01/01/19;30987262;4.183;false;true;false;false;1
+201;MD1003 (High-Dose Pharmaceutical-Grade Biotin) for the Treatment of ChronicVisual Loss Related to Optic Neuritis in Multiple Sclerosis: A Randomized,Double-Blind, Placebo-Controlled Study;Tourbah A, Gout O, Vighetto A, Deburghgraeve V, Pelletier J, Papeix C,Lebrun-Frenay C, Labauge P, Brassat D, Toosy A, Laplaud DA, Outteryck O, MoreauT, Debouverie M, Clavelou P, Heinzlef O, De Sèze J, Defer G, Sedel F, Arndt C;CNS Drugs;01/01/18;29808469;4.192;true;false;true;false;1
+202;Comparison of graft and patient survival according to thetransplantation centre policy for 1-year screening biopsy among stable kidneyrecipients: a propensity score-based study;Couvrat-Desvergnes G, Foucher Y, Le Borgne F, Dion A, Mourad G, Garrigue V,Legendre C, Rostaing L, Kamar N, Kessler M, Ladrière M, Morelon E, Buron F, GiralM, Dantan E;NEPHROL DIAL TRANSPL;01/01/18;30060106;4.198;false;true;false;false;1
+203;Lackof impact of pre-emptive deceased-donor kidney transplantation on graft outcomes:a propensity score-based study;Foucher Y, Le Borgne F, Legendre C, Morelon E, Buron F, Girerd S, Ladrière M, Mourad G, Garrigue V, Glotz D, Lefaucheur C, Cassuto E, Albano L, Giral M;NEPHROL DIAL TRANSPL;01/01/18;30325453;4.198;false;true;false;false;1
+204;"Dynamic predictions of long-term kidney
+graft failure: an information tool promoting patient-centred care";"Fournier MC, Foucher Y, Blanche P, Legendre C, Girerd S, Ladrière M, Morelon
+E, Buron F, Rostaing L, Kamar N, Mourad G, Garrigue V, Couvrat-Desvergnes G,
+Giral M, Dantan E; DIVAT Consortium";NEPHROL DIAL TRANSPL;01/01/19;30859193;4.198;false;true;true;false;1
+205;The DESCARTES-Nantes survey of kidney transplant recipients displaying clinical operational tolerance identifies35 new tolerant patients and 34 almost tolerant patients;Massart A, Pallier A, Pascual J, Viklicky O, Budde K, Spasovski G, Klinger M,Sever MS, Sørensen SS, Hadaya K, Oberbauer R, Dudley C, De Fijter JW, Yussim A,Hazzan M, Wekerle T, Berglund D, De Biase C, Pérez-Sáez MJ, Mühlfeld A, OrlandoG, Clemente K, Lai Q, Pisani F, Kandus A, Baas M, Bemelman F, Ponikvar JB, MazouzH, Stratta P, Subra JF, Villemain F, Hoitsma A, Braun L, Cantarell MC, Colak H,Courtney A, Frasca GM, Howse M, Naesens M, Reischig T, Serón D, Seyahi N, Tugmen C, Alonso Hernandez A, Be?a L, Biancone L, Cuna V, Díaz-Corte C, Dufay A,Gaasbeek A, Garnier A, Gatault P, Gentil Govantes MA, Glowacki F, Gross O,Hurault de Ligny B, Huynh-Do U, Janbon B, Jiménez Del Cerro LA, Keller F, LaManna G, Lauzurica R, Le Monies De Sagazan H, Thaiss F, Legendre C, Martin S,Moal MC, Noël C, Pillebout E, Piredda GB, Puga AR, Sulowicz W, Tuglular S,Prokopova M, Chesneau M, Le Moine A, Guérif P, Soulillou JP, Abramowicz M, Giral M, Racapé J, Maggiore U, Brouard S, Abramowicz D;NEPHROL DIAL TRANSPL;01/01/16;26763669;4.198;false;true;true;false;1
+206;Value of biomarkers for predicting immunoglobulin A vasculitisnephritis outcome in an adult prospective cohort;"Berthelot L, Jamin A, Viglietti D, Chemouny JM, Ayari H, Pierre M, Housset P, Sauvaget V, Hurtado-Nedelec M, Vrtovsnik F, Daugas E; HSPrognosis Group, MonteiroRC, Pillebout E";NEPHROL DIAL TRANSPL;01/01/17;29126311;4.198;false;true;false;false;1
+207;"Understanding and managing hypercalciuria
+in adults with nephrolithiasis: keys for nephrologists";Figueres L, Hourmant M, Lemoine S;NEPHROL DIAL TRANSPL;01/01/19;31219589;4.198;true;false;false;false;2
+208;"Additional Insights into Hypericum perforatum Content: Isolation, Total
+Synthesis, and Absolute Configuration of Hyperbiphenyls A and B from
+Immunomodulatory Root Extracts";"Bréard D, Viault G, Mezier MC, Pagie S, Bruguière A, Richomme P, Charreau B,
+Derbré S";J Nat Prod;01/01/18;30024167;4.257;false;false;false;false;1
+209;Lepidotol A from Mesua lepidota Inhibits Inflammatory and ImmuneMediators in Human Endothelial Cells;Rouger C, Derbré S, Charreau B, Pabois A, Cauchy T, Litaudon M, Awang K,Richomme P;J Nat Prod;01/01/15;26301802;4.257;false;false;true;false;1
+210;Pharmacological Induction of Heme Oxygenase-1 Impairs Nuclear Accumulation ofHerpes Simplex Virus Capsids upon Infection;Ibáñez FJ, Farías MA, Retamal-Díaz A, Espinoza JA, Kalergis AM, González PA;Front Microbiol;01/01/17;29163402;4.259;false;false;true;false;1
+211;Extracellular hemoglobincombined with an O(2) -generating material overcomes O(2) limitation in thebioartificial pancreas;Mouré A, Bacou E, Bosch S, Jegou D, Salama A, Riochet D, Gauthier O, BlanchoG, Soulillou JP, Poncelet D, Olmos E, Bach JM, Mosser M;Biotechnol Bioeng;01/01/18;30593660;4.26;false;false;false;true;1
+212;Deciphering the role ofTRIB1 in regulatory T-cells;Danger R, Dugast E, Braza F, Conchon S, Brouard S;BIOCHEM SOC T;01/01/15;26517926;4.291;false;true;false;false;2
+213;Severe Symptomatic PrimaryHuman Cytomegalovirus Infection despite Effective Innate and Adaptive ImmuneResponses;Riou R, Bressollette-Bodin C, Boutoille D, Gagne K, Rodallec A, Lefebvre M,Raffi F, Senitzer D, Imbert-Marcille BM, Retière C;J Virol;01/01/17;28031361;4.324;false;false;false;false;1
+214;"Comparison of Human and
+Experimental Pulmonary Veno-Occlusive Disease. ";"Manaud G, Nossent EJ, Lambert M, Ghigna MR, Boët A, Vinhas MC, Ranchoux B,
+Dumas SJ, Courboulin A, Girerd B, Soubrier F, Bignard J, Claude O, Lecerf F,
+Hautefort A, Florio M, Sun B, Nadaud S, Verleden SE, Remy S, Anegon I, Bogaard
+HJ, Mercier O, Fadel E, Simonneau G, Vonk Noordegraaf A, Grünberg K, Humbert M,
+Montani D, Dorfmüller P, Antigny F, Perros F";AM J RESP CELL MOL;01/01/20;32209028;4.34;false;false;true;false;1
+215;"Unprecedented Thiacalixarene
+Fucoclusters as Strong Inhibitors of Ebola cis-Cell Infection and HCMV-gB
+Glycoprotein/DC-SIGN C-type Lectin Interaction";"Taouai M, Porkolab V, Chakroun K, Cheneau C, Luczkowiak J, Abidi R, Lesur D,
+Cragg PJ, Halary F, Delgado R, Fieschi F, Benazza M";BIOCONJUGATE CHEM;01/01/19;30912645;4.349;false;true;false;false;1
+216;"Development and application of a transcriptional sensor for
+detection of heterologous acrylic acid production in E coli";"Raghavan SS, Chee S, Li J, Poschmann J, Nagarajan N, Jia Wei S, Verma CS,
+Ghadessy FJ";Microb Cell Fact;01/01/19;31426802;4.402;false;false;true;false;1
+217;High-AccuracyHLA Type Inference from Whole-Genome Sequencing Data Using Population ReferenceGraphs;Dilthey AT, Gourraud PA, Mentzer AJ, Cereb N, Iqbal Z, McVean G;PLoS Comput Biol;01/01/16;27792722;4.428;false;false;true;false;1
+218;Design and characterization of a chitosan-enriched fibrin hydrogel for human dental pulp regeneration;Ducret M, Montembault A, Josse J, Pasdeloup M, Celle A, Benchrih R, Mallein-Gerin F, Alliot-Licht B, David L, Farges J-C. ;Dent Mater;01/01/19;30712823;4.44;false;false;false;true;1
+219;Integrated structure- and ligand-based in silicoapproach to predict inhibition of cytochrome P450 2D6;Martiny VY, Carbonell P, Chevillard F, Moroy G, Nicot AB, Vayer P,Villoutreix BO, Miteva MA;Bioinformatics;01/01/15;26315915;4.531;false;false;true;false;1
+220;"Easy-HLA, a validated web application suite to 
+reveal the full details of HLA typing";"Geffard E, Limou S, Walencik A, Daya M, Watson H, Torgerson D, Barnes KC,
+Gautier AC, Gourraud PA, Vince N";Bioinformatics;01/01/19;31750874;4.531;false;true;true;true;1
+221;Hepatic lentiviral gene transfer prevents thelong-term onset of hepatic tumours of glycogen storage disease type 1a in mice;Clar J, Mutel E, Gri B, Creneguy A, Stefanutti A, Gaillard S, Ferry N, Beuf O,Mithieux G, Nguyen TH, Rajas F;Hum Mol Genet;01/01/15;25561689;4.544;false;false;false;false;1
+222;Genome-wide DNA methylation profiling identifies convergent molecular signatures associated with idiopathic and syndromic autism in post-mortem human brain tissue;"Wong CCY, Smith RG, Hannon E, Ramaswami G, Parikshak NN, Assary E, Troakes C, 
+Poschmann J, Schalkwyk LC, Sun W, Prabhakar S, Geschwind DH, Mill J";Hum Mol Genet;01/01/19;31220268;4.544;false;false;true;false;1
+223;estational Hypothyroxinemia Affects Glutamatergic Synaptic Protein Distribution and Neuronal Plasticity Through Neuron-Astrocyte Interplay;Cisternas P, Louveau A, Bueno SM, Kalergis AM, Boudin H, Riedel CA;Mol Neurobiol;01/01/16;26687181;4.586;false;false;true;false;1
+224;"Selective Costimulation
+Blockade With Antagonist Anti-CD28 Therapeutics in Transplantation";Vanhove B, Poirier N, Soulillou JP, Blancho G;Transplantation;01/01/19;30951014;4.593;false;true;false;true;1
+225;"Induction therapy in elderly kidney transplant recipients with low
+immunological risk";"Masset C, Boucquemont J, Garandeau C, Buron F, Morelon E, Girerd S, Ladrière
+M, Mourad G, Garrigue V, Cassuto E, Albano L, Foucher Y, Dantal J; DIVAT
+Consortium";Transplantation;01/01/19;31283665;4.593;false;true;false;false;1
+226;External Validation of the DynPG for Kidney Transplant Recipients.;"Lenain R, Dantan E, Giral M, Foucher Y, Asar Ö, Naesens M, Hazzan M, Fournier 
+MC.";Transplantation;01/01/20;32108750;4.593;false;true;true;false;1
+227;The Medawar Prize Acceptance Speech 2016;Soulillou JP;Transplantation;01/01/16;27820778;4.593;false;true;false;false;3
+228;Anti-Gal and anti-Neu5Gc responses innonimmunosuppressed patients following treatment with rabbit anti-thymocytepolyclonal IgGs;Salama A, Evanno G, Lim N, Rousse J, Le Berre L, Nicot A, Brouard S, HarrisKM, Ehlers MR, Gitelman SE, Soulillou JP;Transplantation;01/01/17;28198767;4.593;false;true;true;false;1
+229;Differential modulation of donor-specific antibodiesafter B-cell depleting therapies to cure chronic antibody mediated rejection;Touzot M, Couvrat-Desvergnes G, Castagnet S, Cesbron A, Renaudin K,Cantarovich D, Giral M;Transplantation;01/01/15;25029384;4.593;false;true;false;false;1
+230;"23rd NantesActualités Transplantation: ""Genomics and Immunogenetics of Kidney andInflammatory Diseases - Lessons for Transplantation""";Vince N, Poschmann J, Josien R, Anegon I, Limou S, Gourraud PA;Transplantation;01/01/19;30399125;4.593;false;true;false;true;3
+231;New humanized mouse model of bronchiolitis obliterans syndrome;Anegon I;Transplantation;01/01/15;25695785;4.593;false;true;false;false;3
+232;Efficacy of Myeloid Derived Suppressor Cells on TransplantSurvival;Guillonneau C;Transplantation;01/01/15;26270450;4.593;false;true;false;false;3
+233;Infectious Diseases in Transplantation--Report of the20th Nantes Actualités Transplantation Meeting;Haspot F, Halary FA;Transplantation;01/01/15;26627674;4.593;false;true;false;true;3
+234;Comparative Study of the Immunoregulatory Capacity of In Vitro Generated Tolerogenic Dendritic Cells,Suppressor Macrophages, and Myeloid-Derived Suppressor Cells;Carretero-Iglesia L, Bouchet-Delbos L, Louvet C, Drujont L, Segovia M, MerieauE, Chiffoleau E, Josien R, Hill M, Cuturi MC, Moreau A;Transplantation;01/01/16;27653226;4.593;false;true;false;false;1
+235;PreclinicalTesting of Antihuman CD28 Fab' Antibody in a Novel Nonhuman Primate Small Animal Rodent Model of Xenogenic Graft-Versus-Host Disease;Hippen KL, Watkins B, Tkachev V, Lemire AM, Lehnen C, Riddle MJ, Singh K,Panoskaltsis-Mortari A, Vanhove B, Tolar J, Kean LS, Blazar BR;Transplantation;01/01/16;27861291;4.593;false;false;true;false;1
+236;"21st Nantes Actualités Transplantation: ""When Stem Cells Meet Immunology""";Anegon I, Nguyen TH;Transplantation;01/01/17;27653295;4.593;false;true;false;false;3
+237;Improved Analyses of CD8+ T CellSpecificities Using Multimers of Peptide MHC Complexes Coupled to DNA Barcodes;Guillonneau C, David L, Anegon I;Transplantation;01/01/17;28118315;4.593;false;true;false;false;3
+238;DHRS9 Is a Stable Marker of Human RegulatoryMacrophages;Riquelme P, Amodio G, Macedo C, Moreau A, Obermajer N, Brochhausen C, AhrensN, Kekarainen T, Fändrich F, Cuturi C, Gregori S, Metes D, Schlitt HJ, ThomsonAW, Geissler EK, Hutchinson JA;Transplantation;01/01/17;28594751;4.593;false;false;true;false;1
+239;A New Marker for Regulatory Macrophages;Anegon I;Transplantation;01/01/17;28650423;4.593;false;true;false;false;3
+240;Generation ofimmunodeficient rats with Rag1 and Il2rg gene deletions and human tissue graftingmodels;Ménoret S, Ouisse LH, Tesson L, Delbos F, Garnier D, Remy S, Usal C, ConcordetJP, Giovannangeli C, Chenouard V, Brusselle L, Merieau E, Nerrière-Daguin V,Duteille F, Bellier-Waast F, Fraichard A, Nguyen TH, Anegon I;Transplantation;01/01/18;29688994;4.593;false;true;false;false;1
+241;Advances on CD8+ Treg Cells and TheirPotential in Transplantation;Bézie S, Anegon I, Guillonneau C;Transplantation;01/01/18;29688996;4.593;false;true;false;false;2
+242;"In vivo analysis of human immune
+responses in immunodeficient rats";"Ménoret S, Ouisse LH, Tesson L, Remy S, Usal C, Guiffes A, Chenouard V, Royer 
+PJ, Evanno G, Vanhove B, Piaggio E, Anegon I";Transplantation;01/01/19;31764762;4.593;false;true;false;true;1
+243;"Successful percutaneous thrombolysis and aspiration thrombectomy for graft
+salvage after pancreas transplant venous thrombosis";David A, Frampas E, Perret C, Douane F, Cantarovich D, Karam G, Branchereau J;Transplantation;01/01/19;"
+31335782";4.593;true;true;false;false;1
+244;"Humanization of
+Immunodeficient Animals for the Modeling of Transplantation, Graft Versus Host
+Disease and Regenerative Medicine.";Adigbli G, Ménoret S, Cross AR, Hester J, Issa F, Anegon I.;Transplantation;01/01/20;32068660;4.593;false;false;true;false;1
+245;Human serum and platelet lysate areappropriate xeno-free alternatives for clinical-grade production of human MuStem cell batches;Saury C, Lardenois A, Schleder C, Leroux I, Lieubeau B, David L, Charrier M,Guével L, Viau S, Delorme B, Rouger K;Stem Cell Res Ther;01/01/18;29720259;4.627;false;false;false;false;1
+246;"Low-density lipoprotein receptor-deficient hepatocytes
+differentiated from induced pluripotent stem cells allow familial
+hypercholesterolemia modeling, CRISPR/Cas-mediated genetic correction, and
+productive hepatitis C virus infection";"Caron J, Pène V, Tolosa L, Villaret M, Luce E, Fourrier A, Heslan JM, Saheb S,
+Bruckert E, Gómez-Lechón MJ, Nguyen TH, Rosenberg AR, Weber A,
+Dubart-Kupperschmitt A";Stem Cell Res Ther;01/01/19;31358055;4.627;false;false;false;false;1
+247;A Rapid and Cost-Effective Method for GenotypingGenome-Edited Animals: A Heteroduplex Mobility Assay Using Microfluidic CapillaryElectrophoresis;Chenouard V, Brusselle L, Heslan JM, Remy S, Ménoret S, Usal C, Ouisse LH,NGuyen TH, Anegon I, Tesson L;J Genet Genomics;01/01/16;27209567;4.65;false;true;false;false;1
+248;Generation of a Double KO Mouse by Simultaneous Targeting of the Neighboring Genes Tmem176a and Tmem176bUsing CRISPR/Cas9: Key Steps from Design to Genotyping;Lemoine A, Chauveau-Le Friec G, Langa F, Louvet C;J Genet Genomics;01/01/16;27234594;4.65;false;true;false;false;1
+249;Expanded CD8 T-cell sharing between periphery and CNS in multiple sclerosis;Salou M, Garcia A, Michel L, Gainche-Salmon A, Loussouarn D, Nicol B, Guillot F, Hulin P, Nedellec S, Baron D, Ramstein G, Soulillou JP, Brouard S, Nicot AB,Degauque N, Laplaud DA;ANN CLIN TRANSL NEUR;01/01/15;26125037;4.656;false;true;false;false;1
+250;Novel MS vital sign: multi-sensor captures upper and lower limb dysfunction;Akhbardeh A, Arjona JK, Krysko KM, Nourbakhsh B, Gourraud PA, Graves JS;"Ann Clin
+Transl Neurol";01/01/20;32101388;4.656;false;false;true;false;1
+251;Local control of thehost immune response performed with mesenchymal stem cells: perspectives forfunctional intracerebral xenotransplantation;Lévêque X, Mathieux E, Nerrière-Daguin V, Thinard R, Kermarrec L, Durand T,Haudebourg T, Vanhove B, Lescaudron L, Neveu I, Naveilhan P;J Cell Mol Med;01/01/15;25310920;4.658;false;false;false;false;2
+252;Impactof pre-transplant diffusion lung capacity for nitric oxide (DLNO) and ofDLNO/pre-transplant diffusion lung capacity for carbon monoxide (DLNO/DLCO) ratioon pulmonary outcomes in adults receiving allogeneic stem cell transplantationfor hematological diseases;Le Bourgeois A, Malard F, Chevallier P, Urbistandoy G, Guillaume T, Delaunay J, Peterlin P, Lemarchand P, Germaud P, Mohty M, Moreau P, Chambellan A;BONE MARROW TRANSPL;01/01/16;26595083;4.674;false;false;false;false;1
+253;Deconditioning, fatigue and impaired quality of life in long-term survivors after allogeneic hematopoietic stem cell transplantation;Dirou S, Chambellan A, Chevallier P, Germaud P, Lamirault G, Gourraud P-A, Perrot B, Delasalle B, Forestier B, Guillaume T, Peterlin P, Garnier A, Magnan A, Blanc F-X, Lemarchand P. ;Bone Marrow Transplant;01/01/18;29269801;4.674;true;false;false;false;1
+254;Immune monitoring in renal transplantation:The search for biomarkers;Danger R, Sawitzki B, Brouard S;Eur J Immunol;01/01/16;27861809;4.695;false;true;true;false;2
+255;Human metapneumovirus infection activates the TSLP pathwaythat drives excessive pulmonary inflammation and viral replication in mice;Lay MK, Céspedes PF, Palavecino CE, León MA, Díaz RA, Salazar FJ, Méndez GP, Bueno SM, Kalergis AM;Eur J Immunol;01/01/15;25763996;4.695;false;true;true;false;1
+256;Carbon monoxide impairsmitochondria-dependent endosomal maturation and antigen presentation in dendriticcells;Riquelme SA, Pogu J, Anegon I, Bueno SM, Kalergis AM;Eur J Immunol;01/01/15;26461179;4.695;false;true;false;true;1
+257;Prevention of lupus nephritis development in NZB/NZW mice byselective blockade of CD28;Laurent L, Le Fur A, Bloas RL, Néel M, Mary C, Moreau A, Poirier N, Vanhove B,Fakhouri F;Eur J Immunol;01/01/17;28631301;4.695;false;true;false;false;1
+258;Blood Gene Expression Predicts Bronchiolitis Obliterans Syndrome;"Danger R, Royer PJ, Reboulleau D, Durand E, Loy J, Tissot A, Lacoste P, RouxA, Reynaud-Gaubert M, Gomez C, Kessler R, Mussot S, Dromer C, Brugière O, Mornex JF, Guillemain R, Dahan M, Knoop C, Botturi K, Foureau A, Pison C, Koutsokera A, Nicod LP, Brouard S, Magnan A; COLT and SysCLAD Consortia";Front Immunol;01/01/18;29375549;4.716;false;true;true;false;1
+259;Regulation of the Immune Response by theInflammatory Metabolic Microenvironment in the Context of Allotransplantation;Degauque N, Brosseau C, Brouard S;Front Immunol;01/01/18;29988548;4.716;false;true;false;false;2
+260;CD9 Tetraspanin: A New Pathway forthe Regulation of Inflammation?;Brosseau C, Colas L, Magnan A, Brouard S;Front Immunol;01/01/18;30356731;4.716;false;true;false;false;2
+261;CD9(+) Regulatory B Cells Induce T CellApoptosis via IL-10 and Are Reduced in Severe Asthmatic Patients;Brosseau C, Durand M, Colas L, Durand E, Foureau A, Cheminant MA, Bouchaud G, Castan L, Klein M, Magnan A, Brouard S;Front Immunol;01/01/18;30622536;4.716;false;true;false;false;1
+262;Early Identification of Chronic Lung Allograft Dysfunction: The Need of Biomarkers;Tissot A, Danger R, Claustre J, Magnan A, Brouard S;Front Immunol;01/01/19;31379869;4.716;false;true;false;false;2
+263;"Highly Variable Sialylation Status of Donor-Specific Antibodies Does
+Not Impact Humoral Rejection Outcomes";"Barba T, Harb J, Ducreux S, Koenig A, Mathias V, Rabeyrin M, Pouliquen E,
+Sicard A, Chartoire D, Dugast E, Defrance T, Morelon E, Brouard S, Dubois V,
+Thaunat O";Front Immunol;01/01/19;30949173;4.716;false;true;false;false;1
+264;"CXCR5(+)PD1(+)ICOS(+)
+Circulating T Follicular Helpers Are Associated With de novo Donor-Specific
+Antibodies After Renal Transplantation";"Danger R, Chesneau M, Delbos F, Le Bot S, Kerleau C, Chenouard A, Ville S,
+Degauque N, Conchon S, Cesbron A, Giral M, Brouard S";Front Immunol;01/01/19;31552030;4.716;false;true;false;true;1
+265;FB5P-seq: FACS-Based 5-Prime End Single-Cell RNA-seq for Integrative Analysis of  Transcriptome and Antigen Receptor Repertoire in B and T Cells.;Attaf N, Cervera-Marzal I, Dong C, Gil L, Renand A, Spinelli L, Milpied P;Front Immunol;01/01/20;32194545;4.716;false;false;false;false;1
+266;"Distribution of Bacterial
+?1,3-Galactosyltransferase Genes in the Human Gut Microbiome";"Montassier E, Al-Ghalith GA, Mathé C, Le Bastard Q, Douillard V, Garnier A,
+Guimon R, Raimondeau B, Touchefeu Y, Duchalais E, Vince N, Limou S, Gourraud PA, 
+Laplaud DA, Nicot AB, Soulillou JP, Berthelot L";Front Immunol;01/01/20;31998300;4.716;false;true;true;true;1
+267;Cross-Reactivity of TCR Repertoire:Current Concepts, Challenges, and Implication for Allotransplantation;Degauque N, Brouard S, Soulillou JP;Front Immunol;01/01/16;27047489;4.716;false;true;false;false;2
+268;"IL-15 Harnesses Pro-inflammatory Function of TEMRA CD8 in 
+Kidney-Transplant Recipients.";"Tilly G, Doan-Ngoc TM, Yap M, Caristan A, Jacquemont L, Danger R, Cadoux M,
+Bruneau S, Giral M, Guerif P, Nicol B, Garcia A, Laplaud DA, Brouard S, Pecqueur 
+Hellman C, Degauque N";Front Immunol;01/01/17;28713392;4.716;false;true;false;true;1
+269;Dysregulated Responsiveness of Circulating Dendritic Cells to Toll-Like Receptorsin ANCA-Associated Vasculitis;Braudeau C, Néel A, Amouriaux K, Martin JC, Rimbert M, Besançon A, Giraudet S,Terrien C, Aliaga M, Salabert-Le Guen N, Hemont C, Hamidou M, Josien R;Front Immunol;01/01/17;28232832;4.716;false;true;false;true;1
+270;Pro-inflammatory State in MonoclonalGammopathy of Undetermined Significance and in Multiple Myeloma Is Characterized by Low Sialylation of Pathogen-Specific and Other Monoclonal Immunoglobulins;Bosseboeuf A, Allain-Maillet S, Mennesson N, Tallet A, Rossi C, Garderet L,Caillot D, Moreau P, Piver E, Girodon F, Perreault H, Brouard S, Nicot A,Bigot-Corbel E, Hermouet S, Harb J;Front Immunol;01/01/17;29098000;4.716;false;true;false;false;1
+271;Broad Impairment of Natural Killer Cells from Operationally Tolerant KidneyTransplanted Patients;Dugast E, David G, Oger R, Danger R, Judor JP, Gagne K, Chesneau M, DegauqueN, Paul P, Picard C, Guerif P, Conchon S, Giral M, Gervois N, Retière C, Brouard S;Front Immunol;01/01/17;29312288;4.716;false;true;false;false;1
+272;Targeting CD8 T-Cell Metabolism in Transplantation;Yap M, Brouard S, Pecqueur C, Degauque N;Front Immunol;01/01/15;26557123;4.716;false;true;false;false;2
+273;Involvement of CD8(+) T Cells inMultiple Sclerosis;Salou M, Nicol B, Garcia A, Laplaud DA;Front Immunol;01/01/15;26635816;4.716;false;true;false;false;2
+274;Co-Stimulatory Blockade of the CD28/CD80-86/CTLA-4 Balance in Transplantation: Impact on Memory T Cells?;Ville S, Poirier N, Blancho G, Vanhove B;Front Immunol;01/01/15;26322044;4.716;false;true;false;false;2
+275;A Potential Role of SalmonellaInfection in the Onset of Inflammatory Bowel Diseases;Schultz BM, Paduro CA, Salazar GA, Salazar-Echegarai FJ, Sebastián VP, Riedel CA, Kalergis AM, Alvarez-Lobos M, Bueno SM;Front Immunol;01/01/17;28293241;4.716;false;false;true;false;1
+276;Heme-Oxygenase-1 Expression Contributes to theImmunoregulation Induced by Fasciola hepatica and Promotes Infection;Carasi P, Rodríguez E, da Costa V, Frigerio S, Brossard N, Noya V, Robello C,Anegon I, Freire T;Front Immunol;01/01/17;28798750;4.716;false;false;true;false;1
+277;A Herpes Simplex VirusType 2 Deleted for Glycoprotein D Enables Dendritic Cells to Activate CD4(+) and CD8(+) T Cells;Retamal-Díaz AR, Kalergis AM, Bueno SM, González PA;Front Immunol;01/01/17;28848543;4.716;false;false;true;false;1
+278;CD28 Blockade Ex Vivo Induces Alloantigen-Specific Immune Tolerance but Preserves T-Cell Pathogen Reactivity;Dillinger B, Ahmadi-Erber S, Soukup K, Halfmann A, Schrom S, Vanhove B,Steinberger P, Geyeregger R, Ladisch S, Dohnal AM;Front Immunol;01/01/17;28979262;4.716;false;false;true;false;1
+279;Ex Vivo Expanded Human Non-Cytotoxic CD8(+)CD45RC(low/-) Tregs Efficiently Delay Skin Graft Rejection and GVHD in Humanized Mice;Bézie S, Meistermann D, Boucault L, Kilens S, Zoppi J, Autrusseau E, DonnartA, Nerrière-Daguin V, Bellier-Waast F, Charpentier E, Duteille F, David L, AnegonI, Guillonneau C;Front Immunol;01/01/17;29445370;4.716;false;true;false;true;1
+280;Minimum Information aboutT Regulatory Cells: A Step toward Reproducibility and Standardization;Fuchs A, Gliwi?ski M, Grageda N, Spiering R, Abbas AK, Appel S, Bacchetta R,Battaglia M, Berglund D, Blazar B, Bluestone JA, Bornhäuser M, Ten Brinke A,Brusko TM, Cools N, Cuturi MC, Geissler E, Giannoukakis N, Go?ab K, Hafler DA,van Ham SM, Hester J, Hippen K, Di Ianni M, Ilic N, Isaacs J, Issa F,Iwaszkiewicz-Grze? D, Jaeckel E, Joosten I, Klatzmann D, Koenen H, van Kooten C, Korsgren O, Kretschmer K, Levings M, Marek-Trzonkowska NM, Martinez-Llordella M, Miljkovic D, Mills KHG, Miranda JP, Piccirillo CA, Putnam AL, Ritter T, RoncaroloMG, Sakaguchi S, Sánchez-Ramón S, Sawitzki B, Sofronic-Milosavljevic L, Sykes M, Tang Q, Vives-Pi M, Waldmann H, Witkowski P, Wood KJ, Gregori S, Hilkens CMU,Lombardi G, Lord P, Martinez-Caceres EM, Trzonkowski P;Front Immunol;01/01/18;29379498;4.716;false;false;true;false;1
+281;C-Type Lectin-Like Receptors As Emerging Orchestrators of Sterile Inflammation Represent Potential Therapeutic Targets;Chiffoleau E;Front Immunol;01/01/18;29497419;4.716;false;true;false;false;2
+282;Tolerogenic Dendritic Cells in Solid OrganTransplantation: Where Do We Stand?;Marín E, Cuturi MC, Moreau A;Front Immunol;01/01/18;29520275;4.716;false;true;false;false;2
+283;CD28 Costimulation of T Helper 1 Cells Enhances Cytokine Release In Vivo;Langenhorst D, Haack S, Göb S, Uri A, Lühder F, Vanhove B, Hünig T, Beyersdorf N;Front Immunol;01/01/18;29868020;4.716;false;false;true;false;1
+284;Multi specific Antibody DevelopmentPlatform Based on Human Heavy Chain Antibodies;Clarke SC, Ma B, Trinklein ND, Schellenberger U, Osborn MJ, Ouisse LH,Boudreau A, Davison LM, Harris KE, Ugamraj HS, Balasubramani A, Dang KH,Jorgensen B, Ogana HAN, Pham DT, Pratap PP, Sankaran P, Anegon I, van SchootenWC, Brüggemann M, Buelow R, Force Aldred S;Front Immunol;01/01/19;30666250;4.716;false;false;true;false;1
+285;"Dendritic
+Cell Activating Receptor 1 (DCAR1) Associates With Fc?RI? and Is Expressed by
+Myeloid Cell Subsets in the Rat";Daws MR, Nakken B, Lobato-Pascual A, Josien R, Dissen E, Fossum S;Front Immunol;01/01/19;31134097;4.716;false;false;true;false;1
+286;"Immunophenotype of a Rat Model of Duchenne's
+Disease and Demonstration of Improved Muscle Strength After Anti-CD45RC Antibody 
+Treatment";"Ouisse LH, Remy S, Lafoux A, Larcher T, Tesson L, Chenouard V, Guillonneau C, 
+Brusselle L, Vimond N, Rouger K, Péréon Y, Chenouard A, Gras-Le Guen C, Braudeau 
+C, Josien R, Huchet C, Anegon I";Front Immunol;01/01/19;31552055;4.716;false;true;false;true;1
+287;"Impact of APOL1
+Genetic Variants on HIV-1 Infection and Disease Progression";An P, Kirk GD, Limou S, Binns-Roemer E, Kopp JB, Winkler CA;Front Immunol;01/01/19;30733721;4.716;false;false;true;false;1
+288;C-Type Lectin-Like Receptors: Head or Tail in Cell Death Immunity.;Drouin M, Saenz J, Chiffoleau E.;Front Immunol;01/01/20;32133013;4.716;false;true;false;false;2
+289;Characterization of Rat ILCs Reveals ILC2 as the Dominant Intestinal Subset.;"Abidi A, Laurent T, Bériou G, Bouchet-Delbos L, Fourgeux C, Louvet C,
+Triki-Marrakchi R, Poschmann J, Josien R, Martin J.";Front Immunol;01/01/20;32140157;4.716;false;true;false;false;1
+290;Alternative Splice Transcripts for MHC Class I-like MICA Encode NovelNKG2D Ligands with Agonist or Antagonist Functions;Gavlovsky PJ, Tonnerre P, Gérard N, Nedellec S, Daman AW, McFarland BJ,Charreau B;J Immunol;01/01/16;27342847;4.718;false;true;false;false;1
+291;First-in-Human Study in Healthy Subjects with FR104, a Pegylated Monoclonal Antibody Fragment Antagonist of CD28;Poirier N, Blancho G, Hiance M, Mary C, Van Assche T, Lempoels J, Ramael S,Wang W, Thepenier V, Braudeau C, Salabert N, Josien R, Anderson I, Gourley I,Soulillou JP, Coquoz D, Vanhove B;J Immunol;01/01/16;27849166;4.718;false;true;true;true;1
+292;Regulatory B Cells with a Partial Defect inCD40 Signaling and Overexpressing Granzyme B Transfer Allograft Tolerance inRodents;Durand J, Huchet V, Merieau E, Usal C, Chesneau M, Remy S, Heslan M, Anegon I,Cuturi MC, Brouard S, Chiffoleau E;J Immunol;01/01/15;26432892;4.718;false;true;false;true;1
+293;Selective blockade of CD28-mediated T cell costimulation protects rhesus monkeys against acute fatal experimentalautoimmune encephalomyelitis;Haanstra KG, Dijkman K, Bashir N, Bauer J, Mary C, Poirier N, Baker P,Crossan CL, Scobie L, 't Hart BA, Vanhove B;J Immunol;01/01/15;25589073;4.718;false;true;true;false;1
+294;Compensatory Regulatory Networks between CD8 T, B, and Myeloid Cells in OrganTransplantation Tolerance;Bézie S, Picarda E, Ossart J, Martinet B, Anegon I, Guillonneau C;J Immunol;01/01/15;26553075;4.718;false;true;false;false;1
+295;Selective CD28 Antagonist Blunts Memory Immune Responses and Promotes Long-TermControl of Skin Inflammation in Nonhuman Primates;Poirier N, Chevalier M, Mary C, Hervouet J, Minault D, Baker P, Ville S, LeBas-Bernardet S, Dilek N, Belarif L, Cassagnau E, Scobie L, Blancho G, Vanhove B;J Immunol;01/01/16;26597009;4.718;false;true;true;false;1
+296;Functional Langerinhigh-Expressing Langerhans-like Cells Can Arise from CD14highCD16- Human Blood Monocytes in Serum-Free Condition;Picarda G, Chéneau C, Humbert JM, Bériou G, Pilet P, Martin J, Duteille F,Perrot P, Bellier-Waast F, Heslan M, Haspot F, Guillon F, Josien R, Halary FA;J Immunol;01/01/16;27016604;4.718;false;true;false;true;1
+297;Limited presence of IL-22 binding protein, a natural IL-22 inhibitor, strengthens psoriatic skin inflammation.;Martin JC, Wolk K, Beriou G, Abidi A, Witte-Händel E, Louvet C, Kokolakis G, Drujont L, Dumoutier L, Renauld JC, Sabat, R, Josien R.;J Immunol;01/01/17;28356382;4.718;false;true;false;false;1
+298;Heme Oxygenase-1 Modulates Human Respiratory SyncytialVirus Replication and Lung Pathogenesis during Infection;Espinoza JA, León MA, Céspedes PF, Gómez RS, Canedo-Marroquín G, Riquelme SA, Salazar-Echegarai FJ, Blancou P, Simon T, Anegon I, Lay MK, González PA, RiedelCA, Bueno SM, Kalergis AM;J Immunol;01/01/17;28566367;4.718;false;true;true;true;1
+299;"Breakdown of Immune Tolerance in AIRE-Deficient Rats Induces a
+Severe Autoimmune Polyendocrinopathy-Candidiasis-Ectodermal Dystrophy-like
+Autoimmune Disease";"Ossart J, Moreau A, Autrusseau E, Ménoret S, Martin JC, Besnard M, Ouisse LH, 
+Tesson L, Flippe L, Kisand K, Peterson P, Hubert FX, Anegon I, Josien R,
+Guillonneau C";J Immunol;01/01/18;29959280;4.718;false;true;false;true;1
+300;Targeting the interleukin-7 receptor alpha by an anti-CD127 monoclonal antibody improves allergic airway inflammation in mice.;"Le Mai H, Van Ha Nguyen T, Bouchaud G, Henrio K, Cheminant MA, Magnan A,
+Brouard S. ";Clin Exp Allergy;01/01/20;32418317;4.741;false;true;false;false;1
+301;Aberrant T cell immunity triggered by human Respiratory Syncytial Virus and human Metapneumovirus infection;González AE, Lay MK, Jara EL, Espinoza JA, Gómez RS, Soto J, Rivera CA, AbarcaK, Bueno SM, Riedel CA, Kalergis AM;Virulence;01/01/17;27911218;4.775;false;true;true;false;1
+302;Notch signaling mediates crosstalk between endothelialcells and macrophages via Dll4 and IL6 in cardiac microvascular inflammation;Pabois A, Pagie S, Gérard N, Laboisse C, Pattier S, Hulin P, Nedellec S,Toquet C, Charreau B;Biochem Pharmacol;01/01/16;26826491;4.825;false;true;false;false;1
+303;Highly efficient in vitro and invivo delivery of functional RNAs using new versatile MS2-chimeric retrovirus-likeparticles;Prel A, Caval V, Gayon R, Ravassard P, Duthoit C, Payen E, Maouche-ChretienL, Creneguy A, Nguyen TH, Martin N, Piver E, Sevrain R, Lamouroux L, Leboulch P, Deschaseaux F, Bouillé P, Sensébé L, Pagès JC;MOL THER-METH CLIN D;01/01/15;26528487;4.875;false;false;false;false;1
+304;Role of myeloid regulatorycells (MRCs) in maintaining tissue homeostasis and promoting tolerance inautoimmunity, inflammatory disease and transplantation;Amodio G, Cichy J, Conde P, Matteoli G, Moreau A, Ochando J, Oral BH, PekarovaM, Ryan EJ, Roth J, Sohrabi Y, Cuturi MC, Gregori S;CANCER IMMUNOL IMMUN;01/01/19;30357490;4.9;false;false;true;false;2
+305;MICA Mutant A5 1 Influences BK Polyomavirus Reactivation and Associated Nephropathy After KidneyTransplantation;Tonnerre P, Gérard N, Gavlovsky PJ, Mazalrey S, Hourmant M, Cheneau ML,Cesbron-Gautier A, Renaudin K, Bressollette-Bodin C, Charreau B;J Infect Dis;01/01/16;27130430;5.045;false;true;false;true;1
+306;Host-range shift between emerging P[8]-4 rotavirus and common P[8] and P[4] strains.;"Khachou A, Le Moullac-Vaidye B, Peltier C, Breiman A, Imbert-Marcille BM,
+Ruvoen-Clouet N, Aouni M, Mastouri M, Chouchane S, Le Pendu J";J Infect Dis;01/01/20;32188998;5.045;false;false;true;false;1
+307;Fine-mapping theinteraction between DC-SIGN and the cytomegalovirus envelope glycoprotein B;Chéneau C, Coulon F, Porkolab V, Fieschi F, Laurant S, Razanajaona-Doll D, PinJJ, Borst EM, Messerle M, Bressollette-Bodin C, Halary F;J Infect Dis;01/01/18;29648611;5.045;false;true;false;false;1
+308;Molecular Mechanisms of Stem Cell Pluripotencyand Cell Fate Specification;Findlay GM, David L, Beyer TA;J Mol Biol;01/01/17;28302388;5.067;false;false;true;false;3
+309;Bronchiectasis is highly prevalent in anti-MPO ANCA-associated vasculitis and is associated with a distinct diseasepresentation;Néel A, Espitia-Thibault A, Arrigoni PP, Volteau C, Rimbert M, Masseau A,Agard C, Fakhouri F, Liberge R, Hamidou M;SEMIN ARTHRITIS RHEU;01/01/17;29336783;5.072;true;true;false;true;1
+310;Notch signaling triggered via the ligand DLL4impedes M2 macrophage differentiation and promotes their apoptosis;Pagie S, Gérard N, Charreau B;Cell Commun Signal;01/01/18;29321062;5.111;false;true;false;false;1
+311;Immune Cells and Molecular Networks in Experimentally InducedPulpitis;Renard E, Gaudin A, Bienvenu G, Amiaud J, Farges JC, Cuturi MC, Moreau A,Alliot-Licht B;J Dent Res;01/01/16;26472753;5.125;false;true;false;false;1
+312;"Ceruloplasmin deficiency
+does not induce macrophagic iron overload: lessons from a new rat model of
+hereditary aceruloplasminemia";"Kenawi M, Rouger E, Island ML, Leroyer P, Robin F, Rémy S, Tesson L, Anegon I,
+Nay K, Derbré F, Brissot P, Ropert M, Cavey T, Loréal O";FASEB J;01/01/19;31560858;5.391;false;false;false;false;1
+313;xternal validation of a time-lapse prediction model;Freour T, Le Fleuter N, Lammers J, Splingart C, Reignier A, Barrière P;Fertil Steril;01/01/15;25624197;5.411;false;true;false;false;1
+314;"Role of JAK inhibitors and
+immune cells in transplantation";Sailliet N, Brosseau C, Robert JM, Brouard S;CYTOKINE GROWTH F R;01/01/19;31133508;5.458;false;true;false;false;2
+315;Opposing roles of IL-10 in acutebacterial infection;Peñaloza HF, Schultz BM, Nieto PA, Salazar GA, Suazo I, Gonzalez PA, RiedelCA, Alvarez-Lobos MM, Kalergis AM, Bueno SM;CYTOKINE GROWTH F R;01/01/16;27522641;5.458;false;false;true;false;1
+316;HumanInduced Pluripotent Stem Cell-Derived Astrocytes Are Differentially Activated by Multiple Sclerosis-Associated Cytokines;Perriot S, Mathias A, Perriard G, Canales M, Jonkmans N, Merienne N, MeunierC, El Kassar L, Perrier AL, Laplaud DA, Schluep M, Déglon N, Du Pasquier R;STEM CELL REP;01/01/18;30409508;5.499;false;false;true;false;1
+317;Development of automated annotation software for human embryo morphokinetics.;"Feyeux M, Reignier A, Mocaer M, Lammers J, Meistermann D, Barrière P,
+Paul-Gilloteaux P, David L, Fréour T";Hum Reprod;01/01/20;32163566;5.506;false;true;false;false;1
+318;Female obesity does not impact live birth rate after frozen-thawed blastocyst transfer.;Prost E, Reignier A, Leperlier F, Caillet P, Barrière P, Fréour T, Lefebvre T;Hum Reprod;01/01/20;32170315;5.506;false;false;false;false;1
+319;Time-lapse in the IVF lab: howshould we assess potential benefit?;Basile N, Barriere P, Meseguer M, Freour T;Hum Reprod;01/01/15;25750207;5.506;false;true;true;false;3
+320;Peripheralphenotype and gene expression profiles of combined liver-kidney transplantpatients;Dumontet E, Danger R, Vagefi PA, Londoño MC, Pallier A, Lozano JJ, Giral M,Degauque N, Soulillou JP, Martínez-Llordella M, Lee H, Latournerie M, Boudjema K,Dulong J, Tarte K, Sanchez-Fueyo A, Feng S, Brouard S, Conchon S;Liver Int;01/01/16;26193627;5.542;false;true;true;false;1
+321;Liver regeneration following repeatedreversible portal vein embolization in an experimental model;Tranchart H, Koffi GM, Gaillard M, Lainas P, Poüs C, Gonin P, Nguyen TH,Dubart-Kupperschmitt A, Dagher I;BRIT J SURG;01/01/16;27256140;5.586;false;false;false;false;1
+322;Chitinase 3-like proteins asdiagnostic and prognostic biomarkers of multiple sclerosis;Hinsinger G, Galéotti N, Nabholz N, Urbach S, Rigau V, Demattei C, Lehmann S,Camu W, Labauge P, Castelnovo G, Brassat D, Loussouarn D, Salou M, Laplaud D,Casez O, Bockaert J, Marin P, Thouvenot E;MULT SCLER J;01/01/15;25698171;5.649;false;false;false;false;1
+323;Observatoire Français de la Sclérose en Plaques (OFSEP): A unique multimodalnationwide MS registry in France;Vukusic S, Casey R, Rollot F, Brochet B, Pelletier J, Laplaud DA, De Sèze J,Cotton F, Moreau T, Stankoff B, Fontaine B, Guillemin F, Debouverie M, Clanet M;MULT SCLER J;01/01/18;30541380;5.649;true;false;false;false;3
+324;MD1003 (high-dose biotin)for the treatment of progressive multiple sclerosis: A randomised, double-blind, placebo-controlled study;"Tourbah A, Lebrun-Frenay C, Edan G, Clanet M, Papeix C, Vukusic S, De Sèze J, Debouverie M, Gout O, Clavelou P, Defer G, Laplaud DA, Moreau T, Labauge P,Brochet B, Sedel F, Pelletier J; MS-SPI study group";MULT SCLER J;01/01/16;27589059;5.649;true;false;false;false;1
+325;"Effect of assisted reproductive technology on multiple sclerosis
+relapses: Case series and meta-analysis";"Bove R, Rankin K, Lin C, Zhao C, Correale J, Hellwig K, Michel L, Laplaud DA, 
+Chitnis T";MULT SCLER J;01/01/19;31368394;5.649;true;false;true;false;1
+326;"High-dose biotin in progressive multiple
+sclerosis: A prospective study of 178 patients in routine clinical practice";"Couloume L, Barbin L, Leray E, Wiertlewski S, Le Page E, Kerbrat A, Ory S, Le 
+Port D, Edan G, Laplaud DA, Michel L";MULT SCLER J;01/01/19;31845825;5.649;true;true;false;false;1
+327;"Neuraxial analgesia is not
+associated with an increased risk of post-partum relapses in MS";"Lavie C, Rollot F, Durand-Dubief F, Marignier R, Ionescu I, Casey R, Moreau T,
+Tourniaire P, Hutchinson M, D'Hooghe MB, Laplaud DA, Clavelou P, De Sèze J,
+Debouverie M, Brassat D, Pelletier J, Lebrun-Frenay C, Le Page E, Castelnovo G,
+Berger E, Hautecoeur P, Heinzlef O, Durelli L, Clerico M, Trojano M, Patti F,
+Vukusic S; PRIMS and POPARTMUS investigators";MULT SCLER J;01/01/19;" 
+31081475";5.649;true;false;true;false;1
+328;Harnessing electronic medical records to advanceresearch on multiple sclerosis;Damotte V, Lizée A, Tremblay M, Agrawal A, Khankhanian P, Santaniello A, GomezR, Lincoln R, Tang W, Chen T, Lee N, Villoslada P, Hollenbach JA, Bevan CD,Graves J, Bove R, Goodin DS, Green AJ, Baranzini SE, Cree BA, Henry RG, HauserSL, Gelfand JM, Gourraud PA;MULT SCLER J;01/01/19;29310490;5.649;true;true;true;false;1
+329;Harnessing electronic medical records to advance research on multiple sclerosis;Damotte V, Lizee A, Tremblay M, Agrawal A, Khankhanian P, Santaniello A, Gomez R, Lincoln R, Tang W, Chen T, Lee N, Villoslada P, Hollenbach JA, Bevan CD, Graves J, Bove R, Goodin DS, Green AJ, Baranzini SE, Cree BA, Henry RG, Hauser SL, Gelfand JM, Gourraud P-A.;MULT SCLER J;01/01/19;29310490;5.649;false;true;true;false;1
+330;"The Rare
+IL22RA2 Signal Peptide Coding Variant rs28385692 Decreases Secretion of IL-22BP
+Isoform-1, -2 and -3 and Is Associated with Risk for Multiple Sclerosis";"Gómez-Fernández P, Lopez de Lapuente Portilla A, Astobiza I, Mena J, Urtasun
+A, Altmann V, Matesanz F, Otaegui D, Urcelay E, Antigüedad A, Malhotra S,
+Montalban X, Castillo-Triviño T, Espino-Paisán L, Aktas O, Buttmann M, Chan A,
+Fontaine B, Gourraud PA, Hecker M, Hoffjan S, Kubisch C, Kümpfel T, Luessi F,
+Zettl UK, Zipp F, Alloza I, Comabella M, Lill CM, Vandenbroeck K";Cells;01/01/20;31936765;5.656;false;false;true;false;1
+331;"NOTO Transcription Factor
+Directs Human Induced Pluripotent Stem Cell-Derived Mesendoderm Progenitors to a 
+Notochordal Fate. Cells.";"Colombier P, Halgand B, Chédeville C, Chariau C, François-Campion V, Kilens S,
+Vedrenne N, Clouet J, David L, Guicheux J, Camus A.";Cells;01/01/20;32102328;5.656;false;false;false;false;1
+332;New insights on the viraland host factors contributing to the airway pathogenesis caused by therespiratory syncytial virus;Lay MK, Bueno SM, Gálvez N, Riedel CA, Kalergis AM;Crit Rev Microbiol;01/01/16;26119025;5.697;false;true;true;false;1
+333;Transcriptanalysis of laser capture microdissected white matter astrocytes and higherphenol sulfotransferase 1A1 expression during autoimmune neuroinflammation;Guillot F, Garcia A, Salou M, Brouard S, Laplaud DA, Nicot AB;J NEUROINFLAMM;01/01/15;26141738;5.7;false;true;false;false;1
+334;"Genome Editing and DialogicResponsibility: ""What's in a Name?""";Blasimme A, Anegon I, Concordet JP, De Vos J, Dubart-Kupperschmitt A, FellousM, Fouchet P, Frydman N, Giovannangeli C, Jouannet P, Serre JL, Steffann J,Rial-Sebbag E, Thomsen M, Cambon-Thomsen A;AM J BIOETHICS;01/01/15;26632366;5.786;false;false;false;false;3
+335;Targeting the CD80/CD86 costimulatory pathway with CTLA4-Ig directsmicroglia toward a repair phenotype and promotes axonal outgrowth;Louveau A, Nerrière-Daguin V, Vanhove B, Naveilhan P, Neunlist M, Nicot A,Boudin H;Glia;01/01/15;26212105;5.829;false;false;false;true;1
+336;Monoclonal IgG in MGUS and multiple myeloma target infectious pathogens;Adrien Bosseboeuf, Delphine Feron, Anne Tallet, Cédric Rossi, Cathy Charlier, Laurent Garderet, Denis Caillot, Philippe Moreau, Marina Cardó-Vila, Renata Pasqualini,Wadih Arap, Alfreda Destea, Nelson, Bridget S. Wilson, Hélène Perreault, EricPiver, Pierre Weigel, François Girodon, Jean Harb, Edith Bigot-Corbel and Sylvie Hermouet;JCI Insight;01/01/17;28978808;6.014;false;false;true;false;1
+337;Transient antibody targeting of CD45RC induces transplant tolerance and potentantigen-specific regulatory T cells;Picarda E, Bézie S, Boucault L, Autrusseau E, Kilens S, Meistermann D,Martinet B, Daguin V, Donnart A, Charpentier E, David L, Anegon I, Guillonneau C;JCI Insight;01/01/17;28194440;6.014;false;true;false;false;1
+338;Selective blockade of CD28 on human T cells facilitates regulation of alloimmune responses;Zaitsu M, Issa F, Hester J, Vanhove B, Wood KJ;JCI Insight;01/01/17;28978798;6.014;false;false;true;false;1
+339;"Intra-patient viral evolution in
+polyomavirus-related diseases";McIlroy D, Halary F, Bressollette-Bodin C;PHILOS T R SOC B;01/01/19;30955497;6.139;false;true;false;false;2
+340;"No Increase in Colon Cancer Risk
+Following Induction with Neu5Gc-Bearing Rabbit Anti-T Cell IgG (ATG) in
+Recipients of Kidney Transplants";Soulillou JP, Süsal C, Döhler B, Opelz G;Cancers (Basel);01/01/18;30213027;6.162;false;true;true;false;1
+341;Characteristics of MGUS and Multiple Myeloma According to the Target of Monoclonal Immunoglobulins, Glucosylsphingosine, or Epstein-Barr Virus EBNA-1.;"Bosseboeuf A, Mennesson N, Allain-Maillet S, Tallet A, Piver E, Decaux O,
+Moreau C, Moreau P, Lehours P, Mégraud F, Salle V, Bigot-Corbel E, Harb J,
+Hermouet S. ";Cancers;01/01/20;32429322;6.162;false;false;false;false;1
+342;Pathogenic Variants in Complement Genesand Risk of Atypical Hemolytic Uremic Syndrome Relapse after EculizumabDiscontinuation;Fakhouri F, Fila M, Provôt F, Delmas Y, Barbet C, Châtelet V, Rafat C,Cailliez M, Hogan J, Servais A, Karras A, Makdassi R, Louillet F, Coindre JP,Rondeau E, Loirat C, Frémeaux-Bacchi V;CLIN J AM SOC NEPHRO;01/01/17;27799617;6.243;true;true;false;false;1
+343;Lessons from CKD-Related Genetic AssociationStudies-Moving Forward;Limou S, Vince N, Parsa A;CLIN J AM SOC NEPHRO;01/01/18;29242368;6.243;false;true;true;false;2
+344;"Etiology and
+Outcomes of Thrombotic Microangiopathies";"Bayer G, von Tokarski F, Thoreau B, Bauvois A, Barbet C, Cloarec S, Mérieau E,
+Lachot S, Garot D, Bernard L, Gyan E, Perrotin F, Pouplard C, Maillot F, Gatault 
+P, Sautenet B, Rusch E, Buchler M, Vigneau C, Fakhouri F, Halimi JM";CLIN J AM SOC NEPHRO;01/01/19;30862697;6.243;true;false;false;false;1
+345;APOL1 Nephropathy Risk Alleles and Risk of Sepsis in Blacks;Chaudhary NS, Moore JX, Zakai NA, Judd SE, Naik RP, Limou S, Cushman M, Lange LA, Wang HE, Winkler CA, Irvin MR, Kopp JB, Gutiérrez OM;CLIN J AM SOC NEPHRO;01/01/19;31704668;6.243;false;false;true;false;1
+346;HCMV triggers frequent and persistent UL40-specific unconventional HLA-E-restricted CD8 T-cell responses with potential autologous and allogeneic peptide recognition;Jouand N, Bressollette-Bodin C, Gérard N, Giral M, Guérif P, Rodallec A, Oger R, Parrot T, Allard M, Cesbron-Gautier A, Gervois N, Charreau B;PLoS Pathog;01/01/18;29709038;6.463;false;true;false;true;1
+347;Horizontal mixture model for competing risks: a method used inwaitlisted renal transplant candidates;Trébern-Launay K, Kessler M, Bayat-Makoei S, Quérard AH, Briançon S, Giral M, Foucher Y;Eur J Epidemiol;01/01/17;29086099;6.529;false;true;false;false;1
+348;A joint modelfor longitudinal and time-to-event data to better assess the specific role ofdonor and recipient factors on long-term kidney transplantation outcomes;Fournier MC, Foucher Y, Blanche P, Buron F, Giral M, Dantan E;Eur J Epidemiol;01/01/16;26832337;6.529;false;true;false;false;1
+349;Eculizumab for treatment of rapidlyprogressive C3 glomerulopathy;Le Quintrec M, Lionet A, Kandel C, Bourdon F, Gnemmi V, Colombat M, GoujonJM, Frémeaux-Bacchi V, Fakhouri F;Am J Kidney Dis;01/01/15;25530108;6.653;true;true;false;false;1
+350;Terminal Complement Inhibitor Eculizumab in Adult Patients With Atypical Hemolytic Uremic Syndrome: A Single-Arm, Open-Label Trial;Fakhouri F, Hourmant M, Campistol JM, Cataland SR, Espinosa M, Gaber AO, MenneJ, Minetti EE, Provôt F, Rondeau E, Ruggenenti P, Weekers LE, Ogawa M, Bedrosian CL, Legendre CM;Am J Kidney Dis;01/01/16;27012908;6.653;true;true;true;false;1
+351;APOL1-Associated Nephropathy: A KeyContributor to Racial Disparities in CKD;Freedman BI, Limou S, Ma L, Kopp JB;Am J Kidney Dis;01/01/18;30343724;6.653;true;false;true;false;2
+352;APOL1 Nephropathy Risk Alleles and Mortality in African American Adults: A Cohort Study;Gutiérrez OM, Irvin MR, Zakai NA, Naik RP, Chaudhary NS, Estrella MM, Limou S, Judd SE, Cushman M, Kopp JB, Winkler CA. ;Am J Kidney Dis;01/01/20;31563468;6.653;false;false;true;false;1
+353;Anti-müllerian hormone levels and evolutionin women of reproductive age with breast cancer treated with chemotherapy;Freour T, Barrière P, Masson D;Eur J Cancer;01/01/17;28135602;6.68;true;true;false;false;2
+354;Prospective evaluationof serum anti-Müllerian hormone dynamics in 250 women of reproductive age treatedwith chemotherapy for breast cancer;Dezellus A, Barriere P, Campone M, Lemanski C, Vanlemmens L, Mignot L,Delozier T, Levy C, Bendavid C, Debled M, Bachelot T, Jouannaud C, Loustalot C,Mouret-Reynier MA, Gallais-Umbert A, Masson D, Freour T;Eur J Cancer;01/01/17;28463758;6.68;true;true;true;false;1
+355;"C3 glomerulonephritis 
+in a patient treated with anti-PD-1 antibody";Ville S, Kandel-Aznar C, Frémeaux-Bacchi V, Fakhouri F;Eur J Cancer;01/01/19;31838404;6.68;true;true;false;false;1
+356;Foodallergen-sensitized CCR9(+) lymphocytes enhance airways allergic inflammation in mice;Castan L, Cheminant MA, Colas L, Brouard S, Magnan A, Bouchaud G;Allergy;01/01/18;29315632;6.771;false;false;false;false;1
+357;A regulatory CD9(+) B-cell subset inhibits HDM-inducedallergic airway inflammation;Braza F, Chesne J, Durand M, Dirou S, Brosseau C, Mahay G, Cheminant MA,Magnan A, Brouard S;Allergy;01/01/15;26194936;6.771;false;true;false;false;1
+358;"An early increase in endothelial protein C receptor is
+associated with excess mortality in pneumococcal pneumonia with septic shock in
+the ICU";"Chapelet A, Foucher Y, Gérard N, Rousseau C, Zambon O, Bretonnière C, Mira JP,
+Charreau B, Guitton C";Crit Care;01/01/18;30290852;6.959;false;true;false;false;1
+359;Immunoregulatory properties of the cytokine IL-34;Guillonneau C, Bézie S, Anegon I;Cell Mol Life Sci;01/01/17;28258292;7.014;false;true;false;false;2
+360;Aselective CD28 antagonist and rapamycin synergise to protect against spontaneous autoimmune diabetes in NOD mice;Besançon A, Goncalves T, Valette F, Mary C, Vanhove B, Chatenoud L, You S;Diabetologia;01/01/18;29845333;7.113;false;false;false;false;1
+361;Propensityscore-based comparison of the graft failure risk between kidney transplantrecipients of standard and expanded criteria donor grafts: towards increasing thepool of marginal donors;Querard AH, Le Borgne F, Dion A, Giral M, Mourad G, Garrigue V, Rostaing L,Kamar N, Loupy A, Legendre C, Morelon E, Buron F, Foucher Y, Dantan E;Am J Transplant;01/01/18;29316230;7.163;false;true;false;false;1
+362;Remission of type 1 diabetes mellitusrecurrence 6 years after simultaneous pancreas and kidney transplantation;Kervella D, Scharbarg E, Mahot-Moreau P, Renaudin K, Branchereau J, Karam G,Chaillous L, Bach K, Cantarovich D;Am J Transplant;01/01/18;29745003;7.163;true;true;true;true;1
+363;"Neutrophils cause a ""NET"" increase in skin allograft
+allogenicity";Brouard S, Mooney N;Am J Transplant;01/01/19;31846552;7.163;false;true;false;false;3
+364;"SIRP?/CD47
+axis controls the maintenance of transplant tolerance sustained by Myeloid
+Derived-Suppressor Cells";"Pengam S, Durand J, Usal C, Gauttier V, Dilek N, Martinet B, Daguin V, Mary C,
+Thepenier V, Teppaz G, Renaudin K, Blancho G, Vanhove B, Poirier N";Am J Transplant;01/01/19;31207067;7.163;false;true;false;true;1
+365;"Blood 
+CD9(+) B Cell, a biomarker of bronchiolitis obliterans syndrome after lung
+transplantation";"Brosseau C, Danger R, Durand M, Durand E, Foureau A, Lacoste P, Tissot A, Roux
+A, Reynaud-Gaubert M, Kessler R, Mussot S, Dromer C, Brugière O, Mornex JF,
+Guillemain R, Claustre J, Magnan A, Brouard S; COLT and SysCLAD Consortia";Am J Transplant;01/01/19;31305014;7.163;false;true;false;false;1
+366;"Tacrolimus- versus Sirolimus-based immunosuppression after simultaneous pancreas 
+and kidney transplantation: 5 years results of a randomised trial";"Cantarovich D, Kervella D, Karam G, Dantal J, Blancho G, Giral M, Garandeau C,
+Houzet A, Ville S, Branchereau J, Delbos F, Guillot-Gueguen C, Volteau C, Leroy
+M, Renaudin K, Soulillou JP, Hourmant M.";Am J Transplant;01/01/20;32022990;7.163;true;true;false;true;1
+367;Distinct peripheral blood molecular signature emerges with successful tacrolimus withdrawal in kidney transplant recipients;Cravedi P, Fribourg M, Zhang W, Yi Z, Zaslavsky E, Nudelman G, Anderson L, Hartzell S, Brouard S, Heeger PS;Am J Transplant;01/01/20;32459070;7.163;false;false;true;false;1
+368;Cell Therapy for Parkinson's Disease: A Translational Approach to Assess the Role of Local andSystemic Immunosuppression;Aron Badin R, Vadori M, Vanhove B, Nerriere-Daguin V, Naveilhan P, Neveu I,Jan C, Lévèque X, Venturi E, Mermillod P, Van Camp N, Dollé F, Guillermier M,Denaro L, Manara R, Citton V, Simioni P, Zampieri P, D'avella D, Rubello D, FanteF, Boldrin M, De Benedictis GM, Cavicchioli L, Sgarabotto D, Plebani M, StefaniAL, Brachet P, Blancho G, Soulillou JP, Hantraye P, Cozzi E;Am J Transplant;01/01/16;26749114;7.163;false;false;true;true;1
+369;Benefits of Using CD45RA and CD28 to Investigate CD8 Subsets in Kidney Transplant Recipients;Yap M, Tilly G, Giral M, Brouard S, Degauque N;Am J Transplant;01/01/16;26820487;7.163;false;true;false;false;1
+370;Impact of Early BloodTransfusion After Kidney Transplantation on the Incidence of Donor-SpecificAnti-HLA Antibodies;Ferrandiz I, Congy-Jolivet N, Del Bello A, Debiol B, Trébern-Launay K,Esposito L, Milongo D, Dörr G, Rostaing L, Kamar N;Am J Transplant;01/01/16;26998676;7.163;false;false;false;false;1
+371;The Leuven immunomodulatory protocol promotes T-regulatory cells and substantially prolongs survival after first intestinal transplantation;Ceulemans LJ, Braza F, Monbaliu D, Jochmans I, De Hertogh G, Du Plessis J,Emonds MP, Kitade H, Kawai M, Li Y, Xiangdong Z, Koshiba T, Sprangers B, Brouard S, Waer M, Pirenne J;Am J Transplant;01/01/16;27037650;7.163;false;false;true;false;1
+372;Failure of Calcineurin Inhibitor (Tacrolimus) Weaning Randomized Trial in Long-Term StableKidney Transplant Recipients;Dugast E, Soulillou JP, Foucher Y, Papuchon E, Guerif P, Paul C, Riochet D,Chesneau M, Cesbron A, Renaudin K, Dantal J, Giral M, Brouard S;Am J Transplant;01/01/16;27367750;7.163;false;true;false;false;1
+373;Fate of transplanted lungs is controlled by immune cells encounterwithin pulmonary allografts;Degauque N;Am J Transplant;01/01/18;28887863;7.163;false;true;false;false;3
+374;Synthetic fusion protein CAR technology to redirect Tcell antigen specificity to promote organ transplant tolerance;Brouard S, Mooney N;Am J Transplant;01/01/17;28117926;7.163;false;true;false;false;3
+375;Renal Operational Tolerance Is Associated With a Defect of BloodTfh Cells That Exhibit Impaired B Cell Help;Chenouard A, Chesneau M, Bui Nguyen L, Le Bot S, Cadoux M, Dugast E, Paul C,Malard-Castagnet S, Ville S, Guérif P, Soulillou JP, Degauque N, Danger R, Giral M, Brouard S;Am J Transplant;01/01/17;27888555;7.163;false;true;false;true;1
+376;T Cells Promote Bronchial Epithelial Cell Secretion ofMatrix Metalloproteinase-9 via a C-C Chemokine Receptor Type 2 Pathway:Implications for Chronic Lung Allograft Dysfunction;"Pain M, Royer PJ, Loy J, Girardeau A, Tissot A, Lacoste P, Roux A,Reynaud-Gaubert M, Kessler R, Mussot S, Dromer C, Brugière O, Mornex JF,Guillemain R, Dahan M, Knoop C, Botturi K, Pison C, Danger R, Brouard S, MagnanA; COLT Consortium";Am J Transplant;01/01/17;27982503;7.163;false;true;true;false;1
+377;FR104, an antagonist anti-CD28 monovalent fab' antibody, prevents alloimmunization and allows calcineurin inhibitor minimizationin nonhuman primate renal allograft;Poirier N, Dilek N, Mary C, Ville S, Coulon F, Branchereau J, Tillou X,Charpy V, Pengam S, Nerriere-Daguin V, Hervouet J, Minault D, Le Bas-Bernardet S,Renaudin K, Vanhove B, Blancho G;Am J Transplant;01/01/15;25488654;7.163;false;true;false;true;1
+378;Bortezomib,C1-inhibitor and plasma exchange do not prolong the survival of multi-transgenic GalT-KO pig kidney xenografts in baboons;Le Bas-Bernardet S, Tillou X, Branchereau J, Dilek N, Poirier N, Châtelais M,Charreau B, Minault D, Hervouet J, Renaudin K, Crossan C, Scobie L, Takeuchi Y,Diswall M, Breimer ME, Klar N, Daha MR, Simioni P, Robson SC, Nottle MB, SalvarisEJ, Cowan PJ, d'Apice AJ, Sachs DH, Yamada K, Lagutina I, Duchi R, Perota A,Lazzari G, Galli C, Cozzi E, Soulillou JP, Vanhove B, Blancho G;Am J Transplant;01/01/15;25612490;7.163;false;true;true;true;1
+379;Regulatory T Cells in Kidney Transplantation: New Directions?;Braza F, Durand M, Degauque N, Brouard S;Am J Transplant;01/01/15;26234373;7.163;false;true;false;false;2
+380;"Interleukin-7 Receptor Blockade by an Anti-CD127 Monoclonal Antibody
+in Non-Human Primate Kidney Transplantation";"Mai HL, Van Ha Nguyen T, Branchereau J, Poirier N, Renaudin K, Mary C, Belarif
+L, Minault D, Hervouet J, Le Bas-Berdardet S, Soulillou JP, Vanhove B, Blancho G,
+Brouard S";Am J Transplant;01/01/19;31344323;7.163;false;true;false;true;1
+381;"Unique and specific Proteobacteria
+diversity in urinary microbiota of tolerant kidney transplanted recipients";"Colas L, Mongodin EF, Montassier E, Chesneau M, Guerif P, Hittle L, Giral M,
+Bromberg JS, Brouard S; DIVAT Consortium";Am J Transplant;01/01/19;31374143;7.163;false;true;true;false;1
+382;Neu5Gc and ?1-3 GAL Xenoantigen Knockout Does Not Affect GlycemiaHomeostasis and Insulin Secretion in Pigs;Salama A, Mosser M, Lévêque X, Perota A, Judor JP, Danna C, Pogu S, Mouré A,Jégou D, Gaide N, Abadie J, Gauthier O, Concordet JP, Le Bas-Bernardet S, RiochetD, Le Berre L, Hervouet J, Minault D, Weiss P, Guicheux J, Brouard S, Bosch S,Lagutina I, Duchi R, Lazzari G, Cozzi E, Blancho G, Conchon S, Galli C, SoulillouJP, Bach JM;Diabetes;01/01/17;28082457;7.199;false;true;true;true;1
+383;IL-22BP is produced by eosinophils in human gut and blocks IL-22protective actions during colitis;Martin JC, Bériou G, Heslan M, Bossard C, Jarry A, Abidi A, Hulin P, Ménoret S, Thinard R, Anegon I, Jacqueline C, Lardeux B, Halary F, Renauld JC, BourreilleA, Josien R;Mucosal Immunol;01/01/16;26329427;7.352;false;true;false;true;1
+384;Translational opportunities fortargeting the Th17 axis in acute graft-vs-host disease;Malard F, Gaugler B, Lamarthee B, Mohty M;Mucosal Immunol;01/01/16;26813345;7.352;false;true;false;false;3
+385;Gut bacteria Akkermansia elicit a specific IgG response in CSF of patients with MS.;"Vallino A, Dos Santos A, Mathé CV, Garcia A, Morille J, Dugast E, Shah SP,
+Héry-Arnaud G, Guilloux CA, Gleeson PJ, Monteiro RC, Soulillou JP, Harb J,
+Bigot-Corbel E, Michel L, Wiertlewski S, Nicot AB, Laplaud DA, Berthelot L.";Neurol Neuroimmunol Neuroinflamm;01/01/20;32123045;7.353;false;true;false;false;1
+386;An intermediate level of CD161 expression defines anovel activated, inflammatory, and pathogenic subset of CD8(+) T cells involvedin multiple sclerosis;Nicol B, Salou M, Vogel I, Garcia A, Dugast E, Morille J, Kilens S,Charpentier E, Donnart A, Nedellec S, Jacq-Foucher M, Le Frère F, Wiertlewski S, Bourreille A, Brouard S, Michel L, David L, Gourraud PA, Degauque N, Nicot AB,Berthelot L, Laplaud DA;J Autoimmun;01/01/18;29054368;7.543;false;true;false;true;1
+387;Persistent deficiency of circulatingmucosal-associated invariant T (MAIT) cells in ANCA-associated vasculitis;Braudeau C, Amouriaux K, Néel A, Herbreteau G, Salabert N, Rimbert M, MartinJC, Hemont C, Hamidou M, Josien R;J Autoimmun;01/01/16;27102145;7.543;false;true;false;true;1
+388;"BOB1 controls memory B-cell fate
+in the germinal center reaction";"Levels MJ, Fehres CM, van Baarsen LGM, van Uden NOP, Germar K, O'Toole TG,
+Blijdorp ICJ, Semmelink JF, Doorenspleet ME, Bakker AQ, Krasavin M, Tomilin A,
+Brouard S, Spits H, Baeten DLP, Yeremenko NG";J Autoimmun;01/01/19;31053401;7.543;false;false;true;false;1
+389;Recruitment of CXCR3(+) T cells into injured tissues in adult IgA vasculitis patients correlates with disease activity;Audemard-Verger A, Pillebout E, Jamin A, Berthelot L, Aufray C, Martin B,Sannier A, Daugas E, Déchanet-Merville J, Richard Y, Monteiro R, Lucas B;J Autoimmun;01/01/19;30745186;7.543;false;false;false;false;1
+390;Inhibition of effectorantigen-specific T cells by intradermal administration of heme oxygenase-1inducers;Simon T, Pogu J, Rémy S, Brau F, Pogu S, Maquigneau M, Fonteneau JF, PoirierN, Vanhove B, Blancho G, Piaggio E, Anegon I, Blancou P;J Autoimmun;01/01/17;28342735;7.543;false;true;false;true;1
+391;Systematic integration of biomedical knowledgeprioritizes drugs for repurposing;Himmelstein DS, Lizee A, Hessler C, Brueggeman L, Chen SL, Hadley D, Green A, Khankhanian P, Baranzini SE;Elife;01/01/17;28936969;7.551;true;false;true;false;1
+392;Aire-dependent genes undergo Clp1-mediated 3'UTR shortening associated with higher transcript stability in the thymus;"Guyon C, Jmari N, Padonou F, Li YC, Ucar O, Fujikado N, Coulpier F, Blanchet
+C, Root DE, Giraud M";Elife;01/01/20;32338592;7.551;false;true;true;false;1
+393;"Impact of hypertensive emergency and complement rare variants on presentation and
+outcome of atypical hemolytic uremic syndrome";"El Karoui K, Boudhabhay I, Petitprez F, Vieira-Martins P, Fakhouri F, Zuber J,
+Aulagnon F, Matignon M, Rondeau E, Mesnard L, Halimi JM, Frémeaux-Bacchi V";Haematologica;01/01/19;30890598;7.57;true;false;false;false;1
+394;Inflammatory damage on respiratory and nervous systems due to hRSVinfection;Bohmwald K, Espinoza JA, Becerra D, Rivera K, Lay MK, Bueno SM, Riedel CA,Kalergis AM;Curr Opin Immunol;01/01/15;26026788;7.667;false;true;true;false;1
+395;Role of dendritic cells in the initiation, progress and modulationof systemic autoimmune diseases;Mackern-Oberti JP, Llanos C, Vega F, Salazar-Onfray F, Riedel CA, Bueno SM,Kalergis AM;Autoimmun Rev;01/01/15;25449681;7.716;false;true;true;false;1
+396;Improved Genome Editing Efficiency and Flexibility Using ModifiedOligonucleotides with TALEN and CRISPR-Cas9 Nucleases;Renaud JB, Boix C, Charpentier M, De Cian A, Cochennec J, Duvernois-Berthet E,Perrouault L, Tesson L, Edouard J, Thinard R, Cherifi Y, Menoret S, Fontanière S,de Crozé N, Fraichard A, Sohm F, Anegon I, Concordet JP, Giovannangeli C;Cell Rep;01/01/16;26923600;7.815;false;false;false;false;1
+397;"Cross-Reactive
+Donor-Specific CD8(+) Tregs Efficiently Prevent Transplant Rejection";"Picarda E, Bézie S, Usero L, Ossart J, Besnard M, Halim H, Echasserieau K,
+Usal C, Rossjohn J, Bernardeau K, Gras S, Guillonneau C";Cell Rep;01/01/19;" 
+3187553";7.815;false;true;true;false;1
+398;Increased degradation of ATP is driven by memory regulatory T cells in kidneytransplantation tolerance;Durand M, Dubois F, Dejou C, Durand E, Danger R, Chesneau M, Brosseau C,Guerif P, Soulillou JP, Degauque N, Eliaou JF, Giral M, Bonnefoy N, Brouard S;Kidney Int;01/01/18;29455908;8.306;false;true;false;false;1
+399;Analyses of the short-and long-term graft survival after kidney transplantation in Europe between 1986 and 2015;Coemans M, Süsal C, Döhler B, Anglicheau D, Giral M, Bestard O, Legendre C,Emonds MP, Kuypers D, Molenberghs G, Verbeke G, Naesens M;Kidney Int;01/01/18;30049474;8.306;true;false;true;false;1
+400;A composite score associated with spontaneous operational tolerance in kidney transplantrecipients;Danger R, Chesneau M, Paul C, Guérif P, Durand M, Newell KA, Kanaparthi S,Turka LA, Soulillou JP, Houlgatte R, Giral M, Ramstein G, Brouard S;Kidney Int;01/01/17;28242033;8.306;false;true;true;false;1
+401;Each additional hour of coldischemia time significantly increases the risk of graft failure and mortalityfollowing renal transplantation;Debout A, Foucher Y, Trébern-Launay K, Legendre C, Kreis H, Mourad G,Garrigue V, Morelon E, Buron F, Rostaing L, Kamar N, Kessler M, Ladrière M,Poignas A, Blidi A, Soulillou JP, Giral M, Dantan E;Kidney Int;01/01/15;25229341;8.306;false;true;false;false;1
+402;A common gene signature across multiple studies relatebiomarkers and functional regulation in tolerance to renal allograft;Baron D, Ramstein G, Chesneau M, Echasseriau Y, Pallier A, Paul C, DegauqueN, Hernandez-Fuentes MP, Sanchez-Fueyo A, Newell KA, Giral M, Soulillou JP,Houlgatte R, Brouard S;Kidney Int;01/01/15;25629549;8.306;false;true;true;false;1
+403;The Author Replies;Brouard S;Kidney Int;01/01/15;26649667;8.306;false;true;false;false;3
+404;"Shiga
+toxin-producing Escherichia coli-associated hemolytic uremic syndrome in solid
+organ transplant recipients";"Ville S, Ydee A, Garandeau C, Canet E, Tissot A, Cantarovich D,
+Frémeaux-Bacchi V, Mariani-Kurkdjian P, Provôt F, Fakhouri F";Kidney Int;01/01/19;31759490;8.306;true;true;false;true;1
+405;The authors reply;Le Clech A, Frémeaux-Bacchi V, Fakhouri F;Kidney Int;01/01/19;31331469;8.306;true;true;false;false;3
+406;" Atypical hemolytic uremic syndrome and C3glomerulopathy: conclusions from a ""Kidney Disease: Improving Global Outcomes""(KDIGO) Controversies Conference";"Goodship TH, Cook HT, Fakhouri F, Fervenza FC, Frémeaux-Bacchi V, Kavanagh D, Nester CM, Noris M, Pickering MC, Rodríguez de Córdoba S, Roumenina LT, Sethi S, Smith RJ; Conference Participants";Kidney Int;01/01/17;27989322;8.306;true;false;true;false;3
+407;APOL1 nephropathy risk variants do not associate with subclinical atherosclerosis or left ventricular mass in middle-aged black adults;Gutiérrez OM, Limou S, Lin F, Peralta CA, Kramer HJ, Carr JJ, Bibbins-Domingo K, Winkler CA, Lewis CE, Kopp JB. ;Kidney Int;01/01/18;29042080;8.306;false;false;true;false;1
+408;Atypical and secondary hemolyticuremic syndromes have a distinct presentation and no common genetic risk factors;Le Clech A, Simon-Tillaux N, Provôt F, Delmas Y, Vieira-Martins P, Limou S,Halimi JM, Le Quintrec M, Lebourg L, Grangé S, Karras A, Ribes D, Jourde-ChicheN, Rondeau E, Frémeaux-Bacchi V, Fakhouri F;Kidney Int;01/01/19;30982675;8.306;false;true;false;true;1
+409;"Minimal change disease with pulmonary embolism and
+a kidney lesion";Ronsin C, Meyer J, Ville S;Kidney Int;01/01/19;31122710;8.306;true;true;false;false;1
+410;Central Role of CD45RA- Foxp3hi Memory Regulatory T Cells inClinical Kidney Transplantation Tolerance;Braza F, Dugast E, Panov I, Paul C, Vogt K, Pallier A, Chesneau M, Baron D,Guerif P, Lei H, Laplaud DA, Volk HD, Degauque N, Giral M, Soulillou JP, SawitzkiB, Brouard S;J Am Soc Nephrol;01/01/15;25556168;8.547;false;true;true;false;1
+411;Tolerant Kidney Transplant Patients Produce B Cells with RegulatoryProperties;Chesneau M, Michel L, Dugast E, Chenouard A, Baron D, Pallier A, Durand J,Braza F, Guerif P, Laplaud DA, Soulillou JP, Giral M, Degauque N, Chiffoleau E,Brouard S;J Am Soc Nephrol;01/01/15;25644114;8.547;false;true;false;true;1
+412;Terminally Differentiated Effector Memory CD8(+) T Cells Identify Kidney Transplant Recipients at High Risk of Graft Failure.;"Jacquemont L, Tilly G, Yap M, Doan-Ngoc TM, Danger R, Guérif P, Delbos F,
+Martinet B, Giral M, Foucher Y, Brouard S, Degauque N";J Am Soc Nephrol;01/01/20;32165419;8.547;false;true;false;false;1
+413;Anti-CD28 Antibody and Belatacept ExertDifferential Effects on Mechanisms of Renal Allograft Rejection;Ville S, Poirier N, Branchereau J, Charpy V, Pengam S, Nerriere-Daguin V, LeBas-Bernardet S, Coulon F, Mary C, Chenouard A, Hervouet J, Minault D, NedellecS, Renaudin K, Vanhove B, Blancho G;J Am Soc Nephrol;01/01/16;27160407;8.547;false;true;false;true;1
+414;"Early Acute Microvascular Kidney Transplant Rejection in the Absence of Anti-HLA 
+Antibodies Is Associated with Preformed IgG Antibodies against Diverse Glomerular
+Endothelial Cell Antigens";"Delville M, Lamarthée B, Pagie S, See SB, Rabant M, Burger C, Gatault P, Giral
+M, Thaunat O, Arzouk N, Hertig A, Hazzan M, Matignon M, Mariat C, Caillard S,
+Kamar N, Sayegh J, Westeel PF, Garrouste C, Ladrière M, Vuiblet V, Rivalan J,
+Merville P, Bertrand D, Le Moine A, Duong Van Huyen JP, Cesbron A, Cagnard N,
+Alibeu O, Satchell SC, Legendre C, Zorn E, Taupin JL, Charreau B, Anglicheau D";J Am Soc Nephrol;01/01/19;30850439;8.547;false;false;true;false;1
+415;A FamilialC3GN Secondary to Defective C3 Regulation by Complement Receptor 1 and ComplementFactor H;Chauvet S, Roumenina LT, Bruneau S, Marinozzi MC, Rybkine T, Schramm EC, JavaA, Atkinson JP, Aldigier JC, Bridoux F, Touchard G, Fremeaux-Bacchi V;J Am Soc Nephrol;01/01/16;26471127;8.547;false;false;true;false;1
+416;High circulatingCD4(+)CD25(hi)FOXP3(+) T-cell sub-population early after lung transplantation is associated with development of bronchiolitis obliterans syndrome;"Durand M, Lacoste P, Danger R, Jacquemont L, Brosseau C, Durand E, Tilly G,Loy J, Foureau A, Royer PJ, Tissot A, Roux A, Reynaud-Gaubert M, Kessler R,Mussot S, Dromer C, Brugière O, Mornex JF, Guillemain R, Claustre J, Degauque N, Magnan A, Brouard S; COLT and SysCLAD Consortia";J HEART LUNG TRANSPL;01/01/18;29571601;8.578;false;true;false;false;1
+417;?? T-cell receptors from multiple sclerosis brain lesionsshow MAIT cell-related features;Held K, Bhonsle-Deeng L, Siewert K, Sato W, Beltrán E, Schmidt S, Rühl G, NgJK, Engerer P, Moser M, Klinkert WE, Babbe H, Misgeld T, Wekerle H, Laplaud DA,Hohlfeld R, Dornmair K;Neurology;01/01/15;25977934;8.689;false;false;true;false;1
+418;Comparative efficacy of fingolimod vs natalizumab: A Frenchmulticenter observational study;"Barbin L, Rousseau C, Jousset N, Casey R, Debouverie M, Vukusic S, De Sèze J, Brassat D, Wiertlewski S, Brochet B, Pelletier J, Vermersch P, Edan G,Lebrun-Frenay C, Clavelou P, Thouvenot E, Camdessanché JP, Tourbah A, Stankoff B,Al Khedr A, Cabre P, Papeix C, Berger E, Heinzlef O, Debroucker T, Moreau T, GoutO, Bourre B, Créange A, Labauge P, Magy L, Defer G, Foucher Y, Laplaud DA; CFSEP and OFSEP groups";Neurology;01/01/16;26826205;8.689;false;true;false;false;1
+419;"Comparative effectiveness of teriflunomide vs dimethyl
+fumarate in multiple sclerosis";"Laplaud DA, Casey R, Barbin L, Debouverie M, De Sèze J, Brassat D, Wiertlewski
+S, Brochet B, Pelletier J, Vermersch P, Edan G, Lebrun-Frenay C, Clavelou P,
+Thouvenot E, Camdessanché JP, Tourbah A, Stankoff B, Al Khedr A, Cabre P,
+Lubetzki C, Papeix C, Berger E, Heinzlef O, Debroucker T, Moreau T, Gout O,
+Bourre B, Wahab A, Labauge P, Magy L, Defer G, Guennoc AM, Maubeuge N, Labeyrie
+C, Patry I, Nifle C, Casez O, Michel L, Rollot F, Leray E, Vukusic S, Foucher Y; 
+SFSEP and OFSEP groups";Neurology;01/01/19;31300547;8.689;false;true;false;false;1
+420;"B cell depletion therapy dampens CD8+ T cell
+response in ANCA-associated vasculitis";"Néel A, Bucchia M, Néel M, Tilly G, Caristan A, Yap M, Rimbert M, Bruneau S,
+Cadoux M, Agard C, Hourmant M, Godmer P, Brouard S, Bressollette C, Hamidou M,
+Josien R, Fakhouri F, Degauque N";Arthritis Rheumatol;01/01/19;30375745;9.002;false;true;false;true;1
+421;Molecular Pathways Underlying Adaptive Repair of the Injured Kidney: Novel Donation After Cardiac Death and Acute Kidney Injury Platforms;Orlando G, Danger R, Okut H, Edgar L, Bussolati B, Gall E, Bergman CR,Tamburrini R, Gazia C, Farney AC, Freedman BI, McPherson G, Rogers J, Stratta RJ,Brouard S, Walker SJ;Ann Surg;01/01/18;30048305;9.476;false;true;true;false;1
+422;Cytotoxic CD8(+) T lymphocytes expressing ALS-causing SOD1 mutant selectively trigger death of spinal motoneurons;Coque E, Salsac C, Espinosa-Carrasco G, Varga B, Degauque N, Cadoux M, CrabéR, Virenque A, Soulard C, Fierle JK, Brodovitch A, Libralato M, Végh AG, VenteoS, Scamps F, Boucraut J, Laplaud D, Hernandez J, Gergely C, Vincent T, Raoul C;P NATL ACAD SCI USA;01/01/19;30674678;9.58;false;false;true;false;1
+423;Multicentric standardized flow cytometry routine assessment of septic patient to predictclinical worsening;"Daix T, Guerin E, Tavernier E, Mercier E, Gissot V, Hérault O, Mira JP, Dumas F, Chapuis N, Guitton C, Béné MC, Quenot JP, Tissier C, Guy J, Piton G, Roggy A, Muller G, Legac É, de Prost N, Khellaf M, Wagner-Ballon O, Coudroy R, DindinaudE, Uhel F, Roussel M, Lafon T, Jeannet R, Vargas F, Fleureau C, Roux M, Allou K, Vignon P, Feuillard J, François B; Septiflux trial Group";Chest;01/01/18;29705219;9.657;false;false;false;false;1
+424;"Genome-wide Association Study Identifies HLA-DPB1 as a Significant
+Risk Factor for Severe Aplastic Anemia";"Savage SA, Viard M, O'hUigin C, Zhou W, Yeager M, Li SA, Wang T, Ramsuran V,
+Vince N, Vogt A, Hicks B, Burdett L, Chung C, Dean M, de Andrade KC, Freedman ND,
+Berndt SI, Rothman N, Lan Q, Cerhan JR, Slager SL, Zhang Y, Teras LR, Haagenson
+M, Chanock SJ, Spellman SR, Wang Y, Willis A, Askar M, Lee SJ, Carrington M,
+Gadalla SM";Am J Hum Genet;01/01/20;32004448;9.924;false;false;true;false;1
+425;Successful correction of hemophilia by CRISPR/Cas9 genomeediting in vivo: delivery vector and immune responses are the key to success;Nguyen TH, Anegon I;EMBO Mol Med;01/01/16;27138565;10.624;false;true;false;false;1
+426;"Future prospects for CD8(+)
+regulatory T cells in immune tolerance";Flippe L, Bézie S, Anegon I, Guillonneau C;Immunol Rev;01/01/19;31593314;11.292;false;true;false;false;2
+427;"Impaired efferocytosis and neutrophil
+extracellular traps clearance by macrophages in ARDS";"Grégoire M, Uhel F, Lesouhaitier M, Gacouin A, Guirriec M, Mourcin F, Dumontet
+E, Chalin A, Samson M, Berthelot LL, Tissot A, Kerjouan M, Jouneau S, Le Tulzo Y,
+Tarte K, Zmijewski JW, Tadié JM";Eur Respir J;01/01/18;29946009;11.807;false;false;true;false;1
+428;Genetic variants aremajor determinants of CSF antibody levels in multiple sclerosis;"Goris A, Pauwels I, Gustavsen MW, van Son B, Hilven K, Bos SD, Celius EG,Berg-Hansen P, Aarseth J, Myhr KM, D'Alfonso S, Barizzone N, Leone MA, MartinelliBoneschi F, Sorosina M, Liberatore G, Kockum I, Olsson T, Hillert J, AlfredssonL, Bedri SK, Hemmer B, Buck D, Berthele A, Knier B, Biberacher V, van Pesch V,Sindic C, Bang Oturai A, Søndergaard HB, Sellebjerg F, Jensen PE, Comabella M,Montalban X, Pérez-Boza J, Malhotra S, Lechner-Scott J, Broadley S, Slee M,Taylor B, Kermode AG, Gourraud PA; International Multiple Sclerosis GeneticsConsortium, Sawcer SJ, Andreassen BK, Dubois B, Harbo HF";Brain;01/01/15;25616667;11.814;false;false;true;false;1
+429;IL-7 receptor blockade blunts antigen-specific memory T cell responsesand chronic inflammation in primates;Belarif L, Mary C, Jacquemont L, Mai HL, Danger R, Hervouet J, Minault D,Thepenier V, Nerrière-Daguin V, Nguyen E, Pengam S, Largy E, Delobel A, Martinet B, Le Bas-Bernardet S, Brouard S, Soulillou JP, Degauque N, Blancho G, Vanhove B,Poirier N;Nat Commun;01/01/18;30367166;11.878;false;true;false;true;1
+430;"Missing self triggers NK cell-mediated chronic vascular rejection of solid organ 
+transplants";"Koenig A, Chen CC, Marçais A, Barba T, Mathias V, Sicard A, Rabeyrin M, Racapé
+M, Duong-Van-Huyen JP, Bruneval P, Loupy A, Dussurgey S, Ducreux S, Meas-Yedid V,
+Olivo-Marin JC, Paidassi H, Guillemain R, Taupin JL, Callemeyn J, Morelon E,
+Nicoletti A, Charreau B, Dubois V, Naesens M, Walzer T, Defrance T, Thaunat O";Nat Commun;01/01/19;31767837;11.878;false;false;true;false;1
+431;"CD8(+) T cell-mediated endotheliopathy is a
+targetable mechanism of neuro-inflammation in Susac syndrome";"Gross CC, Meyer C, Bhatia U, Yshii L, Kleffner I, Bauer J, Tröscher AR,
+Schulte-Mecklenbeck A, Herich S, Schneider-Hohendorf T, Plate H, Kuhlmann T,
+Schwaninger M, Brück W, Pawlitzki M, Laplaud DA, Loussouarn D, Parratt J, Barnett
+M, Buckland ME, Hardy TA, Reddel SW, Ringelstein M, Dörr J, Wildemann B, Kraemer 
+M, Lassmann H, Höftberger R, Beltrán E, Dornmair K, Schwab N, Klotz L, Meuth SG, 
+Martin-Blondel G, Wiendl H, Liblau R";Nat Commun;01/01/19;31852955;11.878;false;false;true;false;1
+432;Parallel derivation of isogenic human primed and naive induced pluripotent stem cells;"Kilens S, Meistermann D, Moreno D, Chariau C, Gaignerie A, Reignier A,Lelièvre Y, Casanova M, Vallot C, Nedellec S, Flippe L, Firmin J, Song J,Charpentier E, Lammers J, Donnart A, Marec N, Deb W, Bihouée A, Le Caignec C,Pecqueur C, Redon R, Barrière P, Bourdon J, Pasque V, Soumillon M, Mikkelsen TS, Rougeulle C, Fréour T, David L; Milieu Intérieur Consortium";Nat Commun;01/01/18;29367672;11.878;false;true;true;false;1
+433;CtIP fusion to Cas9 enhances transgene integration by homology-dependent repair;Charpentier M, Khedher AHY, Menoret S, Brion A, Lamribet K, Dardillac E, Boix C, Perrouault L, Tesson L, Geny S, De Cian A, Itier JM, Anegon I, Lopez B, Giovannangeli C, Concordet JP;Nat Commun;01/01/18;29556040;11.878;false;false;false;false;1
+434;"Association study in African-admixed populations across the Americas
+recapitulates asthma risk loci in non-African populations";"Daya M, Rafaels N, Brunetti TM, Chavan S, Levin AM, Shetty A, Gignoux CR,
+Boorgula MP, Wojcik G, Campbell M, Vergara C, Torgerson DG, Ortega VE, Doumatey
+A, Johnston HR, Acevedo N, Araujo MI, Avila PC, Belbin G, Bleecker E, Bustamante 
+C, Caraballo L, Cruz A, Dunston GM, Eng C, Faruque MU, Ferguson TS, Figueiredo C,
+Ford JG, Gan W, Gourraud PA, Hansel NN, Hernandez RD, Herrera-Paz EF, Jiménez S, 
+Kenny EE, Knight-Madden J, Kumar R, Lange LA, Lange EM, Lizee A, Maul P, Maul T, 
+Mayorga A, Meyers D, Nicolae DL, O'Connor TD, Oliveira RR, Olopade CO, Olopade O,
+Qin ZS, Rotimi C, Vince N, Watson H, Wilks RJ, Wilson JG, Salzberg S, Ober C,
+Burchard EG, Williams LK, Beaty TH, Taub MA, Ruczinski I, Mathias RA, Barnes KC; 
+CAAPA";Nat Commun;01/01/19;30787307;11.878;false;false;true;false;1
+435;A systems biology approach uncovers cell-specific gene regulatory effects of genetic associations in multiple sclerosis;International Multiple Sclerosis Genetics Consortium;Nat Commun;01/01/19;31110181;11.878;false;false;true;false;1
+436;"STING-dependent paracriny
+shapes apoptotic priming of breast tumors in response to anti-mitotic treatment.";"Lohard S, Bourgeois N, Maillet L, Gautier F, Fétiveau A, Lasla H, Nguyen F,
+Vuillier C, Dumont A, Moreau-Aubry A, Frapin M, David L, Loussouarn D, Kerdraon
+O, Campone M, Jézéquel P, Juin PP, Barillé-Nion S.";Nat Commun;01/01/20;31937780;11.878;false;false;false;false;1
+437;Rabbit antithymocyte globulin-induced serum sickness disease andhuman kidney graft survival;Couvrat-Desvergnes G, Salama A, Le Berre L, Evanno G, Viklicky O, Hruba P,Vesely P, Guerif P, Dejoie T, Rousse J, Nicot A, Bach JM, Ang E, Foucher Y,Brouard S, Castagnet S, Giral M, Harb J, Perreault H, Charreau B, Lorent M,Soulillou JP;J Clin Invest;01/01/15;26551683;12.282;false;true;true;false;1
+438;CD28 blockade controls T cell activation toprevent graft-versus-host disease in primates;Watkins BK, Tkachev V, Furlan SN, Hunt DJ, Betz K, Yu A, Brown M, Poirier N,Zheng HB, Taraseviciute A, Colonna L, Mary C, Blancho G, Soulillou JP,Panoskaltsis-Mortari A, Sharma P, Garcia A, Strobert E, Hamby K, Garrett A, DeaneT, Blazar BR, Vanhove B, Kean LS;J Clin Invest;01/01/18;30102255;12.282;false;false;true;true;1
+439;IL-34 is a Treg-specific cytokine and mediates transplanttolerance;Bézie S, Picarda E, Ossart J, Tesson L, Usal C, Renaudin K, Anegon I,Guillonneau C;J Clin Invest;01/01/15;26389674;12.282;false;true;false;true;1
+440;"IL-7 receptor influences
+anti-TNF responsiveness and T cell gut homing in inflammatory bowel disease";"Belarif L, Danger R, Kermarrec L, Nerrière-Daguin V, Pengam S, Durand T, Mary 
+C, Kerdreux E, Gauttier V, Kucik A, Thepenier V, Martin JC, Chang C, Rahman A,
+Guen NS, Braudeau C, Abidi A, David G, Malard F, Takoudju C, Martinet B, Gérard
+N, Neveu I, Neunlist M, Coron E, MacDonald TT, Desreumaux P, Mai HL, Le
+Bas-Bernardet S, Mosnier JF, Merad M, Josien R, Brouard S, Soulillou JP, Blancho 
+G, Bourreille A, Naveilhan P, Vanhove B, Poirier N";J CLIN INVEST;01/01/19;30939120;12.282;false;true;true;true;1
+441;Killer cell immunoglobulin-like receptor3DL1 variation modifies HLA-B*57 protection against HIV-1;Martin MP, Naranbhai V, Shea PR, Qi Y, Ramsuran V, Vince N, Gao X, Thomas R,Brumme ZL, Carlson JM, Wolinsky SM, Goedert JJ, Walker BD, Segal FP, Deeks SG,Haas DW, Migueles SA, Connors M, Michael N, Fellay J, Gostick E, Llewellyn-Lacey S, Price DA, Lafont BA, Pymm P, Saunders PM, Widjaja J, Wong SC, Vivian JP,Rossjohn J, Brooks AG, Carrington M;J Clin Invest;01/01/18;29461980;12.282;false;false;true;false;1
+442;"Progressive Multifocal Leukoencephalopathy Incidence and Risk Stratification
+Among Natalizumab Users in France";"Vukusic S, Rollot F, Casey R, Pique J, Marignier R, Mathey G, Edan G, Brassat 
+D, Ruet A, De Sèze J, Maillart E, Zéphir H, Labauge P, Derache N, Lebrun-Frenay
+C, Moreau T, Wiertlewski S, Berger E, Moisset X, Rico-Lamy A, Stankoff B, Bensa
+C, Thouvenot E, Heinzlef O, Al-Khedr A, Bourre B, Vaillant M, Cabre P, Montcuquet
+A, Wahab A, Camdessanché JP, Tourbah A, Guennoc AM, Hankiewicz K, Patry I, Nifle 
+C, Maubeuge N, Labeyrie C, Vermersch P, Laplaud DA; OFSEP Investigators";JAMA Neurol;01/01/19;31479149;12.321;true;true;false;false;1
+443;Systematic review on clinicaloutcomes following selection of human preimplantation embryos with time-lapsemonitoring;Freour T, Basile N, Barriere P, Meseguer M;Hum Reprod Update;01/01/15;25293345;12.878;false;true;true;false;2
+444;Leptin andits potential interest in assisted reproduction cycles;Catteau A, Caillon H, Barriere P, Denis MG, Masson D, Fréour T;Hum Reprod Update;01/01/16;26663219;12.878;true;true;false;false;1
+445;"Female obesity is negatively associated with live birth rate following 
+IVF: a systematic review and meta-analysis";"Sermondade N, Huberlant S, Bourhis-Lefebvre V, Arbo E, Gallot V, Colombani M, 
+Fréour T";Hum Reprod Update;01/01/19;30941397;12.878;true;true;false;false;1
+446;"Biomimetic
+Glyconanoparticle Vaccine for Cancer Immunotherapy";"Reuven EM, Leviatan Ben-Arye S, Yu H, Duchi R, Perota A, Conchon S, Bachar
+Abramovitch S, Soulillou JP, Galli C, Chen X, Padler-Karavani V";ACS Nano;01/01/19;30840433;13.903;false;false;true;false;1
+447;Prime role of IL-17A in neutrophilia and airwaysmooth muscle contraction in a house dust mite-induced allergic asthma model;Chesné J, Braza F, Chadeuf G, Mahay G, Cheminant MA, Loy J, Brouard S,Sauzeau V, Loirand G, Magnan A;J ALLERGY CLIN IMMUN;01/01/15;25649077;14.11;false;true;false;false;1
+448;Prevention of allergic asthma through Der p 2 peptide vaccination;Bouchaud G, Braza F, Chesné J, Lair D, Chen KW, Rolland-Debord C, Hassoun D, Roussey-Bihouée T, Cheminant MA, Brouard S, Bodinier M, Vrtala S, Magnan A;J ALLERGY CLIN IMMUN;01/01/15;25680456;14.11;false;true;true;false;1
+449;Thymic stromallymphopoietin does not activate human basophils;Salabert-Le Guen N, Hémont C, Delbove A, Poli C, Braudeau C, Fantou A,Amouriaux K, Bériou G, Martin JC, Colas L, Soumelis V, Josien R;J ALLERGY CLIN IMMUN;01/01/17;29208546;14.11;false;true;false;false;1
+450;"Association of HLA-DRB1*09:01 with tIgE levels
+among African ancestry individuals with asthma";"Vince N, Limou S, Daya M, Morii W, Rafaels N, Geffard E, Douillard V, Walencik
+A, Boorgula MP, Chavan S, Vergara C, Ortega VE, Wilson JG, Lange LA, Watson H,
+Nicolae DL, Meyers DA, Hansel NN, Ford JG, Faruque MU, Bleecker ER, Campbell M,
+Beaty TH, Ruczinski I, Mathias RA, Taub MA, Ober C, Noguchi E, Barnes KC,
+Torgerson D, Gourraud PA; CAAPA";J ALLERGY CLIN IMMUN;01/01/20;31981624;14.11;false;true;true;false;1
+451;Open-label, multicentre,dose-escalating phase II clinical trial on the safety and efficacy of tadekinigalfa (IL-18BP) in adult-onset Still's disease;Gabay C, Fautrel B, Rech J, Spertini F, Feist E, Kötter I, Hachulla E, MorelJ, Schaeverbeke T, Hamidou MA, Martin T, Hellmich B, Lamprecht P, Schulze-KoopsH, Courvoisier DS, Sleight A, Schiffrin EJ;Ann Rheum Dis;01/01/18;29472362;14.299;true;false;true;false;1
+452;Loss of DGK? induces endothelial cell activation and deathindependently of complement activation;Bruneau S, Néel M, Roumenina LT, Frimat M, Laurent L, Frémeaux-Bacchi V,Fakhouri F;Blood;01/01/15;25498910;16.562;false;true;false;false;1
+453;Larger number of invariant natural killer T cells in PBSCallografts correlates with improved GVHD-free and progression-free survival;Malard F, Labopin M, Chevallier P, Guillaume T, Duquesne A, Rialland F,Derenne S, Peterlin P, Leauté AG, Brissot E, Gregoire M, Moreau P, Saas P,Gaugler B, Mohty M;Blood;01/01/16;26903546;16.562;false;true;false;false;1
+454;Rituximab-based first line treatment for chronic GVHD after allogeneicSCT: results of a phase 2 study;Malard F, Labopin M, Yakoub-Agha I, Chantepie S, Guillaume T, Blaise D,Tabrizi R, Magro L, Vanhove B, Blancho G, Moreau P, Gaugler B, Chevallier P,Mohty M;Blood;01/01/17;28864814;16.562;true;true;false;false;1
+455;Modulation of HostImmunity by the Human Metapneumovirus;Céspedes PF, Palavecino CE, Kalergis AM, Bueno SM;Clin Microbiol Rev;01/01/16;27413096;17.75;false;false;true;false;1
+456;Dynamic human immune and tumour cells cross-talk inPDX-humanised mice warrants checkpoint inhibitor cancer immunotherapiesassessment;Poirier N, Vanhove B;Gut;01/01/18;29700013;17.943;false;true;false;false;2
+457;Alloantigen gene transfer to hepatocytes promotes tolerance topancreatic islet graft by inducing CD8(+) regulatory T cells;Le Guen V, Judor JP, Boeffard F, Gauttier V, Ferry N, Soulillou JP, Brouard S,Conchon S;J Hepatol;01/01/17;27914923;18.946;false;true;false;false;1
+458;Role of TLRs and DAMPs inallograft inflammation and transplant outcomes;Braza F, Brouard S, Chadban S, Goldstein DR;Nat Rev Nephrol;01/01/16;27026348;19.684;false;true;true;false;2
+459;Endothelium structure and function in kidney health and disease;Jourde-Chiche N, Fakhouri F, Dou L, Bellien J, Burtey S, Frimat M, Jarrot PA, Kaplanski G, Le Quintrec M, Pernin V, Rigothier C, Sallée M, Fremeaux-Bacchi V,Guerrot D, Roumenina LT;Nat Rev Nephrol;01/01/19;30607032;19.684;false;false;false;false;2
+460;A histone acetylome-wide association study of Alzheimer's disease identifiesdisease-associated H3K27ac differences in the entorhinal cortex;Marzi SJ, Leung SK, Ribarska T, Hannon E, Smith AR, Pishva E, Poschmann J,Moore K, Troakes C, Al-Sarraj S, Beck S, Newman S, Lunnon K, Schalkwyk LC, MillJ;Nat Neurosci;01/01/18;30349106;21.126;false;false;true;false;1
+461;Human Tolerogenic Dendritic Cells Regulate Immune Responses through Lactate Synthesis;Marín E, Bouchet-Delbos L, Renoult O, Louvet C, Nerriere-Daguin V, Managh AJ, Even A, Giraud M, Vu Manh T-P, Aguesse A, Bériou G, Chiffoleau E, Alliot-Licht B, Prieur X, Croyal M, Hutchinson JA, Obermajer N, Geissler EK, Vanhove B, Blancho G, Dalod M, Josien R, Pecqueur C, Cuturi MC, Moreau A;Cell Metab;01/01/19;31801055;22.415;false;true;true;true;1
+462;Endothelial-to-mesenchymal transition in pulmonary hypertension;Ranchoux B, Antigny F, Rucker-Martin C, Hautefort A, Péchoux C, Bogaard HJ,Dorfmüller P, Remy S, Lecerf F, Planté S, Chat S, Fadel E, Houssaini A, Anegon I,Adnot S, Simonneau G, Humbert M, Cohen-Kaminsky S, Perros F;Circulation;01/01/15;25593290;23.054;false;false;true;false;1
+463;"RRAD mutation causes electrical and
+cytoskeletal defects in cardiomyocytes derived from a familial case of Brugada
+syndrome";"Belbachir N, Portero V, Al Sayed ZR, Gourraud JB, Dilasser F, Jesel L, Guo H, 
+Wu H, Gaborit N, Guilluy C, Girardeau A, Bonnaud S, Simonet F, Karakachoff M,
+Pattier S, Scott C, Burel S, Marionneau C, Chariau C, Gaignerie A, David L, Genin
+E, Deleuze JF, Dina C, Sauzeau V, Loirand G, Baró I, Schott JJ, Probst V, Wu JC, 
+Redon R, Charpentier F, Le Scouarnec S";Eur Heart J;01/01/19;31114854;23.239;false;false;true;true;1
+464;Alveolar macrophages are epigenetically altered after inflammation, leading to long-term lung immunoparalysis.;"Roquilly A, Jacqueline C, Davieau M, Mollé A, Sadek A, Fourgeux C, Rooze P,
+Broquet A, Misme-Aucouturier B, Chaumette T, Vourc'h M, Cinotti R, Marec N,
+Gauttier V, McWilliam HEG, Altare F, Poschmann J, Villadangos JA, Asehnoune K.
+";Nat Immunol;01/01/20;32424365;23.53;false;true;true;false;1
+465;"Targeting TMEM176B Enhances Antitumor
+Immunity and Augments the Efficacy of Immune Checkpoint Blockers by Unleashing
+Inflammasome Activation";"Segovia M, Russo S, Jeldres M, Mahmoud YD, Perez V, Duhalde M, Charnet P,
+Rousset M, Victoria S, Veigas F, Louvet C, Vanhove B, Floto RA, Anegon I, Cuturi 
+MC, Girotti MR, Rabinovich GA, Hill M";Cancer Cell;01/01/19;31085177;23.916;false;true;true;true;1
+466;Low-Frequency and Rare-Coding Variation Contributes to Multiple Sclerosis Risk;International Multiple Sclerosis Genetics Consortium;Cell;01/01/18;30343897;36.216;false;false;true;false;1
+467;Multiple sclerosis genomic map implicates peripheral immune cells and microglia in susceptibility;International Multiple Sclerosis Genetics Consortium;Science;01/01/19;31604244;41.037;false;false;true;false;1
+468;"Cell competition
+during reprogramming gives rise to dominant clones";"Shakiba N, Fahmy A, Jayakumaran G, McGibbon S, David L, Trcka D, Elbaz J, Puri
+MC, Nagy A, van der Kooy D, Goyal S, Wrana JL, Zandstra PW";Science;01/01/19;30898844;41.037;false;false;true;false;1
+469;Microglial control of astrocytes in response to microbialmetabolites;Rothhammer V, Borucki DM, Tjon EC, Takenaka MC, Chao CC, Ardura-Fabregat A, deLima KA, Gutiérrez-Vázquez C, Hewson P, Staszewski O, Blain M, Healy L, NezirajT, Borio M, Wheeler M, Dragin LL, Laplaud DA, Antel J, Alvarez JI, Prinz M,Quintana FJ;Nature;01/01/18;29769726;43.07;false;false;true;false;1
+470;Pathological inflammation in patients with COVID-19: a key role for monocytes and macrophages;Merad M, Martin JC. ;Nat Rev Immunol;01/01/20;32376901;44.019;false;true;true;false;2
+471;Oral versus intravenous high-dosemethylprednisolone for treatment of relapses in patients with multiple sclerosis (COPOUSEP): a randomised, controlled, double-blind, non-inferiority trial;"Le Page E, Veillard D, Laplaud DA, Hamonic S, Wardi R, Lebrun C, Zagnoli F,Wiertlewski S, Deburghgraeve V, Coustans M, Edan G; COPOUSEP investigators;WestNetwork for Excellence in Neuroscience";Lancet;01/01/15;26135706;59.102;true;false;false;false;1
+472;Haemolytic uraemic syndrome;Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C;Lancet;01/01/17;28242109;59.102;true;true;false;false;2
+473;Regulatory cell therapy in kidney transplantation (The ONE Study): a harmonised design and analysis of seven non-randomised, single-arm, phase 1/2A trials.;Sawitzki B, Harden PN, Reinke P, Moreau A, Hutchinson JA, Game DS, Tang Q, Guinan EC, Battaglia M, Burlingham WJ, Roberts ISD, Streitz M, Josien R, Böger CA, Scottà C, Markmann JF, Hester JL, Juerchott K, Braudeau C, James B, Contreras-Ruiz L, van der Net JB, Bergler T, Caldara R, Petchey W, Edinger M, Dupas N, Kapinsky M, Mutzbauer I, Otto NM, Öllinger R, Hernandez-Fuentes MP, Issa F, Ahrens N, Meyenberg C, Karitzky S, Kunzendorf U, Knechtle SJ, Grinyó J, Morris PJ, Brent L, Bushell A, Turka LA, Bluestone JA, Lechler RI, Schlitt HJ, Cuturi MC, Schlickeiser S, Friend PJ, Miloud T, Scheffold A, Secchi A, Crisalli K, Kang  SM, Hilton R, Banas B, Blancho G, Volk HD, Lombardi G, Wood KJ, Geissler EK.;Lancet;01/01/20;32446407;59.102;true;false;true;true;1
+474;"Prevention of Early
+Ventilator-Associated Pneumonia after Cardiac Arrest";"François B, Cariou A, Clere-Jehl R, Dequin PF, Renon-Carron F, Daix T, Guitton
+C, Deye N, Legriel S, Plantefève G, Quenot JP, Desachy A, Kamel T, Bedon-Carte S,
+Diehl JL, Chudeau N, Karam E, Durand-Zaleski I, Giraudeau B, Vignon P, Le Gouge
+A; CRICS-TRIGGERSEP Network and the ANTHARTIC Study Group";NEW ENGL J MED;01/01/19;31693806;70.67;true;false;false;false;1
+475;HLA-DR expression in neonates after cardiac surgeryunder cardiopulmonary bypass: a pilot study;Chenouard A, Braudeau C, Cottron N, Bourgoin P, Salabert N, Roquilly A, JosienR, Joram N, Asehnoune K;INTENS CARE MED EXP;01/01/18;29327145;;true;false;false;true;1
+476;Immuno-GuidedLaser-Capture Microdissection of Glial Cells for mRNA Analysis;Nicot AB, Rambeau J, Guillot F, Garcia A, Laplaud DA;Methods Mol Biol;01/01/18;29344866;;false;true;false;false;3
+477;Poor Patient andGraft Outcome After Induction Treatment by Antithymocyte Globulin in Recipientsof a Kidney Graft After Nonrenal Organ Transplantation;Mai HL, Treilhaud M, Ben-Arye SL, Yu H, Perreault H, Ang E, Trébern-Launay K, Laurent J, Malard-Castagnet S, Cesbron A, Nguyen TVH, Brouard S, Rostaing L,Houssel-Debry P, Legendre C, Girerd S, Kessler M, Morelon E, Sicard A, GarrigueV, Karam G, Chen X, Giral M, Padler-Karavani V, Soulillou JP;Transplant Direct;01/01/18;29707628;;false;true;true;false;1
+478;Immune Alterationsin Patients With Type 1 Autoimmune Hepatitis Persist Upon StandardImmunosuppressive Treatment;Renand A, Habes S, Mosnier JF, Aublé H, Judor JP, Vince N, Hulin P, NedellecS, Métairie S, Archambeaud I, Brouard S, Gournay J, Conchon S;Hepatol Commun;01/01/18;30094407;;false;true;false;true;1
+479;"Mechanism of
+action of s1p receptor modulators in multiple sclerosis: The double requirement";Bordet R, Camu W, De Seze J, Laplaud DA, Ouallet JC, Thouvenot E;"
+Rev Neurol (Paris)";01/01/19;31757428;;true;false;false;false;3
+480;Antagonist Anti-CD28 Therapeutics for the Treatment of Autoimmune Disorders;Vanhove, B., N. Poirier, F. Fakhouri, L. Laurent, B. t Hart, P. Papotto, L. Rizzo, M. Zaitsu, F. Issa, K. Wood, J.-P. Soulillou, and G. Blancho.;Antibodies;01/01/17;31548534;;false;true;true;true;2
+481;Cell-surface C-type lectin-like receptor CLEC-1dampens dendritic cell activation and downstream Th17 responses;Lopez Robles MD, Pallier A, Huchet V, Le Texier L, Remy S, Braudeau C, DelbosL, Moreau A, Louvet C, Brosseau C, Royer PJ, Magnan A, Halary F, Josien R, CuturiMC, Anegon I, Chiffoleau E;Blood Adv;01/01/17;29296975;;false;true;false;true;1
+482;Glycan microarray revealinduced IgGs repertoire shift against a dietary carbohydrate in response torabbit anti-human thymocyte therapy;Amon R, Ben-Arye SL, Engler L, Yu H, Lim N, Berre LL, Harris KM, Ehlers MR,Gitelman SE, Chen X, Soulillou JP, Padler-Karavani V;Oncotarget;01/01/17;29348821;;false;false;true;false;1
+483;"Human CD8+ Tregs expressing
+a MHC-specific CAR display enhanced suppression of human skin rejection and GVHD 
+in NSG mice";"Bézie S, Charreau B, Vimond N, Lasselin J, Gérard N, Nerrière-Daguin V,
+Bellier-Waast F, Duteille F, Anegon I, Guillonneau C";Blood Adv;01/01/19;31730699;;false;true;false;true;1
+484;"Ex situ Perfusion of Pancreas for Whole-Organ Transplantation: 
+Is it Safe and Feasible? A Systematic Review";"Prudhomme T, Kervella D, Le Bas-Bernardet S, Cantarovich D, Karam G, Blancho
+G, Branchereau J";J Diabetes Sci Technol;01/01/19;31409133;;false;true;false;false;2
+485;Les polyomavirus humains;Bressollette-Bodin C. ;La Lettre de l’Infectiologue ;01/01/19;;;false;true;false;false;3
+486;B cells with regulatory properties in transplantation tolerance;Durand J, Chiffoleau E;World J Transplant;01/01/15;26722647;;false;true;false;false;2
+487;Genome Editing in Rats Using TALENucleases;Tesson L, Remy S, Ménoret S, Usal C, Thinard R, Savignard C, De Cian A,Giovannangeli C, Concordet JP, Anegon I;Methods Mol Biol;01/01/16;26443226;;false;true;false;false;3
+488;Generation and Characterization ofMouse Regulatory Macrophages;Carretero-Iglesia L, Hill M, Cuturi MC;Methods Mol Biol;01/01/16;26530796;;false;true;false;false;1
+489;Dextran Sulfate Sodium (DSS)-Induced AcuteColitis in the Rat;Martin JC, Bériou G, Josien R;Methods Mol Biol;01/01/16;26530802;;false;true;false;false;1
+490;[High doses of gonadotropins for controlledovarian hyperstimulation: A case-control study];Dercourt M, Barriere P, Freour T;Gynecol Obstet Fertil;01/01/16;26603333;;true;true;false;false;1
+491;Interferon-Alpha Promotes Th1 Response and Epithelial Apoptosis viaInflammasome Activation in Human Intestinal Mucosa;Jarry A, Malard F, Bou-Hanna C, Meurette G, Mohty M, Mosnier JF, Laboisse CL, Bossard C;Cell Mol Gastroenterol Hepatol;01/01/17;28174758;;false;false;false;false;1
+492;Impact on early outcomes and immune reconstitution of high-dosepost-transplant cyclophosphamide vs anti-thymocyte globulin after reducedintensity conditioning peripheral blood stem cell allogeneic transplantation;Retière C, Willem C, Guillaume T, Vié H, Gautreau-Rolland L, Scotet E,Saulquin X, Gagne K, Béné MC, Imbert BM, Clemenceau B, Peterlin P, Garnier A,Chevallier P;Oncotarget;01/01/18;29545911;;false;false;false;false;1
+493;APOL1 Nephropathy Risk Variants and Incident Cardiovascular Disease Events in Community-Dwelling Black Adults;Gutiérrez OM, Irvin MR, Chaudhary NS, Cushman M, Zakai NA, David VA, Limou S, Pamir N, Reiner AP, Naik RP, Sale MM, Safford MM, Hyacinth HI, Judd SE, Kopp JB, Winkler CA. ;Circ Genom Precis Med;01/01/18;29899045;;false;false;true;false;1
+494;Complement Gene Variantsand Shiga Toxin-Producing Escherichia coli-Associated Hemolytic Uremic Syndrome: Retrospective Genetic and Clinical Study;Frémeaux-Bacchi V, Sellier-Leclerc AL, Vieira-Martins P, Limou S, Kwon T,Lahoche A, Novo R, Llanas B, Nobili F, Roussey G, Cailliez M, Ulinski T,Deschênes G, Alberti C, Weill FX, Mariani P, Loirat C;Clin J Am Soc Nephrol;01/01/19;30674459;;false;false;false;false;1
+495;"Characterization of two rat models of
+cystic fibrosis-KO and F508del CFTR-Generated by Crispr-Cas9.";"Dreano E, Bacchetta M, Simonin J, Galmiche L, Usal C, Slimani L, Sadoine J,
+Tesson L, Anegon I, Concordet JP, Hatton A, Vignaud L, Tondelier D,
+Sermet-Gaudelus I, Chanson M, Cottart CH";"Animal Model Exp
+Med";01/01/19;31942562;;false;false;true;false;1
+496;"Corneal Xenotransplantation: Anterior Lamellar
+Keratoplasty";Vabres B, Vanhove B, Blancho G;Methods Mol Biol;01/01/20;32002913;;false;true;false;false;1
+497;The Presence of Renal IgG Deposits in Necrotizing Crescentic Glomerulonephritis Associated with ANCA Is Not Related to Worse Renal Clinical Outcomes;"Dudreuilh C, Fakhouri F, Vigneau C, Augusto JF, Machet MC, Rabot N, Chapal M, 
+Charpy V, Barbet C, Büchler M, Halimi JM, Gatault P.";Kidney Dis;01/01/20;32309292;;true;false;false;false;1
+498;Retroperitoneoscopy in the horse: anatomical study of the retroperitoneal perirenal space and description of a surgical approach;Pujol R, De Fourmestraux C, Symoens A, Branchereau J, Tessier C.;Equine Vet J;01/01/20;32473613;2.115;false;false;false;false;1
+499;Long-Term Rituximab Use to Maintain Remission of Antineutrophil Cytoplasmic Antibody-Associated Vasculitis: A Randomized Trial.;Charles P, Perrodeau É, Samson M, Bonnotte B, Néel A, Agard C, Huart A, Karras A, Lifermann F, Godmer P, Cohen P, Hanrotel-Saliou C, Martin-Silva N, Pugnet G, Maurier F, Sibilia J, Carron PL, Gobert P, Meaux-Ruault N, Le Gallou T, Vinzio S, Viallard JF, Hachulla E, Vinter C, Puéchal X, Terrier B, Ravaud P, Mouthon L, Guillevin L;Ann Intern Med;01/01/20;32479166;19.315;true;false;false;false;1

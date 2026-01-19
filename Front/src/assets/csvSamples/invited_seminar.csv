@@ -1,0 +1,151 @@
+id_activity;date;title_seminar;location;invited_by
+1;01/01/17;IL-22 binding protein (IL-22BP) controls IL-22 actions during inflammation and steady state.;Université Catholique de Louvain, Bruxelles.;Université Catholique de Louvain
+2;01/01/15;Tolerogenic dendritic cells;Institut Pasteur, Montevideo;Institut Pasteur, Montevideo
+3;01/01/16;Tolerogenic dendritic cells;Institut Pasteur, Montevideo;Institut Pasteur, Montevideo
+4;01/01/17;Tolerogenic dendritic cells;Institut Pasteur, Montevideo;Institut Pasteur, Montevideo
+5;01/01/18;Tolerogenic dendritic cells;Institut Pasteur, Montevideo;Institut Pasteur, Montevideo
+6;01/01/19;Tolerogenic dendritic cells;Institut Pasteur, Montevideo;Institut Pasteur, Montevideo
+7;01/01/15;Antigen cros-presentation and induction of tolerance in Transplantation.;Honk Kong;Procore France Honk Kong Joint Research Scheme
+8;01/01/15;The role of interleukin-22 binding protein in controlling IL-22 during immune mediated inflammatory diseases.;Honk Kong;Procore France Honk Kong Joint Research Scheme
+9;01/01/15;Fine characterization of the DC-SIGN/HCMV glycoprotein B interaction.;Institute for Virology, University of Ulm, Germany;Institute for Virology, University of Ulm, invited by Dr C. Sinzger.
+10;01/01/17;Role of the neutralizing antibody response and VP1 protein evolution in BKPyV reactivation after KTx;Umeå, Sweden;Prof. Magnus Evander, Dept. Clinical Immunology, Umeå, Sweden
+11;01/01/19;Role of the neutralizing antibody response and VP1 protein evolution in BKPyV reactivation after KTx;Wroclaw, Poland;Prof. Dorota Dziadkowiec, Faculty of Biotechnology, University of Wroclaw, Poland
+12;01/01/19;Epigenomic profiling to reveal molecular mechanisms of diseases;Institute for psychiatric phenomics and genomics Munich;Institute for psychiatric phenomics and genomics “
+13;01/01/19;Characterizing molecular mechanisms of immuno-pathologies;Living Systems Institute Exeter;Dr Akshay Bhinge Living Systems Institute Exeter
+14;01/01/20;Role of the C-type lectin-like receptor CLEC-1 in dendritic cells and anti-tumor response;Institut de Pharmacologie et de Biologie Structurale UMR 5089 CNRS/University of Toulouse Paul Sabatier;Yoann Rombouts, Institut de Pharmacologie et de Biologie Structurale UMR 5089 CNRS/University of Toulouse Paul Sabatier
+15;01/01/16;Thérapie cellulaire à l'aide de cellules dendritiques tolérogènes humaines en transplantation;Roscoff;Séminaires du cancéropole Grand Ouest
+16;01/01/17;Clinical use of tolerogenic dendritic cells in organ transplantation;Nantes;22th Nantes Actualités Transplantation (NAT) conference
+17;01/01/15;Human cytomegalovirus and myeloid DCs, a bitter sweet symphony;Ulm, Germany;Dr Christian Sinzger
+18;01/01/18;De l’implication des cellules dendritiques myéloïdes humaines dans la physiopathologie de l’infection à polyomavirus BK;Rennes, France;Dr Marc Tramier, Biogeneouest facility network
+19;01/01/18;Human CD1c+ dendritic cells are refractory to BK polyomavirus but transmit it to human primary renal tubular epithelial cells and protect it from neutralization;Obernai;AFIPP board
+20;01/01/15;Sources, regulation and function of IL-22 binding protein, the soluble inhibitor of IL-22;Weill Cornell Medical College, Cornell University, New York City, NY;Greg Sonnenberg
+21;01/01/15;Sources, regulation and function of IL-22 binding protein, the soluble inhibitor of IL-22;Mount Sinai Hospital, Icahn School of Medicine, New York City, NY;Miriam Merad
+22;01/01/16;Rôles de l’IL-22 au cours des réponses immunitaires anti-infectieuses;Laboratoire de Thérapeutique Expérimentale et Clinique des Infections, Nantes;Karim Asehnoune
+23;01/01/15;Neurologie de San Francisco à Nantes : des données et des chercheurs pour mieux comprendre et soigner la Sclérose en plaques.;Nantes, France;
+24;01/01/15;National association for cell and molecular biology teaching for Systems biology to Systemic approach of patient health;Nantes, France;ANEPS
+25;01/01/15;"""Médecine personnalisée et données en grand nombre : enjeux d'une nouvelle pratique "".";Nantes, France;Conseil scientifique de l’université de Nantes
+26;01/01/15;Industrie de la Santé pour l’Innovation de la Recherche;Nantes, France;Journée Coopération Hopital
+27;01/01/15;"Médecine de précision pour des maladies chroniques: d'un prototype pour la SEP a l'hôpital des cohortes"" en passant par l’hôpital numérique... ";Saint Etienne, France;Conférence lors de l’inauguration de nouvelle Faculté de médecine 
+28;01/01/15;"State of the art on Bio-resources identifiers schemes/ Importance of population genetics in the transplantation domain and perspectives for personalized medicine/Partager la science, partager les valeurs : le challenge de la diversité""";Toulouse. France;
+29;01/01/16;« De l’ouest au far west »;La Roche sur Yon, France;Débat Soirée grand ICES.
+30;01/01/16;Interface et ingénierie de la santé, I-SITE : périmètre des thématiques SANTE, Interface « ingénierie–santé ».;Nantes, France;Conseil scientifique de la Faculté de la médicine de Nantes
+31;01/01/16;"Precision Medicine in Chronic Disease Management: The Multiple Sclerosis BioScreen. - "" Precision Medicine"", une opportunité pour la santé publique ? Un exemple en maladie chronique, L'application MS BioScreen
+";Nantes, France;Rdv de santé publique.
+32;01/01/16;Conséquences de l'introduction des big data sur les conceptions actuelles de la médecine personnalisée. Emergence d’outils de Médecine de Personnalisée: Le (big) data face aux traits complexes : le cas de la Sclérose En Plaques.;La Roche Sur Yon, France;Université des entrepreneurs vendéens
+33;01/01/16;« Le numérique et l’Université »;La Roche Sur Yon, France;SCERA
+34;01/01/16;"Médecine de précision pour des maladies chroniques: d'un prototype pour la SEP a l'hôpital des cohortes"" en passant par l’hôpital numérique... """;Nantes, France;Deployment millienium. Conférence Santé et Numérique.
+35;01/01/16;« Neurologie de San Francisco à Nantes : des données et des chercheurs pour mieux comprendre et soigner la Sclérose en plaques ». Big data et maladie neurologique;Nantes, France;Semaine du cerveau
+36;01/01/16;« Des cerveaux, la sclérose en plaques, des espoirs ».;Challans, France;Le numérique, un espoir en santé. Challans
+37;01/01/16;Symposium aux JNLF à Nantes;Nantes, France;Journées de Neurologie de Langue Française la Cité des Congrès de Nantes. Symposium aux JNLF à Nantes
+38;01/01/16;« Impatriation et médecine de précision”;Nantes, France;Dîner-débat Kiwanis.
+39;01/01/16;« The MS Bioscreen: a UCSF precision medicine platform integrating genomic, clinical and imaging data for Multiple Sclerosis.”;Nantes, France;Séminaire Biosticker Nantes
+40;01/01/16;“The MS Bioscreen: a UCSF personalized medicine platform integrating genomic, clinical and imaging data for Multiple Sclerosis.”;Paris, France.;ARSEP, Paris « MULTIPLE SCLEROSIS MEETING »
+41;01/01/16;“Intelligence artificielle, intelligence humaine. Le combat incertain».;Nantes, France;Journées scientifiques Nantes:
+42;01/01/16;” Santé du futur, médecine de demain”;Nantes, France;Web2day Nantes
+43;01/01/16;"“From MS genetics to precision medicine for complex traits"":";Croisic, France;Réseau Epidémiologie Génétique du Grand Ouest
+44;01/01/16;"« médecine personnalisée : mythe ou réalité""";Paris, France;4èmes Ateliers de Neuro-Immunologie . Raison de Santé 
+45;01/01/16;Journées de la filière Cardiogen à Nantes ;Nantes, France;Journées de la filière Cardiogen à Nantes 
+46;01/01/16;MS to zn ipad to guide decision making, 2016 European Clinical Histocompatibility Workshop;Lisbon, Portugal;From HLA genetic
+47;01/01/16;Atelier sur les applications biomédicales*Paris, France;Strasbourg, France;AMPS
+48;01/01/16;"Médecine prédictive, médecine personnalisée, quels changements à venir pour les acteurs de la SEP"".";Paris, France;Rencontres du GRESEP « Les perspectives dans la SEP »
+49;01/01/16;“Biomedical applications development”;Strasbourg, France;AMPS Strasbourg
+50;01/01/16;Santé et Numérique - quels risques et avantages apportent la collecte et le traitement des données, pour les patients et la recherche ? ;Nantes, France;Université d'été trinationale.
+51;01/01/16;Gérer et exploiter les données massives: des données de recherche au suivi des patients: les apports des biostatistiques et de la bioinformatique dans la gestion des maladies chroniques pour le praticien du futur. Un exemple dans la prise en charge de la sclérose en plaques;Lyon, France;VISALYS 
+52;01/01/16;“ La médecine du futur”;Nantes, France;Café des sciences
+53;01/01/16;« Precision Medecine for Multiple Sclerosis : From research cohort datasets through EMR data, The MS Bioscreen application »;Rennes, France;BigClin
+54;01/01/16;« Precision Medecine for Multiple Sclerosis : From research cohort datasets through EMR data, The MS Bioscreen application »;Nantes, France;Conférence à l’ECN
+55;01/01/16;Réseau RCDC. Analytics strategy of semi-public GWAS data in multiple Sclerosis deployment of pipeline for biologists.;Rennes, France;BIG DAY Rennes
+56;01/01/16;« médecine personnalisée et transplantation »;Nantes, France;Progreffe
+57;01/01/16;« recherche médecine de précision pour la sclérose en plaque »;Nantes, France;ARSEP
+58;01/01/16;Enjeu du Big Data en Neurosciences : « Un modèle de médecine de précision pour la sclérose en plaque, des cohortes de recherche aux données médicinales électroniques. Applications MS;Lyon, France;CRNL Lyon 
+59;01/01/17;« Quelles conséquences du Big Data en santé sur les prises en charge et l’organisation en santé »;Nantes, France;ARS Nantes
+60;01/01/17;Big Data et Santé,;Nantes, France.;nuit blanche des chercheurs
+61;01/01/17;Traitement informatique des données de santé. « Présentation de méthodes d’analyses de grandes databases »;LYON, France;Journée Scientifiques IHU OPERA 
+62;01/01/17;(Big) data et algorithmes en marche vers une médecine de précision pour la Sclérose en Plaque -: le MS Bioscreen, 7 ans, l'âge de raison;Nantes, France;Atelier interdisciplinaire DataSanté.
+63;01/01/17;La révolution médicale qui s'annonce et qu'il faut anticiper. La médecine de demain et les bio-statistiques;Nantes, France;CHU Nantes, « Atelier : l'hôpital du futur ».
+64;01/01/18;En 2019, Nantes sera le hub mondial des écosystèmes d’innovation ! ;Nantes, France;Forum Atlanpôle CCI, Nantes
+65;01/01/18;;Paris, Farnce;NeuroSpin (Paris)
+66;01/01/18;Epidémiogénétique;Nantes, France;Assises de Génétique Nantes 2018
+67;01/01/18;Peut-on, et faut-il dépasser l’humain;Nantes, France;Colloque Blanche de Castille, Nantes
+68;01/01/18;Digital Value in Precision Medicine;Paris, France;Matinale Biotech Paris
+69;01/01/18;Le Big Data dans la SEP par un nul;Nantes, France;Symposium IDE Nantes
+70;01/01/18;La médecine personnalisée du diabète ;Nantes, France;Congrès SFD
+71;01/01/18;« De l’avalanche des données à une plateforme d’intégration : vers une médecine de précision du transplanté rénal »;Nantes, France;15 ème Journée scientifique Centaure, Nantes
+72;01/01/18;Conférence-débat : « E-santé, télémédecine, objets connectés, quels enjeux éthiques »;Mortagne sur Sèvre, France;Etats Généraux de la Bioéthique
+73;01/01/18;Une présentation de l’Entrepôt de données;Paris, France;Comité opérationnel EDS Recherche
+74;01/01/18;Approche systemique de la tranplantation pulmonaire;Nice, France;
+75;01/01/18;MHC Evolution - Anthropology - Population Genetics;Venice, Italie;EFI Venice
+76;01/01/18;« Ring my bell : de la génétique au big data il n'y a qu'un pas  ! »;Noirmoutier, France;
+77;01/01/18;Données massives en santé;Paris, France;
+78;01/01/18;Intelligence artificielle – Ethique responsable;Nantes, France;WEB2DAY
+79;01/01/18;De la génétique au big data, il n’y a qu’1 pas;Orleans, France;
+80;01/01/18;;Marseille, France;Jobim Marseille
+81;01/01/18;De la génomique aux entrepôts des données, un renversement épistémologique de la biomédecine;Nantes, France;Congres de la SPS de Nantes
+82;01/01/18;"Dans ce monde connecté…. demeurons assoiffés d'Eau vive""";Evian, France;Partage et Rencontre
+83;01/01/18;Big Data Santé Numérique,Intelligence artificielle;Nantes, France;ARS
+84;01/01/18;Big Data Santé Numérique,Intelligence artificielle;Nantes, France;GIRCI-GO
+85;01/01/18;La génétique de la sclérose en plaques;Nantes, France;ARSEP
+86;01/01/18;les enjeux des données de santé;Nantes, France;CCI
+87;01/01/18;« L’inaccessible des données accessibles »;Poitiers, France;
+88;01/01/19;Mirage de la technique : Le trans-humanisme à l’épreuve du vivant;Nantes, France;
+89;01/01/19;Génétique de la SEP;Nantes, France;OFSEP -Assises
+90;01/01/19;Confiance et liberté à l’heure du numérique;Nantes, France;Des machines et des hommes : colloque. Blanche de Castille
+91;01/01/19;"La recherche médicale, A l’ère du post-génome d’une côte ouest à l’autre! « Heureux qui comme Ulysse à fait un beau voyage""";Nantes, France;Lycée Nicolas Appert Orvault
+92;01/01/19;Fringale Labs;Nantes, France;mois de l'entrepreneuriat
+93;01/01/19;Désensibilisation des données génétiques?;Rennes, France;"rencontre CNIL-Ri-CDC"" à Rennes"
+94;01/01/19;To be or not to be. L'héritabilité génétique en question;Nantes, France;DataSanté de l'Université de Nantes et l'Université de Montréal
+95;01/01/19;La réforme des études de santé;Nantes, France;5ème édition des Entretiens de l'Excellence. ECN
+96;01/01/19;« Large-scale approaches in cardiovascular diseases ».;Lille, France;Printemps de la Cardiologie - Lille
+97;01/01/19;« Electronical medical records from the clinical perspective »;Casablanca, Morocco;16th meeting of the Mediterranean Group for the Study of Diabetes
+98;01/01/19;;Nantes, France;congrès des Sciences de la Vie
+99;01/01/19;LES FRONTIERES DE LA SANTÉ PUBLIQUE;Nantes, France;Données massives et santé publique, Data santé
+100;01/01/19;Montréal, Québec;Montréal, Québec;
+101;01/01/19;"Redéploiement d'objet connecté au service de la recherche en santé : entre mesures fines des pathologies  et contrôles à distance""";CCI de Nantes, France;Rencontres Innovation sur les Dispositifs Médicaux
+102;01/01/19;"L’Intelligence artificielle dans le soin et l'accompagnement : quels enjeux éthiques ?""";Le Mans, France;4ème journée de l'EREPL
+103;01/01/19;"« Des machines et des hommes : Données de Santé, Machine-learning, Enjeux éthiques ""Machine! Je suis ton Homme ! »";;Conférence Inaugurale - Audencia Business School
+104;01/01/19;Big data issues and specificties;Paris, France;European AI for Health
+105;01/01/19;« Le digital au service du patient »;Nantes, France;Big data issues and specificties
+106;01/01/19;Big data et médecine personnalisée;SFTS Nantes, France;SEANCE Cloture du congrès SFTS Nantes
+107;01/01/19;« Health Tech for the future »;;36ème Congrès Mondial de l’IASP
+108;01/01/19;"Primum Non Nocere""  Hippocrates in the daunting era of biomedical data warehouse";;Data and Intelligence Artificial Act 1 
+109;01/01/19;« e-nnovative technologies in precision medicine generating and analyzing data from single cell to 7 billion humans »;Nantes, France;Ecole d’Automne du DHU 2020
+110;01/01/19;« Perspectives d’ici à 2050 »;Sablé sur Sarthe, France;Rencontre régionale des Maires
+111;01/01/19;La Journée Laennec : la Recherche, pourquoi pas moi ?;Nantes, France;Journée Laennec, CHU de Nantes
+112;01/01/19;"Actualité du ""Primum non nocere"" au temps des entrepôts de données de santé";Paris, France;Symposium Elsevier
+113;01/01/18;"De l'immunologie de la transplantation à l'oncologie""";Vitry, France,;SANOFI
+114;01/01/19;Blocage de co-stimulation en transplantation;Strasbourg;Séminaires des Hopitaux de Strasbourg
+115;01/01/15;Manipulation of T cell cosignals: Experience in autoimmunity and transplantation..;Hong Kong;Procore France Honk Kong Joint Research Scheme
+116;01/01/15;Antibody-mediated Rejection in Transplantation.;Hong Kong;Procore France Honk Kong Joint Research Scheme
+117;01/01/17;Public-Private Partnership in the development process of a biological drug candidate;Luxembourg;Luxembourg Institute of Health
+118;01/01/20;Automated annotation of time-lapse;Webinar;Jacques Cohen
+119;01/01/15;CD8 Tregs and their role in Transplantation;Honk Kong;Nancy Man - Procore France Honk Kong Joint Research Scheme
+120;01/01/15;CD8 Tregs and their role in Transplantation;Charité - University Medicine, Berlin, Germany;Michael Schmueck Hennerresse
+121;01/01/16;CD8 Tregs and their role in Transplantation;London, England;Giovanna Lombardi - Workshop on Cell-based Tolerogenic Therapies for Early Career Investigators
+122;01/01/16;CD8 Tregs and their role in Transplantation;Institut des Cordeliers, Paris, France;Catherine Fridman
+123;01/01/17;Anti-CD45RC in diseases;Tours;Hervé Watier - Séminaires du LabEx MabImprove
+124;01/01/18;Engineering CD8 Tregs;Berlin, Germany;Petra Reinke - “Trends in Immunology in Horizon 2020 and Beyond”-Young Star
+125;01/01/18;Anti-CD45RC in diseases;Centre de physiopathologie de Toulouse. France;Abdelhabi Saoudi
+126;01/01/18;Anti-CD45RC in diseases;IMM, Lisbon, Portugal;Luis Graca
+127;01/01/19;Anti-CD45RC and APECED disease;Rehovot, Israel;Jakub Abramson - ThymE: T cell and thymus biology
+128;01/01/19;Anti-CD45RC mAb;Institut Gustave Roussy, Paris;Socitété Biotem - Journée des Immunotechnologies
+129;01/01/16;CD8+ Tregs in an animal model of transplantation tolerance and in humans;University of San Francisco;Jeff Bluestone
+130;01/01/16;CD8+ Tregs for the control of immune responses;Research Institute Humanitas, Milano;Alberto Mantovani
+131;01/01/17;CD8+ Tregs in organ transplantation and GVHD;Institut Mondor de Recherche Biomédical, Créteil;José Cohen
+132;01/01/17;CD8+ Tregs for the control of immune responses;Institut de Pharmacologie Moléculaire et Cellulaire, Sophia Antipolis;Philippe Blancou
+133;01/01/20;Principles of regeneration;IPSpine meeting, Nantes;Jerome Guicheux
+134;01/01/15;From mechanistic studies to robust reprogramming: a guide to start projects with human iPSC;ETH Zurich, Switzerland;Anton Wutz
+135;01/01/15;Intérêt des hiPSC pour les projets de recherche - exemple des projets Nantais;Le Croizic;Philippe Moulier
+136;01/01/15;From mechanistic studies to robust reprogramming: a guide to start projects with human iPSC;Grenoble;Bertrand TOUSSAINT
+137;01/01/16;How to improve embryo selection to improve IVF?;Paris;MERCK-SERONO
+138;01/01/17;Understanding establishment and regulation of human pluripotency by combining preimplantation development and reprogramming;Paris;Cécile MARTINAT
+139;01/01/17;"Understanding establishment and regulation of human pluripotency by combining preimplantation
+development and reprogramming";New York, USA;Mark TOMISHIMA
+140;01/01/17;"Understanding establishment and regulation of human pluripotency by combining preimplantation
+development and reprogramming";Paris;Alison BARDIN
+141;01/01/17;Understanding establishment and regulation of human pluripotency by combining preimplantation development and reprogramming;Paris;THEMATIC DAYS OF LILLIANE BETTENCOURT SCHOOL OF INSERM, Repair, maintain or improve the functioning of tissues and organs, Paris
+142;01/01/18;"Understanding establishment and regulation of human pluripotency by combining preimplantation
+development and reprogramming";Lyon;Pierre SAVATIER
+143;01/01/18;Pseudo-time modelling coupled to time-lapse imaging reveals the dynamics of EPI/TE specification of human preimplantation development;Leuven, Belgium;Vincent PASQUE
+144;01/01/19;Pseudo-time modelling coupled to time-lapse imaging reveals the dynamics of EPI/TE specification of human preimplantation development;Los Angeles, USA;Amander CLARK
+145;01/01/19;Pseudo-time modelling coupled to time-lapse imaging reveals the dynamics of EPI/TE specification of human preimplantation development;ETH Zurich, Switzerland;Constance CIAUDO
+146;01/01/19;Pseudo-time modelling coupled to time-lapse imaging reveals the dynamics of EPI/TE specification of human preimplantation development;Kyoto, Japan;Knut WOLTJEN and Yasuhiro TAKASHIMA
