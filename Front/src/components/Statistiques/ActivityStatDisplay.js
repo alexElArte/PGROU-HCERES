@@ -144,6 +144,10 @@ export default function ActivityStatDisplay({ activityStatEntry }) {
 
     const [filters, setFilters] = React.useState({});
 
+    // To manage local filters state before applying them
+    const [localFilters, setLocalFilters] = React.useState({});
+
+
     const [chartOptions, setChartOptions] = React.useState({
         data: [],
         dataNameMap: {},
@@ -312,8 +316,8 @@ export default function ActivityStatDisplay({ activityStatEntry }) {
             });
     }, []);
 
-    const handleSelectFilterChange = React.useCallback((filter, selectedOptionsValues) => {
-        setFilters((prevFilters) => ({
+    const handleSelectLocalFilterChange = React.useCallback((filter, selectedOptionsValues) => {
+        setLocalFilters((prevFilters) => ({
             ...prevFilters,
             [filter.key]: {
                 callbackFilter: filter.callbackFilter,
@@ -322,8 +326,8 @@ export default function ActivityStatDisplay({ activityStatEntry }) {
         }));
     }, []);
 
-    const handleFilterChange = React.useCallback((filter, value) => {
-        setFilters((prevFilters) => ({
+    const handleLocalFilterChange = React.useCallback((filter, value) => {
+        setLocalFilters((prevFilters) => ({
             ...prevFilters,
             [filter.key]: {
                 callbackFilter: filter.callbackFilter,
@@ -331,6 +335,10 @@ export default function ActivityStatDisplay({ activityStatEntry }) {
             },
         }));
     }, []);
+
+    const handleApplyFilters = React.useCallback(() => {
+        setFilters(localFilters);
+    }, [localFilters]);
 
     React.useEffect(() => {
         let filteredList = activityStatList.filter((activity) => {
@@ -550,7 +558,7 @@ export default function ActivityStatDisplay({ activityStatEntry }) {
                                         <SelectFilterDisplay
                                             key={filter.key}
                                             selectOptions={filter.selectOptions()}
-                                            onChange={(selectedOptionsValues) => handleSelectFilterChange(filter, selectedOptionsValues)}
+                                            onChange={(selectedOptionsValues) => handleSelectLocalFilterChange(filter, selectedOptionsValues)}
                                         />
                                     </div>
                                 )
@@ -560,12 +568,15 @@ export default function ActivityStatDisplay({ activityStatEntry }) {
                                     <input
                                         type={filter.inputType}
                                         defaultValue={filter.initialValueCallback ? filter.initialValueCallback(activityStatList) : ''}
-                                        onChange={(event) => handleFilterChange(filter, event.target.value)}
+                                        onChange={(event) => handleLocalFilterChange(filter, event.target.value)}
                                     />
                                 </div>
                             )
                         })}
                         <br />
+                    </div>
+                    <div className={"card-apply-filters-action"}>
+                        <button className={"btn btn-primary"} onClick={() => handleApplyFilters()}>Apply Filters</button>
                     </div>
                 </div>
 
