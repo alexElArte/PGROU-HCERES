@@ -549,7 +549,7 @@ export default function ActivityStatDisplay({ activityStatEntry }) {
                     <div className={"card-header alert-primary"}>
                         <h3 className={"card-header-title"}>Filtres</h3>
                     </div>
-                    <div className={"card-content"}>
+                    <div className={"card-content"}  style={{display:"flex"}}>
                         {activityStatEntry.filters.map((filter) => {
                             if (filter.inputType === 'select') {
                                 return (
