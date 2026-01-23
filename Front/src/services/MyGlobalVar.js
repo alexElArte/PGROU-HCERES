@@ -30,6 +30,7 @@ class MyClass {
         this.listePublications = null;
         this.listeLaboratories = null;
         this.listeBook = null;
+        this.listeBookChapter = null;
         this.listeActivityStats = {};
         this.listeTrainingTheses =  null; 
     }

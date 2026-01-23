@@ -22,6 +22,7 @@ import OutgoingMobilityList from "./outgoing-mobility/OutgoingMobilityList";
 import CompanyCreationList from "./company-creation/CompanyCreationList";
 import PatentList from "./patent/PatentList";
 import BookList from "./book/BookList";
+import BookChapterList from "./book-chapter/BookChapterList";
 import ContractList from "../Other/contract/ContractList";
 import PublicationList from "./publication/PublicationList";
 import ResearchContractFundedCharitList from "./research-contract-funded-charit/ResearchContractFundedCharitList";
@@ -55,6 +56,7 @@ export default function ActivityList(props) {
     const [showReviewList, setShowReviewList] = React.useState(showListByDefault);
 
     const [showBookList, setShowBookList] = React.useState(showListByDefault);
+    const [showBookChapterList, setShowBookChapterList] = React.useState(showListByDefault);
 
     const [showPublicationList, setShowPublicationList] = React.useState(showListByDefault);
     const [showResearchContractFundedCharitList, setShowResearchContractFundedCharitList] = React.useState(showListByDefault);
@@ -69,7 +71,7 @@ export default function ActivityList(props) {
         //setShowPlatformList(isShow)
         //setShowOralComPosterList(isShow)
         setShowSeiIndustrialRDContractList(isShow)
-        //setShowInterCollaborationList(isShow)
+        setShowInterCollaborationList(isShow)
         //setShowScientificExpertiseList(isShow)
         //setShowEssaiCliniqueList(isShow)
         //setShowIncomingMobilityList(isShow)
@@ -83,6 +85,8 @@ export default function ActivityList(props) {
         setShowTrainingThesisList(isShow)
 
         //setShowBookList(isShow)
+        setShowBookChapterList(isShow)
+
         //setShowPublicationList(isShow)
 
         // Other list
@@ -161,12 +165,12 @@ export default function ActivityList(props) {
                             </ListGroup>
 
                             <ListGroup horizontal={true}>
-                                {/* <ListGroup.Item onClick={() => setShowInterCollaborationList(!showInterCollaborationList)}
+                                <ListGroup.Item onClick={() => setShowInterCollaborationList(!showInterCollaborationList)}
                                             className={showInterCollaborationList ? activeItemClass : inactiveItemClass}>
                                 {showInterCollaborationList ? <BiShow/> : <BiHide/>}
                                 &nbsp;
                                 Collaboration internationale
-                            </ListGroup.Item> */}
+                            </ListGroup.Item>
 
                                 {/* <ListGroup.Item onClick={() => setShowScientificExpertiseList(!showScientificExpertiseList)}
                                             className={showScientificExpertiseList ? activeItemClass : inactiveItemClass}>
@@ -238,6 +242,13 @@ export default function ActivityList(props) {
                                 &nbsp;
                                 Livres
                             </ListGroup.Item> */}
+
+                                <ListGroup.Item onClick={() => setShowBookChapterList(!showBookChapterList)}
+                                            className={showBookChapterList ? activeItemClass : inactiveItemClass}>
+                                {showBookChapterList ? <BiShow/> : <BiHide/>}
+                                &nbsp;
+                                Chapitres de livres
+                            </ListGroup.Item>
 
                                 {/* <ListGroup.Item onClick={() => setShowPublicationList(!showPublicationList)}
                                             className={showPublicationList ? activeItemClass : inactiveItemClass}>
@@ -334,6 +345,10 @@ export default function ActivityList(props) {
 
                             <Collapse in={showBookList}>
                                 <div>{showBookList && <BookList targetResearcher={targetResearcher} />}</div>
+                            </Collapse>
+
+                            <Collapse in={showBookChapterList}>
+                                <div>{showBookChapterList && <BookChapterList targetResearcher={targetResearcher} />}</div>
                             </Collapse>
 
                             <Collapse in={showPublicationList}>
