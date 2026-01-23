@@ -1,0 +1,16 @@
+{
+  "common": {
+    "welcome": "Bienvenue",
+    "login": "Connexion",
+  },
+  "nav": {
+    "home": "Accueil",
+    "teams": "Équipes",
+  },
+  "team": {
+  },
+  "researcher": {
+  },
+  "activity": {
+  }
+}

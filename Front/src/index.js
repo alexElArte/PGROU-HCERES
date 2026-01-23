@@ -1,3 +1,4 @@
+import './i18n'; // Pour la traduction
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
