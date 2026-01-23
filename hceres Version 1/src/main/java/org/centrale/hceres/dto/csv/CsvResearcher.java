@@ -16,12 +16,22 @@ import java.util.List;
 @Data
 public class CsvResearcher extends InDependentCsv<Researcher, Integer> {
     // id Database is generated on insert to database, either found by defined merging rules
+    private String researcherCsvId;
+    private static final int RESEARCHER_CSV_ID_ORDER = 0;
     private String researcherSurname;
     private static final int RESEARCHER_SURNAME_ORDER = 1;
     private String researcherName;
     private static final int RESEARCHER_NAME_ORDER = 2;
     private String researcherEmail;
     private static final int RESEARCHER_EMAIL_ORDER = 3;
+
+    public String getResearcherCsvId() {
+        return researcherCsvId;
+    }
+
+    public void setResearcherCsvId(String researcherCsvId) {
+        this.researcherCsvId = researcherCsvId;
+    }
 
     public String getResearcherSurname() {
         return researcherSurname;
@@ -52,6 +62,8 @@ public class CsvResearcher extends InDependentCsv<Researcher, Integer> {
         CsvParserUtil.wrapCsvAllFieldExceptions(
                 () -> CsvParserUtil.wrapCsvParseException(ID_CSV_ORDER,
                         f -> this.setIdCsv(RequestParser.getAsInteger(csvData.get(f)))),
+                () -> CsvParserUtil.wrapCsvParseException(RESEARCHER_CSV_ID_ORDER,
+                        f -> this.setResearcherCsvId(RequestParser.getAsString(csvData.get(f)))),
                 () -> CsvParserUtil.wrapCsvParseException(RESEARCHER_SURNAME_ORDER,
                         f -> this.setResearcherSurname(RequestParser.getAsString(csvData.get(f)))),
                 () -> CsvParserUtil.wrapCsvParseException(RESEARCHER_NAME_ORDER,
