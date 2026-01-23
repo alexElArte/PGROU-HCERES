@@ -27,12 +27,13 @@ import PublicationList from "./publication/PublicationList";
 import ResearchContractFundedCharitList from "./research-contract-funded-charit/ResearchContractFundedCharitList";
 import TrainingThesisList from "./training-thesis/TrainingThesisList";
 
-
+import { withTranslation } from 'react-i18next';
 
 
 // if target researcher is set in props will show only related information of target researcher
 // otherwise it show actvities by category
-export default function ActivityList(props) {
+function ActivityList(props) {
+    const { t } = props;
     const targetResearcher = props.targetResearcher;
     const showListByDefault = props.showListByDefault;
     const [successActivityAlert, setSuccessActivityAlert] = React.useState('');
@@ -100,7 +101,7 @@ export default function ActivityList(props) {
                 <div className={"card"}>
                     <div className={"card-header"}>
                         <h1>
-                            Activités
+                            {t('activity.activities')}
                         </h1>
                     </div>
                     <div className={"card-body"}>
@@ -108,8 +109,8 @@ export default function ActivityList(props) {
                             <ListGroup horizontal={true}>
                                 <ButtonGroup>
                                     <Button onClick={showAllList} variant={"outline-primary"}
-                                        id={"showAllActivityListBtn"}>Voir tout</Button>
-                                    <Button onClick={hideAllList} variant={"outline-secondary"}>Cacher tout</Button>
+                                        id={"showAllActivityListBtn"}>{t('activity.see all')}</Button>
+                                    <Button onClick={hideAllList} variant={"outline-secondary"}>{t('activity.hide all')}</Button>
                                 </ButtonGroup>
                             </ListGroup>
                             {targetResearcher && <ResearcherElement targetResearcher={targetResearcher} horizontal />}
@@ -126,7 +127,7 @@ export default function ActivityList(props) {
                                     className={showPrixList ? activeItemClass : inactiveItemClass}>
                                     {showPrixList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    Scientific recognition - Awards 
+                                    {t('activity.scientific recognition')}
                                 </ListGroup.Item>
 
                                 {/* <ListGroup.Item onClick={() => setShowPlatformList(!showPlatformList)}
@@ -148,14 +149,14 @@ export default function ActivityList(props) {
                                     className={showSeiIndustrialRDContractList ? activeItemClass : inactiveItemClass}>
                                     {showSeiIndustrialRDContractList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    Industrial R&D contracts
+                                    {t('activity.industrial contacts')}
                                 </ListGroup.Item>
 
                                 <ListGroup.Item onClick={() => setShowTrainingThesisList(!showTrainingThesisList)}
                                     className={showTrainingThesisList ? activeItemClass : inactiveItemClass}>
                                     {showTrainingThesisList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    Training thesis 
+                                    {t('activity.training thesis')}
                                 </ListGroup.Item>
 
                             </ListGroup>
@@ -208,14 +209,14 @@ export default function ActivityList(props) {
                                     className={showComparnyCreationList ? activeItemClass : inactiveItemClass}>
                                     {showComparnyCreationList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    Creation of company / start up
+                                    {t('activity.creation')}
                                 </ListGroup.Item>
 
                                 <ListGroup.Item onClick={() => setShowPostDoctoratList(!showPostDoctoratList)}
                                     className={showPostDoctoratList ? activeItemClass : inactiveItemClass}>
                                     {showPostDoctoratList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    Post-docs 
+                                    {t('activity.post-docs')}
                                 </ListGroup.Item>
 
                                 {/* <ListGroup.Item onClick={() => setShowPatentList(!showPatentList)}
@@ -249,7 +250,7 @@ export default function ActivityList(props) {
                                     className={showResearchContractFundedCharitList ? activeItemClass : inactiveItemClass}>
                                     {showResearchContractFundedCharitList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    Research contract funded by public or charitable institutions 
+                                    {t('activity.research contract')}
                                 </ListGroup.Item>
 
                             </ListGroup>
@@ -378,3 +379,4 @@ export default function ActivityList(props) {
         </div>)
 }
 
+export default withTranslation()(ActivityList);

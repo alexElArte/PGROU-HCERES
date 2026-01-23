@@ -18,8 +18,14 @@ import Logo from '../../assets/logo.png';
 import {useDispatch} from "react-redux";
 import {logoutUser} from "../../services";
 import {BiLogOut, BiTask} from "react-icons/bi";
+import LanguageSelector from './LanguageSelector';
+
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
+
+    const { t } = useTranslation();
+    
     const [click, setClick] = useState(false);
     const closeMobileMenu = () => setClick(false);
 
@@ -48,36 +54,40 @@ const Navbar = () => {
 
                     <NavItem>
                         <NavLinks to="/Home" className={(nav) => nav.isActive() ? "active" : ""}>
-                            <FaHome/> Home
+                            <FaHome/> {t("nav.home")}
                         </NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="/Configuration" className={(nav) => nav.isActive() ? "active" : ""}>
-                            <FaCog className={"mr-2"}/> Import datas
+                            <FaCog className={"mr-2"}/> {t("nav.import data")}
                         </NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="/Researcher">
-                            <FaUserGraduate/>  Members
+                            <FaUserGraduate/>  {t("nav.members")}
                         </NavLinks>
                     </NavItem>
                         <NavLinks to="/Team">
-                            <FaUserFriends/>  Teams
+                            <FaUserFriends/>  {t("nav.teams")}
                         </NavLinks>
                     <NavItem>
                         <NavLinks to="/Activity">
-                            <BiTask/>  Activity
+                            <BiTask/>  {t("nav.activity")}
                         </NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="/Statistiques">
-                            <FaChartLine/>  Stats
+                            <FaChartLine/>  {t("nav.stats")}
                         </NavLinks>
+                    </NavItem>
+                    {/* Sélecteur de langue */}
+                    <NavItem>
+                        <LanguageSelector />
                     </NavItem>
                     {/* ajouter bouton de deconnexion */}
                     <NavItemBtn>
                             <NavBtnLink to='/' onClick={logout}>
-                                <Button primary><BiLogOut/> Log out </Button>
+                                <Button primary><BiLogOut/> {t("nav.log out")} </Button>
                             </NavBtnLink>
                     </NavItemBtn>
                 </NavMenu>

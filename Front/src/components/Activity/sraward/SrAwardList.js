@@ -1,4 +1,5 @@
 import React from 'react';
+import { withTranslation } from 'react-i18next';
 
 import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
 import 'react-bootstrap-table2-filter/dist/react-bootstrap-table2-filter.min.css';
@@ -25,6 +26,7 @@ import Tooltip from "react-bootstrap/Tooltip";
 // If targetResearcher is set in props display related information only (
 // else load list des tous les srAwards du database
 function SrAwardList(props) {
+    const { t } = props;
     // parameter constant (List Template)
     const targetResearcher = props.targetResearcher;
 
@@ -96,14 +98,14 @@ function SrAwardList(props) {
             return <div className={"row"}>
                 <br />
                 <div className={"col-8"}>
-                    <h3>No award has been recorded</h3>
+                    <h3>{t('activity.no awards')}</h3>
                 </div>
                 <div className={"col-4"}>
                     {showSrAwardAdd &&
                         <SrAwardAdd targetResearcher={targetResearcher} onHideAction={handleHideModal} />}
                     <button className="btn btn-primary" data-bs-toggle="button"
                         onClick={() => setShowSrAwardAdd(true)}>
-                        <AiOutlinePlusCircle /> &nbsp; Add an Award
+                        <AiOutlinePlusCircle /> &nbsp; {t('activity.add award')}
                     </button>
                 </div>
             </div>;
@@ -150,7 +152,7 @@ function SrAwardList(props) {
         let title = "SrAward"
         if (!targetResearcher) {
             columns.push(chercheursColumnOfActivity)
-            title = "List of Awards for Researchers"
+            title = t('activity.awards list')
         }
         const CaptionElement = <div>
             <h3> {title}
@@ -253,4 +255,4 @@ function SrAwardList(props) {
     }
 }
 
-export default SrAwardList;
+export default withTranslation()(SrAwardList);

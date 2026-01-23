@@ -25,6 +25,7 @@ import {VscEyeClosed} from "react-icons/vsc";
 import {MdSearch} from "react-icons/md";
 import {fetchListResearchers} from "../../services/Researcher/ResearcherActions";
 
+import { withTranslation } from 'react-i18next';
 
 class Researcher extends Component {
     constructor() {
@@ -105,6 +106,8 @@ class Researcher extends Component {
     }
 
     render() {
+        const { t } = this.props;
+
         if (!this.state.loading) {
             const columns = [{
                 dataField: 'researcherId',
@@ -114,17 +117,17 @@ class Researcher extends Component {
                 filter: this.state.showFilter ? textFilter() : null,
             }, {
                 dataField: 'researcherName',
-                text: 'Name',
+                text: t('members.last name'),
                 sort: true,
                 filter: this.state.showFilter ? textFilter() : null,
             }, {
                 dataField: 'researcherSurname',
-                text: 'Surname',
+                text: t('members.first name'),
                 sort: true,
                 filter: this.state.showFilter ? textFilter() : null,
             }, {
                 dataField: 'researcherEmail',
-                text: 'Email',
+                text: t('members.email'),
                 sort: true,
                 filter: this.state.showFilter ? textFilter() : null,
             }, /**{
@@ -149,7 +152,7 @@ class Researcher extends Component {
             },*/
             {
                 dataField: 'belongsTeamList.team.teamName',
-                text: 'Team',
+                text: t('members.team'),
                 sort: true,
                 filter: this.state.showFilter ? textFilter() : null,
                 formatter: (cell, row) => {
@@ -162,13 +165,13 @@ class Researcher extends Component {
                 },
             }, {
                 dataField: 'lastResearcherStatus',
-                text: 'Statut',
+                text: t('members.status'),
                 sort: true,
                 filter: this.state.showFilter ? textFilter() : null,
             }, {
                 dataField: 'actionColumn',
                 isDummyField: true,
-                text: 'Edit',
+                text: t('members.edit'),
                 csvExport: false,
                 formatter: (cell, row) => {
                     return (
@@ -243,7 +246,7 @@ class Researcher extends Component {
                                 color: 'darkblue',
                                 border: '1px solid darkblue',
                                 padding: '0.5em'
-                            }}> Members list
+                            }}> {t('members.title')}
                             </h3>
                         </div>
                     </div>
@@ -267,7 +270,7 @@ class Researcher extends Component {
                                     showAddResearcher: true
                                 })
                             }}>
-                                <AiOutlinePlusCircle/> &nbsp; Ajouter un membre
+                                <AiOutlinePlusCircle/> &nbsp; {t('members.add')}
                             </button>
                             {this.state.researcherSuccessAlert && (
                                 <Alert className={"alert-success "} onClose={() => this.setState({
@@ -357,7 +360,7 @@ class Researcher extends Component {
             <div className="container">
                 <div className="d-flex align-items-center justify-content-center">
                     <h1>
-                        Téléchargement des données des chercheurs
+                        {this.props.t('members.loading')}
                         <Oval className="ml-2" stroke={"black"}/>
                     </h1>
                 </div>
@@ -367,4 +370,4 @@ class Researcher extends Component {
 
 }
 
-export default Researcher;
+export default withTranslation()(Researcher);

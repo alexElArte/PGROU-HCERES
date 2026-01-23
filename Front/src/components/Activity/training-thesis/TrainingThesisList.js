@@ -1,4 +1,5 @@
 import React from 'react';
+import { withTranslation } from 'react-i18next';
 
 import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
 import 'react-bootstrap-table2-filter/dist/react-bootstrap-table2-filter.min.css';
@@ -25,6 +26,7 @@ import Tooltip from "react-bootstrap/Tooltip";
 // If targetResearcher is set in props display related information only (
 // else load list des toutes les trainingTheses du database
 function TrainingThesisList(props) {
+    const { t } = props;
     // parameter constant (List Template)
     const targetResearcher = props.targetResearcher;
 
@@ -92,14 +94,14 @@ function TrainingThesisList(props) {
             return <div className={"row"}>
                 <br />
                 <div className={"col-8"}>
-                    <h3>No Training Thesis saved</h3>
+                    <h3>{t('activity.no training thesis')}</h3>
                 </div>
                 <div className={"col-4"}>
                     {showTrainingThesisAdd &&
                         <TrainingThesisAdd targetResearcher={targetResearcher} onHideAction={handleHideModal} />}
                     <button className="btn btn-primary" data-bs-toggle="button"
                         onClick={() => setShowTrainingThesisAdd(true)}>
-                        <AiOutlinePlusCircle /> &nbsp; Add a Training Thesis
+                        <AiOutlinePlusCircle /> &nbsp; {t('activity.add training thesis')}
                     </button>
                 </div>
             </div>;
@@ -302,4 +304,4 @@ function TrainingThesisList(props) {
     }
 }
 
-export default TrainingThesisList;
+export default withTranslation()(TrainingThesisList);

@@ -38,8 +38,9 @@ import getRandomBackgroundColor from "../util/ColorGenerator";
 import SelectFilterDisplay from "./SelectFilterDisplay";
 import FileSaver from "file-saver";
 import { AiOutlineDownload } from "react-icons/ai";
+import { withTranslation } from 'react-i18next';
 
-export default function ActivityStatDisplay({ activityStatEntry }) {
+function ActivityStatDisplay({ activityStatEntry, t }) {
     const [teamIdMap, setTeamIdMap] = React.useState({});
     const [laboratoryIdMap, setLaboratoryIdMap] = React.useState({});
     const [institutionIdMap, setInstitutionIdMap] = React.useState({});
@@ -182,10 +183,10 @@ export default function ActivityStatDisplay({ activityStatEntry }) {
     const getPngFileName = React.useCallback(() => {
         let fileName = activityStatEntry.label;
         if (groupBy.key !== 'none') {
-            fileName += ' - Par ' + groupBy.label;
+            fileName += ' - ' + t('stats.by') + ' ' + groupBy.label;
         }
         if (groupBy2.key !== 'none') {
-            fileName += ' - Par ' + groupBy2.label;
+            fileName += ' - ' + t('stats.by') + ' ' + groupBy2.label;
         }
         fileName += ' _ ' + chartTemplate.label;
         fileName += ' - ' + chartOptions.chartWidth + 'x' + chartOptions.chartHeight;
@@ -270,7 +271,7 @@ export default function ActivityStatDisplay({ activityStatEntry }) {
                     </> :
                     <>
                         <AiOutlineDownload />
-                        Télécharger le graphique
+                        {t('stats.download chart')}
                     </>
                 }
             </button>
@@ -535,19 +536,19 @@ export default function ActivityStatDisplay({ activityStatEntry }) {
 
     return (
         <div>
-            <h1 style={{ fontSize: 24, marginBottom: 20 }}>Des statistiques sur les {activityStatEntry.label} </h1>
+            <h1 style={{ fontSize: 24, marginBottom: 20 }}>{t('stats.statistics on')} {activityStatEntry.label} </h1>
 
             <div>
-                {isLoading && <div><Oval className="ml-2" stroke={"black"} /> Loading...</div>}
+                {isLoading && <div><Oval className="ml-2" stroke={"black"} /> {t('stats.loading')}</div>}
             </div>
 
             <div>
-                <div>Total count: {activityStatList?.length}</div>
-                <div>Total Filtered count: {activityStatFilteredList?.length}</div>
+                <div>{t('stats.total count')}: {activityStatList?.length}</div>
+                <div>{t('stats.total filtered count')}: {activityStatFilteredList?.length}</div>
 
                 <div className={"card"} hidden={activityStatEntry?.filters?.length <= 0}>
                     <div className={"card-header alert-primary"}>
-                        <h3 className={"card-header-title"}>Filtres</h3>
+                        <h3 className={"card-header-title"}>{t('stats.filters')}</h3>
                     </div>
                     <div className={"card-content"}  style={{display:"flex"}}>
                         {activityStatEntry.filters.map((filter) => {
@@ -576,17 +577,17 @@ export default function ActivityStatDisplay({ activityStatEntry }) {
                         <br />
                     </div>
                     <div className={"card-apply-filters-action"}>
-                        <button className={"btn btn-primary"} onClick={() => handleApplyFilters()}>Apply Filters</button>
+                        <button className={"btn btn-primary"} onClick={() => handleApplyFilters()}>{t('stats.apply filters')}</button>
                     </div>
                 </div>
 
                 <div className={"card"}>
                     <div className={"card-header alert-primary"}>
-                        <h3 className={"card-header-title"}>Chart options</h3>
+                        <h3 className={"card-header-title"}>{t('stats.chart options')}</h3>
                     </div>
                     <div className={"card-content"}>
                         <div>
-                            <label className={"label"}>Chart type</label>
+                            <label className={"label"}>{t('stats.chart type')}</label>
                             <div style={{ display: 'flex' }}>
                                 {chartTemplateList.map((chart) => (
                                     <div key={chart.key}>
@@ -604,16 +605,16 @@ export default function ActivityStatDisplay({ activityStatEntry }) {
                         </div>
 
                         <div>
-                            <label className={"label"}>Chart size (pixels)</label>
+                            <label className={"label"}>{t('stats.chart size')}</label>
                             <div style={{ display: 'flex' }}>
-                                <label className={"label"}>Width</label>
+                                <label className={"label"}>{t('stats.width')}</label>
                                 <input
                                     type={"number"}
                                     value={chartOptions.chartWidth}
                                     name={"chartWidth"}
                                     onChange={handleChartOptionChange}
                                 />
-                                <label className={"label"}>Height</label>
+                                <label className={"label"}>{t('stats.height')}</label>
                                 <input
                                     type={"number"}
                                     value={chartOptions.chartHeight}
@@ -624,16 +625,16 @@ export default function ActivityStatDisplay({ activityStatEntry }) {
                         </div>
 
                         <div hidden={!['bar', 'pie', 'funnel'].includes(chartTemplate.key)}>
-                            <label className={"label"}>Chart Labels</label>
+                            <label className={"label"}>{t('stats.chart labels')}</label>
                             <div style={{ display: 'flex' }}>
-                                <label className={"label"}>Count</label>
+                                <label className={"label"}>{t('stats.count')}</label>
                                 <input
                                     type={"checkbox"}
                                     checked={chartOptions.showCountLabel}
                                     name={"showCountLabel"}
                                     onChange={handleChartOptionChange}
                                 />
-                                <label className={"label"}>Percentage</label>
+                                <label className={"label"}>{t('stats.percentage')}</label>
                                 <input
                                     type={"checkbox"}
                                     checked={chartOptions.showPercentageLabel}
@@ -643,7 +644,7 @@ export default function ActivityStatDisplay({ activityStatEntry }) {
                             </div>
                         </div>
 
-                        <label className={"label"}>Activités regroupées par </label>
+                        <label className={"label"}>{t('stats.grouped by')} </label>
                         <div style={{ display: 'flex' }}>
                             {groupByList.map((group) => (
                                 <div key={group.key} className={"ml-2"}>
@@ -976,7 +977,7 @@ export default function ActivityStatDisplay({ activityStatEntry }) {
                 <div className={"title"}>
                     <h1 style={{ fontSize: 24, marginBottom: 20 }}>
                         {chartTemplate?.label} des {activityStatEntry.label}
-                        {groupBy.key !== 'none' && " regroupées par " + groupBy.label}
+                        {groupBy.key !== 'none' && " " + t('stats.grouped by').toLowerCase() + " " + groupBy.label}
                         <br />
                         {renderDownloadButton(chartTemplate.key)}
                     </h1>
@@ -988,3 +989,5 @@ export default function ActivityStatDisplay({ activityStatEntry }) {
         </div>
     );
 }
+
+export default withTranslation()(ActivityStatDisplay);

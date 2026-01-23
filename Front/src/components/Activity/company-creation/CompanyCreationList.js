@@ -1,4 +1,5 @@
 import React from 'react';
+import { withTranslation } from 'react-i18next';
 
 import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
 import 'react-bootstrap-table2-filter/dist/react-bootstrap-table2-filter.min.css';
@@ -25,6 +26,7 @@ import Tooltip from "react-bootstrap/Tooltip";
 // If targetResearcher is set in props display related information only (
 // else load list des tous les companyCreations du database
 function CompanyCreationList(props) {
+    const { t } = props;
     // parameter constant (List Template)
     const targetResearcher = props.targetResearcher;
 
@@ -95,14 +97,14 @@ function CompanyCreationList(props) {
             return <div className={"row"}>
                 <br/>
                 <div className={"col-8"}>
-                    <h3>No Creation of company / start up saved </h3>
+                    <h3>{t('activity.no company creation')}</h3>
                 </div>
                 <div className={"col-4"}>
                     {showCompanyCreationAdd &&
                         <CompanyCreationAdd targetResearcher={targetResearcher} onHideAction={handleHideModal}/>}
                     <button className="btn btn-primary" data-bs-toggle="button"
                             onClick={() => setShowCompanyCreationAdd(true)}>
-                        <AiOutlinePlusCircle/> &nbsp; Add a Creation of company / start up
+                        <AiOutlinePlusCircle/> &nbsp; {t('activity.add company creation')}
                     </button>
                 </div>
             </div>;
@@ -155,7 +157,7 @@ function CompanyCreationList(props) {
         let title = "CompanyCreation"
         if (!targetResearcher) {
             columns.push(chercheursColumnOfActivity)
-            title = "Creation of company / start up list for researcher"
+            title = t('activity.company creation list')
         }
         const CaptionElement = <div>
             <h3> {title}
@@ -258,4 +260,4 @@ function CompanyCreationList(props) {
     }
 }
 
-export default CompanyCreationList;
+export default withTranslation()(CompanyCreationList);
