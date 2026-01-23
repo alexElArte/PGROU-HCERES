@@ -1,4 +1,5 @@
 import React from "react";
+import "./Team.css";
 
 export default function TeamMembersList({ team, allResearchers = [], teamResearchers }) {
   // Fallback au cas où teamResearchers n’est pas fourni ou vide :
@@ -43,10 +44,12 @@ export default function TeamMembersList({ team, allResearchers = [], teamResearc
             key={m.researcherId}
             className="list-group-item d-flex justify-content-between align-items-center"
           >
-            <span>
+            <span className="member-name">
               {[m.researcherName, m.researcherSurname].filter(Boolean).join(" ")}
             </span>
-            <small className="text-muted">{m.researcherEmail}</small>
+            <small className="text-muted member-email" title={m.researcherEmail}>
+              {m.researcherEmail}
+            </small>
           </li>
         ))}
       </ul>

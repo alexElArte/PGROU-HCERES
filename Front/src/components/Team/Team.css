@@ -214,3 +214,71 @@ select {
     font-size: 2rem;
     padding: 3rem 4rem;
 }
+
+/* Member List Styles */
+.list-group-item.d-flex {
+    overflow: hidden !important;
+}
+
+.member-name {
+    flex-shrink: 0 !important;
+    margin-right: 15px !important;
+    white-space: nowrap !important;
+}
+
+.member-email {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    text-align: right !important;
+    word-wrap: normal !important;
+    word-break: normal !important;
+}
+
+/* Bootstrap Table */
+.react-bootstrap-table table {
+    table-layout: fixed !important;
+}
+
+.react-bootstrap-table td,
+.react-bootstrap-table th {
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow-wrap: anywhere !important;
+}
+
+/* Colonne ID chercheur */
+.react-bootstrap-table td:nth-child(2),
+.react-bootstrap-table th:nth-child(2) {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    max-width: 60px !important;
+    width:60px !important;
+}
+
+/* Colonne Team */
+.react-bootstrap-table td:nth-child(6),
+.react-bootstrap-table th:nth-child(6) {
+    width: 100px !important;
+    max-width: 100px !important;
+}
+
+/* Colonne Email - largeur fixe avec retour à la ligne */
+.react-bootstrap-table td:nth-child(5),
+.react-bootstrap-table th:nth-child(5) {
+    width: 220px !important;
+    max-width: 220px !important;
+    word-break: break-all !important;
+}
+
+/* Colonne Edit */
+.react-bootstrap-table td:nth-child(8),
+.react-bootstrap-table th:nth-child(8) {
+    width: 135px !important;
+    max-width: 135px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+}
