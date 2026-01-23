@@ -214,3 +214,136 @@ select {
     font-size: 2rem;
     padding: 3rem 4rem;
 }
+
+/* ====================================
+   TEAM MEMBERS LIST (TeamMembersList - liste avec <li>)
+   ==================================== */
+.member-list-container .list-group-item.d-flex {
+    overflow: hidden !important;
+}
+
+.member-list-container .member-name {
+    flex-shrink: 0 !important;
+    margin-right: 15px !important;
+    white-space: nowrap !important;
+}
+
+.member-list-container .member-email {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    text-align: right !important;
+    word-wrap: normal !important;
+    word-break: normal !important;
+}
+
+/* ====================================
+   MEMBER LIST TABLE (Researcher.js - tableau Members list)
+   ==================================== */
+.member-list-table table {
+    table-layout: fixed !important;
+}
+
+.member-list-table td,
+.member-list-table th {
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow-wrap: anywhere !important;
+}
+
+/* Colonne ID chercheur */
+.member-list-table td:nth-child(2),
+.member-list-table th:nth-child(2) {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    max-width: 60px !important;
+    width:60px !important;
+}
+
+/* Colonne Team */
+.member-list-table td:nth-child(6),
+.member-list-table th:nth-child(6) {
+    width: 100px !important;
+    max-width: 100px !important;
+}
+
+/* Colonne Email - largeur fixe avec retour à la ligne */
+.member-list-table td:nth-child(5),
+.member-list-table th:nth-child(5) {
+    width: 310px !important;
+    max-width: 310px !important;
+    word-break: break-all !important;
+}
+
+/* Colonne Edit */
+.member-list-table td:nth-child(8),
+.member-list-table th:nth-child(8) {
+    width: 135px !important;
+    max-width: 135px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+/* ====================================
+   TEAM LIST TABLE (Team.js - tableau Team List)
+   ==================================== */
+.team-list-table table {
+    table-layout: fixed !important;
+}
+
+.team-list-table td,
+.team-list-table th {
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow-wrap: anywhere !important;
+}
+
+/* Colonne ID chercheur */
+.team-list-table td:nth-child(2),
+.team-list-table th:nth-child(2) {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    max-width: 60px !important;
+    width:60px !important;
+}
+
+/* Colonne Team */
+.team-list-table td:nth-child(3),
+.team-list-table th:nth-child(3) {
+    width: 100px !important;
+    max-width: 100px !important;
+}
+
+/* Colonne Creation Date */
+.team-list-table td:nth-child(4),
+.team-list-table th:nth-child(4) {
+    width: 140px !important;
+    max-width: 140px !important;
+}
+
+/* Colonne End Date */
+.team-list-table td:nth-child(5),
+.team-list-table th:nth-child(5) {
+    width: 100px !important;
+    max-width: 100px !important;
+}
+
+/* Colonne Laboratory - largeur fixe avec retour à la ligne */
+.team-list-table td:nth-child(6),
+.team-list-table th:nth-child(6) {
+    width: 360px !important;
+    max-width: 360px !important;
+    word-break: normal !important;
+}
+
+/* Colonne Edit */
+.team-list-table td:nth-child(8),
+.team-list-table th:nth-child(8) {
+    width: 135px !important;
+    max-width: 135px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+}
