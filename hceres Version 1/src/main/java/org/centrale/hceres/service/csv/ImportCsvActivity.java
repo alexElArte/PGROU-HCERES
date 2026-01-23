@@ -47,6 +47,37 @@ public class ImportCsvActivity {
         return surnameMap;
     }
 
+
+    /**
+     * Construit une map ID -> CsvResearcher
+     * à partir de la map idCsv -> GenericCsv<Researcher, Integer>.
+     * Cette fonction est une copie de buildSurnameToResearcherMap()
+     * en passant par l'id fournit dans le fichier csv plutôt que le
+     * nom de famille qui est inexistant dans le fichier conerné
+     */
+    private Map<String, GenericCsv<Researcher, Integer>> buildCsvIdToResearcherMap(
+            Map<Integer, GenericCsv<Researcher, Integer>> csvIdToResearcherMap) {
+
+        Map<String, GenericCsv<Researcher, Integer>> csvIdMap = new HashMap<>();
+
+        for (GenericCsv<Researcher, Integer> genericCsv : csvIdToResearcherMap.values()) {
+            if (!(genericCsv instanceof CsvResearcher)) {
+                // au cas où un autre type se glisserait dedans
+                continue;
+            }
+            CsvResearcher csvResearcher = (CsvResearcher) genericCsv;
+            String csvId = csvResearcher.getResearcherCsvId();
+
+            if (csvId != null && !csvId.isBlank()) {
+                String key = csvId.trim();
+                // si doublon de nom de famille : on garde le premier
+                csvIdMap.putIfAbsent(key, genericCsv);
+            }
+        }
+
+        return csvIdMap;
+    }
+
     /**
      * @param activityRows list of array having fields as defined in csv
      * @return map from csv Activity type as defined in {@link org.centrale.hceres.items.TypeActivityId}
@@ -60,7 +91,7 @@ public class ImportCsvActivity {
 
         // ⚠️ NOUVEAU : map nom de famille -> CsvResearcher
         Map<String, GenericCsv<Researcher, Integer>> surnameToResearcherMap =
-                buildSurnameToResearcherMap(csvIdToResearcherMap);
+                buildCsvIdToResearcherMap(csvIdToResearcherMap); // alex
 
         // map to store imported Activity from csv,
         EnumMap<TypeActivityId, Map<Integer, CsvActivity>> activityMap = new EnumMap<>(TypeActivityId.class);
