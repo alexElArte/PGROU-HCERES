@@ -146,21 +146,20 @@ class Researcher extends Component {
                     return allTeams;
                 }
             },*/
-                {
-                    dataField: 'belongsTeamList.team.teamName',
-                    text: 'Team',
-                    sort: true,
-                    filter: this.state.showFilter ? textFilter() : null,
-                    formatter: (cell, row) => {
-                        const teamNames = row.belongsTeamList.map((bt) => bt.team.teamName);
-                        return teamNames.join(', ');
-                    },
-                    csvFormatter: (cell, row, rowIndex) => {
-                        const teamNames = row.belongsTeamList.map((bt) => bt.team.teamName);
-                        return teamNames.join(', ');
-                    },
-                },
             {
+                dataField: 'belongsTeamList.team.teamName',
+                text: 'Team',
+                sort: true,
+                filter: this.state.showFilter ? textFilter() : null,
+                formatter: (cell, row) => {
+                    const teamNames = row.belongsTeamList.map((bt) => bt.team.teamName);
+                    return teamNames.join(', ');
+                },
+                csvFormatter: (cell, row, rowIndex) => {
+                    const teamNames = row.belongsTeamList.map((bt) => bt.team.teamName);
+                    return teamNames.join(', ');
+                },
+            }, {
                 dataField: 'lastResearcherStatus',
                 text: 'Statut',
                 sort: true,
@@ -312,7 +311,8 @@ class Researcher extends Component {
                         <DeleteResearcher targetResearcher={this.state.targetResearcher}
                                           onHideAction={this.onHideModalResearcher}/>)}
 
-                    <ToolkitProvider
+                    <div className="member-list-table">
+                        <ToolkitProvider
                         bootstrap4
                         keyField="researcherId"
                         data={this.state.researchers}
@@ -339,6 +339,7 @@ class Researcher extends Component {
                             )
                         }
                     </ToolkitProvider>
+                    </div>
 
                     <Collapse in={this.state.showActivities}>
                         <div>

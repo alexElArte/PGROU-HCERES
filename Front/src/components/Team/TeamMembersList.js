@@ -34,7 +34,7 @@ export default function TeamMembersList({ team, allResearchers = [], teamResearc
   }
 
   return (
-    <div className="card">
+    <div className="card team-list-table">
       <div className="card-header">
         Member of « {team.teamName} » ({members.length})
       </div>

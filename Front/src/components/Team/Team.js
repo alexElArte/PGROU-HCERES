@@ -143,7 +143,7 @@ class Team extends Component {
             },
             {
                 dataField: 'teamName',
-                text: 'Team Name',
+                text: 'Team',
                 sort: true,
                 headerAlign: 'center',
                 filter: this.state.showFilter ? textFilter({ placeholder: 'Filtrer par nom' }) : null,
@@ -368,33 +368,35 @@ class Team extends Component {
                         <DeleteTeam targetTeam={this.state.targetTeam}
                             onHideAction={this.onHideModalTeam} />)}
 
-                    <ToolkitProvider
-                        bootstrap4
-                        keyField="teamId"
-                        data={this.state.teams}
-                        columns={columns}
-                        exportCSV={{
-                            fileName: 'teamList.csv',
-                            onlyExportSelection: true,
-                            exportAll: true
-                        }}
-                        search
-                    >
-                        {
-                            props => (
-                                <BootstrapTable
-                                    defaultSorted={defaultSorted}
-                                    pagination={paginationFactory(paginationOptions(this.state.teams.length))}
-                                    filter={filterFactory()}
-                                    caption={<CaptionElement tableProps={props} />}
-                                    striped
-                                    hover
-                                    condensed
-                                    selectRow={selectRow}
-                                    {...props.baseProps} />
-                            )
-                        }
-                    </ToolkitProvider>
+                    <div className="team-list-table">
+                        <ToolkitProvider
+                            bootstrap4
+                            keyField="teamId"
+                            data={this.state.teams}
+                            columns={columns}
+                            exportCSV={{
+                                fileName: 'teamList.csv',
+                                onlyExportSelection: true,
+                                exportAll: true
+                            }}
+                            search
+                        >
+                            {
+                                props => (
+                                    <BootstrapTable
+                                        defaultSorted={defaultSorted}
+                                        pagination={paginationFactory(paginationOptions(this.state.teams.length))}
+                                        filter={filterFactory()}
+                                        caption={<CaptionElement tableProps={props} />}
+                                        striped
+                                        hover
+                                        condensed
+                                        selectRow={selectRow}
+                                        {...props.baseProps} />
+                                )
+                            }
+                        </ToolkitProvider>
+                    </div>
 
                     <Collapse in={this.state.showMembers && !!this.state.targetTeam}>
                         <div className="mt-3">
