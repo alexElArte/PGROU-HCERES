@@ -273,8 +273,8 @@ select {
 /* Colonne Email - largeur fixe avec retour à la ligne */
 .member-list-table td:nth-child(5),
 .member-list-table th:nth-child(5) {
-    width: 315px !important;
-    max-width: 315px !important;
+    width: 310px !important;
+    max-width: 310px !important;
     word-break: break-all !important;
 }
 
@@ -320,22 +320,22 @@ select {
 /* Colonne Creation Date */
 .team-list-table td:nth-child(4),
 .team-list-table th:nth-child(4) {
-    width: 140px !important;
-    max-width: 140px !important;
+    width: 160px !important;
+    max-width: 160px !important;
 }
 
 /* Colonne End Date */
 .team-list-table td:nth-child(5),
 .team-list-table th:nth-child(5) {
-    width: 100px !important;
-    max-width: 100px !important;
+    width: 120px !important;
+    max-width: 120px !important;
 }
 
 /* Colonne Laboratory - largeur fixe avec retour à la ligne */
 .team-list-table td:nth-child(6),
 .team-list-table th:nth-child(6) {
-    width: 360px !important;
-    max-width: 360px !important;
+    width: 310px !important;
+    max-width: 310px !important;
     word-break: normal !important;
 }
 

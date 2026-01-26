@@ -1,7 +1,11 @@
 import React from "react";
 import "./Team.css";
+import { useTranslation } from "react-i18next";
 
 export default function TeamMembersList({ team, allResearchers = [], teamResearchers }) {
+
+  const { t } = useTranslation();
+
   // Fallback au cas où teamResearchers n’est pas fourni ou vide :
   const getMembersFromAll = (team, allResearchers) => {
     if (!team || !Array.isArray(allResearchers)) return [];
@@ -19,15 +23,15 @@ export default function TeamMembersList({ team, allResearchers = [], teamResearc
       ? teamResearchers
       : getMembersFromAll(team, allResearchers);
 
-  if (!team) return <div>No team selected.</div>;
+  if (!team) return <div>{t("no team selected")}</div>;
   if (!members.length) {
     return (
       <div className="card">
         <div className="card-header">
-          Membres de « {team.teamName} »
+          {t("member of")} « {team.teamName} »
         </div>
         <div className="card-body">
-          No Members found for this team.
+          {t("no team")}
         </div>
       </div>
     );
@@ -35,8 +39,9 @@ export default function TeamMembersList({ team, allResearchers = [], teamResearc
 
   return (
     <div className="card team-list-table">
+    <div className="card team-list-table">
       <div className="card-header">
-        Member of « {team.teamName} » ({members.length})
+        {t("member of")} « {team.teamName} » ({members.length})
       </div>
       <ul className="list-group list-group-flush">
         {members.map(m => (
@@ -45,8 +50,12 @@ export default function TeamMembersList({ team, allResearchers = [], teamResearc
             className="list-group-item d-flex justify-content-between align-items-center"
           >
             <span className="member-name">
+            <span className="member-name">
               {[m.researcherName, m.researcherSurname].filter(Boolean).join(" ")}
             </span>
+            <small className="text-muted member-email" title={m.researcherEmail}>
+              {m.researcherEmail}
+            </small>
             <small className="text-muted member-email" title={m.researcherEmail}>
               {m.researcherEmail}
             </small>

@@ -7,15 +7,19 @@ import {useSelector} from "react-redux";
 //import { HomeContainer,leftside,rightside } from './HomeElements';
 //style={{ backgroundColor: "#" + `${randomColor}` }}
 //let randomColor = Math.floor(Math.random() * 16777215).toString(16);
+
+import { useTranslation } from 'react-i18next';
+
 function Home() {
+    const { t } = useTranslation();
     const auth = useSelector((state) => state.auth);
     return (
         <div>
             <div className="container1">
                 <div className="left-side">
                     <div className="pg">
-                        <h1>Welcome {auth.username} !</h1>
-                        This web page contains all datas on researcher to create stats for the HCERES report.
+                        <h1>{t("home.welcome")} { auth.username }!</h1>
+                        {t("home.message")}
                     </div>
                 </div>
                 <div className="right-side">
