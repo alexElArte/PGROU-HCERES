@@ -39,6 +39,7 @@ export default function TeamMembersList({ team, allResearchers = [], teamResearc
 
   return (
     <div className="card team-list-table">
+    <div className="card team-list-table">
       <div className="card-header">
         {t("member of")} « {team.teamName} » ({members.length})
       </div>
@@ -49,8 +50,12 @@ export default function TeamMembersList({ team, allResearchers = [], teamResearc
             className="list-group-item d-flex justify-content-between align-items-center"
           >
             <span className="member-name">
+            <span className="member-name">
               {[m.researcherName, m.researcherSurname].filter(Boolean).join(" ")}
             </span>
+            <small className="text-muted member-email" title={m.researcherEmail}>
+              {m.researcherEmail}
+            </small>
             <small className="text-muted member-email" title={m.researcherEmail}>
               {m.researcherEmail}
             </small>
