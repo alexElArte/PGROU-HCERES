@@ -36,6 +36,10 @@ export const Button = styled.button`
     outline: none;
     border: none;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 
     &:hover {
         transition: all 0.3s ease-out;
