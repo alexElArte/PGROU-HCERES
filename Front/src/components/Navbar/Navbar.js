@@ -54,30 +54,30 @@ const Navbar = () => {
 
                     <NavItem>
                         <NavLinks to="/Home" language={i18n.language} className={(nav) => nav.isActive() ? "active" : ""}>
-                            <FaHome/> {t("nav.home")}
+                            <FaHome /> {t("nav.home")}
                         </NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="/Configuration" language={i18n.language} className={(nav) => nav.isActive() ? "active" : ""}>
-                            <FaCog className={"mr-2"}/> {t("nav.import data")}
+                            <FaCog /> {t("nav.import data")}
                         </NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="/Researcher" language={i18n.language}>
-                            <FaUserGraduate/>  {t("nav.members")}
+                            <FaUserGraduate /> {t("nav.members")}
                         </NavLinks>
                     </NavItem>
                         <NavLinks to="/Team" language={i18n.language}>
-                            <FaUserFriends/>  {t("nav.teams")}
+                            <FaUserFriends /> {t("nav.teams")}
                         </NavLinks>
                     <NavItem>
                         <NavLinks to="/Activity" language={i18n.language}>
-                            <BiTask/>  {t("nav.activity")}
+                            <BiTask /> {t("nav.activity")}
                         </NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="/Statistiques" language={i18n.language}>
-                            <FaChartLine/>  {t("nav.stats")}
+                            <FaChartLine /> {t("nav.stats")}
                         </NavLinks>
                     </NavItem>
                     {/* Sélecteur de langue */}

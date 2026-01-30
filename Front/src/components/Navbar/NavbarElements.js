@@ -87,6 +87,7 @@ export const NavLinks = styled(Link)`
     color: black;
     display: flex;
     align-items: center;
+    gap: 4px;
     text-decoration: none;
     padding: ${({ language }) => language === 'fr' ? '0.4rem 0.8rem' : '0.5rem 1rem'};
     height: 100%;
