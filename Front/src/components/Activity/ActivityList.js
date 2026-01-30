@@ -149,7 +149,7 @@ function ActivityList(props) {
                                     className={showSeiIndustrialRDContractList ? activeItemClass : inactiveItemClass}>
                                     {showSeiIndustrialRDContractList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    {t('activity.industrial contacts')}
+                                    {t('activity.industrial contracts')}
                                 </ListGroup.Item>
 
                                 <ListGroup.Item onClick={() => setShowTrainingThesisList(!showTrainingThesisList)}

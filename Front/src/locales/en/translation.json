@@ -45,7 +45,7 @@
     "import data": "Import Data",
     "members": "Members",
     "teams": "Teams",
-    "activity": "Activity",
+    "activity": "Activities",
     "stats": "Statistics",
     "log out": "Log Out"
   },
@@ -107,7 +107,7 @@
     "see all": "See All",
     "hide all": "Hide All",
     "scientific recognition": "Scientific Recognition - Awards",
-    "industrial contacts": "Industrial R&D Contacts",
+    "industrial contracts": "Industrial R&D Contracts",
     "training thesis": "Training Thesis",
     "creation": "Creation of Company / Start-up",
     "post-docs": "Post-docs",
