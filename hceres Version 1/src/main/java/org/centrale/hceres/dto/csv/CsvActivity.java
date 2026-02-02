@@ -17,8 +17,11 @@ import java.util.*;
 @EqualsAndHashCode(callSuper = true)
 @Data
 public class CsvActivity extends DependentCsv<Activity, Integer> {
-
+    // Old format
     // id_type;id_activity;researcher_names;specific_activity_count;activity_name_type
+
+    // New format
+    // id_type;id_activity;id_researcher;specific_activity_count;activity_name_type
 
     private Integer idCsvTypeActivity;
     private static final int ID_CSV_TYPE_ACTIVITY_ORDER = 0;
@@ -29,17 +32,16 @@ public class CsvActivity extends DependentCsv<Activity, Integer> {
     private static final int ID_CSV_ORDER = 1;
 
     /**
-     * Colonne CSV contenant les chercheurs :
-     * ex: "M. Giral / Y. Foucher"
+     * Colonne CSV contenant les ids des chercheurs
      */
     private String rawResearchers;
-    private static final int RESEARCHER_NAMES_ORDER = 2;
+    private static final int RESEARCHER_ID_ORDER = 2;
 
     /**
-     * Map NOM DE FAMILLE (uppercase) -> CsvResearcher
+     * Map ID DES CHERCHEURS -> CsvResearcher
      * (fournie par ImportCsvActivity)
      */
-    private final Map<String, GenericCsv<Researcher, Integer>> researcherSurnameMap;
+    private final Map<String, GenericCsv<Researcher, Integer>> researcherIdMap;
 
     /**
      * Chercheurs résolus à partir de rawResearchers
@@ -58,10 +60,10 @@ public class CsvActivity extends DependentCsv<Activity, Integer> {
 
     public CsvActivity(
             Map<Integer, GenericCsv<TypeActivity, Integer>> typeActivityIdCsvMap,
-            Map<String, GenericCsv<Researcher, Integer>> researcherSurnameMap) {
+            Map<String, GenericCsv<Researcher, Integer>> researcherIdMap) {
 
         this.typeActivityIdCsvMap = typeActivityIdCsvMap;
-        this.researcherSurnameMap = researcherSurnameMap;
+        this.researcherIdMap = researcherIdMap;
     }
 
     // ---------------- CSV parsing ----------------
@@ -75,8 +77,8 @@ public class CsvActivity extends DependentCsv<Activity, Integer> {
                 () -> CsvParserUtil.wrapCsvParseException(ID_CSV_ORDER,
                         f -> this.setIdCsv(RequestParser.getAsInteger(csvData.get(f)))),
 
-                // colonne avec "M. Giral / Y. Foucher"
-                () -> CsvParserUtil.wrapCsvParseException(RESEARCHER_NAMES_ORDER,
+                // colonne avec les ids
+                () -> CsvParserUtil.wrapCsvParseException(RESEARCHER_ID_ORDER,
                         f -> this.setRawResearchers(RequestParser.getAsString(csvData.get(f)))),
 
                 () -> CsvParserUtil.wrapCsvParseException(SPECIFIC_ACTIVITY_COUNT_ORDER,
@@ -99,17 +101,17 @@ public class CsvActivity extends DependentCsv<Activity, Integer> {
                         this::setCsvTypeActivity
                 ),
 
-                // Chercheurs par nom de famille
+                // Chercheurs par id
                 () -> {
                     this.csvResearchers = new ArrayList<>();
 
-                    for (String surname : extractSurnames(this.rawResearchers)) {
-                        String key = surname.toUpperCase(Locale.ROOT);
-                        GenericCsv<Researcher, Integer> csvRes = this.researcherSurnameMap.get(key);
+                    for (String id : extractIds(this.rawResearchers)) {
+                        String key = id;
+                        GenericCsv<Researcher, Integer> csvRes = this.researcherIdMap.get(key);
 
                         if (csvRes == null) {
                             throw new CsvFieldException(
-                                    "No researcher found with surname '" + surname + "'",RESEARCHER_NAMES_ORDER
+                                    "No researcher found with id '" + id + "'",RESEARCHER_ID_ORDER
                             );
                         }
                         this.csvResearchers.add(csvRes);
@@ -119,14 +121,14 @@ public class CsvActivity extends DependentCsv<Activity, Integer> {
     }
 
     /**
-     * Transforme "M. Giral / Y. Foucher" -> ["Giral", "Foucher"]
+     * Transforme 1 2 9 -> ["1", "2", "9"]
      */
-    private List<String> extractSurnames(String raw) {
+    private List<String> extractIds(String raw) {
         if (raw == null || raw.isBlank()) {
             return Collections.emptyList();
         }
 
-        List<String> surnames = new ArrayList<>();
+        List<String> ids = new ArrayList<>();
         String[] parts = raw.split("/");
 
         for (String part : parts) {
@@ -135,9 +137,9 @@ public class CsvActivity extends DependentCsv<Activity, Integer> {
 
             String[] tokens = trimmed.split("\\s+");
             String last = tokens[tokens.length - 1]; // prend le dernier mot comme nom de famille
-            surnames.add(last);
+            ids.add(last);
         }
-        return surnames;
+        return ids;
     }
 
     // ---------------- Conversion en entité ----------------
