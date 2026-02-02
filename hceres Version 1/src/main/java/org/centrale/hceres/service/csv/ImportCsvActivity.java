@@ -89,9 +89,9 @@ public class ImportCsvActivity {
             Map<Integer, GenericCsv<Researcher, Integer>> csvIdToResearcherMap,
             Map<Integer, GenericCsv<TypeActivity, Integer>> csvIdToTypeActivityMap) {
 
-        // ⚠️ NOUVEAU : map nom de famille -> CsvResearcher
-        Map<String, GenericCsv<Researcher, Integer>> surnameToResearcherMap =
-                buildCsvIdToResearcherMap(csvIdToResearcherMap); // alex
+        // ⚠️ NOUVEAU : map id du hcercheur -> CsvResearcher
+        Map<String, GenericCsv<Researcher, Integer>> idToResearcherMap =
+                buildCsvIdToResearcherMap(csvIdToResearcherMap);
 
         // map to store imported Activity from csv,
         EnumMap<TypeActivityId, Map<Integer, CsvActivity>> activityMap = new EnumMap<>(TypeActivityId.class);
@@ -104,8 +104,8 @@ public class ImportCsvActivity {
         for (Object activityRow : activityRows) {
             lineNumber++;
 
-            // ⚠️ NOUVEAU constructeur : on passe la map sur les noms de famille
-            CsvActivity csvActivity = new CsvActivity(csvIdToTypeActivityMap, surnameToResearcherMap);
+            // ⚠️ NOUVEAU constructeur : on passe la map sur les id des chercheurs
+            CsvActivity csvActivity = new CsvActivity(csvIdToTypeActivityMap, idToResearcherMap);
 
             List<?> csvData = (List<?>) activityRow;
             try {
