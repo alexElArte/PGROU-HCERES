@@ -347,3 +347,16 @@ select {
     text-align: center !important;
     vertical-align: middle !important;
 }
+
+/* Bouton d'ajout de texte */
+
+.btn-icon-text {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-icon-text svg {
+    display: inline-block;
+    vertical-align: middle;
+}

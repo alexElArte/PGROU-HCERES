@@ -264,13 +264,14 @@ class Researcher extends Component {
 
 
                         <div className="col-4">
-                            <button className="btn btn-primary btn-lg" data-bs-toggle="button" onClick={() => {
+                            <button className="btn btn-primary btn-lg btn-icon-text" data-bs-toggle="button" onClick={() => {
                                 this.setState({
                                     targetResearcher: null,
                                     showAddResearcher: true
                                 })
                             }}>
-                                <AiOutlinePlusCircle/> &nbsp; {t('members.add')}
+                                <AiOutlinePlusCircle/>
+                                <span>{t('members.add')}</span>
                             </button>
                             {this.state.researcherSuccessAlert && (
                                 <Alert className={"alert-success "} onClose={() => this.setState({

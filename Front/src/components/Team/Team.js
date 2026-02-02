@@ -322,13 +322,14 @@ class Team extends Component {
                         </div>
 
                         <div className="col-4">
-                            <button className="btn btn-primary btn-lg" data-bs-toggle="button" onClick={() => {
+                            <button className="btn btn-primary btn-lg btn-icon-text" data-bs-toggle="button" onClick={() => {
                                 this.setState({
                                     targetTeam: null,
                                     showAddTeam: true
                                 })
                             }}>
-                                <AiOutlinePlusCircle /> &nbsp; {t('team.add')}
+                                <AiOutlinePlusCircle /> 
+                                <span>{t('team.add')}</span>
                             </button>
                             {this.state.teamSuccessAlert && (
                                 <Alert className={"alert-success "} onClose={() => this.setState({

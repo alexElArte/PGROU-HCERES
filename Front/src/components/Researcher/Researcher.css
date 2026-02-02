@@ -214,3 +214,14 @@ select {
     font-size: 2rem;
     padding: 3rem 4rem;
 }
+
+.btn-icon-text {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-icon-text svg {
+    display: inline-block;
+    vertical-align: middle;
+}
