@@ -3,3 +3,14 @@
     max-width: 100%;
     overflow:auto;
 }
+
+.list-group-item {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+}
+
+.list-group-item svg {
+    display: inline-block;
+    vertical-align: middle;
+}
