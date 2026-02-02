@@ -70,7 +70,7 @@ public class BookChapterService {
 
         // --- Création de l'activité associée ---
         Activity activity = new Activity();
-        activity.setIdTypeActivity(TypeActivityId.BOOK.getId());
+        activity.setIdTypeActivity(TypeActivityId.BOOK_CHAPTER.getId());
 
         // Association bidirectionnelle
         bookChapter.setActivity(activity);

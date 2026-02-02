@@ -22,6 +22,7 @@ function BookChapterAdd(props) {
     const [bookChapterEditor, setBookChapterEditor] = React.useState("");
     const [bookChapterNbPage, setBookChapterNbPage] = React.useState("");
     const [bookChapterAuthors, setBookChapterAuthors] = React.useState("");
+    const [bookChapterAdditionalInfo, setBookChapterAdditionalInfo] = React.useState(""); 
     const [bookChapterLanguageId, setBookChapterLanguageId] = React.useState(""); 
 
     const handleClose = (msg = null) => {
@@ -42,6 +43,7 @@ function BookChapterAdd(props) {
             bookChapterEditor: bookChapterEditor,
             bookChapterAuthors: bookChapterAuthors,
             bookChapterNbPage: bookChapterNbPage,
+            bookChapterAdditionalInfo : bookChapterAdditionalInfo,
             bookChapterLanguageId: bookChapterLanguageId, // ✅ corrigé
         };
 
@@ -126,6 +128,13 @@ function BookChapterAdd(props) {
                             className='input-container'
                             onChange={e => setBookChapterNbPage(e.target.value)}
                             required
+                        />
+
+                        <label className='label'>Informations additionel</label>
+                        <input
+                            type="text"
+                            className='input-container'
+                            onChange={e => setBookChapterAdditionalInfo(e.target.value)}
                         />
 
                         <label className='label'>Langue du livre</label>
