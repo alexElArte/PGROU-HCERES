@@ -114,22 +114,22 @@ class Researcher extends Component {
                 text: 'ID',
                 sort: true,
                 search: true,
-                filter: this.state.showFilter ? textFilter() : null,
+                filter: this.state.showFilter ? textFilter({placeholder: 'ID...'}) : null,
             }, {
                 dataField: 'researcherName',
                 text: t('members.last name'),
                 sort: true,
-                filter: this.state.showFilter ? textFilter() : null,
+                filter: this.state.showFilter ? textFilter({placeholder: t('members.last name') + '...'}) : null,
             }, {
                 dataField: 'researcherSurname',
                 text: t('members.first name'),
                 sort: true,
-                filter: this.state.showFilter ? textFilter() : null,
+                filter: this.state.showFilter ? textFilter({placeholder: t('members.first name') + '...'}) : null,
             }, {
                 dataField: 'researcherEmail',
                 text: t('members.email'),
                 sort: true,
-                filter: this.state.showFilter ? textFilter() : null,
+                filter: this.state.showFilter ? textFilter({placeholder: t('members.email') + '...'}) : null,
             }, /**{
                 dataField: 'belongsTeamList',
                 text: 'Equipe',
@@ -154,7 +154,7 @@ class Researcher extends Component {
                 dataField: 'belongsTeamList.team.teamName',
                 text: t('members.team'),
                 sort: true,
-                filter: this.state.showFilter ? textFilter() : null,
+                filter: this.state.showFilter ? textFilter({placeholder: t('members.team') + '...'}) : null,
                 formatter: (cell, row) => {
                     const teamNames = row.belongsTeamList.map((bt) => bt.team.teamName);
                     return teamNames.join(', ');
@@ -167,7 +167,7 @@ class Researcher extends Component {
                 dataField: 'lastResearcherStatus',
                 text: t('members.status'),
                 sort: true,
-                filter: this.state.showFilter ? textFilter() : null,
+                filter: this.state.showFilter ? textFilter({placeholder: t('members.status') + '...'}) : null,
             }, {
                 dataField: 'actionColumn',
                 isDummyField: true,
