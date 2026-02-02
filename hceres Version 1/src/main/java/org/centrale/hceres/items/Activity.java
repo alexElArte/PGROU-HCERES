@@ -123,7 +123,7 @@ public class Activity implements Serializable {
     @JsonIgnore
     private MeetingCongressOrg meetingCongressOrg;
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "activity")
-    @JsonIgnore
+    //@JsonIgnore
     private BookChapter bookChapter;
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "activity")
     private Platform platform;
@@ -155,7 +155,6 @@ public class Activity implements Serializable {
     private OralComPoster oralComPoster;
 
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "activity")
-    
     private ResearchContractFundedCharit researchContractFundedCharit;
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "activity")
     @JsonIgnore
@@ -343,6 +342,14 @@ public class Activity implements Serializable {
         this.book = book;
     }
 
+    public BookChapter getBookChapter() {
+        return bookChapter;
+    }
+
+    public void setBookChapter(BookChapter bookChapter) {
+        this.bookChapter = bookChapter;
+    }
+
     public InvitedSeminar getInvitedSeminar() {
         return invitedSeminar;
     }
@@ -357,14 +364,6 @@ public class Activity implements Serializable {
 
     public void setMeetingCongressOrg(MeetingCongressOrg meetingCongressOrg) {
         this.meetingCongressOrg = meetingCongressOrg;
-    }
-
-    public BookChapter getBookChapter() {
-        return bookChapter;
-    }
-
-    public void setBookChapter(BookChapter bookChapter) {
-        this.bookChapter = bookChapter;
     }
 
     public Platform getPlatform() {

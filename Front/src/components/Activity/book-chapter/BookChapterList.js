@@ -116,12 +116,12 @@ function BookChapterList(props) {
                 );
             }
         }, {
-            dataField: 'bookChapter.title',
+            dataField: 'bookChapter.chapterTitle',
             text: "Titre",
             sort: true,
             filter: showFilter ? textFilter() : null,
         }, {
-            dataField: 'bookChapter.booktitle',
+            dataField: 'bookChapter.bookTitle',
             text: "Titre livre",
             sort: true,
             filter: showFilter ? textFilter() : null,
@@ -153,7 +153,6 @@ function BookChapterList(props) {
             text: "Informations supplémentaires",
             sort: true,
             filter: showFilter ? numberFilter() : null,
-            hidden: true, // for csv only
         }, {
             dataField: 'bookChapter.language.languageName',
             text: "Langue",
