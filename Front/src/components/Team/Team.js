@@ -144,14 +144,14 @@ class Team extends Component {
                 headerAlign: 'center',
                 align: 'center',
                 style: { width: '8%' },
-                filter: this.state.showFilter ? textFilter({ placeholder: 'Filtrer ID' }) : null,
+                filter: this.state.showFilter ? textFilter({ placeholder: t('common.id') + '...'}) : null,
             },
             {
                 dataField: 'teamName',
                 text: t('team.team'),
                 sort: true,
                 headerAlign: 'center',
-                filter: this.state.showFilter ? textFilter({ placeholder: t('team.filter by name') }) : null,
+                filter: this.state.showFilter ? textFilter({ placeholder: t('team.team') + '...'}) : null,
             },
             {
                 dataField: 'teamCreation',
@@ -168,7 +168,7 @@ class Team extends Component {
                         day: '2-digit'
                     });
                 },
-                filter: this.state.showFilter ? textFilter({ placeholder: 'aaaa-mm-jj' }) : null,
+                filter: this.state.showFilter ? textFilter({ placeholder: t('team.creation date') + '...'}) : null,
             },
             {
                 dataField: 'teamEnd',
@@ -185,7 +185,7 @@ class Team extends Component {
                         day: '2-digit'
                     });
                 },
-                filter: this.state.showFilter ? textFilter({ placeholder: 'aaaa-mm-jj' }) : null,
+                filter: this.state.showFilter ? textFilter({ placeholder: t('team.end date') + '...'}) : null,
             },
             {
                 dataField: 'teamLaboratoryId',
@@ -208,7 +208,7 @@ class Team extends Component {
                     // à défaut, on met l’ID s’il existe, sinon on laisse vide
                     return cell || '';
                 },
-                filter: this.state.showFilter ? textFilter({ placeholder: 'Nom labo ou ID' }) : null,
+                filter: this.state.showFilter ? textFilter({ placeholder: t('team.laboratory') + '...'}) : null,
             },
             {
                 dataField: 'memberCount',
@@ -231,7 +231,7 @@ class Team extends Component {
             {
                 dataField: 'actionColumn',
                 isDummyField: true,
-                text: 'Edit',
+                text: t('team.edit'),
                 csvExport: false,
                 formatter: (cell, row) => {
                     return (
@@ -239,7 +239,7 @@ class Team extends Component {
                             <OverlayTrigger
                                 placement="bottom"
                                 delay={{ show: 250, hide: 400 }}
-                                overlay={this.showTooltip("Afficher les membres de l'équipe")}
+                                overlay={this.showTooltip(t("team.show members"))}
                             >
                                 <button
                                     onClick={() => {

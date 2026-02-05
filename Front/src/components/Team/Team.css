@@ -339,6 +339,13 @@ select {
     word-break: normal !important;
 }
 
+/* Colonne Number of member */
+.team-list-table td:nth-child(7),
+.team-list-table th:nth-child(7) {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
 /* Colonne Edit */
 .team-list-table td:nth-child(8),
 .team-list-table th:nth-child(8) {
