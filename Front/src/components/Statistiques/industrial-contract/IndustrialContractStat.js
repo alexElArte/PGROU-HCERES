@@ -8,7 +8,7 @@ class IndustrialContractStat extends ActivityStatTemplate {
         super({
             // adapte ce nom si ton enum diffère
             idTypeActivity: ActivityTypes.SEI_INDUSTRIAL_R_D_CONTRACT,
-            label: "Industrial R&D contracts",
+            label: "activity.industrial contracts",
         });
     }
 
@@ -53,7 +53,7 @@ class IndustrialContractStat extends ActivityStatTemplate {
         // startDate
         {
             key: "startAfter",
-            label: "Contract start after",
+            label: "filter.contract created after",
             inputType: "date",
             callbackFilter: (c, value) => {
                 if (!value) return true;
@@ -71,7 +71,7 @@ class IndustrialContractStat extends ActivityStatTemplate {
         },
         {
             key: "startBefore",
-            label: "Contract start before",
+            label: "filter.contract created before",
             inputType: "date",
             callbackFilter: (c, value) => {
                 if (!value) return true;
@@ -91,7 +91,7 @@ class IndustrialContractStat extends ActivityStatTemplate {
         // endDate
         {
             key: "endAfter",
-            label: "Contract end after",
+            label: "filter.contract end after",
             inputType: "date",
             callbackFilter: (c, value) => {
                 if (!value) return true;
@@ -109,7 +109,7 @@ class IndustrialContractStat extends ActivityStatTemplate {
         },
         {
             key: "endBefore",
-            label: "Contract end before",
+            label: "filter.contract end before",
             inputType: "date",
             callbackFilter: (c, value) => {
                 if (!value) return true;
@@ -129,7 +129,7 @@ class IndustrialContractStat extends ActivityStatTemplate {
         // agreementAmount
         {
             key: "agreementMin",
-            label: "Minimum agreement amount",
+            label: "filter.minimum agreement amount",
             inputType: "number",
             callbackFilter: (c, minAmount) => {
                 if (minAmount === null || minAmount === undefined || minAmount === "") {
@@ -149,7 +149,7 @@ class IndustrialContractStat extends ActivityStatTemplate {
         },
         {
             key: "agreementMax",
-            label: "Maximum agreement amount",
+            label: "filter.maximum agreement amount",
             inputType: "number",
             callbackFilter: (c, maxAmount) => {
                 if (maxAmount === null || maxAmount === undefined || maxAmount === "") {
@@ -172,7 +172,7 @@ class IndustrialContractStat extends ActivityStatTemplate {
     customGroupByList = [
         {
             key: "startYear",
-            label: "Start year",
+            label: "filter.start year",
             callbackGroupBy: (c) => {
                 if (!c.startDateObj) return [];
                 const year = c.startDateObj.getFullYear();

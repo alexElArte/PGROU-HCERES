@@ -5,7 +5,7 @@ class CompanyCreationStat extends ActivityStatTemplate {
     constructor() {
         super({
             idTypeActivity: ActivityTypes.SEI_COMPANY_CREATION,
-            label: "Company Creation",
+            label: "activity.creation",
         });
     }
 
@@ -36,7 +36,7 @@ class CompanyCreationStat extends ActivityStatTemplate {
     filters = [
     {
         key: "createdAfter",
-        label: "Company created after",
+        label: "filter.company created after",
         inputType: "date",
         callbackFilter: (companyCreation, createdAfter) => {
             if (!createdAfter) return true;
@@ -57,7 +57,7 @@ class CompanyCreationStat extends ActivityStatTemplate {
     },
     {
         key: "createdBefore",
-        label: "Company created before",
+        label: "filter.company created before",
         inputType: "date",
         callbackFilter: (companyCreation, createdBefore) => {
             if (!createdBefore) return true;
@@ -78,7 +78,7 @@ class CompanyCreationStat extends ActivityStatTemplate {
     },
     {
         key: "isActive",
-        label: "Show only active companies",
+        label: "filter.company active",
         inputType: "checkbox",
         callbackFilter: (companyCreation, isActiveChecked) => {
             if (!isActiveChecked) return true;
@@ -94,7 +94,7 @@ class CompanyCreationStat extends ActivityStatTemplate {
             // unique key across all charts
             key: "year",
             // label displayed for the chart
-            label: "Year",
+            label: "filter.year",
             // callback function to group the data
             callbackGroupBy: (companyCreation) => {
                 if (!companyCreation.dateCreationObj) {

@@ -267,7 +267,7 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
                             className={"ml-2"}
                             width={20} height={20}
                         />
-                        Chargement...
+                        {t('common.loading')}...
                     </> :
                     <>
                         <AiOutlineDownload />
@@ -536,10 +536,10 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
 
     return (
         <div>
-            <h1 style={{ fontSize: 24, marginBottom: 20 }}>{t('stats.statistics on')} {activityStatEntry.label} </h1>
+            <h1 style={{ fontSize: 24, marginBottom: 20 }}>{t('stats.statistics on')} {t(activityStatEntry.label)} </h1>
 
             <div>
-                {isLoading && <div><Oval className="ml-2" stroke={"black"} /> {t('stats.loading')}</div>}
+                {isLoading && <div><Oval className="ml-2" stroke={"black"} />{t('common.loading')}...</div>}
             </div>
 
             <div>
@@ -555,7 +555,7 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
                             if (filter.inputType === 'select') {
                                 return (
                                     <div key={filter.key}>
-                                        <label className={"label"}>{filter.label}</label>
+                                        <label className={"label"}>{t(filter.label)}</label>
                                         <SelectFilterDisplay
                                             key={filter.key}
                                             selectOptions={filter.selectOptions()}
@@ -565,7 +565,7 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
                                 )
                             } else return (
                                 <div key={filter.key}>
-                                    <label className={"label"}>{filter.label}</label>
+                                    <label className={"label"}>{t(filter.label)}</label>
                                     <input
                                         type={filter.inputType}
                                         defaultValue={filter.initialValueCallback ? filter.initialValueCallback(activityStatList) : ''}

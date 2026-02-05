@@ -5,7 +5,7 @@ class ResearchContractFundedCharitStat extends ActivityStatTemplate {
     constructor() {
         super({
             idTypeActivity: ActivityTypes.RESEARCH_CONTRACT_FUNDED_PUBLIC_CHARITABLE_INST,
-            label: "Research contract (charitable/public funding)",
+            label: "activity.research contract",
         });
     }
 
@@ -36,7 +36,7 @@ class ResearchContractFundedCharitStat extends ActivityStatTemplate {
     filters = [
         {
             key: "startDate",
-            label: "Contract awarded after",
+            label: "filter.contract awarded after",
             inputType: "date",
             callbackFilter: (contract, startDate) => {
                 if (!startDate) return true; // pas de filtre si aucune valeur
@@ -57,7 +57,7 @@ class ResearchContractFundedCharitStat extends ActivityStatTemplate {
         },
         {
             key: "endDate",
-            label: "Contract awarded before",
+            label: "filter.contract awarded before",
             inputType: "date",
             callbackFilter: (contract, endDate) => {
                 if (!endDate) return true;
@@ -81,7 +81,7 @@ class ResearchContractFundedCharitStat extends ActivityStatTemplate {
             // unique key across all filters
             key: "grantAmountMin",
             // label displayed for the input field
-            label: "Granted Amount (minimum)",
+            label: "filter.minimum agreement amount",
             // type of input field
             inputType: "number",
             // callback function to filter the data based on the input value
@@ -110,7 +110,7 @@ class ResearchContractFundedCharitStat extends ActivityStatTemplate {
             // unique key across all charts
             key: "year",
             // label displayed for the chart
-            label: "Year",
+            label: "filter.year",
             // callback function to group the data
             callbackGroupBy: (contract) => {
                 const year = contract.dateContractAwardObj.getFullYear();

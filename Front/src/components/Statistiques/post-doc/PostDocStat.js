@@ -5,7 +5,7 @@ class PostDocStat extends ActivityStatTemplate {
     constructor() {
         super({
             idTypeActivity: ActivityTypes.POST_DOC,
-            label: "PostDoc",
+            label: "activity.post-docs",
         });
     }
 
@@ -62,7 +62,7 @@ class PostDocStat extends ActivityStatTemplate {
     filters = [
         {
             key: "arrivalAfter",
-            label: "Arrival after",
+            label: "filter.arrival after",
             inputType: "date",
             callbackFilter: (postDoc, arrivalAfter) => {
                 if (!arrivalAfter) return true;
@@ -80,7 +80,7 @@ class PostDocStat extends ActivityStatTemplate {
         },
         {
             key: "arrivalBefore",
-            label: "Arrival before",
+            label: "filter.arrival before",
             inputType: "date",
             callbackFilter: (postDoc, arrivalBefore) => {
                 if (!arrivalBefore) return true;
@@ -100,7 +100,7 @@ class PostDocStat extends ActivityStatTemplate {
         // Departure date filters
         {
             key: "departureAfter",
-            label: "Departure after",
+            label: "filter.departure after",
             inputType: "date",
             callbackFilter: (postDoc, departureAfter) => {
                 if (!departureAfter) return true;
@@ -118,7 +118,7 @@ class PostDocStat extends ActivityStatTemplate {
         },
         {
             key: "departureBefore",
-            label: "Departure before",
+            label: "filter.departure before",
             inputType: "date",
             callbackFilter: (postDoc, departureBefore) => {
                 if (!departureBefore) return true;
@@ -138,7 +138,7 @@ class PostDocStat extends ActivityStatTemplate {
         // Duration (number)
         {
             key: "durationMin",
-            label: "Minimum duration (months)",
+            label: "filter.minimum duration",
             inputType: "number",
             callbackFilter: (postDoc, durationMin) => {
                 if (!durationMin) return true;
@@ -157,7 +157,7 @@ class PostDocStat extends ActivityStatTemplate {
         // Associated funding (select)
         {
             key: "funding",
-            label: "Associated funding",
+            label: "filter.associated funding",
             inputType: "select",
             selectOptions: () => {
                 const fundingSet = new Set();
@@ -186,7 +186,7 @@ class PostDocStat extends ActivityStatTemplate {
     customGroupByList = [
         {
             key: "arrivalYear",
-            label: "Arrival year",
+            label: "filter.arrival year",
             callbackGroupBy: (p) => {
                 if (!p.arrivalDateObj) return [];
                 const y = p.arrivalDateObj.getFullYear();
@@ -195,7 +195,7 @@ class PostDocStat extends ActivityStatTemplate {
         },
         {
             key: "nationality",
-            label: "Nationality",
+            label: "filter.nationality",
             callbackGroupBy: (p) => {
                 const nat = p.nationality || "Unknown";
                 return [{ groupKey: nat, groupLabel: nat }];
