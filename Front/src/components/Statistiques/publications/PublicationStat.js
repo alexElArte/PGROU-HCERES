@@ -6,7 +6,7 @@ class PublicationStat extends ActivityStatTemplate {
     constructor() {
         super({
             idTypeActivity: ActivityTypes.PUBLICATION,
-            label: "Publications"
+            label: "activity.publication",
         });
     }
 
@@ -29,7 +29,7 @@ class PublicationStat extends ActivityStatTemplate {
             // unique key across all filters
             key: "startDate",
             // label displayed for the input field
-            label: "Publication après le",
+            label: "filter.publication after",
             // type of input field
             inputType: "date",
             // callback function to filter the data based on the input value
@@ -46,7 +46,7 @@ class PublicationStat extends ActivityStatTemplate {
         },
         {
             key: "endDate",
-            label: "Publication avant le",
+            label: "filter.publication before",
             inputType: "date",
             callbackFilter: (publication, endDate) => publication.publicationDate <= endDate,
             initialValueCallback: (publicationList) => {
@@ -61,7 +61,7 @@ class PublicationStat extends ActivityStatTemplate {
         },
         {
             key: "minimalImpactFactor",
-            label: "Facteur d'impact minimal",
+            label: "filter.minimal impact factor",
             inputType: "number",
             callbackFilter: (publication, impactFactor) => publication.impactFactor >= impactFactor,
             initialValueCallback: (publicationList)=> {
@@ -76,7 +76,7 @@ class PublicationStat extends ActivityStatTemplate {
         },
         {
             key: "publicationType",
-            label: "Type de publication",
+            label: "filter.publication type",
             inputType: "select",
             selectOptions: () => {
                 return Object.values(this.publicationTypeIdMap).map((publicationType) => {
@@ -99,7 +99,7 @@ class PublicationStat extends ActivityStatTemplate {
             // unique key across all charts
             key: "year",
             // label displayed for the chart
-            label: "année",
+            label: "filter.year",
             // callback function to group the data
             callbackGroupBy: (publication) => {
                 return [
@@ -112,7 +112,7 @@ class PublicationStat extends ActivityStatTemplate {
         },
         {
             key: "publicationType",
-            label: "type de publication",
+            label: "filter.publication type",
             callbackGroupBy: (publication) => {
                 return [
                     {

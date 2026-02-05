@@ -54,6 +54,7 @@
     "message":
       "Cette page web contient toutes les données sur les chercheurs pour créer des statistiques pour le rapport HCERES."
   },
+  "about": "Cette application a été créée par des étudiants de Centrale Nantes dans le cadre de l’option Informatique pour les Systèmes d’Information, sous la direction de Jean-Yves Martin et de Sophie Limou. Le suivi de l’application est désormais assuré par la DSI de Nantes Université.",
   "import data": {
     "title": "Importer des données dans la base de données",
     "upload csv": "Importer CSV",
@@ -103,7 +104,7 @@
   "activity": {
     "title": "Liste des Activités",
     "activities": "Activités",
-    "no activity": "Aucune Activité trouvée.",
+    "no activity": "Aucune activité trouvée.",
     "see all": "Voir Tout",
     "hide all": "Cacher Tout",
     "scientific recognition": "Reconnaissance Scientifique - Récompenses",
@@ -111,6 +112,8 @@
     "training thesis": "Encadrement de Thèses",
     "creation": "Création d'Entreprises / de Start-up",
     "post-docs": "Post-doctorants",
+    "book": "Livre",
+    "publication": "Publication",
     "research contract": "Contrats de recherche financés par le public ou des associations charitables",
     "industrial contracts list": "Liste des contrats R&D industriels pour le chercheur",
     "post-docs list": "Liste des post-docs pour le chercheur",
@@ -129,7 +132,7 @@
     "add company creation": "Ajouter une création d'entreprise / start-up",
     "add training thesis": "Ajouter une thèse",
     "add award": "Ajouter une récompense",
-    "add research contract": "Ajouter un contrat de recherche"
+    "add research contract": "Ajouter un contrat de recherche financé par le public ou des associations charitables"
   },
   "stats": {
     "title": "Statistiques sur les",
@@ -141,12 +144,6 @@
     "filters": "Filtres",
     "chart options": "Options des graphiques",
     "download chart": "Télécharger le graphique",
-    "scientific recognition": "Récompenses",
-    "industrial contacts": "Contacts R&D industriels",
-    "training thesis": "Thèses",
-    "creation": "Création d'entreprises/de start-up",
-    "post-docs": "Post-docs",
-    "research contract": "Contrats de recherche publics/asso",
     "apply filters": "Appliquer les filtres",
     "bar chart": "Graphique en barres :",
     "chart type": "Type de graphique",
@@ -158,7 +155,44 @@
     "percentage": "Pourcentage",
     "grouped by": "Activités regroupées par",
     "number of": "Nombre de",
-    "loading": "Chargement...",
     "by": "Par"
+  },
+  "filter": {
+    "book published after": "Livre publié après le",
+    "book published before": "Livre publié avant le",
+    "year": "année",
+    "company created after": "Entreprise créée après",
+    "company created before": "Entreprise créée avant",
+    "company active": "Afficher uniquement les entreprises actives",
+    "contract created after": "Contrat créé après",
+    "contract created before": "Contrat créé avant",
+    "contract end after": "Fin du contrat après",
+    "contract end before": "Fin du contrat avant",
+    "minimum agreement amount": "Montant minimum de l'accord",
+    "maximum agreement amount": "Montant maximum de l'accord",
+    "start year": "Année de départ",
+    "end year": "Année de fin",
+    "arrival after": "Arrivée après",
+    "arrival before": "Arrivée avant",
+    "deparature after": "Départ après",
+    "deparature before": "Départ avant",
+    "minimum duration": "Durée minimale (mois)",
+    "associated funding": "Financement associé",
+    "arrival year": "Année d'arrivée",
+    "nationality": "Nationalité",
+    "publication after": "Publication après",
+    "publication before": "Publication avant",
+    "minimal impact factor": "Facteur d'impact minimal",
+    "publication type": "Type de publication",
+    "contract awarded after": "Contrat attribué après",
+    "contract awarded before": "Contrat attribué avant",
+    "awarded after": "Attribué après",
+    "awarded before": "Attribué avant",
+    "training thesis after": "Thèse d'encadrement après",
+    "training thesis before": "Thèse d'encadrement avant",
+    "defense after": "Défense après",
+    "defense before": "Défense avant",
+    "minimum article count": "Nombre minimum d'articles",
+    "thesis type": "Type de thèse"
   }
 }
