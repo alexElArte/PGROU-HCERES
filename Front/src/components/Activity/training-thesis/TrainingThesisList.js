@@ -6,7 +6,7 @@ import 'react-bootstrap-table2-filter/dist/react-bootstrap-table2-filter.min.css
 import BootstrapTable from 'react-bootstrap-table-next';
 import ToolkitProvider, { Search } from 'react-bootstrap-table2-toolkit/dist/react-bootstrap-table2-toolkit';
 import paginationFactory from 'react-bootstrap-table2-paginator';
-import filterFactory, { dateFilter, numberFilter } from 'react-bootstrap-table2-filter';
+import filterFactory, { dateFilter, numberFilter, textFilter } from 'react-bootstrap-table2-filter';
 import { Alert, OverlayTrigger } from "react-bootstrap";
 
 import 'react-datepicker/dist/react-datepicker.css';
@@ -148,12 +148,13 @@ function TrainingThesisList(props) {
             dataField: 'trainingThesis.thesisTypeId',
             text: 'Thesis Type (ID)',
             sort: true,
-            filter: showFilter ? numberFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'ID...'}) : null,
         },
         {
             dataField: 'trainingThesis.thesisMainFunding',
             text: 'Main Funding',
             sort: true,
+            filter: showFilter ? textFilter({placeholder: 'Main Funding...'}) : null,
         },
         {
             dataField: 'trainingThesis.thesisDefenseDate',
@@ -165,6 +166,7 @@ function TrainingThesisList(props) {
             dataField: 'trainingThesis.thesisFutur',
             text: 'Future after Thesis',
             sort: true,
+            filter: showFilter ? textFilter({placeholder: 'Future after Thesis...'}) : null,
         },
         {
             dataField: 'trainingThesis.thesisNumberArticles',
@@ -189,11 +191,13 @@ function TrainingThesisList(props) {
             dataField: 'trainingThesis.phdStudentId.phdStudentSurname',
             text: 'PhD Student Last Name',
             sort: true,
+            filter: showFilter ? textFilter({placeholder: 'PhD Student Last Name...'}) : null,
         },
         {
             dataField: 'trainingThesis.phdStudentId.phdStudentName',
             text: 'PhD Student First Name',
             sort: true,
+            filter: showFilter ? textFilter({placeholder: 'PhD Student First Name...'}) : null,
         }
         ];
 

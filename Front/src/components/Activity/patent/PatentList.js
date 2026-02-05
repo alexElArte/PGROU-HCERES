@@ -133,7 +133,7 @@ function PatentList(props) {
             dataField: 'patent.title',
             text: "Titre",
             sort: true,
-            // filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Titre...'}) : null,
             // hidden: true, // for csv only
         }, {
             dataField: 'patent.registrationDate',
@@ -163,7 +163,7 @@ function PatentList(props) {
             dataField: 'patent.inventors',
             text: "Inventeurs",
             sort: true,
-            // filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Inventeurs...'}) : null,
             // hidden: true, // for csv only
         }, {
             dataField: 'patent.coOwners',
@@ -175,7 +175,7 @@ function PatentList(props) {
             dataField: 'patent.priorityNumber',
             text: "Numéro de priorité",
             sort: true,
-            filter: showFilter ? numberFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'N° de priorité...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'patent.priorityDate',
@@ -187,7 +187,7 @@ function PatentList(props) {
             dataField: 'patent.publicationNumber',
             text: "Numéro de publication",
             sort: true,
-            // filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Numéro de publication...'}) : null,
             // hidden: true, // for csv only
         }, {
             dataField: 'patent.publicationDate',
@@ -259,7 +259,7 @@ function PatentList(props) {
             dataField: 'patent.typePatentId.nameChoice',
             text: "Nom Choix",
             sort: true,
-            // filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Nom Choix...'}) : null,
             // hidden: true, // for csv only
         }];
 
