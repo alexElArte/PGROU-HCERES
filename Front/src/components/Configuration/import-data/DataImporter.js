@@ -10,6 +10,7 @@ import CsvSampleDownloader from "./CsvSampleDownloader";
 import MyGlobalVar from "../../../services/MyGlobalVar";
 import {purgeDatabase} from "../../../services/Configuration/DataPurgerActions";
 import ImportCsvSummary from "./ImportCsvSummary";
+import './DataImporter.css';
 
 import { useTranslation } from 'react-i18next';
 
@@ -337,7 +338,7 @@ const DataImporter = () => {
                                         })
                                     }}
                             >
-                                <AiFillDelete className={"mr-2"}/>
+                                <AiFillDelete/>
                                 {state.isPurgingDatabase ? <LoadingIcon color={"white"}/> : null}
                                 {state.isPurgingDatabase ? t("import data.suppressing") : t("import data.delete all data")}
                             </Button>
@@ -351,7 +352,7 @@ const DataImporter = () => {
                             >
                                 {state.downloadCsvHolder && <CsvSampleDownloader/>}
 
-                                <FaDownload className={"mr-2"}/>
+                                <FaDownload/>
                                 {t("import data.download sample")}
                             </Button>
                         </div>
@@ -360,7 +361,7 @@ const DataImporter = () => {
                         <div className="btn-group" role="group">
                             <Button variant="success" className="btn-group">
                                 <label htmlFor="csv-file" className="file-upload-label border-0">
-                                    <FaUpload className={"mr-2"}/>
+                                    <FaUpload/>
                                     {t("import data.upload csv")}
                                 </label>
                                 <Form.File

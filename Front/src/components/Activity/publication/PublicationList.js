@@ -119,7 +119,7 @@ function PublicationList(props) {
             dataField: 'publication.title',
             text: "Titre",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Titre...'}) : null,
         }, {
             dataField: 'publication.publicationDate',
             text: "Date de publication",
@@ -129,13 +129,13 @@ function PublicationList(props) {
             dataField: 'publication.source',
             text: "Source de la publication",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Source de la publication...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'publication.authors',
             text: "Auteur(s)",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Auteur(s)...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'publication.pmid',
@@ -147,7 +147,7 @@ function PublicationList(props) {
             dataField: 'publication.publicationType.publicationTypeName',
             text: "Type de la publication",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Type de la publication...'}) : null,
         }];
 
         let title = "Publications";

@@ -16,8 +16,8 @@ import SrAwardStat from './sraward/SrAwardStat';
 //Permet de mettre les filtres
 const activityStatTemplates = [
     // Pas de Book et Publication pour le 1er rendu
-    //PublicationStat, 
-    //BookStat,
+    // PublicationStat, 
+    // BookStat,
     
     PostDocStat,
     IndustrialContractStat,

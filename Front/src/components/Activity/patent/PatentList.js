@@ -133,7 +133,7 @@ function PatentList(props) {
             dataField: 'patent.title',
             text: "Titre",
             sort: true,
-            // filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Titre...'}) : null,
             // hidden: true, // for csv only
         }, {
             dataField: 'patent.registrationDate',
@@ -163,19 +163,19 @@ function PatentList(props) {
             dataField: 'patent.inventors',
             text: "Inventeurs",
             sort: true,
-            // filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Inventeurs...'}) : null,
             // hidden: true, // for csv only
         }, {
             dataField: 'patent.coOwners',
             text: "Copropriétaires",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Copropriétaires...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'patent.priorityNumber',
             text: "Numéro de priorité",
             sort: true,
-            filter: showFilter ? numberFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'N° de priorité...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'patent.priorityDate',
@@ -187,7 +187,7 @@ function PatentList(props) {
             dataField: 'patent.publicationNumber',
             text: "Numéro de publication",
             sort: true,
-            // filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Numéro de publication...'}) : null,
             // hidden: true, // for csv only
         }, {
             dataField: 'patent.publicationDate',
@@ -199,25 +199,25 @@ function PatentList(props) {
             dataField: 'patent.inpiLink',
             text: "Lien inpi",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Lien inpi...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'patent.status',
             text: "Statut",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Statut...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'patent.pctExtensionObtained',
             text: "Pct extension obtenue",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Pct extension obtenue...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'patent.publicationNumberPctExtension',
             text: "Numéro de publication Pct Extension",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Numéro de publication Pct Extension...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'patent.publicationDatePctExtension',
@@ -229,13 +229,13 @@ function PatentList(props) {
             dataField: 'patent.internationalExtension',
             text: "Extension internationale",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Extension internationale...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'patent.publicationNumberInternationalExtension',
             text: "Numéro de publication Extension internationale",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Numéro de publication Extension internationale...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'patent.publicationDateInternationalExtension',
@@ -247,19 +247,19 @@ function PatentList(props) {
             dataField: 'patent.refTransferContract',
             text: "Ref Contrat de Transfert",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Ref Contrat de Transfert...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'patent.nameCompanyInvolved',
             text: "Nom Société impliquée",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Nom Société impliquée...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'patent.typePatentId.nameChoice',
             text: "Nom Choix",
             sort: true,
-            // filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Nom Choix...'}) : null,
             // hidden: true, // for csv only
         }];
 

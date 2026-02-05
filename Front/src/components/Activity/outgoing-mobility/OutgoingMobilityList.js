@@ -163,13 +163,13 @@ function OutgoingMobilityList(props) {
             dataField: 'outgoingMobility.hostLabLocation',
             text: "Emplacement du laboratoire hôte",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Emplacement du laboratoire hôte...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'outgoingMobility.piPartner',
             text: "Pi Partenaire",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Pi Partenaire...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'outgoingMobility.projectTitle',
@@ -181,7 +181,7 @@ function OutgoingMobilityList(props) {
             dataField: 'outgoingMobility.associatedFunding',
             text: "Financement associé",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Financement associé...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'outgoingMobility.nbPublications',
@@ -193,13 +193,13 @@ function OutgoingMobilityList(props) {
             dataField: 'outgoingMobility.publicationReference',
             text: "Publication Référence",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Publication Référence...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'outgoingMobility.strategicRecurringCollab',
             text: "Collaboration stratégique récurrente?",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Collaboration stratégique récurrente?...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'outgoingMobility.activeProject',
@@ -211,13 +211,13 @@ function OutgoingMobilityList(props) {
             dataField: 'outgoingMobility.umrCoordinated',
             text: "Umr Coordonné?",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Umr Coordonné?...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'outgoingMobility.agreementSigned',
             text: "Accord Signé?",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Accord Signé?...'}) : null,
             hidden: true, // for csv only
         }];
 

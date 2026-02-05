@@ -3,3 +3,114 @@
     max-width: 100%;
     overflow:auto;
 }
+
+.list-group-item {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+}
+
+.list-group-item svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Filtres dans les colonnes des tableaux d'activités */
+.react-bootstrap-table th {
+    position: relative;
+    overflow: visible !important;
+    padding: 4px !important;
+}
+
+/* Le titre de la colonne reste cliquable pour le tri */
+.react-bootstrap-table th > span,
+.react-bootstrap-table th > div:not(.filter-label):not(.date-filter):not(.text-filter):not(.number-filter),
+.react-bootstrap-table th > button {
+    pointer-events: auto;
+}
+
+/* Les filtres qui sortent ne déclenchent pas le tri */
+.react-bootstrap-table th .filter-label:focus-within,
+.react-bootstrap-table th .form-control:focus,
+.react-bootstrap-table th .text-filter:focus,
+.react-bootstrap-table th .number-filter:focus,
+.react-bootstrap-table th input[type="text"]:focus,
+.react-bootstrap-table th input[type="number"]:focus,
+.react-bootstrap-table th .date-filter:focus-within {
+    pointer-events: auto;
+}
+
+/* Tous les types de filtres : texte, nombre et date */
+.react-bootstrap-table th .filter-label,
+.react-bootstrap-table th .form-control,
+.react-bootstrap-table th .text-filter,
+.react-bootstrap-table th .number-filter,
+.react-bootstrap-table th .date-filter,
+.react-bootstrap-table th .date-filter-input,
+.react-bootstrap-table th input[type="text"],
+.react-bootstrap-table th input[type="number"],
+.react-bootstrap-table th .react-datepicker-wrapper,
+.react-bootstrap-table th .react-datepicker__input-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    text-align: left !important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 2px 4px !important;
+}
+
+/* Au focus, les filtres dépassent de la colonne */
+.react-bootstrap-table th .form-control:focus,
+.react-bootstrap-table th .text-filter:focus,
+.react-bootstrap-table th .number-filter:focus,
+.react-bootstrap-table th input[type="text"]:focus,
+.react-bootstrap-table th input[type="number"]:focus {
+    position: absolute !important;
+    left: 0 !important;
+    top: 100% !important;
+    z-index: 1000 !important;
+    min-width: 200px !important;
+    max-width: 400px !important;
+    width: auto !important;
+    background: white !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+    border: 2px solid #007bff !important;
+    padding: 8px !important;
+}
+
+/* DatePicker - afficher uniquement l'icône native */
+.react-bootstrap-table th .date-filter {
+    position: relative !important;
+    width: auto !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.react-bootstrap-table th .date-filter input.form-control {
+    width: 30px !important;
+    padding: 2px !important;
+    border: none !important;
+    background: transparent !important;
+    color: transparent !important;
+    cursor: pointer !important;
+}
+
+.react-bootstrap-table th .date-filter input.form-control::placeholder {
+    color: transparent !important;
+}
+
+/* L'icône de calendrier native doit être visible */
+.react-bootstrap-table th .date-filter .react-datepicker__calendar-icon,
+.react-bootstrap-table th .date-filter button {
+    display: inline-block !important;
+    cursor: pointer !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+/* Le calendrier popup doit rester visible */
+.react-datepicker-popper {
+    z-index: 1001 !important;
+}
