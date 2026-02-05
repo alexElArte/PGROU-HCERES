@@ -125,10 +125,10 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
     }, [teamIdMap, laboratoryIdMap, institutionIdMap]);
 
     const groupByList = React.useMemo(() => [
-        { key: 'none', label: 'No group', checked: true, callbackGroupBy: groupByNoneCallback },
-        { key: 'team', label: 'Equipe', callbackGroupBy: groupByTeamCallback },
-        { key: 'laboratory', label: 'Laboratoire', callbackGroupBy: groupByLaboratoryCallback },
-        { key: 'institution', label: 'Institution', callbackGroupBy: groupByInstitutionCallback },
+        { key: 'none', label: 'groupby.none', checked: true, callbackGroupBy: groupByNoneCallback },
+        { key: 'team', label: 'groupby.team', callbackGroupBy: groupByTeamCallback },
+        { key: 'laboratory', label: 'groupby.laboratory', callbackGroupBy: groupByLaboratoryCallback },
+        { key: 'institution', label: 'groupby.institution', callbackGroupBy: groupByInstitutionCallback },
         ...(activityStatEntry.customGroupByList || [])
     ], [activityStatEntry, groupByNoneCallback,
         groupByTeamCallback, groupByLaboratoryCallback,
@@ -181,7 +181,7 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
 
     // handle download to png file
     const getPngFileName = React.useCallback(() => {
-        let fileName = activityStatEntry.label;
+        let fileName = t(activityStatEntry.label);
         if (groupBy.key !== 'none') {
             fileName += ' - ' + t('stats.by') + ' ' + groupBy.label;
         }
@@ -652,7 +652,7 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
                                         type={"radio"}
                                         name={"groupBy"}
                                         id={group.key}
-                                        label={group.label}
+                                        label={t(group.label)}
                                         defaultChecked={group.checked}
                                         onChange={() => setGroupBy(group)}
                                     />
@@ -720,7 +720,7 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
                                             position="left"
                                             style={{ textAnchor: "middle" }}
                                         >
-                                            {"Nombre de " + activityStatEntry.label}
+                                            {t("count of") + " " + t(activityStatEntry.label)}
                                         </Label>
                                     </YAxis>
                                     <Tooltip />
@@ -761,7 +761,7 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
                                     />
                                     <YAxis>
                                         <Label angle={270} position='left' style={{ textAnchor: 'middle' }}>
-                                            {"Nombre de " + activityStatEntry.label}
+                                            {t("count of") + " " + t(activityStatEntry.label)}
                                         </Label>
                                     </YAxis>
                                     <Tooltip />
@@ -860,7 +860,7 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
                                     />
                                     <YAxis>
                                         <Label angle={270} position='left' style={{ textAnchor: 'middle' }}>
-                                            {"Nombre de " + activityStatEntry.label}
+                                            {t("count of") + " " + t(activityStatEntry.label)}
                                         </Label>
                                     </YAxis>
                                     <Tooltip />
@@ -899,7 +899,7 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
                                     />
                                     <YAxis>
                                         <Label angle={270} position='left' style={{ textAnchor: 'middle' }}>
-                                            {"Nombre de " + activityStatEntry.label}
+                                            {t("count of") + " " + t(activityStatEntry.label)}
                                         </Label>
                                     </YAxis>
                                     <Tooltip />
@@ -976,7 +976,7 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
 
                 <div className={"title"}>
                     <h1 style={{ fontSize: 24, marginBottom: 20 }}>
-                        {chartTemplate?.label} des {activityStatEntry.label}
+                        {chartTemplate?.label} {t("common.of")} {t(activityStatEntry.label)}
                         {groupBy.key !== 'none' && " " + t('stats.grouped by').toLowerCase() + " " + groupBy.label}
                         <br />
                         {renderDownloadButton(chartTemplate.key)}

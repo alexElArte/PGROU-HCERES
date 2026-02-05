@@ -28,7 +28,8 @@
     "start date": "Date de début",
     "end date": "Date de fin",
     "actions": "Actions",
-    "researchers": "Chercheurs"
+    "researchers": "Chercheurs",
+    "count of": "Nombre de"
   },
   "login": {
     "title": "Connexion",
@@ -174,8 +175,8 @@
     "end year": "Année de fin",
     "arrival after": "Arrivée après",
     "arrival before": "Arrivée avant",
-    "deparature after": "Départ après",
-    "deparature before": "Départ avant",
+    "departure after": "Départ après",
+    "departure before": "Départ avant",
     "minimum duration": "Durée minimale (mois)",
     "associated funding": "Financement associé",
     "arrival year": "Année d'arrivée",
@@ -194,5 +195,11 @@
     "defense before": "Défense avant",
     "minimum article count": "Nombre minimum d'articles",
     "thesis type": "Type de thèse"
+  },
+  "groupby": {
+    "none": "Aucun groupe",
+    "team": "Équipe",
+    "laboratory": "Laboratoire",
+    "institution": "Institution"
   }
 }
