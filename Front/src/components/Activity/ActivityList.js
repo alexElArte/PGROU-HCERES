@@ -86,8 +86,8 @@ function ActivityList(props) {
         setShowResearchContractFundedCharitList(isShow)
         setShowTrainingThesisList(isShow)
 
-        //setShowBookList(isShow)
-        setShowBookChapterList(isShow)
+        // setShowBookList(isShow)
+        // setShowBookChapterList(isShow)
 
         //setShowPublicationList(isShow)
 
@@ -132,7 +132,7 @@ function ActivityList(props) {
                                     className={showPrixList ? activeItemClass : inactiveItemClass}>
                                     {showPrixList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    {t('activity.scientific recognition')}
+                                    {t('activity.scientific-recognition.title')}
                                 </ListGroup.Item>
 
                                 {/* <ListGroup.Item onClick={() => setShowPlatformList(!showPlatformList)}
@@ -154,14 +154,14 @@ function ActivityList(props) {
                                     className={showSeiIndustrialRDContractList ? activeItemClass : inactiveItemClass}>
                                     {showSeiIndustrialRDContractList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    {t('activity.industrial contracts')}
+                                    {t('activity.industrial-contracts.title')}
                                 </ListGroup.Item>
 
                                 <ListGroup.Item onClick={() => setShowTrainingThesisList(!showTrainingThesisList)}
                                     className={showTrainingThesisList ? activeItemClass : inactiveItemClass}>
                                     {showTrainingThesisList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    {t('activity.training thesis')}
+                                    {t('activity.training-thesis.title')}
                                 </ListGroup.Item>
 
                             </ListGroup>
@@ -214,14 +214,14 @@ function ActivityList(props) {
                                     className={showComparnyCreationList ? activeItemClass : inactiveItemClass}>
                                     {showComparnyCreationList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    {t('activity.creation')}
+                                    {t('activity.creation.title')}
                                 </ListGroup.Item>
 
                                 <ListGroup.Item onClick={() => setShowPostDoctoratList(!showPostDoctoratList)}
                                     className={showPostDoctoratList ? activeItemClass : inactiveItemClass}>
                                     {showPostDoctoratList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    {t('activity.post-docs')}
+                                    {t('activity.post-docs.title')}
                                 </ListGroup.Item>
 
                                 {/* <ListGroup.Item onClick={() => setShowPatentList(!showPatentList)}
@@ -243,14 +243,14 @@ function ActivityList(props) {
                                 {showBookList ? <BiShow/> : <BiHide/>}
                                 &nbsp;
                                 Livres
-                            </ListGroup.Item> */}
+                                </ListGroup.Item> */}
 
-                                <ListGroup.Item onClick={() => setShowBookChapterList(!showBookChapterList)}
+                                {/* <ListGroup.Item onClick={() => setShowBookChapterList(!showBookChapterList)}
                                             className={showBookChapterList ? activeItemClass : inactiveItemClass}>
                                 {showBookChapterList ? <BiShow/> : <BiHide/>}
                                 &nbsp;
                                 Chapitres de livres
-                                </ListGroup.Item>
+                                </ListGroup.Item> */}
 
                                 {/* <ListGroup.Item onClick={() => setShowPublicationList(!showPublicationList)}
                                             className={showPublicationList ? activeItemClass : inactiveItemClass}>
@@ -262,14 +262,14 @@ function ActivityList(props) {
                                     className={showResearchContractFundedCharitList ? activeItemClass : inactiveItemClass}>
                                     {showResearchContractFundedCharitList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    {t('activity.research contract')}
+                                    {t('activity.research-contract.title')}
                                 </ListGroup.Item>
 
                                 <ListGroup.Item onClick={() => setShowNetworkList(!showNetworkList)}
                                     className={showNetworkList ? activeItemClass : inactiveItemClass}>
                                     {showNetworkList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    Researcher Networks
+                                    {t('activity.network.title')}
                                 </ListGroup.Item>
 
                             </ListGroup>

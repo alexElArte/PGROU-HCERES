@@ -28,6 +28,7 @@
     "start date": "Start Date",
     "end date": "End Date",
     "actions": "Actions",
+    "researcher": "Researcher",
     "researchers": "Researchers",
     "count of": "Count of"
   },
@@ -108,32 +109,152 @@
     "no activity": "No activities found.",
     "see all": "See All",
     "hide all": "Hide All",
-    "scientific recognition": "Scientific Recognition - Awards",
-    "industrial contracts": "Industrial R&D Contracts",
-    "training thesis": "Training Thesis",
-    "creation": "Creation of Company / Start-up",
-    "post-docs": "Post-docs",
-    "book": "Book",
-    "publication": "Publication",
-    "research contract": "Research Contract Funded by Public or Charitable Institutions",
-    "industrial contracts list": "Industrial R&D contracts List for researcher",
-    "post-docs list": "Post-docs list for researcher",
-    "company creation list": "Creation of company / start up list for researcher",
-    "training thesis list": "Training Thesis list for researcher",
-    "awards list": "Awards list for researcher",
-    "research contract list": "Research contracts list for researcher",
-    "no industrial contracts": "No Industrial R&D contracts saved",
-    "no post-docs": "No Post-docs saved",
-    "no company creation": "No Company creation saved",
-    "no training thesis": "No Training Thesis saved",
-    "no awards": "No Awards saved",
-    "no research contracts": "No Research contracts saved",
-    "add industrial contract": "Add a Industrial R&D contract",
-    "add post-doc": "Add a Post-doc",
-    "add company creation": "Add a Company creation / start-up",
-    "add training thesis": "Add a Training Thesis",
-    "add award": "Add an Award",
-    "add research contract": "Add a Research contract funded by public or charitable institutions"
+    "add": "Add",
+    "adding": "Adding...",
+    "delete": "Delete",
+    "deleting": "Deleting...",
+    "close": "Close",
+
+    "post-docs": {
+      "title": "Post-docs",
+      "list": "Post-docs list for researcher",
+      "no": "No Post-docs saved",
+      "add": "Add a Post-doc",
+      "success add": "Post-doc added with id",
+      "error add": "Error: Post-doc not added, response status:",
+      "delete": "Delete a Post-doc",
+      "success delete": "Post-docs deleted with id",
+      "error delete": "Error: Post-docs not deleted, response status:",
+
+      "namePostDoc" : "Name",
+      "nameSupervisor" : "Supervisor Name",
+      "arrivalDate" : "Arrival Date",
+      "departureDate" : "Departure Date",
+      "duration" : "Duration",
+      "nationality" : "Nationality",
+      "originalLab" : "Original Laboritory",
+      "associatedFunding" : "Associated Funding",
+      "associatedPubliRef" : "Associated Publication references"
+    },
+
+    "network": {
+      "title": "Networks",
+      "list": "Networks list for researcher",
+      "no": "No Network saved",
+      "add": "Add a Network",
+      "success add": "Network added with id",
+      "error add": "Error: Network not added, response status:",
+      "delete": "Delete a Network",
+      "success delete": "Network deleted with id",
+      "error delete": "Error: Network not deleted, response status:",
+
+      "nameNetwork": "Network Name",
+      "startDate": "Start Date",
+      "activeNetwork": "Active",
+      "associatedFunding": "Associated Funding",
+      "nbResultingPublications": "Number of Resulting Publications",
+      "refResultingPublications": "References of Resulting Publications",
+      "umrCoordinated": "Coordinated UMR",
+      "agreementSigned": "Agreement Signed"
+    },
+
+    "scientific-recognition": {
+      "title": "Scientific Recognition - Awards",
+      "list": "Scientific Recognition list for researcher",
+      "no": "No Scientific Recognition saved",
+      "add": "Add a Scientific Recognition",
+      "success add": "Scientific Recognition added with id",
+      "error add": "Error: Scientific Recognition not added, response status:",
+      "delete": "Delete a Scientific Recognition",
+      "success delete": "Scientific Recognition deleted with id",
+      "error delete": "Error: Scientific Recognition not deleted, response status:",
+
+      "TODO": "add columns name"
+    },
+
+    "industrial-contracts": {
+      "title": "Industrial R&D Contracts",
+      "list": "Industrial R&D Contracts list for researcher",
+      "no": "No Industrial R&D Contracts saved",
+      "add": "Add an Industrial R&D Contract",
+      "success add": "Industrial R&D Contract added with id",
+      "error add": "Error: Industrial R&D Contract not added, response status:",
+      "delete": "Delete an Industrial R&D Contract",
+      "success delete": "Industrial R&D Contract deleted with id",
+      "error delete": "Error: Industrial R&D Contract not deleted, response status:",
+
+      "TODO": "add columns name"
+    },
+
+    "training-thesis": {
+      "title": "Training Thesis",
+      "list": "Training Thesis list for researcher",
+      "no": "No Training Thesis saved",
+      "add": "Add a Training Thesis",
+      "success add": "Training Thesis added with id",
+      "error add": "Error: Training Thesis not added, response status:",
+      "delete": "Delete a Training Thesis",
+      "success delete": "Training Thesis deleted with id",
+      "error delete": "Error: Training Thesis not deleted, response status:",
+
+      "TODO": "add columns name"
+    },
+
+    "creation": {
+      "title": "Creation of Company / Start-up",
+      "list": "Company / Start-up creations list for researcher",
+      "no": "No Company / Start-up creation saved",
+      "add": "Add a Company / Start-up creation",
+      "success add": "Company / Start-up creation added with id",
+      "error add": "Error: Company / Start-up creation not added, response status:",
+      "delete": "Delete a Company / Start-up creation",
+      "success delete": "Company / Start-up creation deleted with id",
+      "error delete": "Error: Company / Start-up creation not deleted, response status:",
+
+      "TODO": "add columns name"
+    },
+
+    "book": {
+      "title": "Book",
+      "list": "Books list for researcher",
+      "no": "No Book saved",
+      "add": "Add a Book",
+      "success add": "Book added with id",
+      "error add": "Error: Book not added, response status:",
+      "delete": "Delete a Book",
+      "success delete": "Book deleted with id",
+      "error delete": "Error: Book not deleted, response status:",
+
+      "TODO": "add columns name"
+    },
+
+    "publication": {
+      "title": "Publication",
+      "list": "Publications list for researcher",
+      "no": "No Publication saved",
+      "add": "Add a Publication",
+      "success add": "Publication added with id",
+      "error add": "Error: Publication not added, response status:",
+      "delete": "Delete a Publication",
+      "success delete": "Publication deleted with id",
+      "error delete": "Error: Publication not deleted, response status:",
+
+      "TODO": "add columns name"
+    },
+
+    "research-contract": {
+      "title": "Research Contract Funded by Public or Charitable Institutions",
+      "list": "Research Contracts list for researcher",
+      "no": "No Research Contract saved",
+      "add": "Add a Research Contract",
+      "success add": "Research Contract added with id",
+      "error add": "Error: Research Contract not added, response status:",
+      "delete": "Delete a Research Contract",
+      "success delete": "Research Contract deleted with id",
+      "error delete": "Error: Research Contract not deleted, response status:",
+
+      "TODO": "add columns name"
+    }
   },
   "stats": {
     "title": "Statistics on",

@@ -1,18 +1,25 @@
-import {ListGroup} from "react-bootstrap";
+import { ListGroup } from "react-bootstrap";
+import { withTranslation } from "react-i18next";
 
-const PostDocElement = (props) =>
-    props.targetPostDoc && props.targetPostDoc.postDoc ? <ListGroup horizontal={props.horizontal}>
-        <ListGroup.Item variant={"primary"}>ID : {props.targetPostDoc.idActivity}</ListGroup.Item>
-        <ListGroup.Item>Name of the Post-docs  : {props.targetPostDoc.postDoc.namePostDoc}</ListGroup.Item>
-        <ListGroup.Item>Supervisor Name : {props.targetPostDoc.postDoc.nameSupervisor}</ListGroup.Item>
-        <ListGroup.Item>Arrival Date : {props.targetPostDoc.postDoc.arrivalDate}</ListGroup.Item>
-        <ListGroup.Item>Departure Date : {props.targetPostDoc.postDoc.departureDate}</ListGroup.Item>
-        <ListGroup.Item>Duration : {props.targetPostDoc.postDoc.duration}</ListGroup.Item>
-        <ListGroup.Item>Nationality : {props.targetPostDoc.postDoc.nationality}</ListGroup.Item>
-        <ListGroup.Item> Original Laboritory : {props.targetPostDoc.postDoc.originalLab}</ListGroup.Item>
-        <ListGroup.Item>Associated Funding : {props.targetPostDoc.postDoc.associatedFunding}</ListGroup.Item>
-        <ListGroup.Item>Associated Publication references : {props.targetPostDoc.postDoc.associatedPubliRef}</ListGroup.Item>
-    </ListGroup> : "Target postDoc is not send as props!"
+const PostDocElement = (props) => {
+  const { t, targetPostDoc, horizontal } = props;
 
+  const postDoc = targetPostDoc.postDoc;
 
-export default PostDocElement
+  return (
+    <ListGroup horizontal={horizontal}>
+      <ListGroup.Item variant="primary">ID : {targetPostDoc.idActivity}</ListGroup.Item>
+      <ListGroup.Item>{t("activity.post-docs.namePostDoc")} : {postDoc.namePostDoc}</ListGroup.Item>
+      <ListGroup.Item>{t("activity.post-docs.nameSupervisor")} : {postDoc.nameSupervisor}</ListGroup.Item>
+      <ListGroup.Item>{t("activity.post-docs.arrivalDate")} : {postDoc.arrivalDate}</ListGroup.Item>
+      <ListGroup.Item>{t("activity.post-docs.departureDate")} : {postDoc.departureDate}</ListGroup.Item>
+      <ListGroup.Item>{t("activity.post-docs.duration")} : {postDoc.duration}</ListGroup.Item>
+      <ListGroup.Item>{t("activity.post-docs.nationality")} : {postDoc.nationality}</ListGroup.Item>
+      <ListGroup.Item>{t("activity.post-docs.originalLab")} : {postDoc.originalLab}</ListGroup.Item>
+      <ListGroup.Item>{t("activity.post-docs.associatedFunding")} : {postDoc.associatedFunding}</ListGroup.Item>
+      <ListGroup.Item>{t("activity.post-docs.associatedPubliRef")} : {postDoc.associatedPubliRef}</ListGroup.Item>
+    </ListGroup>
+  );
+};
+
+export default withTranslation()(PostDocElement);

@@ -4,8 +4,10 @@ import Button from "react-bootstrap/Button";
 import ResearcherSelect from "../../util/ResearcherSelect";
 import LoadingIcon from "../../util/LoadingIcon";
 import {addNetwork} from "../../../services/Activity/network/NetworkActions";
+import { withTranslation } from 'react-i18next';
 
 function NetworkAdd(props) {
+    const { t } = props;
     // parameter constant (Add Template)
     const targetResearcher = props.targetResearcher;
     const onHideParentAction = props.onHideAction;
@@ -47,21 +49,21 @@ function NetworkAdd(props) {
             agreementSigned: agreementSigned,
         };
 
-        addNetwork(data)
-            .then(response => {
-                const msg = {
-                    successMsg: "Network ajouté avec un id " + response.data.idActivity,
-                };
-                handleClose(msg);
-            })
-            .catch(error => {
-                console.error(error);
-                const msg = {
-                    errorMsg: "Erreur : network non ajouté (status " + (error?.response?.status || "inconnu") + ")",
-                };
-                handleClose(msg);
-            })
-            .finally(() => setIsLoading(false));
+        addNetwork(data).then(response => {
+            // const activityId = response.data.researcherId;
+            const msg = {
+                successMsg: t('activity.network.success add') + ' ' + response.data.idActivity,
+            }
+            handleClose(msg);
+        })
+            .finally(() => setIsLoading(false)).catch(error => {
+            console.log(error);
+            const msg = {
+                errorMsg: t('activity.network.error add') + ' ' + error.response.status,
+            }
+            handleClose(msg);
+        })
+            .finally(() => setIsLoading(false))
     };
 
     return (
@@ -69,97 +71,102 @@ function NetworkAdd(props) {
             <Modal show={showModal} onHide={handleClose}>
                 <form onSubmit={handleSubmit}>
                     <Modal.Header closeButton>
-                        <Modal.Title>Network</Modal.Title>
+                        <Modal.Title>{t("activity.network.title")}</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                        <label className='label'>Chercheur</label>
+                        <label className='label'>{t("common.researcher")}</label>
                         <ResearcherSelect
                             targetResearcher={targetResearcher}
                             onchange={React.useCallback(resId => setResearcherId(resId), [])}
                         />
 
-                        <label className='label'>Nom</label>
+                        <label className='label'>{t("activity.network.nameNetwork")}</label>
                         <input
                             type="text"
                             className='input-container'
+                            placeholder={t("activity.network.nameNetwork")}
                             onChange={e => setNetworkNameNetwork(e.target.value)}
                             required
                         />
 
-                        <label className='label'>Date début</label>
+                        <label className='label'>{t("activity.network.startDate")}</label>
                         <input
                             type="date"
-                            placeholder="start date"
                             className="input-container"
+                            placeholder={t("activity.network.startDate")}
                             value={startDate}
                             onChange={e => setNetworkStartDate(e.target.value)}
                             required
                         />
 
-                        <label className='label'>Active</label>
+                        <label className='label'>{t("activity.network.activeNetwork")}</label>
                         <select
                             className='input-container'
                             onChange={e => {
-                                // Conversion de la string en vrai booléen
                                 const val = e.target.value === "true";
                                 setActiveNetwork(val);
                             }}
                             required
                         >
-                            <option value="">Choisir...</option>
-                            <option value="true">Oui (True)</option>
-                            <option value="false">Non (False)</option>
+                            <option value="true">{t("common.yes")}</option>
+                            <option value="false">{t("common.no")}</option>
                         </select>
 
-                        <label className='label'>Financement associé</label>
+                        <label className='label'>{t("activity.network.associatedFunding")}</label>
                         <input
                             type="text"
                             className='input-container'
+                            placeholder={t("activity.network.associatedFunding")}
                             onChange={e => setAssociatedFunding(e.target.value)}
                         />
 
-                        <label className='label'>Nombre de publications résultantes</label>
+                        <label className='label'>{t("activity.network.nbResultingPublications")}</label>
                         <input
                             type="number"
                             className='input-container'
+                            placeholder={t("activity.network.nbResultingPublications")}
                             onChange={e => setNbResultingPublications(e.target.value)}
                         />
 
-                        <label className='label'>Référence de publications résultantes</label>
+                        <label className='label'>{t("activity.network.refResultingPublications")}</label>
                         <input
                             type="text"
                             className='input-container'
+                            placeholder={t("activity.network.refResultingPublications")}
                             onChange={e => setRefResultingPublications(e.target.value)}
                         />
 
-                        <label className='label'>Contact UMR</label>
+                        <label className='label'>{t("activity.network.umrCoordinated")}</label>
                         <input
                             type="text"
                             className='input-container'
+                            placeholder={t("activity.network.umrCoordinated")}
                             onChange={e => setUmrCoordinated(e.target.value)}
                         />
 
-                        <label className='label'>Accord signé</label>
+                        <label className='label'>{t("activity.network.agreementSigned")}</label>
                         <input
                             type="text"
                             className='input-container'
+                            placeholder={t("activity.network.agreementSigned")}
                             onChange={e => setAgreementSigned(e.target.value)}
                         />
                     </Modal.Body>
 
                     <Modal.Footer>
                         <Button variant="secondary" onClick={handleClose}>
-                            Fermer
+                            {t("activity.close")}
                         </Button>
                         <Button variant="outline-primary" type="submit" disabled={isLoading}>
                             {isLoading ? <LoadingIcon /> : null}
-                            {isLoading ? 'Ajout en cours...' : 'Ajouter'}
+                            {isLoading ? t("activity.adding") : t("activity.add")}
                         </Button>
                     </Modal.Footer>
                 </form>
             </Modal>
         </div>
+
     );
 }
 
-export default NetworkAdd;
+export default withTranslation()(NetworkAdd);

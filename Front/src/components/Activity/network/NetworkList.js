@@ -1,4 +1,5 @@
 import React from 'react';
+import { withTranslation } from 'react-i18next';
 
 import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
 import 'react-bootstrap-table2-filter/dist/react-bootstrap-table2-filter.min.css';
@@ -9,7 +10,7 @@ import filterFactory, { dateFilter, numberFilter, textFilter } from 'react-boots
 import { Alert, OverlayTrigger } from "react-bootstrap";
 
 import 'react-datepicker/dist/react-datepicker.css';
-import { Audio } from "react-loading-icons";
+import { ThreeDots } from "react-loading-icons";
 import { chercheursColumnOfActivity, paginationOptions } from "../../util/BootStrapTableOptions";
 import { MdSearch } from "react-icons/md";
 import { AiFillDelete, AiOutlinePlusCircle } from "react-icons/ai";
@@ -23,19 +24,15 @@ import NetworkAdd from "./NetworkAdd";
 import Tooltip from "react-bootstrap/Tooltip";
 
 function NetworkList(props) {
-    // parameter constant (List Template)
+    const { t } = props;
     const targetResearcher = props.targetResearcher;
 
-    // Cached state (List Template)
     const [networkList, setNetworkList] = React.useState(null);
-
-    // UI states (List Template)
     const [successActivityAlert, setSuccessActivityAlert] = React.useState('');
     const [errorActivityAlert, setErrorActivityAlert] = React.useState('');
     const [showFilter, setShowFilter] = React.useState(false);
     const { SearchBar } = Search;
 
-    // Form state (List Template)
     const [targetNetwork, setTargetNetwork] = React.useState(false);
     const [showNetworkAdd, setShowNetworkAdd] = React.useState(false);
     const [showNetworkDelete, setShowNetworkDelete] = React.useState(false);
@@ -44,9 +41,7 @@ function NetworkList(props) {
     const handleHideModal = (msg = null) => {
         setShowNetworkAdd(false);
         setShowNetworkDelete(false);
-        if (msg) {
-            setListChangeCount(listChangeCount + 1);
-        }
+        if (msg) setListChangeCount(listChangeCount + 1);
         displayResultMessage(msg);
     };
 
@@ -69,21 +64,20 @@ function NetworkList(props) {
 
     if (!networkList) {
         return <div className="d-flex align-items-center justify-content-center">
-            <Audio stroke={"black"} />
+            <ThreeDots stroke={"black"} />
         </div>;
     } else {
         if (networkList.length === 0) {
             return <div className={"row"}>
                 <br />
                 <div className={"col-8"}>
-                    <h3>Aucun network n'est enregistré</h3>
+                    <h3>{t('activity.network.no')}</h3>
                 </div>
                 <div className={"col-4"}>
-                    {showNetworkAdd &&
-                        <NetworkAdd targetResearcher={targetResearcher} onHideAction={handleHideModal} />}
+                    {showNetworkAdd && <NetworkAdd targetResearcher={targetResearcher} onHideAction={handleHideModal} />}
                     <button className="btn btn-primary" data-bs-toggle="button"
                         onClick={() => setShowNetworkAdd(true)}>
-                        <AiOutlinePlusCircle /> &nbsp; Ajouter un network
+                        <AiOutlinePlusCircle /> &nbsp; {t('activity.network.add')}
                     </button>
                 </div>
             </div>;
@@ -91,7 +85,7 @@ function NetworkList(props) {
 
         const deleteTooltip = (props) => (
             <Tooltip id="button-tooltip" {...props}>
-                Supprimer l'activité
+                {t('activity.delete')}
             </Tooltip>
         );
 
@@ -99,89 +93,79 @@ function NetworkList(props) {
             dataField: 'idActivity',
             text: 'ID',
             sort: true,
-            formatter: (cell, row) => {
-                return (
-                    <div>
-                        <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }} overlay={deleteTooltip}>
-                            <button className="btn btn-outline-danger btn-sm" onClick={() => {
-                                setTargetNetwork(row);
-                                setShowNetworkDelete(true);
-                            }}>
-                                <AiFillDelete />
-                            </button>
-                        </OverlayTrigger>
-                        &nbsp;  &nbsp;
-                        {row.idActivity}
-                    </div>
-                );
-            }
+            formatter: (cell, row) => (
+                <div>
+                    <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }} overlay={deleteTooltip}>
+                        <button className="btn btn-outline-danger btn-sm" onClick={() => {
+                            setTargetNetwork(row);
+                            setShowNetworkDelete(true);
+                        }}>
+                            <AiFillDelete />
+                        </button>
+                    </OverlayTrigger>
+                    &nbsp; &nbsp;
+                    {row.idActivity}
+                </div>
+            )
         }, {
             dataField: 'network.nameNetwork',
-            text: "Nom",
+            text: t('activity.network.nameNetwork'),
             sort: true,
             filter: showFilter ? textFilter() : null,
         }, {
             dataField: 'network.startDate',
-            text: "Date début",
+            text: t('activity.network.startDate'),
             sort: true,
             filter: showFilter ? dateFilter() : null,
         }, {
             dataField: 'network.activeNetwork',
-            text: "Active",
+            text: t('activity.network.activeNetwork'),
             sort: true,
         }, {
             dataField: 'network.associatedFunding',
-            text: "Financement associé",
+            text: t('activity.network.associatedFunding'),
             sort: true,
             filter: showFilter ? textFilter() : null,
-            hidden: true, // for csv only
+            hidden: true,
         }, {
             dataField: 'network.nbResultingPublications',
-            text: "Nombre de publications résultantes",
+            text: t('activity.network.nbResultingPublications'),
             sort: true,
             filter: showFilter ? numberFilter() : null,
         }, {
             dataField: 'network.refResultingPublications',
-            text: "Référence de publications résultantes",
+            text: t('activity.network.refResultingPublications'),
             sort: true,
             filter: showFilter ? textFilter() : null,
-            hidden: true, // for csv only
+            hidden: true,
         }, {
             dataField: 'network.umrCoordinated',
-            text: "Contact UMR",
+            text: t('activity.network.umrCoordinated'),
             sort: true,
             filter: showFilter ? textFilter() : null,
         }, {
             dataField: 'network.agreementSigned',
-            text: "Accord signé",
+            text: t('activity.network.agreementSigned'),
             sort: true,
             filter: showFilter ? textFilter() : null,
-            hidden: true, // for csv only
+            hidden: true,
         }];
 
-        let title = "Networks";
+        let title = t('activity.network.title');
         if (!targetResearcher) {
             columns.push(chercheursColumnOfActivity);
-            title = "Liste des networks pour les Chercheurs";
+            title = t('activity.network.list');
         }
 
-        const CaptionElement = <div>
-            <h3>{title}</h3>
-        </div>;
+        const CaptionElement = <div><h3>{title}</h3></div>;
 
-        const MyExportCSV = (props) => {
-            const handleClick = () => props.onExport();
-            return (
-                <button className={"border-0"} onClick={handleClick}>
-                    <GrDocumentCsv />
-                </button>
-            );
-        };
+        const MyExportCSV = (props) => (
+            <button className={"border-0"} onClick={() => props.onExport()}>
+                <GrDocumentCsv />
+            </button>
+        );
 
-        const selectRow = {
-            mode: 'checkbox',
-            clickToSelect: true
-        };
+        const selectRow = { mode: 'checkbox', clickToSelect: true };
 
         return (
             <div>
@@ -190,11 +174,7 @@ function NetworkList(props) {
                     keyField="idActivity"
                     data={networkList}
                     columns={columns}
-                    exportCSV={{
-                        fileName: 'networkList.csv',
-                        onlyExportSelection: true,
-                        exportAll: true
-                    }}
+                    exportCSV={{ fileName: 'networkList.csv', onlyExportSelection: true, exportAll: true }}
                     search
                 >
                     {
@@ -202,32 +182,22 @@ function NetworkList(props) {
                             <div>
                                 <br />
                                 <div className={"row"}>
-                                    <div className={"col-8"}>
-                                        {CaptionElement}
-                                    </div>
+                                    <div className={"col-8"}>{CaptionElement}</div>
                                     <div className={"col-4"}>
-                                        {showNetworkAdd &&
-                                            <NetworkAdd targetResearcher={targetResearcher}
-                                                onHideAction={handleHideModal} />}
-                                        {showNetworkDelete &&
-                                            <NetworkDelete targetNetwork={targetNetwork}
-                                                onHideAction={handleHideModal} />}
+                                        {showNetworkAdd && <NetworkAdd targetResearcher={targetResearcher} onHideAction={handleHideModal} />}
+                                        {showNetworkDelete && <NetworkDelete targetNetwork={targetNetwork} onHideAction={handleHideModal} />}
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-4">
-                                        <button className={"border-0 btn-lg"}
-                                            onClick={() => setShowFilter(!showFilter)}>
+                                        <button className={"border-0 btn-lg"} onClick={() => setShowFilter(!showFilter)}>
                                             <MdSearch />
                                         </button>
                                     </div>
+                                    <div className="col-4"><h3><MyExportCSV {...props.csvProps} /></h3></div>
                                     <div className="col-4">
-                                        <h3><MyExportCSV {...props.csvProps} /></h3>
-                                    </div>
-                                    <div className="col-4">
-                                        <button className="btn btn-primary" data-bs-toggle="button"
-                                            onClick={() => setShowNetworkAdd(true)}>
-                                            <AiOutlinePlusCircle /> &nbsp; Ajouter un network
+                                        <button className="btn btn-primary" data-bs-toggle="button" onClick={() => setShowNetworkAdd(true)}>
+                                            <AiOutlinePlusCircle /> &nbsp; {t('activity.network.add')}
                                         </button>
                                     </div>
                                 </div>
@@ -236,12 +206,8 @@ function NetworkList(props) {
                                         {showFilter && <SearchBar {...props.searchProps} />}
                                     </div>
                                     <div className={"col-8"}>
-                                        {successActivityAlert && <Alert variant={"success"}
-                                            onClose={() => setSuccessActivityAlert("")}
-                                            dismissible={true}>{successActivityAlert}</Alert>}
-                                        {errorActivityAlert && <Alert variant={"danger"}
-                                            onClose={() => setErrorActivityAlert("")}
-                                            dismissible={true}>{errorActivityAlert}</Alert>}
+                                        {successActivityAlert && <Alert variant={"success"} onClose={() => setSuccessActivityAlert("")} dismissible>{successActivityAlert}</Alert>}
+                                        {errorActivityAlert && <Alert variant={"danger"} onClose={() => setErrorActivityAlert("")} dismissible>{errorActivityAlert}</Alert>}
                                     </div>
                                 </div>
                                 <hr />
@@ -264,4 +230,4 @@ function NetworkList(props) {
     }
 }
 
-export default NetworkList;
+export default withTranslation()(NetworkList);

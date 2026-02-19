@@ -1,17 +1,24 @@
-import {ListGroup} from "react-bootstrap";
+import { ListGroup } from "react-bootstrap";
+import { withTranslation } from "react-i18next";
 
-const NetworkElement = (props) =>
-    props.targetNetwork && props.targetNetwork.network ? <ListGroup horizontal={props.horizontal}>
-        <ListGroup.Item variant={"primary"}>ID : {props.targetNetwork.idActivity}</ListGroup.Item>
-            <ListGroup.Item>Nom : {props.targetNetwork.network.nameNetwork}</ListGroup.Item>
-            <ListGroup.Item>Date début : {props.targetNetwork.network.startDate}</ListGroup.Item>
-            <ListGroup.Item>Active : {props.targetNetwork.network.activeNetwork}</ListGroup.Item>
-            <ListGroup.Item>Financement associé : {props.targetNetwork.network.associatedFunding}</ListGroup.Item>
-            <ListGroup.Item>Nombre de publications résultantes : {props.targetNetwork.network.nbResultingPublications}</ListGroup.Item>
-            <ListGroup.Item>Référence de publications résultantes : {props.targetNetwork.network.refResultingPublications}</ListGroup.Item>
-            <ListGroup.Item>Contact UMR : {props.targetNetwork.network.umrCoordinated}</ListGroup.Item>
-            <ListGroup.Item>Accord signé : {props.targetNetwork.network.agreementSigned}</ListGroup.Item>
-    </ListGroup> : "Target network is not send as props!"
+const NetworkElement = (props) => {
+  const { t, targetNetwork, horizontal } = props;
+  
+  const network = targetNetwork.network;
 
+  return (
+    <ListGroup horizontal={horizontal}>
+      <ListGroup.Item variant="primary">ID : {targetNetwork.idActivity}</ListGroup.Item>
+      <ListGroup.Item>{t("activity.network.nameNetwork")} : {network.nameNetwork}</ListGroup.Item>
+      <ListGroup.Item>{t("activity.network.startDate")} : {network.startDate}</ListGroup.Item>
+      <ListGroup.Item>{t("activity.network.activeNetwork")} : {network.activeNetwork}</ListGroup.Item>
+      <ListGroup.Item>{t("activity.network.associatedFunding")} : {network.associatedFunding}</ListGroup.Item>
+      <ListGroup.Item>{t("activity.network.nbResultingPublications")} : {network.nbResultingPublications}</ListGroup.Item>
+      <ListGroup.Item>{t("activity.network.refResultingPublications")} : {network.refResultingPublications}</ListGroup.Item>
+      <ListGroup.Item>{t("activity.network.umrCoordinated")} : {network.umrCoordinated}</ListGroup.Item>
+      <ListGroup.Item>{t("activity.network.agreementSigned")} : {network.agreementSigned}</ListGroup.Item>
+    </ListGroup>
+  );
+};
 
-export default NetworkElement
+export default withTranslation()(NetworkElement);

@@ -97,21 +97,21 @@ function PostDocList(props) {
             return <div className={"row"}>
                 <br />
                 <div className={"col-8"}>
-                    <h3>{t('activity.no post-docs')}</h3>
+                    <h3>{t('activity.post-docs.no')}</h3>
                 </div>
                 <div className={"col-4"}>
                     {showPostDocAdd &&
                         <PostDocAdd targetResearcher={targetResearcher} onHideAction={handleHideModal} />}
                     <button className="btn btn-primary" data-bs-toggle="button"
                         onClick={() => setShowPostDocAdd(true)}>
-                        <AiOutlinePlusCircle /> &nbsp; {t('activity.add post-doc')}
+                        <AiOutlinePlusCircle /> &nbsp; {t('activity.post-docs.add')}
                     </button>
                 </div>
             </div>;
         }
         const deleteTooltip = (props) => (
             <Tooltip id="button-tooltip" {...props}>
-                Delete Activity
+                {t('activity.delete')}
             </Tooltip>
         )
         const columns = [{
@@ -136,47 +136,47 @@ function PostDocList(props) {
             }
         }, {
             dataField: 'postDoc.namePostDoc',
-            text: 'Name',
+            text: t('activity.post-docs.namePostDoc'),
             sort: true,
         },
         {
             dataField: 'postDoc.arrivalDate',
-            text: 'Arrival Date',
+            text: t('activity.post-docs.arrivalDate'),
             sort: true,
             filter: showFilter ? dateFilter() : null,
         }, {
             dataField: 'postDoc.departureDate',
-            text: 'Departure Date',
+            text: t('activity.post-docs.departureDate'),
             sort: true,
             filter: showFilter ? dateFilter() : null,
         }, {
             dataField: 'postDoc.duration',
-            text: 'Duration',
+            text: t('activity.post-docs.duration'),
             sort: true,
             hidden: true,
         }, {
             dataField: 'postDoc.nationality',
-            text: 'Nationality',
+            text: t('activity.post-docs.nationality'),
             sort: true,
             hidden: true
         }, {
             dataField: 'postDoc.originalLab',
-            text: 'Original Laboritory',
+            text: t('activity.post-docs.originalLab'),
             sort: true,
         }, {
             dataField: 'postDoc.associatedFunding',
-            text: 'Associated Funding',
+            text: t('activity.post-docs.associatedFunding'),
             hidden: true, // for csv only
         }, {
             dataField: 'postDoc.associatedPubliRef',
-            text: 'Associated Publication References',
+            text: t('activity.post-docs.associatedPubliRef'),
             hidden: true, // for csv only
         }];
 
         let title = "PostDoc"
         if (!targetResearcher) {
             columns.push(chercheursColumnOfActivity)
-            title = t('activity.post-docs list')
+            title = t('activity.post-docs.list')
         }
         const CaptionElement = <div>
             <h3> {title}
@@ -244,7 +244,7 @@ function PostDocList(props) {
                                     <div className="col-4">
                                         <button className="btn btn-primary" data-bs-toggle="button"
                                             onClick={() => setShowPostDocAdd(true)}>
-                                            <AiOutlinePlusCircle /> &nbsp; Add a Post-docs
+                                            <AiOutlinePlusCircle /> &nbsp; {t('activity.post-docs.add')}
                                         </button>
                                     </div>
                                 </div>

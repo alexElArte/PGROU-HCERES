@@ -4,8 +4,10 @@ import Button from "react-bootstrap/Button";
 import LoadingIcon from "../../util/LoadingIcon";
 import PostDocElement from "./PostDocElement";
 import {deletePostDoc} from "../../../services/Activity/post-doc/PostDocActions";
+import { withTranslation } from 'react-i18next';
 
 function PostDocDelete(props) {
+    const { t } = props;
     const [show, setShow] = useState(true);
     const [isLoading, setIsLoading] = useState(false);
     const targetPostDoc = props.targetPostDoc;
@@ -20,13 +22,13 @@ function PostDocDelete(props) {
         deletePostDoc(targetPostDoc.idActivity)
             .then(response => {
                 const msg = {
-                    "successMsg": "Post-docs deleted with an id " + targetPostDoc.idActivity,
+                    successMsg: t('activity.post-docs.success delete') + ' ' + response.data.idActivity,
                 }
                 handleClose(msg);
             }).catch(error => {
             console.log(error);
             const msg = {
-                "errorMsg": "Post-docs not deleted, response status: " + error.response.status,
+                errorMsg: t('activity.post-docs.error delete') + ' ' + error.response.status,
             }
             handleClose(msg);
         })
@@ -36,18 +38,18 @@ function PostDocDelete(props) {
     return (
         <Modal show={show} onHide={handleClose}>
             <Modal.Header closeButton>
-                <Modal.Title>Delete Post-docs ?</Modal.Title>
+                <Modal.Title>{t('activity.post-docs.delete')}</Modal.Title>
             </Modal.Header>
             <Modal.Body>
                 <PostDocElement targetPostDoc={targetPostDoc}/>
             </Modal.Body>
             <Modal.Footer>
                 <Button variant="secondary" onClick={handleClose}>
-                    No
+                    {t('activity.close')}
                 </Button>
                 <Button variant="danger" onClick={handleDelete} disabled={isLoading}>
                     {isLoading ? <LoadingIcon color={"white"}/> : null}
-                    {isLoading ? 'Deleting...' : 'Yes, Delete'}
+                    {isLoading ? t('activity.deleting') : t('activity.delete')}
                 </Button>
             </Modal.Footer>
         </Modal>
@@ -55,5 +57,5 @@ function PostDocDelete(props) {
 }
 
 
-export default PostDocDelete;
+export default withTranslation()(PostDocDelete);
 

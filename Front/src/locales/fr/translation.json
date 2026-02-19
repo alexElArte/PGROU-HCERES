@@ -19,6 +19,7 @@
     "results": "résultats",
     "yes": "Oui",
     "no": "Non",
+    "choose": "choisir",
     "confirm delete": "Êtes-vous sûr de vouloir supprimer ?",
     "deleting": "Suppression en cours...",
     "yes delete": "Oui, Supprimer",
@@ -28,6 +29,7 @@
     "start date": "Date de début",
     "end date": "Date de fin",
     "actions": "Actions",
+    "researcher": "Chercheur",
     "researchers": "Chercheurs",
     "count of": "Nombre de"
   },
@@ -108,32 +110,152 @@
     "no activity": "Aucune activité trouvée.",
     "see all": "Voir Tout",
     "hide all": "Cacher Tout",
-    "scientific recognition": "Reconnaissance Scientifique - Récompenses",
-    "industrial contracts": "Contrats R&D Industriels",
-    "training thesis": "Encadrement de Thèses",
-    "creation": "Création d'Entreprises / de Start-up",
-    "post-docs": "Post-doctorants",
-    "book": "Livre",
-    "publication": "Publication",
-    "research contract": "Contrats de recherche financés par le public ou des associations charitables",
-    "industrial contracts list": "Liste des contrats R&D industriels pour le chercheur",
-    "post-docs list": "Liste des post-docs pour le chercheur",
-    "company creation list": "Liste des créations d'Entreprises / de Start-up pour le chercheur",
-    "training thesis list": "Liste des thèses pour le chercheur",
-    "awards list": "Liste des récompenses pour le chercheur",
-    "research contract list": "Liste des contrats de recherche pour le chercheur",
-    "no industrial contracts": "Aucun contrat R&D industriel enregistré",
-    "no post-docs": "Aucun post-doc enregistré",
-    "no company creation": "Aucune création d'entreprise enregistrée",
-    "no training thesis": "Aucune thèse enregistrée",
-    "no awards": "Aucune récompense enregistrée",
-    "no research contracts": "Aucun contrat de recherche enregistré",
-    "add industrial contract": "Ajouter un contrat R&D industriel",
-    "add post-doc": "Ajouter un post-doc",
-    "add company creation": "Ajouter une création d'entreprise / start-up",
-    "add training thesis": "Ajouter une thèse",
-    "add award": "Ajouter une récompense",
-    "add research contract": "Ajouter un contrat de recherche financé par le public ou des associations charitables"
+    "add": "Ajouter",
+    "adding": "Ajout en cours...",
+    "delete": "Supprimer",
+    "deleting": "Suppression...",
+    "close": "Fermer",
+
+    "post-docs": {
+      "title": "Post-doctorants",
+      "list": "Liste des post-docs pour le chercheur",
+      "no": "Aucun post-doc enregistré",
+      "add": "Ajouter un post-doc",
+      "success add": "Post-doctorant ajouté avec l'identifiant",
+      "error add": "Erreur : Post-doctorant non ajouté, statut:",
+      "delete": "Supprimer un post-doctorant",
+      "success delete": "Post-doctorant supprimé avec l'identifiant",
+      "error delete": "Erreur : Post-doctorant non supprimé, statut :",
+      
+      "namePostDoc": "Nom",
+      "nameSupervisor": "Nom du superviseur",
+      "arrivalDate": "Date d’arrivée",
+      "departureDate": "Date de départ",
+      "duration": "Durée",
+      "nationality": "Nationalité",
+      "originalLab": "Laboratoire d’origine",
+      "associatedFunding": "Financement associé",
+      "associatedPubliRef": "Références des publications associées"
+    },
+
+    "network": {
+      "title": "Réseaux",
+      "list": "Liste des réseaux pour le chercheur",
+      "no": "Aucun réseau enregistré",
+      "add": "Ajouter un réseau",
+      "success add": "Réseau ajouté avec l'identifiant",
+      "error add": "Erreur : Réseau non ajouté, statut :",
+      "delete": "Supprimer un réseau",
+      "success delete": "Réseau supprimé avec l'identifiant",
+      "error delete": "Erreur : Réseau non supprimé, statut :", 
+
+      "nameNetwork": "Nom du réseau",
+      "startDate": "Date de début",
+      "activeNetwork": "Actif",
+      "associatedFunding": "Financement associé",
+      "nbResultingPublications": "Nombre de publications résultantes",
+      "refResultingPublications": "Références des publications résultantes",
+      "umrCoordinated": "UMR coordonnée",
+      "agreementSigned": "Accord signé"
+    },
+
+    "scientific-recognition": {
+      "title": "Distinctions scientifiques",
+      "list": "Liste des distinctions scientifiques pour le chercheur",
+      "no": "Aucune distinction scientifique enregistrée",
+      "add": "Ajouter une distinction scientifique",
+      "success add": "Distinction scientifique ajoutée avec l'identifiant",
+      "error add": "Erreur : Distinction scientifique non ajoutée, statut :",
+      "delete": "Supprimer une distinction scientifique",
+      "success delete": "Distinction scientifique supprimée avec l'identifiant",
+      "error delete": "Erreur : Distinction scientifique non supprimée, statut :",
+
+      "TODO": "add columns name"
+    },
+
+    "industrial-contracts": {
+      "title": "Contrats industriels de R&D",
+      "list": "Liste des contrats industriels de R&D pour le chercheur",
+      "no": "Aucun contrat industriel enregistré",
+      "add": "Ajouter un contrat industriel de R&D",
+      "success add": "Contrat industriel ajouté avec l'identifiant",
+      "error add": "Erreur : Contrat industriel non ajouté, statut :",
+      "delete": "Supprimer un contrat industriel de R&D",
+      "success delete": "Contrat industriel supprimé avec l'identifiant",
+      "error delete": "Erreur : Contrat industriel non supprimé, statut :",
+
+      "TODO": "add columns name"
+    },
+
+    "training-thesis": {
+      "title": "Thèses encadrées",
+      "list": "Liste des thèses encadrées pour le chercheur",
+      "no": "Aucune thèse encadrée enregistrée",
+      "add": "Ajouter une thèse encadrée",
+      "success add": "Thèse encadrée ajoutée avec l'identifiant",
+      "error add": "Erreur : Thèse encadrée non ajoutée, statut :",
+      "delete": "Supprimer une thèse encadrée",
+      "success delete": "Thèse encadrée supprimée avec l'identifiant",
+      "error delete": "Erreur : Thèse encadrée non supprimée, statut :",
+
+      "TODO": "add columns name"
+    },
+
+    "creation": {
+      "title": "Création d'entreprise / Start-up",
+      "list": "Liste des créations d'entreprise pour le chercheur",
+      "no": "Aucune création d'entreprise enregistrée",
+      "add": "Ajouter une création d'entreprise",
+      "success add": "Création d'entreprise ajoutée avec l'identifiant",
+      "error add": "Erreur : Création d'entreprise non ajoutée, statut :",
+      "delete": "Supprimer une création d'entreprise",
+      "success delete": "Création d'entreprise supprimée avec l'identifiant",
+      "error delete": "Erreur : Création d'entreprise non supprimée, statut :",
+
+      "TODO": "add columns name"
+    },
+
+    "book": {
+      "title": "Livres",
+      "list": "Liste des livres pour le chercheur",
+      "no": "Aucun livre enregistré",
+      "add": "Ajouter un livre",
+      "success add": "Livre ajouté avec l'identifiant",
+      "error add": "Erreur : Livre non ajouté, statut :",
+      "delete": "Supprimer un livre",
+      "success delete": "Livre supprimé avec l'identifiant",
+      "error delete": "Erreur : Livre non supprimé, statut :",
+
+      "TODO": "add columns name"
+    },
+
+    "publication": {
+      "title": "Publications",
+      "list": "Liste des publications pour le chercheur",
+      "no": "Aucune publication enregistrée",
+      "add": "Ajouter une publication",
+      "success add": "Publication ajoutée avec l'identifiant",
+      "error add": "Erreur : Publication non ajoutée, statut :",
+      "delete": "Supprimer une publication",
+      "success delete": "Publication supprimée avec l'identifiant",
+      "error delete": "Erreur : Publication non supprimée, statut :",
+
+      "TODO": "add columns name"
+    },
+
+    "research-contract": {
+      "title": "Contrats de recherche financés par des institutions publiques ou caritatives",
+      "list": "Liste des contrats de recherche pour le chercheur",
+      "no": "Aucun contrat de recherche enregistré",
+      "add": "Ajouter un contrat de recherche",
+      "success add": "Contrat de recherche ajouté avec l'identifiant",
+      "error add": "Erreur : Contrat de recherche non ajouté, statut :",
+      "delete": "Supprimer un contrat de recherche",
+      "success delete": "Contrat de recherche supprimé avec l'identifiant",
+      "error delete": "Erreur : Contrat de recherche non supprimé, statut :",
+
+      "TODO": "add columns name"
+    }
   },
   "stats": {
     "title": "Statistiques sur les",
