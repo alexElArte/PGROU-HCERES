@@ -5,7 +5,7 @@ class BookStat extends ActivityStatTemplate {
     constructor() {
         super({
             idTypeActivity: ActivityTypes.BOOK,
-            label: "Livres",
+            label: "activity.book",
         });
     }
 
@@ -23,7 +23,7 @@ class BookStat extends ActivityStatTemplate {
             // unique key across all filters
             key: "startDate",
             // label displayed for the input field
-            label: "Livre publie après le",
+            label: "filter.book published after",
             // type of input field
             inputType: "date",
             // callback function to filter the data based on the input value
@@ -40,7 +40,7 @@ class BookStat extends ActivityStatTemplate {
         },
         {
             key: "endDate",
-            label: "Livre publie avant le",
+            label: "filter.book published before",
             inputType: "date",
             callbackFilter: (book, endDate) => book.publicationDate <= endDate,
             initialValueCallback: (bookList) => {
@@ -60,7 +60,7 @@ class BookStat extends ActivityStatTemplate {
             // unique key across all charts
             key: "year",
             // label displayed for the chart
-            label: "année",
+            label: "filter.year",
             // callback function to group the data
             callbackGroupBy: (book) => {
                 return [

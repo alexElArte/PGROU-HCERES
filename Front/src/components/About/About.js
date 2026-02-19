@@ -6,7 +6,10 @@ import welcomImage from '../../assets/welcomImg.png';
 import Navbar from '../Navbar/Navbar';
 import {Link} from "react-router-dom";
 import {ImBackward} from "react-icons/im";
+import { useTranslation } from 'react-i18next';
+
 function About() {
+    const { t } = useTranslation();
     return (
         <div>
             <div className="container2">
@@ -18,8 +21,7 @@ function About() {
                         <div className="title1">
                              About !
                         </div>
-                        Cette application a été créée par des étudiants de Centrale Nantes dans le cadre de l’option Informatique pour les Systèmes d’Information, sous la direction de Jean-Yves Martin et de Sophie Limou.
-                        Le suivi de l’application est désormais assuré par la DSI de Nantes Université.
+                        {t("about")}
                         <h1>
                             <br/>
                             <Link to={-1}>{<ImBackward color={"white"}/>}</Link>

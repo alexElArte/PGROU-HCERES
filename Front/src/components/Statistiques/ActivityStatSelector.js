@@ -13,6 +13,8 @@ import IndustrialContractStat from './industrial-contract/IndustrialContractStat
 import TrainingThesisStat from './training-thesis/TrainingThesisStat';
 import SrAwardStat from './sraward/SrAwardStat';
 
+import { useTranslation } from 'react-i18next';
+
 //Permet de mettre les filtres
 const activityStatTemplates = [
     // Pas de Book et Publication pour le 1er rendu
@@ -38,14 +40,18 @@ const activityStatTemplates = [
         ))
 );
 
-const activityStatOptions = activityStatTemplates.map(activityStatTemplate => {
-    return {
-        value: activityStatTemplate,
-        label: activityStatTemplate.label,
-    }
-});
+
 
 export default function ActivityStatSelector() {
+    const { t } = useTranslation();
+
+    const activityStatOptions = activityStatTemplates.map(activityStatTemplate => {
+        return {
+            value: activityStatTemplate,
+            label: t(activityStatTemplate.label),
+        }
+    });
+
     const [selectedActivityStat, setSelectedActivityStat] = React.useState(activityStatTemplates[0]);
 
     return (

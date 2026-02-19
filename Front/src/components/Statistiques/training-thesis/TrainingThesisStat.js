@@ -7,7 +7,7 @@ class TrainingThesisStat extends ActivityStatTemplate {
     constructor() {
         super({
             idTypeActivity: ActivityTypes.TRAINING_THESIS_PUBLICATION,
-            label: "Training theses",
+            label: "activity.training thesis",
         });
     }
 
@@ -50,7 +50,7 @@ class TrainingThesisStat extends ActivityStatTemplate {
         // thesisStart
         {
             key: "startAfter",
-            label: "Thesis starting after",
+            label: "filter.training thesis after",
             inputType: "date",
             callbackFilter: (t, value) => {
                 if (!value) return true;
@@ -68,7 +68,7 @@ class TrainingThesisStat extends ActivityStatTemplate {
         },
         {
             key: "startBefore",
-            label: "Thesis starting before",
+            label: "filter.training thesis before",
             inputType: "date",
             callbackFilter: (t, value) => {
                 if (!value) return true;
@@ -88,7 +88,7 @@ class TrainingThesisStat extends ActivityStatTemplate {
         // thesisDefenseDate
         {
             key: "defenseAfter",
-            label: "Defense after",
+            label: "filter.defense after",
             inputType: "date",
             callbackFilter: (t, value) => {
                 if (!value) return true;
@@ -106,7 +106,7 @@ class TrainingThesisStat extends ActivityStatTemplate {
         },
         {
             key: "defenseBefore",
-            label: "Defense before",
+            label: "filter.defense before",
             inputType: "date",
             callbackFilter: (t, value) => {
                 if (!value) return true;
@@ -126,7 +126,7 @@ class TrainingThesisStat extends ActivityStatTemplate {
         // thesisNumberArticles
         {
             key: "articlesMin",
-            label: "Minimum number of articles",
+            label: "filter.minimum article count",
             inputType: "number",
             callbackFilter: (t, minArticles) => {
                 if (minArticles === null || minArticles === undefined || minArticles === "") {
@@ -148,7 +148,7 @@ class TrainingThesisStat extends ActivityStatTemplate {
         // thesisTypeId (1 Academic, 2 CIFRE)
         {
             key: "thesisType",
-            label: "Thesis type",
+            label: "filter.thesis type",
             inputType: "select",
             selectOptions: () => [
                 { key: 1, label: "Academic", value: 1 },
@@ -164,7 +164,7 @@ class TrainingThesisStat extends ActivityStatTemplate {
     customGroupByList = [
         {
             key: "startYear",
-            label: "Start year",
+            label: "filter.start year",
             callbackGroupBy: (t) => {
                 if (!t.thesisStartObj) return [];
                 const y = t.thesisStartObj.getFullYear();
@@ -173,7 +173,7 @@ class TrainingThesisStat extends ActivityStatTemplate {
         },
         {
             key: "thesisType",
-            label: "Thesis type",
+            label: "filter.thesis type",
             callbackGroupBy: (t) => {
                 let label;
                 switch (t.thesisTypeId) {
