@@ -70,6 +70,8 @@ text-align: center;
     flex-direction: column;
     width: 100%;
     height: 90vh;
+  max-height: calc(100vh - 80px);
+  overflow-y: auto;
     position: absolute;
     top: 80px;
     // pour avoir une transition de la gauche du menu lorsq'on clique sur les trois trais
