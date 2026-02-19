@@ -1,7 +1,9 @@
 .container1{
   border-color: darkblue;
   border-style: solid;
-  width: 100vw;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
   display: flex;
   justify-content: space-around;
   background: rgb(255,255,255);
