@@ -5,7 +5,7 @@ import 'react-bootstrap-table2-filter/dist/react-bootstrap-table2-filter.min.css
 import BootstrapTable from 'react-bootstrap-table-next';
 import ToolkitProvider, {Search} from 'react-bootstrap-table2-toolkit/dist/react-bootstrap-table2-toolkit';
 import paginationFactory from 'react-bootstrap-table2-paginator';
-import filterFactory, {dateFilter, numberFilter} from 'react-bootstrap-table2-filter';
+import filterFactory, {dateFilter, numberFilter, textFilter} from 'react-bootstrap-table2-filter';
 import {Alert, OverlayTrigger} from "react-bootstrap";
 
 import 'react-datepicker/dist/react-datepicker.css';
@@ -118,6 +118,7 @@ function IndustrialContractList(props) {
             dataField: 'idActivity',
             text: 'ID',
             sort: true,
+            filter: showFilter ? textFilter({placeholder: 'ID...'}) : null,
             formatter: (cell, row) => {
                 return (<div>
                     <OverlayTrigger
@@ -138,10 +139,12 @@ function IndustrialContractList(props) {
             dataField: 'seiIndustrialRDContract.projectTitle',
             text: 'Project Title',
             sort: true,
+            filter: showFilter ? textFilter({placeholder: 'Project Title...'}) : null,
         }, {
             dataField: 'seiIndustrialRDContract.nameCompanyInvolved',
             text: 'Company Name',
             sort: true,
+            filter: showFilter ? textFilter({placeholder: 'Company Name...'}) : null,
         }, {
             dataField: 'seiIndustrialRDContract.agreementAmount',
             text: 'Agreement Amount',
@@ -151,6 +154,7 @@ function IndustrialContractList(props) {
             dataField: 'seiIndustrialRDContract.associatedPubliRef',
             text: 'Associated Publication reference',
             sort: true,
+            filter: showFilter ? textFilter({placeholder: 'Associated Publication reference...'}) : null,
         }, {
             dataField: 'seiIndustrialRDContract.startDate',
             text: 'Departure Date',

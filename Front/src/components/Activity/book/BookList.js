@@ -99,6 +99,7 @@ function BookList(props) {
             dataField: 'idActivity',
             text: 'ID',
             sort: true,
+            filter: showFilter ? textFilter({placeholder: 'ID...'}) : null,
             formatter: (cell, row) => {
                 return (
                     <div>
@@ -119,7 +120,7 @@ function BookList(props) {
             dataField: 'book.title',
             text: "Titre",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Titre...'}) : null,
         }, {
             dataField: 'book.publicationDate',
             text: "Date de publication",
@@ -129,13 +130,13 @@ function BookList(props) {
             dataField: 'book.editor',
             text: "Éditeur",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Éditeur...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'book.authors',
             text: "Auteur(s)",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Auteur(s)...'}) : null,
             hidden: true, // for csv only
         }, {
             dataField: 'book.nbPage',
@@ -147,7 +148,7 @@ function BookList(props) {
             dataField: 'book.language.languageName',
             text: "Langue",
             sort: true,
-            filter: showFilter ? textFilter() : null,
+            filter: showFilter ? textFilter({placeholder: 'Langue...'}) : null,
         }];
 
         let title = "Livres";

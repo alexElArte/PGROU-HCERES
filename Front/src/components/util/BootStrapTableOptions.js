@@ -57,6 +57,7 @@ export const chercheursColumnOfActivity = {
         else return ""
     },
     filter: textFilter({
+        placeholder: 'Chercheurs...',
         onFilter: filterByResearcherList
     })
 }

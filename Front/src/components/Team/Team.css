@@ -339,6 +339,13 @@ select {
     word-break: normal !important;
 }
 
+/* Colonne Number of member */
+.team-list-table td:nth-child(7),
+.team-list-table th:nth-child(7) {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
 /* Colonne Edit */
 .team-list-table td:nth-child(8),
 .team-list-table th:nth-child(8) {
@@ -346,4 +353,17 @@ select {
     max-width: 135px !important;
     text-align: center !important;
     vertical-align: middle !important;
+}
+
+/* Bouton d'ajout de texte */
+
+.btn-icon-text {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-icon-text svg {
+    display: inline-block;
+    vertical-align: middle;
 }
