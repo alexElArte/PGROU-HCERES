@@ -1,4 +1,5 @@
 import React from 'react';
+import { withTranslation } from 'react-i18next';
 
 import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
 import 'react-bootstrap-table2-filter/dist/react-bootstrap-table2-filter.min.css';
@@ -26,6 +27,7 @@ import Tooltip from "react-bootstrap/Tooltip";
 // If targetResearcher is set in props display related information only
 // else load list des tous les ResearchContractFundedCharit du database
 function ResearchContractFundedCharitList(props) {
+    const { t } = props;
     // parameter constant (List Template)
     const targetResearcher = props.targetResearcher;
 
@@ -91,7 +93,7 @@ function ResearchContractFundedCharitList(props) {
                 <div className={"row"}>
                     <br/>
                     <div className={"col-8"}>
-                        <h3> No Research contract funded by public or charitable institutions saved </h3>
+                        <h3>{t('activity.no research contracts')}</h3>
                     </div>
                     <div className={"col-4"}>
                         {showResearchContractFundedCharitAdd &&
@@ -105,7 +107,7 @@ function ResearchContractFundedCharitList(props) {
                             data-bs-toggle="button"
                             onClick={() => setShowResearchContractFundedCharitAdd(true)}
                         >
-                            <AiOutlinePlusCircle/> &nbsp; Add a Research contract funded by public or charitable institutions 
+                            <AiOutlinePlusCircle/> &nbsp; {t('activity.add research contract')}
                         </button>
                     </div>
                 </div>
@@ -175,7 +177,7 @@ function ResearchContractFundedCharitList(props) {
         let title = "ResearchContractFundedCharit";
         if (!targetResearcher) {
             columns.push(chercheursColumnOfActivity);
-            title = "Research contract funded by public or charitable institutions  List";
+            title = t('activity.research contract list');
         }
 
         const CaptionElement = (
@@ -302,4 +304,4 @@ function ResearchContractFundedCharitList(props) {
     }
 }
 
-export default ResearchContractFundedCharitList;
+export default withTranslation()(ResearchContractFundedCharitList);

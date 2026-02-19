@@ -25,6 +25,8 @@ import { MdSearch } from "react-icons/md";
 import { fetchListTeams } from "../../services/Team/TeamActions";
 import { fetchListResearchers } from "../../services/Researcher/ResearcherActions";
 
+import { withTranslation } from 'react-i18next';
+
 class Team extends Component {
     constructor() {
         super()
@@ -131,6 +133,9 @@ class Team extends Component {
     }
 
     render() {
+
+        const { t } = this.props;
+
         if (!this.state.loading) {
             const columns = [{
                 dataField: 'teamId',
@@ -143,14 +148,14 @@ class Team extends Component {
             },
             {
                 dataField: 'teamName',
-                text: 'Team Name',
+                text: t('team.team'),
                 sort: true,
                 headerAlign: 'center',
-                filter: this.state.showFilter ? textFilter({ placeholder: 'Filtrer par nom' }) : null,
+                filter: this.state.showFilter ? textFilter({ placeholder: t('team.filter by name') }) : null,
             },
             {
                 dataField: 'teamCreation',
-                text: 'Creation Date',
+                text: t('team.creation date'),
                 sort: true,
                 headerAlign: 'center',
                 align: 'center',
@@ -167,7 +172,7 @@ class Team extends Component {
             },
             {
                 dataField: 'teamEnd',
-                text: 'End Date',
+                text: t('team.end date'),
                 sort: true,
                 headerAlign: 'center',
                 align: 'center',
@@ -184,7 +189,7 @@ class Team extends Component {
             },
             {
                 dataField: 'teamLaboratoryId',
-                text: 'Laboratory',
+                text: t('team.laboratory'),
                 sort: true,
                 headerAlign: 'center',
                 align: 'center',
@@ -207,7 +212,7 @@ class Team extends Component {
             },
             {
                 dataField: 'memberCount',
-                text: 'Number of member',
+                text: t('team.number of members'),
                 sort: true,
                 headerAlign: 'center',
                 align: 'center',
@@ -300,7 +305,7 @@ class Team extends Component {
                                 color: 'darkblue',
                                 border: '1px solid darkblue',
                                 padding: '0.5em'
-                            }}> Team list
+                            }}> {t('team.title')}
                             </h3>
                         </div>
                     </div>
@@ -323,7 +328,7 @@ class Team extends Component {
                                     showAddTeam: true
                                 })
                             }}>
-                                <AiOutlinePlusCircle /> &nbsp; Add a team
+                                <AiOutlinePlusCircle /> &nbsp; {t('team.add')}
                             </button>
                             {this.state.teamSuccessAlert && (
                                 <Alert className={"alert-success "} onClose={() => this.setState({
@@ -368,33 +373,35 @@ class Team extends Component {
                         <DeleteTeam targetTeam={this.state.targetTeam}
                             onHideAction={this.onHideModalTeam} />)}
 
-                    <ToolkitProvider
-                        bootstrap4
-                        keyField="teamId"
-                        data={this.state.teams}
-                        columns={columns}
-                        exportCSV={{
-                            fileName: 'teamList.csv',
-                            onlyExportSelection: true,
-                            exportAll: true
-                        }}
-                        search
-                    >
-                        {
-                            props => (
-                                <BootstrapTable
-                                    defaultSorted={defaultSorted}
-                                    pagination={paginationFactory(paginationOptions(this.state.teams.length))}
-                                    filter={filterFactory()}
-                                    caption={<CaptionElement tableProps={props} />}
-                                    striped
-                                    hover
-                                    condensed
-                                    selectRow={selectRow}
-                                    {...props.baseProps} />
-                            )
-                        }
-                    </ToolkitProvider>
+                    <div className="team-list-table">
+                        <ToolkitProvider
+                            bootstrap4
+                            keyField="teamId"
+                            data={this.state.teams}
+                            columns={columns}
+                            exportCSV={{
+                                fileName: 'teamList.csv',
+                                onlyExportSelection: true,
+                                exportAll: true
+                            }}
+                            search
+                        >
+                            {
+                                props => (
+                                    <BootstrapTable
+                                        defaultSorted={defaultSorted}
+                                        pagination={paginationFactory(paginationOptions(this.state.teams.length))}
+                                        filter={filterFactory()}
+                                        caption={<CaptionElement tableProps={props} />}
+                                        striped
+                                        hover
+                                        condensed
+                                        selectRow={selectRow}
+                                        {...props.baseProps} />
+                                )
+                            }
+                        </ToolkitProvider>
+                    </div>
 
                     <Collapse in={this.state.showMembers && !!this.state.targetTeam}>
                         <div className="mt-3">
@@ -424,7 +431,7 @@ class Team extends Component {
             <div className="container">
                 <div className="d-flex align-items-center justify-content-center">
                     <h1>
-                        Téléchargement des données des équipes
+                        {this.props.t('team.loading')}
                         <Oval className="ml-2" stroke={"black"} />
                     </h1>
                 </div>
@@ -434,4 +441,4 @@ class Team extends Component {
 
 }
 
-export default Team;
+export default withTranslation()(Team);

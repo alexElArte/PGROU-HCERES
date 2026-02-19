@@ -10,7 +10,12 @@ import {useLocation, useNavigate} from "react-router-dom";
 import authToken from "../../utils/authToken";
 import {Oval} from "react-loading-icons";
 
+import { useTranslation } from 'react-i18next';
+
 const Login = (props) => {
+
+    const { t } = useTranslation();
+    
     // state are parameter passed by navigate functions
     const navState = useLocation().state;
     const [isLoading, setIsLoading] = useState(false);
@@ -42,11 +47,11 @@ const Login = (props) => {
                 console.log(error)
                 resetLoginForm();
                 if (!error.response) {
-                  setErrorLogin("Le serveur ne repond pas. Est-ce que spring boot est lancé  (^_^)  ?")
+                  setErrorLogin(t("login.serverNotResponding"));
                 } else if (error.response.status === 403) {
-                    setErrorLogin("Combinaison invalide de login et de mot de passe");
+                    setErrorLogin(t("login.invalidCredentials"));
                 } else {
-                    setErrorLogin("Erreur non claire, Contacter le support pour voir les logs. " + error.response.status )
+                    setErrorLogin(t("login.unknownError") + " " + error.response.status )
                 }
             })
             .finally(() => {
@@ -63,24 +68,24 @@ const Login = (props) => {
             <form className="login_form" onSubmit={validateUser}>
                 <div className="header_login">
                     <img src={Logo} alt="Logo" width="100" className={"fadeIn first"}/>
-                    <h1 className={"fadeIn first"}> Connexion </h1>
+                    <h1 className={"fadeIn first"}> {t("login.title")} </h1>
                 </div>
 
                 <label className="username_label fadeIn second">
                     <i><FaUserAlt/></i>
-                    <input type="username" placeholder="Nom d'utilisateur" name="login" value={user.login}
+                    <input type="username" placeholder={t("login.username")} name="login" value={user.login}
                            onChange={credentialChange}/>
                 </label>
                 <label className="password_label fadeIn third">
                     <i><FaKey/></i>
-                    <input type="password" placeholder="Mot de passe" name="password" value={user.password}
+                    <input type="password" placeholder={t("login.password")} name="password" value={user.password}
                            onChange={credentialChange}/>
                 </label>
                 {errorLogin && <Alert className={"alert-danger"} dismissible={true} onClose={()=>setErrorLogin('')}>{errorLogin}</Alert>}
                 <Button variant={"primary"} className={"btn-primary fadeIn fourth"} value={"connection"}
                         type={"submit"} disabled={isLoading}>
                     {isLoading ? <Oval className="mr-2" width={20} height={20}/> : null}
-                    {isLoading ? 'Connexion en cours...': 'Connexion'}
+                    {isLoading ? t("login.loginInProgress") : t("login.loginButton")}
                 </Button>
             </form>
         </div>

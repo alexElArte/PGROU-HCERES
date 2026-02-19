@@ -21,10 +21,12 @@ import {fetchListIndustrialContracts} from "../../../services/Activity/industria
 import {fetchResearcherActivities} from "../../../services/Researcher/ResearcherActions";
 import IndustrialContractDelete from "./IndustrialContractDelete";
 import Tooltip from "react-bootstrap/Tooltip";
+import { withTranslation } from 'react-i18next';
 
 // If targetResearcher is set in props display related information only (
 // else load list des tous les industrialContracts du database
 function IndustrialContractList(props) {
+    const { t } = props;
     // parameter constant (List Template)
     const targetResearcher = props.targetResearcher;
 
@@ -95,14 +97,14 @@ function IndustrialContractList(props) {
             return <div className={"row"}>
                 <br/>
                 <div className={"col-8"}>
-                    <h3>No Industrial R&D contracts saved </h3>
+                    <h3>{t('activity.no industrial contracts')} </h3>
                 </div>
                 <div className={"col-4"}>
                     {showIndustrialContractAdd &&
                         <IndustrialContractAdd targetResearcher={targetResearcher} onHideAction={handleHideModal}/>}
                     <button className="btn btn-primary" data-bs-toggle="button"
                             onClick={() => setShowIndustrialContractAdd(true)}>
-                        <AiOutlinePlusCircle/> &nbsp; Add a Industrial R&D contract
+                        <AiOutlinePlusCircle/> &nbsp; {t('activity.add industrial contract')}
                     </button>
                 </div>
             </div>;
@@ -164,7 +166,7 @@ function IndustrialContractList(props) {
         let title = "IndustrialContract"
         if (!targetResearcher) {
             columns.push(chercheursColumnOfActivity)
-            title = "Industrial R&D contracts List for researcher"
+            title = t('activity.industrial contracts list')
         }
         const CaptionElement = <div>
             <h3> {title}
@@ -232,7 +234,7 @@ function IndustrialContractList(props) {
                                     <div className="col-4">
                                         <button className="btn btn-primary" data-bs-toggle="button"
                                                 onClick={() => setShowIndustrialContractAdd(true)}>
-                                            <AiOutlinePlusCircle/> &nbsp; add a Industrial R&D contract
+                                            <AiOutlinePlusCircle/> &nbsp; {t('activity.add industrial contract')}
                                         </button>
                                     </div>
                                 </div>
@@ -268,4 +270,4 @@ function IndustrialContractList(props) {
     }
 }
 
-export default IndustrialContractList;
+export default withTranslation()(IndustrialContractList);

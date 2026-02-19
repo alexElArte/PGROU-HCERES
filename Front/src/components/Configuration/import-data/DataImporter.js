@@ -11,6 +11,8 @@ import MyGlobalVar from "../../../services/MyGlobalVar";
 import {purgeDatabase} from "../../../services/Configuration/DataPurgerActions";
 import ImportCsvSummary from "./ImportCsvSummary";
 
+import { useTranslation } from 'react-i18next';
+
 function createInverseMap(originalMap) {
     return Array.from(originalMap.entries()).reduce(
         (inverseMap, [key, value]) => inverseMap.set(value, key),
@@ -19,6 +21,9 @@ function createInverseMap(originalMap) {
 }
 
 const DataImporter = () => {
+
+    const { t } = useTranslation();
+
     const initialState = {
         // map from file name to file value
         csvFiles: new Map(),
@@ -288,7 +293,7 @@ const DataImporter = () => {
                     border: '1px solid darkblue',
                     padding: '0.5em'
                 }}>
-                    Import Csv Data into database
+                    {t("import data.title")}
                 </h3>
             </div>
             {state.importCsvSummary?.entityToCsvMetrics ?
@@ -306,7 +311,7 @@ const DataImporter = () => {
             <div className={"row"}>
                 {state.missingCsvDependencies.size > 0 ?
                     <Alert variant={"danger"}>
-                        Liste de dépendances manquantes
+                        {t("import data.list dep lack")}
                         {Array.from(state.missingCsvDependencies)
                             .map((dependency, index) => {
                                 return <li key={dependency.key}>{dependency.label}</li>
@@ -315,7 +320,7 @@ const DataImporter = () => {
                     : <Alert variant={"success"}
                              hidden={state.csvParseResults.size === 0}
                     >
-                        All dependencies are satisfied !
+                        {t("import data.dep sat")}
                     </Alert>
                 }
             </div>
@@ -334,7 +339,7 @@ const DataImporter = () => {
                             >
                                 <AiFillDelete className={"mr-2"}/>
                                 {state.isPurgingDatabase ? <LoadingIcon color={"white"}/> : null}
-                                {state.isPurgingDatabase ? 'Suppression en cours...' : 'Supprimer toute la base de données'}
+                                {state.isPurgingDatabase ? t("import data.suppressing") : t("import data.delete all data")}
                             </Button>
                             <Button variant="primary"
                                     className={"btn-group"}
@@ -347,7 +352,7 @@ const DataImporter = () => {
                                 {state.downloadCsvHolder && <CsvSampleDownloader/>}
 
                                 <FaDownload className={"mr-2"}/>
-                                Download Sample
+                                {t("import data.download sample")}
                             </Button>
                         </div>
                         <br/>
@@ -356,11 +361,11 @@ const DataImporter = () => {
                             <Button variant="success" className="btn-group">
                                 <label htmlFor="csv-file" className="file-upload-label border-0">
                                     <FaUpload className={"mr-2"}/>
-                                    Upload CSV
+                                    {t("import data.upload csv")}
                                 </label>
                                 <Form.File
                                     id="csv-file"
-                                    label="Upload CSV file"
+                                    label={t("import data.upload csv")}
                                     accept=".csv"
                                     onChange={(e) => {
                                         dispatch({
@@ -381,7 +386,7 @@ const DataImporter = () => {
                                     })}
                                     hidden={state.missingCsvDependencies.size > 0 || state.csvParseResults.size === 0}>
                                 {state.isInsertingIntoDataBase ? <LoadingIcon color={"white"}/> : null}
-                                {state.isInsertingIntoDataBase ? 'Insertion en cours...' : 'Insérer dans la base de données'}
+                                {state.isInsertingIntoDataBase ? t("import data.inserting") : t("import data.title")}
                             </Button>
                             <Button
                                 variant={"info"}
@@ -390,7 +395,7 @@ const DataImporter = () => {
                                 })}
                                 hidden={state.missingCsvDependencies.size > 0 || state.csvParseResults.size === 0}
                             >
-                                Effacer les non-associations
+                                {t("import data.delete non linked")}
                             </Button>
                             <Button
                                 variant={"danger"}
@@ -399,7 +404,7 @@ const DataImporter = () => {
                                 })}
                                 hidden={state.csvParseResults.size === 0}
                             >
-                                Tout effacer
+                                {t("import data.clean")}
                             </Button>
                         </div>
                     </div>
@@ -407,7 +412,7 @@ const DataImporter = () => {
             </div>
             <div className={"row"}>
                 <div className={"col-12"}>
-                    Total {state.csvFiles.size} files uploaded.
+                    Total {state.csvFiles.size} {t("import data.total")}.
                 </div>
             </div>
             <div>

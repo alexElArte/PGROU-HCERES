@@ -2,6 +2,7 @@ import {ListGroup} from "react-bootstrap";
 import {textFilter} from "react-bootstrap-table2-filter";
 import React from "react";
 import {researcherToString} from "./ResearcherToString";
+import i18n from "../../i18n";
 
 export const paginationOptions = (lengthOfList) => {
     const defaultSizeValues = [5, 10, 25, 50]
@@ -17,6 +18,11 @@ export const paginationOptions = (lengthOfList) => {
     }
     return {
         showTotal: true,
+        paginationTotalRenderer: (from, to, size) => (
+            <span className="react-bootstrap-table-pagination-total">
+                {i18n.t('common.rows')} {from} {i18n.t('common.to')} {to} {i18n.t('common.of')} {size}
+            </span>
+        ),
         sizePerPageList: dynamicSizePerPage
     }
 };

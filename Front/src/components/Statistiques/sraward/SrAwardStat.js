@@ -5,7 +5,7 @@ class SrAwardsStat extends ActivityStatTemplate {
     constructor() {
         super({
             idTypeActivity: ActivityTypes.SR_AWARD,
-            label: "Awards",
+            label: "activity.scientific recognition",
         });
 
         // filets de sécurité au cas où
@@ -55,7 +55,7 @@ class SrAwardsStat extends ActivityStatTemplate {
     filters = [
         {
             key: "startDate",
-            label: "Awarded after",
+            label: "filter.awarded after",
             inputType: "date",
             callbackFilter: (award, startDate) => {
                 if (!startDate) return true;
@@ -76,7 +76,7 @@ class SrAwardsStat extends ActivityStatTemplate {
         },
         {
             key: "endDate",
-            label: "Awarded before",
+            label: "filter.awarded before",
             inputType: "date",
             callbackFilter: (award, endDate) => {
                 if (!endDate) return true;
@@ -100,7 +100,7 @@ class SrAwardsStat extends ActivityStatTemplate {
     customGroupByList = [
         {
             key: "year",
-            label: "Year",
+            label: "filter.year",
             callbackGroupBy: (award) => {
                 if (!award.awardDateObj || isNaN(award.awardDateObj.getTime())) {
                     return [];

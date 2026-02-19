@@ -1,4 +1,5 @@
 import React from 'react';
+import { withTranslation } from 'react-i18next';
 
 import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
 import 'react-bootstrap-table2-filter/dist/react-bootstrap-table2-filter.min.css';
@@ -25,6 +26,7 @@ import Tooltip from "react-bootstrap/Tooltip";
 // If targetResearcher is set in props display related information only (
 // else load list des tous les postDocs du database
 function PostDocList(props) {
+    const { t } = props;
     // parameter constant (List Template)
     const targetResearcher = props.targetResearcher;
 
@@ -95,14 +97,14 @@ function PostDocList(props) {
             return <div className={"row"}>
                 <br />
                 <div className={"col-8"}>
-                    <h3>No Post-docs saved</h3>
+                    <h3>{t('activity.no post-docs')}</h3>
                 </div>
                 <div className={"col-4"}>
                     {showPostDocAdd &&
                         <PostDocAdd targetResearcher={targetResearcher} onHideAction={handleHideModal} />}
                     <button className="btn btn-primary" data-bs-toggle="button"
                         onClick={() => setShowPostDocAdd(true)}>
-                        <AiOutlinePlusCircle /> &nbsp; Add a Post-docs
+                        <AiOutlinePlusCircle /> &nbsp; {t('activity.add post-doc')}
                     </button>
                 </div>
             </div>;
@@ -174,7 +176,7 @@ function PostDocList(props) {
         let title = "PostDoc"
         if (!targetResearcher) {
             columns.push(chercheursColumnOfActivity)
-            title = "Post-docs list for researcher"
+            title = t('activity.post-docs list')
         }
         const CaptionElement = <div>
             <h3> {title}
@@ -278,4 +280,4 @@ function PostDocList(props) {
     }
 }
 
-export default PostDocList;
+export default withTranslation()(PostDocList);

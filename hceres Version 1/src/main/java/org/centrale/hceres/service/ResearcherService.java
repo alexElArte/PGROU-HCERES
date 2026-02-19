@@ -45,6 +45,14 @@ public class ResearcherService {
         // temporally implementation remove "admin" researcher and "user" researcher
         // and return the rest, to return all researchers, use: return researchRepo.findAll()
         List<Researcher> researchers = researcherRepo.findAll();
+
+        /* ***** DO NOT DELETE ***** */
+        /* **** SECURITY PATCH ***** */
+        // Remove password from being see in the client side
+        for (Researcher researcher : researchers) {
+            researcher.setResearcherPassword(null);
+        }
+
         // get last status of researcher
         for (Researcher researcher : researchers) {
             researcher.getContractList().stream().max(Comparator.comparingInt(Contract::getContractId))
