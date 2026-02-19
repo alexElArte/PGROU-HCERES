@@ -5,7 +5,7 @@ import 'react-bootstrap-table2-filter/dist/react-bootstrap-table2-filter.min.css
 import BootstrapTable from 'react-bootstrap-table-next';
 import ToolkitProvider, {Search} from 'react-bootstrap-table2-toolkit/dist/react-bootstrap-table2-toolkit';
 import paginationFactory from 'react-bootstrap-table2-paginator';
-import filterFactory from 'react-bootstrap-table2-filter';
+import filterFactory, {textFilter} from 'react-bootstrap-table2-filter';
 import {Alert, OverlayTrigger} from "react-bootstrap";
 
 import 'react-datepicker/dist/react-datepicker.css';
@@ -113,6 +113,7 @@ function OralComPosterList(props) {
             dataField: 'idActivity',
             text: 'ID',
             sort: true,
+            filter: showFilter ? textFilter({placeholder: 'ID...'}) : null,
             formatter: (cell, row) => {
                 return (<div>
                     <OverlayTrigger
@@ -133,6 +134,7 @@ function OralComPosterList(props) {
             dataField: 'oralComPoster.oralComPosterTitle',
             text: 'Titre',
             sort: true,
+            filter: showFilter ? textFilter({placeholder: 'Titre...'}) : null,
         }, {
             dataField: 'oralComPoster.authors',
             text: 'Auteurs',
@@ -149,6 +151,7 @@ function OralComPosterList(props) {
             dataField: 'oralComPoster.meeting.meetingName',
             text: 'Nom de la réunion',
             hidden: false,
+            filter: showFilter ? textFilter({placeholder: 'Nom de la réunion...'}) : null,
         }, {
             dataField: 'oralComPoster.meeting.meetingYear',
             text: 'Année de réunion',

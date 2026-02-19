@@ -24,7 +24,7 @@ import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
 
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     
     const [click, setClick] = useState(false);
     const closeMobileMenu = () => setClick(false);
@@ -50,34 +50,34 @@ const Navbar = () => {
                     {click ? <FaTimes/> : <FaBars/>}
                 </MobileIcon>
                 {/* Le menu que va contenir le Navbar */}
-                <NavMenu onClick={handleClick} click={click}>
+                <NavMenu onClick={handleClick} click={click} language={i18n.language}>
 
                     <NavItem>
-                        <NavLinks to="/Home" className={(nav) => nav.isActive() ? "active" : ""}>
-                            <FaHome/> {t("nav.home")}
+                        <NavLinks to="/Home" language={i18n.language} className={(nav) => nav.isActive() ? "active" : ""}>
+                            <FaHome /> {t("nav.home")}
                         </NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="/Configuration" className={(nav) => nav.isActive() ? "active" : ""}>
-                            <FaCog className={"mr-2"}/> {t("nav.import data")}
+                        <NavLinks to="/Configuration" language={i18n.language} className={(nav) => nav.isActive() ? "active" : ""}>
+                            <FaCog /> {t("nav.import data")}
                         </NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="/Researcher">
-                            <FaUserGraduate/>  {t("nav.members")}
+                        <NavLinks to="/Researcher" language={i18n.language}>
+                            <FaUserGraduate /> {t("nav.members")}
                         </NavLinks>
                     </NavItem>
-                        <NavLinks to="/Team">
-                            <FaUserFriends/>  {t("nav.teams")}
+                        <NavLinks to="/Team" language={i18n.language}>
+                            <FaUserFriends /> {t("nav.teams")}
                         </NavLinks>
                     <NavItem>
-                        <NavLinks to="/Activity">
-                            <BiTask/>  {t("nav.activity")}
+                        <NavLinks to="/Activity" language={i18n.language}>
+                            <BiTask /> {t("nav.activity")}
                         </NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="/Statistiques">
-                            <FaChartLine/>  {t("nav.stats")}
+                        <NavLinks to="/Statistiques" language={i18n.language}>
+                            <FaChartLine /> {t("nav.stats")}
                         </NavLinks>
                     </NavItem>
                     {/* Sélecteur de langue */}
