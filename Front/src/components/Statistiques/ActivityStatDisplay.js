@@ -686,10 +686,18 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
 
                 <div
                     style={{
-                        width: chartOptions.chartWidth + "px",
-                        height: chartOptions.chartHeight + "px",
+                        maxWidth: "100%",
+                        overflowX: "auto",
+                        overflowY: "hidden",
+                        boxSizing: "border-box",
                     }}
                 >
+                    <div
+                        style={{
+                            width: chartOptions.chartWidth + "px",
+                            height: chartOptions.chartHeight + "px",
+                        }}
+                    >
                     {chartTemplate.key === 'bar' ?
                         <div
                             ref={barChartWrapperRef}
@@ -972,6 +980,7 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
                         </div>
                         : null
                     }
+                    </div>
                 </div>
 
                 <div className={"title"}>
