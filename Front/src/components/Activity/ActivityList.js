@@ -27,7 +27,7 @@ import ContractList from "../Other/contract/ContractList";
 import PublicationList from "./publication/PublicationList";
 import ResearchContractFundedCharitList from "./research-contract-funded-charit/ResearchContractFundedCharitList";
 import TrainingThesisList from "./training-thesis/TrainingThesisList";
-
+import NetworkList from "./network/NetworkList";
 
 
 
@@ -54,18 +54,18 @@ export default function ActivityList(props) {
     const [showPostDoctoratList, setShowPostDoctoratList] = React.useState(showListByDefault);
     const [showPatentList, setShowPatentList] = React.useState(showListByDefault);
     const [showReviewList, setShowReviewList] = React.useState(showListByDefault);
-
     const [showBookList, setShowBookList] = React.useState(showListByDefault);
     const [showBookChapterList, setShowBookChapterList] = React.useState(showListByDefault);
-
     const [showPublicationList, setShowPublicationList] = React.useState(showListByDefault);
     const [showResearchContractFundedCharitList, setShowResearchContractFundedCharitList] = React.useState(showListByDefault);
     const [showTrainingThesisList, setShowTrainingThesisList] = React.useState(showListByDefault);
+    const [showNetworkList, setShowNetworkList] = React.useState(showListByDefault);
 
     // Other list
     const [showContractList, setShowContractList] = React.useState(showListByDefault);
 
     const setShowAllList = (isShow) => {
+        setShowNetworkList(isShow)
         //setShowEducationList(isShow)
         setShowPrixList(isShow)
         //setShowPlatformList(isShow)
@@ -248,7 +248,7 @@ export default function ActivityList(props) {
                                 {showBookChapterList ? <BiShow/> : <BiHide/>}
                                 &nbsp;
                                 Chapitres de livres
-                            </ListGroup.Item>
+                                </ListGroup.Item>
 
                                 {/* <ListGroup.Item onClick={() => setShowPublicationList(!showPublicationList)}
                                             className={showPublicationList ? activeItemClass : inactiveItemClass}>
@@ -261,6 +261,13 @@ export default function ActivityList(props) {
                                     {showResearchContractFundedCharitList ? <BiShow /> : <BiHide />}
                                     &nbsp;
                                     Research contract funded by public or charitable institutions 
+                                </ListGroup.Item>
+
+                                <ListGroup.Item onClick={() => setShowNetworkList(!showNetworkList)}
+                                    className={showNetworkList ? activeItemClass : inactiveItemClass}>
+                                    {showNetworkList ? <BiShow /> : <BiHide />}
+                                    &nbsp;
+                                    Researcher Networks
                                 </ListGroup.Item>
 
                             </ListGroup>
@@ -363,7 +370,9 @@ export default function ActivityList(props) {
                                 <div>{showTrainingThesisList && <TrainingThesisList targetResearcher={targetResearcher} />}</div>
                             </Collapse>
 
-
+                            <Collapse in={showNetworkList}>
+                                <div>{setShowNetworkList && <NetworkList targetResearcher={targetResearcher} />}</div>
+                            </Collapse>
                         </div>
                     </div>
                 </div>
