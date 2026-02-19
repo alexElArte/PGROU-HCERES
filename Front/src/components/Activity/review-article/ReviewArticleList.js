@@ -5,7 +5,7 @@ import 'react-bootstrap-table2-filter/dist/react-bootstrap-table2-filter.min.css
 import BootstrapTable from 'react-bootstrap-table-next';
 import ToolkitProvider, {Search} from 'react-bootstrap-table2-toolkit/dist/react-bootstrap-table2-toolkit';
 import paginationFactory from 'react-bootstrap-table2-paginator';
-import filterFactory from 'react-bootstrap-table2-filter';
+import filterFactory, {textFilter} from 'react-bootstrap-table2-filter';
 import {Alert, OverlayTrigger} from "react-bootstrap";
 
 import 'react-datepicker/dist/react-datepicker.css';
@@ -113,6 +113,7 @@ function ReviewArticleList(props) {
             dataField: 'idActivity',
             text: 'ID',
             sort: true,
+            filter: showFilter ? textFilter({placeholder: 'ID...'}) : null,
             formatter: (cell, row) => {
                 return (<div>
                     <OverlayTrigger

@@ -114,6 +114,7 @@ function PlatformList(props) {
             dataField: 'idActivity',
             text: 'ID',
             sort: true,
+            filter: showFilter ? textFilter({placeholder: 'ID...'}) : null,
             formatter: (cell, row) => {
                 return (<div><OverlayTrigger
                     placement="bottom"

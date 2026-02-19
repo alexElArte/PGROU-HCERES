@@ -119,6 +119,7 @@ function SrAwardList(props) {
             dataField: 'idActivity',
             text: 'ID',
             sort: true,
+            filter: showFilter ? textFilter({placeholder: 'ID...'}) : null,
             formatter: (cell, row) => {
                 return (<div>
                     <OverlayTrigger
@@ -143,6 +144,8 @@ function SrAwardList(props) {
         }, {
             dataField: 'srAward.description',
             text: 'Description',
+            sort: true,
+            filter: showFilter ? textFilter({placeholder: 'Description...'}) : null,
         }, {
             dataField: 'srAward.awardDate',
             text: 'Award Date',
