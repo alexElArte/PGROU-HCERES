@@ -252,14 +252,27 @@ class Researcher extends Component {
                     </div>
                     <div className="row">
                         <div className="col-4">
-                            <button className={"border-0 btn-lg"}
-                                    onClick={(e) => this.setState({showFilter: !this.state.showFilter})}>{
-                                <MdSearch/>}
-                            </button>
+                            <OverlayTrigger
+                                placement="bottom"
+                                delay={{show: 250, hide: 400}}
+                                overlay={this.showTooltip(this.state.showFilter ? t('members.hide search') : t('members.show search'))}
+                            >
+                                <button className={"border-0 btn-lg"}
+                                        onClick={() => this.setState({showFilter: !this.state.showFilter})}>{
+                                    <MdSearch/>}
+                                </button>
+                            </OverlayTrigger>
                         </div>
                         <div className="col-4">
-                            <MyExportCSV  {...props.tableProps.csvProps} className="big-button"
-                                          onClick={this.handleClick}/>
+                            <OverlayTrigger
+                                placement="bottom"
+                                delay={{show: 250, hide: 400}}
+                                overlay={this.showTooltip(t('members.csv export'))}
+                            >
+                                <span>
+                                    <MyExportCSV {...props.tableProps.csvProps} className="big-button"/>
+                                </span>
+                            </OverlayTrigger>
                         </div>
 
 

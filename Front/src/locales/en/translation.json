@@ -85,7 +85,10 @@
     "edit": "Actions",
     "add": "Add a member",
     "loading": "Loading members data...",
-    "enter": "Enter"
+    "enter": "Enter",
+    "hide search": "Hide search fields",
+    "show search": "Show search fields",
+    "csv export": "Export as CSV"
   },
   "team": { 
     "title": "List of Teams",
@@ -101,7 +104,10 @@
     "loading": "Loading teams data...",
     "no team selected": "No team selected.",
     "member of": "Member of",
-    "enter": "Enter"
+    "enter": "Enter",
+    "hide search": "Hide search fields",
+    "show search": "Show search fields",
+    "csv export": "Export as CSV"
   },
   "activity": {
     "title": "List of Activities",

@@ -85,7 +85,10 @@
     "edit": "Actions",
     "add": "Ajouter un membre",
     "loading": "Chargement des données des membres...",
-    "enter": "Entrer"
+    "enter": "Entrer",
+    "hide search": "Cacher les champs de recherche",
+    "show search": "Afficher les champs de recherche",
+    "csv export": "Exporter en CSV"
   },
   "team": { 
     "title": "Liste des Équipes",
@@ -101,7 +104,10 @@
     "loading": "Chargement des données des équipes...",
     "member of": "Membre de",
     "no team selected": "Aucune équipe sélectionnée.",
-    "enter": "Entrer"
+    "enter": "Entrer",
+    "hide search": "Cacher les champs de recherche",
+    "show search": "Afficher les champs de recherche",
+    "csv export": "Exporter en CSV"
   },
   "activity": {
     "title": "Liste des Activités",
