@@ -1,13 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .container1{
   border-color: darkblue;
   border-style: solid;
-  width: 100vw;
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow-x: hidden;
   display: flex;
   justify-content: space-around;
   background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, darkblue 90%);
-  height: 100vh;
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(0, 0, 139) 90%);
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 .left-side {
   flex: 1; /* prend la moitié gauche */
@@ -43,6 +58,11 @@
   font-weight: normal;
   font-size: 30px;
   line-height: 84px;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.55);
+}
+
+.pg h1 {
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.55);
 }
 
 .labo {

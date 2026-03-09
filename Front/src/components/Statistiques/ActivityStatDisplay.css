@@ -1,0 +1,128 @@
+.activity-stat-display {
+    --stat-primary: #ffffff; /* Titres */
+    --stat-primary-soft: #eaf3fb;
+    --stat-border: #d9e3ef; /* Bordures */
+    --stat-text: #000000; /* Textes principaux */
+    --stat-muted: #4c647a; /* Textes secondaires */
+    --stat-surface: #ffffff; /* Fond des cartes */
+}
+
+.activity-stat-title {
+    font-size: 24px;
+    color: var(--stat-text);
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.activity-stat-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.activity-stat-summary-item {
+    padding: 8px 12px;
+    border: 1px solid var(--stat-border);
+    border-radius: 8px;
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    color: var(--stat-muted);
+    font-weight: 600;
+}
+
+.activity-stat-loading {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--stat-muted);
+    margin-bottom: 8px;
+}
+
+.activity-stat-filters-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.activity-stat-card {
+    margin-top: 14px;
+    border: 1px solid var(--stat-border);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 16px rgba(17, 52, 80, 0.08);
+    background-color: var(--stat-surface);
+}
+
+.activity-stat-card-header {
+    background: darkblue;
+    border-bottom: 1px solid var(--stat-border);
+}
+
+.activity-stat-card-title {
+    color: var(--stat-primary);
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+
+.activity-stat-card-content {
+    padding-top: 14px;
+}
+
+.activity-stat-display .label {
+    color: var(--stat-text);
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.activity-stat-inline-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.activity-stat-number-input {
+    width: 110px;
+    border: 1px solid var(--stat-border);
+    border-radius: 6px;
+    padding: 4px 8px;
+    color: var(--stat-text);
+    background-color: #fbfdff;
+}
+
+.activity-stat-number-input:focus {
+    outline: none;
+    border-color: var(--stat-primary);
+    box-shadow: 0 0 0 2px rgba(15, 76, 129, 0.2);
+}
+
+.activity-stat-chart-scroll-container {
+    margin-top: 12px;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    border: 1px solid var(--stat-border);
+    border-radius: 10px;
+    background-color: var(--stat-surface);
+    padding: 10px;
+}
+
+.activity-stat-download-title {
+    margin-top: 14px;
+}
+
+@media (max-width: 768px) {
+    .activity-stat-title {
+        font-size: 20px;
+    }
+
+    .activity-stat-inline-row {
+        gap: 8px;
+    }
+
+    .activity-stat-number-input {
+        width: 92px;
+    }
+}

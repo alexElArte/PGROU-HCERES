@@ -7,16 +7,6 @@ const Footer = () => {
     authToken(localStorage.jwtToken);
     return (
         <div>
-            {/*To allow more scrolling area on the page */}
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
             <FooterBody className={"fixed-bottom"}>
                 <div className="text5"></div>
                 <div className="text2">
