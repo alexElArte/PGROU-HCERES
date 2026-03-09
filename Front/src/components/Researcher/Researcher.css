@@ -214,3 +214,56 @@ select {
     font-size: 2rem;
     padding: 3rem 4rem;
 }
+
+.btn-icon-text {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-icon-text svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Barres de recherche dans les colonnes du tableau */
+.react-bootstrap-table th {
+    position: relative;
+    overflow: hidden !important;
+}
+
+.react-bootstrap-table th .filter-label {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: block !important;
+}
+
+.react-bootstrap-table th .filter,
+.react-bootstrap-table th input.form-control,
+.react-bootstrap-table th .text-filter {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    transition: all 0.3s ease;
+    box-sizing: border-box !important;
+    padding: 4px 4px !important;
+    margin: 0 !important;
+    text-align: left !important;
+    border-radius: 0 !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.react-bootstrap-table th .filter:focus,
+.react-bootstrap-table th input.form-control:focus,
+.react-bootstrap-table th .text-filter:focus {
+    outline: 2px solid #007bff !important;
+    outline-offset: -2px !important;
+    background: #f0f8ff !important;
+    font-weight: 600 !important;
+    z-index: 10 !important;
+}

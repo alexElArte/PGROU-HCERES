@@ -87,9 +87,11 @@ export const NavLinks = styled(Link)`
     color: black;
     display: flex;
     align-items: center;
+    gap: 4px;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: ${({ language }) => language === 'fr' ? '0.4rem 0.8rem' : '0.5rem 1rem'};
     height: 100%;
+    font-size: ${({ language }) => language === 'fr' ? '1.1rem' : '1.2rem'};
 
   &:hover {
     color: black;

@@ -8,7 +8,9 @@
  * L LETERTRE, S LIMOUX, JY MARTIN
  * -------------------------------------------------------------------------------- */
 package org.centrale.hceres.items;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.io.Serializable;
 import java.util.List;
@@ -25,7 +27,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 @Table(name = "researcher")
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
 public class Researcher implements Serializable {
 

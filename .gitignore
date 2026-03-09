@@ -2,5 +2,6 @@
 /hceres Version 1/.mvn/
 /hceres Version 1/src/main/resources/application.properties
 /Front/node_modules/
+/Front/build/
 /csv/
 /note_branch.md
