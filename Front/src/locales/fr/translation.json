@@ -69,6 +69,7 @@
     "list dep lack": "Liste des dépendances manquantes :",
     "dep sat": "Toutes les dépendances sont satisfaites.",
     "suppressing": "Suppression de toutes les données...",
+    "confirm delete all data": "Cette action va supprimer toutes les données de la base. Voulez-vous continuer ?",
     "inserting": "Insertion des données en cours...",
     "delete non linked": "Effacer les non-associations",
     "delete all data": "Supprimer toutes les données"
@@ -84,7 +85,13 @@
     "edit": "Actions",
     "add": "Ajouter un membre",
     "loading": "Chargement des données des membres...",
-    "enter": "Entrer"
+    "enter": "Entrer",
+    "hide search": "Cacher les champs de recherche",
+    "show search": "Afficher les champs de recherche",
+    "csv export": "Exporter en CSV",
+    "show searcher activities": "Afficher les activités du chercheur",
+    "edit searcher info": "Éditer les informations du chercheur",
+    "delete searcher": "Supprimer le chercheur"
   },
   "team": { 
     "title": "Liste des Équipes",
@@ -100,7 +107,14 @@
     "loading": "Chargement des données des équipes...",
     "member of": "Membre de",
     "no team selected": "Aucune équipe sélectionnée.",
-    "enter": "Entrer"
+    "enter": "Entrer",
+    "hide search": "Cacher les champs de recherche",
+    "show search": "Afficher les champs de recherche",
+    "csv export": "Exporter en CSV",
+    "error loading teams": "Erreur lors du chargement des équipes",
+    "edit team info": "Éditer les informations de l'équipe",
+    "delete team": "Supprimer l'équipe",
+    "show members": "Afficher les membres"
   },
   "activity": {
     "title": "Liste des Activités",

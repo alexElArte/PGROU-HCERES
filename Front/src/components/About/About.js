@@ -11,22 +11,20 @@ import { useTranslation } from 'react-i18next';
 function About() {
     const { t } = useTranslation();
     return (
-        <div>
-            <div className="container2">
-                <div className="left-side1">
-                    <img className="labo1" src={welcomImage} alt="Hello"/>
-                </div>
-                <div className="right-side1">
-                    <div className="pg1">
-                        <div className="title1">
-                             About !
-                        </div>
-                        {t("about")}
-                        <h1>
-                            <br/>
-                            <Link to={-1}>{<ImBackward color={"white"}/>}</Link>
-                        </h1>
+        <div className="container2">
+            <div className="left-side1">
+                <img className="labo1" src={welcomImage} alt="Hello"/>
+            </div>
+            <div className="right-side1">
+                <div className="pg1">
+                    <div className="title1">
+                         About !
                     </div>
+                    {t("about")}
+                    <h1>
+                        <br/>
+                        <Link to={-1}>{<ImBackward color={"white"}/>}</Link>
+                    </h1>
                 </div>
             </div>
         </div>

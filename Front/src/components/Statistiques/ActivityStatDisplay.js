@@ -39,6 +39,7 @@ import SelectFilterDisplay from "./SelectFilterDisplay";
 import FileSaver from "file-saver";
 import { AiOutlineDownload } from "react-icons/ai";
 import { withTranslation } from 'react-i18next';
+import "./ActivityStatDisplay.css";
 
 function ActivityStatDisplay({ activityStatEntry, t }) {
     const [teamIdMap, setTeamIdMap] = React.useState({});
@@ -535,22 +536,24 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
     };
 
     return (
-        <div>
-            <h1 style={{ fontSize: 24, marginBottom: 20 }}>{t('stats.statistics on')} {t(activityStatEntry.label)} </h1>
+        <div className="activity-stat-display">
+            <h1 className="activity-stat-title">{t('stats.statistics on')} {t(activityStatEntry.label)} </h1>
 
             <div>
-                {isLoading && <div><Oval className="ml-2" stroke={"black"} />{t('common.loading')}...</div>}
+                {isLoading && <div className="activity-stat-loading"><Oval className="ml-2" stroke={"black"} />{t('common.loading')}...</div>}
             </div>
 
             <div>
-                <div>{t('stats.total count')}: {activityStatList?.length}</div>
-                <div>{t('stats.total filtered count')}: {activityStatFilteredList?.length}</div>
+                <div className="activity-stat-summary">
+                    <div className="activity-stat-summary-item">{t('stats.total count')}: {activityStatList?.length}</div>
+                    <div className="activity-stat-summary-item">{t('stats.total filtered count')}: {activityStatFilteredList?.length}</div>
+                </div>
 
-                <div className={"card"} hidden={activityStatEntry?.filters?.length <= 0}>
-                    <div className={"card-header alert-primary"}>
-                        <h3 className={"card-header-title"}>{t('stats.filters')}</h3>
+                <div className={"card activity-stat-card"} hidden={activityStatEntry?.filters?.length <= 0}>
+                    <div className={"card-header alert-primary activity-stat-card-header"}>
+                        <h3 className={"card-header-title activity-stat-card-title"}>{t('stats.filters')}</h3>
                     </div>
-                    <div className={"card-content"}  style={{display:"flex"}}>
+                    <div className={"card-content activity-stat-filters-content"}>
                         {activityStatEntry.filters.map((filter) => {
                             if (filter.inputType === 'select') {
                                 return (
@@ -581,14 +584,14 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
                     </div>
                 </div>
 
-                <div className={"card"}>
-                    <div className={"card-header alert-primary"}>
-                        <h3 className={"card-header-title"}>{t('stats.chart options')}</h3>
+                <div className={"card activity-stat-card"}>
+                    <div className={"card-header alert-primary activity-stat-card-header"}>
+                        <h3 className={"card-header-title activity-stat-card-title"}>{t('stats.chart options')}</h3>
                     </div>
-                    <div className={"card-content"}>
+                    <div className={"card-content activity-stat-card-content"}>
                         <div>
                             <label className={"label"}>{t('stats.chart type')}</label>
-                            <div style={{ display: 'flex' }}>
+                            <div className="activity-stat-inline-row">
                                 {chartTemplateList.map((chart) => (
                                     <div key={chart.key}>
                                         <Form.Check
@@ -606,9 +609,10 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
 
                         <div>
                             <label className={"label"}>{t('stats.chart size')}</label>
-                            <div style={{ display: 'flex' }}>
+                            <div className="activity-stat-inline-row">
                                 <label className={"label"}>{t('stats.width')}</label>
                                 <input
+                                    className="activity-stat-number-input"
                                     type={"number"}
                                     value={chartOptions.chartWidth}
                                     name={"chartWidth"}
@@ -616,6 +620,7 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
                                 />
                                 <label className={"label"}>{t('stats.height')}</label>
                                 <input
+                                    className="activity-stat-number-input"
                                     type={"number"}
                                     value={chartOptions.chartHeight}
                                     name={"chartHeight"}
@@ -626,7 +631,7 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
 
                         <div hidden={!['bar', 'pie', 'funnel'].includes(chartTemplate.key)}>
                             <label className={"label"}>{t('stats.chart labels')}</label>
-                            <div style={{ display: 'flex' }}>
+                            <div className="activity-stat-inline-row">
                                 <label className={"label"}>{t('stats.count')}</label>
                                 <input
                                     type={"checkbox"}
@@ -645,7 +650,7 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
                         </div>
 
                         <label className={"label"}>{t('stats.grouped by')} </label>
-                        <div style={{ display: 'flex' }}>
+                        <div className="activity-stat-inline-row">
                             {groupByList.map((group) => (
                                 <div key={group.key} className={"ml-2"}>
                                     <Form.Check
@@ -662,7 +667,7 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
                         {chartTemplate?.isStack && (
                             <>
                                 <label className={"label"}>Stacked par</label>
-                                <div style={{ display: 'flex' }}>
+                                <div className="activity-stat-inline-row">
                                     {groupByList.map((group) => (
                                         <div key={group.key} className={"ml-2"}>
                                             <Form.Check
@@ -684,12 +689,13 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
 
                 <br />
 
-                <div
-                    style={{
-                        width: chartOptions.chartWidth + "px",
-                        height: chartOptions.chartHeight + "px",
-                    }}
-                >
+                <div className="activity-stat-chart-scroll-container">
+                    <div
+                        style={{
+                            width: chartOptions.chartWidth + "px",
+                            height: chartOptions.chartHeight + "px",
+                        }}
+                    >
                     {chartTemplate.key === 'bar' ?
                         <div
                             ref={barChartWrapperRef}
@@ -972,10 +978,11 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
                         </div>
                         : null
                     }
+                    </div>
                 </div>
 
-                <div className={"title"}>
-                    <h1 style={{ fontSize: 24, marginBottom: 20 }}>
+                <div className={"title activity-stat-download-title"}>
+                    <h1 className="activity-stat-title">
                         {chartTemplate?.label} {t("common.of")} {t(activityStatEntry.label)}
                         {groupBy.key !== 'none' && " " + t('stats.grouped by').toLowerCase() + " " + groupBy.label}
                         <br />

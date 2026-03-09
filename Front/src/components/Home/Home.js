@@ -14,21 +14,18 @@ function Home() {
     const { t } = useTranslation();
     const auth = useSelector((state) => state.auth);
     return (
-        <div>
-            <div className="container1">
-                <div className="left-side">
-                    <div className="pg">
-                        <h1>{t("home.welcome")} { auth.username }!</h1>
-                        {t("home.message")}
-                    </div>
+        <div className="container1">
+            <div className="left-side">
+                <div className="pg">
+                    <h1>{t("home.welcome")} { auth.username }!</h1>
+                    {t("home.message")}
                 </div>
-                <div className="right-side">
-                    <img className="labo" src={welcomImage} alt="Hello"/>
-                </div>
+            </div>
+            <div className="right-side">
+                <img className="labo" src={welcomImage} alt="Hello"/>
             </div>
         </div>
     );
-    
 }
 
 export default Home;

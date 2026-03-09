@@ -99,10 +99,12 @@ class Researcher extends Component {
         })
     }
 
-    showTooltip(props) {
-        return <Tooltip id="button-tooltip">
-            {props}
-        </Tooltip>
+    showTooltip(translationKey) {
+        return (props) => (
+            <Tooltip id={`button-tooltip-${translationKey.replace(/\s+/g, '-')}`} {...props}>
+                {this.props.t(translationKey)}
+            </Tooltip>
+        );
     }
 
     render() {
@@ -179,7 +181,7 @@ class Researcher extends Component {
                             <OverlayTrigger
                                 placement="bottom"
                                 delay={{show: 250, hide: 400}}
-                                overlay={this.showTooltip("Afficher les activités du chercheur")}
+                                overlay={this.showTooltip('members.show searcher activities')}
                             >
                                 <button onClick={() => {
                                     this.setState({
@@ -202,7 +204,7 @@ class Researcher extends Component {
                             <OverlayTrigger
                                 placement="bottom"
                                 delay={{show: 250, hide: 400}}
-                                overlay={this.showTooltip("Modifier les informations du chercheur")}
+                                overlay={this.showTooltip('members.edit searcher info')}
                             >
                                 <button onClick={() => {
                                     this.setState({
@@ -216,8 +218,8 @@ class Researcher extends Component {
                             <OverlayTrigger
                                 placement="bottom"
                                 delay={{show: 250, hide: 400}}
-                                overlay={this.showTooltip("Supprimer le chercheur")}
-                            >
+                                overlay={this.showTooltip('members.delete searcher')}
+                            >   
                                 <button className="btn btn-outline-danger" onClick={() => {
                                     this.setState({
                                         targetResearcher: row,
@@ -252,14 +254,27 @@ class Researcher extends Component {
                     </div>
                     <div className="row">
                         <div className="col-4">
-                            <button className={"border-0 btn-lg"}
-                                    onClick={(e) => this.setState({showFilter: !this.state.showFilter})}>{
-                                <MdSearch/>}
-                            </button>
+                            <OverlayTrigger
+                                placement="bottom"
+                                delay={{show: 250, hide: 400}}
+                                overlay={this.showTooltip(this.state.showFilter ? 'members.hide search' : 'members.show search')}
+                            >
+                                <button className={"border-0 btn-lg"}
+                                        onClick={() => this.setState({showFilter: !this.state.showFilter})}>{
+                                    <MdSearch/>}
+                                </button>
+                            </OverlayTrigger>
                         </div>
                         <div className="col-4">
-                            <MyExportCSV  {...props.tableProps.csvProps} className="big-button"
-                                          onClick={this.handleClick}/>
+                            <OverlayTrigger
+                                placement="bottom"
+                                delay={{show: 250, hide: 400}}
+                                overlay={this.showTooltip('members.csv export')}
+                            >
+                                <span>
+                                    <MyExportCSV {...props.tableProps.csvProps} className="big-button"/>
+                                </span>
+                            </OverlayTrigger>
                         </div>
 
 

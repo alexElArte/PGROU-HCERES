@@ -35,7 +35,7 @@
     "title": "Login",
     "username": "Username",
     "password": "Password",
-    "loginButton": "Login",
+    "loginButton": "Login", 
     "loginInProgress": "Logging in...",
     "serverNotResponding": "The server is not responding. Is spring boot running (^_^) ?",
     "invalidCredentials": "Invalid combination of login and password",
@@ -69,6 +69,7 @@
     "list dep lack": "List of missing dependencies:",
     "dep sat": "All dependencies are satisfied.",
     "suppressing": "Deleting all data...",
+    "confirm delete all data": "This action will delete all data from the database. Do you want to continue?",
     "inserting": "Inserting data...",
     "delete non linked": "Delete non-associations",
     "delete all data": "Delete all data"
@@ -84,7 +85,13 @@
     "edit": "Actions",
     "add": "Add a member",
     "loading": "Loading members data...",
-    "enter": "Enter"
+    "enter": "Enter",
+    "hide search": "Hide search fields",
+    "show search": "Show search fields",
+    "csv export": "Export as CSV",
+    "show searcher activities": "Show researcher activities",
+    "edit searcher info": "Edit researcher information",
+    "delete searcher": "Delete researcher"
   },
   "team": { 
     "title": "List of Teams",
@@ -100,7 +107,14 @@
     "loading": "Loading teams data...",
     "no team selected": "No team selected.",
     "member of": "Member of",
-    "enter": "Enter"
+    "enter": "Enter",
+    "hide search": "Hide search fields",
+    "show search": "Show search fields",
+    "csv export": "Export as CSV",
+    "error loading teams": "Error loading teams",
+    "edit team info": "Edit team information",
+    "delete team": "Delete team",
+    "show members": "Show members"
   },
   "activity": {
     "title": "List of Activities",
