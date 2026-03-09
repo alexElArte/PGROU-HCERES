@@ -35,7 +35,7 @@
     "title": "Login",
     "username": "Username",
     "password": "Password",
-    "loginButton": "Login",
+    "loginButton": "Login", 
     "loginInProgress": "Logging in...",
     "serverNotResponding": "The server is not responding. Is spring boot running (^_^) ?",
     "invalidCredentials": "Invalid combination of login and password",

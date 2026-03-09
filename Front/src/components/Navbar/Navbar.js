@@ -67,9 +67,11 @@ const Navbar = () => {
                             <FaUserGraduate /> {t("nav.members")}
                         </NavLinks>
                     </NavItem>
+                    <NavItem>
                         <NavLinks to="/Team" language={i18n.language}>
                             <FaUserFriends /> {t("nav.teams")}
                         </NavLinks>
+                    </NavItem>
                     <NavItem>
                         <NavLinks to="/Activity" language={i18n.language}>
                             <BiTask /> {t("nav.activity")}

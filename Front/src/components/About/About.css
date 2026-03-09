@@ -1,17 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .container2 {
     border-color: rgb(15, 15, 0);
     border-style: solid;
     width: 100%;
+    min-height: 100vh;
     box-sizing: border-box;
     overflow-x: hidden;
     display: flex;
     justify-content: space-around;
     background: rgb(76, 75, 85);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, darkblue 90%);
-
-
-    height: 100vh;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .left-side1 {
@@ -37,6 +48,7 @@
     font-weight: bold;
     font-size: 70px;
     line-height: 112px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.45);
 }
 
 .pg1 {
@@ -46,6 +58,7 @@
     font-weight: normal;
     font-size: 25px;
     line-height: 35px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.45);
 }
 
 .labo1 {
