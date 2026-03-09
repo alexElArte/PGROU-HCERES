@@ -19,7 +19,7 @@ body, html {
   display: flex;
   justify-content: space-around;
   background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, zrgb(0, 0, 139) 90%);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(0, 0, 139) 90%);
   align-items: center;
   margin: 0;
   padding: 0;
