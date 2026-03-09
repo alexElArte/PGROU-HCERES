@@ -20,7 +20,7 @@ function NetworkAdd(props) {
     const [researcherId, setResearcherId] = React.useState(targetResearcher ? targetResearcher.researcherId : "");
     const [startDate, setNetworkStartDate] = React.useState("");
     const [nameNetwork, setNetworkNameNetwork] = React.useState("");
-    const [activeNetwork, setActiveNetwork] = React.useState("");
+    const [activeNetwork, setActiveNetwork] = React.useState(true);
     const [associatedFunding, setAssociatedFunding] = React.useState("");
     const [nbResultingPublications, setNbResultingPublications] = React.useState("");
     const [refResultingPublications, setRefResultingPublications] = React.useState("");

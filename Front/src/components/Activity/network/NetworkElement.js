@@ -11,7 +11,7 @@ const NetworkElement = (props) => {
       <ListGroup.Item variant="primary">ID : {targetNetwork.idActivity}</ListGroup.Item>
       <ListGroup.Item>{t("activity.network.nameNetwork")} : {network.nameNetwork}</ListGroup.Item>
       <ListGroup.Item>{t("activity.network.startDate")} : {network.startDate}</ListGroup.Item>
-      <ListGroup.Item>{t("activity.network.activeNetwork")} : {network.activeNetwork}</ListGroup.Item>
+      <ListGroup.Item>{t("activity.network.activeNetwork")} : {network.activeNetwork ? t("common.yes") : t("common.no")}</ListGroup.Item>
       <ListGroup.Item>{t("activity.network.associatedFunding")} : {network.associatedFunding}</ListGroup.Item>
       <ListGroup.Item>{t("activity.network.nbResultingPublications")} : {network.nbResultingPublications}</ListGroup.Item>
       <ListGroup.Item>{t("activity.network.refResultingPublications")} : {network.refResultingPublications}</ListGroup.Item>

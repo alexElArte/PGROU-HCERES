@@ -110,12 +110,8 @@ public class Activity implements Serializable {
     private PostDoc postDoc;
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "activity")
     private Patent patent;
-
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "activity")
-    //@JsonIgnore
     private Book book;
-    
-
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "activity")
     @JsonIgnore
     private InvitedSeminar invitedSeminar;
@@ -123,7 +119,6 @@ public class Activity implements Serializable {
     @JsonIgnore
     private MeetingCongressOrg meetingCongressOrg;
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "activity")
-    //@JsonIgnore
     private BookChapter bookChapter;
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "activity")
     private Platform platform;

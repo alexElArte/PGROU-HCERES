@@ -61,9 +61,9 @@ public class Network implements Serializable {
     @Column(name = "ref_resulting_publications")
     private String refResultingPublications;
     @Column(name = "umr_coordinated")
-    private Boolean umrCoordinated;
+    private String umrCoordinated;
     @Column(name = "agreement_signed")
-    private Boolean agreementSigned;
+    private String agreementSigned;
 
     public Integer getIdActivity() {
         return idActivity;
@@ -129,22 +129,20 @@ public class Network implements Serializable {
         this.refResultingPublications = refResultingPublications;
     }
 
-    public Boolean getUmrCoordinated() {
+    public String getUmrCoordinated() {
         return umrCoordinated;
     }
 
-    public void setUmrCoordinated(Boolean umrCoordinated) {
+    public void setUmrCoordinated(String umrCoordinated) {
         this.umrCoordinated = umrCoordinated;
     }
 
-    public Boolean getAgreementSigned() {
+    public String getAgreementSigned() {
         return agreementSigned;
     }
 
-    public void setAgreementSigned(Boolean agreementSigned) {
+    public void setAgreementSigned(String agreementSigned) {
         this.agreementSigned = agreementSigned;
     }
     
-    
-
 }

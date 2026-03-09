@@ -55,8 +55,8 @@ public class NetworkService {
         network.setAssociatedFunding(RequestParser.getAsString(request.get("associatedFunding")));
         network.setNbResultingPublications(RequestParser.getAsInteger(request.get("nbResultingPublications")));
         network.setRefResultingPublications(RequestParser.getAsString(request.get("refResultingPublications")));
-        network.setUmrCoordinated(RequestParser.getAsBoolean(request.get("umrCoordinated")));
-        network.setAgreementSigned(RequestParser.getAsBoolean(request.get("agreementSigned")));
+        network.setUmrCoordinated(RequestParser.getAsString(request.get("umrCoordinated")));
+        network.setAgreementSigned(RequestParser.getAsString(request.get("agreementSigned")));
 
         // --- Création de l'activité associée ---
         Activity activity = new Activity();
