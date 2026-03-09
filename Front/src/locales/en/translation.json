@@ -69,6 +69,7 @@
     "list dep lack": "List of missing dependencies:",
     "dep sat": "All dependencies are satisfied.",
     "suppressing": "Deleting all data...",
+    "confirm delete all data": "This action will delete all data from the database. Do you want to continue?",
     "inserting": "Inserting data...",
     "delete non linked": "Delete non-associations",
     "delete all data": "Delete all data"

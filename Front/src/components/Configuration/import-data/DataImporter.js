@@ -333,6 +333,12 @@ const DataImporter = () => {
                                     className={"btn-group"}
                                     disabled={state.isPurgingDatabase || state.isInsertingIntoDataBase}
                                     onClick={() => {
+                                        const hasConfirmedPurge = window.confirm(
+                                            t("import data.confirm delete all data")
+                                        );
+                                        if (!hasConfirmedPurge) {
+                                            return;
+                                        }
                                         dispatch({
                                             type: 'purge-the-database'
                                         })

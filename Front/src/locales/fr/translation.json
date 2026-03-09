@@ -69,6 +69,7 @@
     "list dep lack": "Liste des dépendances manquantes :",
     "dep sat": "Toutes les dépendances sont satisfaites.",
     "suppressing": "Suppression de toutes les données...",
+    "confirm delete all data": "Cette action va supprimer toutes les données de la base. Voulez-vous continuer ?",
     "inserting": "Insertion des données en cours...",
     "delete non linked": "Effacer les non-associations",
     "delete all data": "Supprimer toutes les données"
