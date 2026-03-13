@@ -37,7 +37,7 @@ const Navbar = () => {
 
     return (
         // Nav, NavbarContainer, ... sont des styles qu'on a definti dans Navbar.elements.js
-        <Nav>
+        <Nav role="navigation">
             <NavbarContainer>
                 {/* Logo + icone */}
                 <NavLogo to="/Home" onClick={closeMobileMenu}>
@@ -89,7 +89,7 @@ const Navbar = () => {
                     {/* ajouter bouton de deconnexion */}
                     <NavItemBtn>
                             <NavBtnLink to='/' onClick={logout}>
-                                <Button primary><BiLogOut/> {t("nav.log out")} </Button>
+                                <BiLogOut/> <div style={{"margin": "0 3px 0 0"}}></div> {t("nav.log out")}
                             </NavBtnLink>
                     </NavItemBtn>
                 </NavMenu>

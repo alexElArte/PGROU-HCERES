@@ -17,9 +17,9 @@ const LanguageSelectorContainer = styled.div`
 `;
 
 const LanguageButton = styled.button`
-  background: ${({ active }) => active ? '#007bff' : 'transparent'};
+  background: ${({ active }) => active ? '#0175E4' : 'transparent'};
   color: ${({ active }) => active ? 'white' : 'black'};
-  border: 1px solid ${({ active }) => active ? '#007bff' : '#ccc'};
+  border: 1px solid ${({ active }) => active ? '#0175E4' : '#ccc'};
   padding: 0.3rem 0.8rem;
   margin: 0 0.2rem;
   border-radius: 4px;
