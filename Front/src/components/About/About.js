@@ -3,7 +3,6 @@
 import './About.css';
 import React from 'react';
 import welcomImage from '../../assets/welcomImg.png';
-import Navbar from '../Navbar/Navbar';
 import {Link} from "react-router-dom";
 import {ImBackward} from "react-icons/im";
 import { useTranslation } from 'react-i18next';

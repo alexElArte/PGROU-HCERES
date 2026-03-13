@@ -47,7 +47,7 @@
 }
 
 .activityList ul :hover {
-    background-color: #08d;
+    background-color: #0175E4;
     cursor: pointer;
 }
 
@@ -103,7 +103,7 @@
     font-weight: 600;
     margin-top: 30px;
     padding-left: 15px;
-    border-left: solid #08d;
+    border-left: solid #0175E4;
 }
 
 .label {
@@ -113,7 +113,7 @@
     font-weight: 550;
     margin-top: 20px;
     margin-bottom: 10px;
-    border-left: solid #08d;
+    border-left: solid #0175E4;
     padding-left: 10px;
 }
 
@@ -130,7 +130,7 @@
 }
 
 .input-container:focus {
-    border: 1px solid #1180ff;
+    border: 1px solid #0175E4;
     box-shadow: 0 0 0 0.2rem rgba(47, 161, 255, 0.25);
 }
 
@@ -142,7 +142,7 @@
 }
 
 .textarea:focus {
-    border: 1px solid #1180ff;
+    border: 1px solid #0175E4;
     box-shadow: 0 0 0 0.2rem rgba(47, 161, 255, 0.25);
 }
 
@@ -160,7 +160,7 @@
 .submit {
     display: block;
     align-items: center;
-    background-color: #08d;
+    background-color: #0175E4;
     border-radius: 5px;
     border: 0;
     box-sizing: border-box;
@@ -176,7 +176,7 @@
 }
 
 .submit:active {
-    background-color: #06b;
+    background-color: #0175E4;
 }
 
 
@@ -261,7 +261,7 @@ select {
 .react-bootstrap-table th .filter:focus,
 .react-bootstrap-table th input.form-control:focus,
 .react-bootstrap-table th .text-filter:focus {
-    outline: 2px solid #007bff !important;
+    outline: 2px solid #0175E4 !important;
     outline-offset: -2px !important;
     background: #f0f8ff !important;
     font-weight: 600 !important;

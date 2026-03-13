@@ -106,7 +106,7 @@ class Team extends Component {
                 loading: false,
             });
         } catch (e) {
-            console.error(this.props.t('error loading teams'), e);
+            console.error(this.props.t('team.error loading teams'), e);
             this.setState({ loading: false });
         }
     }
@@ -427,7 +427,7 @@ class Team extends Component {
                                 className="mb-2"
                                 onClick={() => this.setState({ showMembers: false })}
                             >
-                                <VscEyeClosed /> Masquer les membres
+                                <VscEyeClosed /> {this.props.t('team.hide members')}
                             </Button>
 
                             {this.state.targetTeam && (

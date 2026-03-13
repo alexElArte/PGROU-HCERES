@@ -20,36 +20,40 @@ function App() {
             <Router>
                 <GlobaleStyle/>
 
-                {/*Add navigation bar only when user is logged in*/}
-                <Routes>
-                    <Route path='/Configuration' exact element={<Navbar/>}/>
-                    <Route path='/Home' exact element={<Navbar/>}/>
-                    <Route path='/Researcher' exact element={<Navbar/>}/>
-                    <Route path='/Team' exact element={<Navbar/>}/>
-                    <Route path='/Activity' exact element={<Navbar/>}/>
-                    <Route path='/Statistiques' exact element={<Navbar/>}/>
-                    
+                <div className="app-layout">
+                    {/*Add navigation bar only when user is logged in*/}
+                    <Routes>
+                        <Route path='/Configuration' exact element={<Navbar/>}/>
+                        <Route path='/Home' exact element={<Navbar/>}/>
+                        <Route path='/Researcher' exact element={<Navbar/>}/>
+                        <Route path='/Team' exact element={<Navbar/>}/>
+                        <Route path='/Activity' exact element={<Navbar/>}/>
+                        <Route path='/Statistiques' exact element={<Navbar/>}/>
 
-                    <Route path='*' exact element={<></>}/>
-                </Routes>
 
-                <Routes>
-                    <Route path='/About' exact element={<About/>}/>
-                    <Route path='/' exact element={<Connection/>}/>
-                    <Route path='*' exact element={<PageNotExist/>}/>
+                        <Route path='*' exact element={<></>}/>
+                    </Routes>
 
-                    <Route element={<AuthWrapper />}>
-                        <Route path='/Configuration' exact element={<DataImporter/>}/>
-                        <Route path='/Home' exact element={<Home/>}/>
-                        <Route path='/Researcher' exact element={<Researcher/>}/>
-                        <Route path='/Team' exact element={<Team/>}/>
-                        <Route path='/Activity' exact element={<ActivityList/>}/>
-                        <Route path='/Statistiques' exact element={<Statistiques/>}/>
-                    </Route>
+                    <main className="app-main">
+                        <Routes>
+                            <Route path='/About' exact element={<About/>}/>
+                            <Route path='/' exact element={<Connection/>}/>
+                            <Route path='*' exact element={<PageNotExist/>}/>
 
-                </Routes>
+                            <Route element={<AuthWrapper />}>
+                                <Route path='/Configuration' exact element={<DataImporter/>}/>
+                                <Route path='/Home' exact element={<Home/>}/>
+                                <Route path='/Researcher' exact element={<Researcher/>}/>
+                                <Route path='/Team' exact element={<Team/>}/>
+                                <Route path='/Activity' exact element={<ActivityList/>}/>
+                                <Route path='/Statistiques' exact element={<Statistiques/>}/>
+                            </Route>
 
-                <Footer/>
+                        </Routes>
+                    </main>
+
+                    <Footer/>
+                </div>
 
             </Router>
         </>
