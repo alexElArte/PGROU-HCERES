@@ -65,10 +65,13 @@ public class BookChapter implements Serializable {
     @Size(max = 2147483647)
     @Column(name = "additional_info")
     private String additionalInfo;
+    
+    @Column(name = "language_id")
+    private Integer languageId;
 
-    @JoinColumn(name = "language_id", referencedColumnName = "language_id")
-    @ManyToOne(optional = false)
-    private Language languageId;
+    @JoinColumn(name = "language_id", referencedColumnName = "language_id", insertable = false, updatable = false)
+    @ManyToOne
+    private Language language;
 
     public Integer getIdActivity() {
         return idActivity;
@@ -142,12 +145,20 @@ public class BookChapter implements Serializable {
         this.additionalInfo = additionalInfo;
     }
 
-    public Language getLanguageId() {
+    public Integer getLanguageId() {
         return languageId;
     }
 
-    public void setLanguageId(Language languageId) {
+    public void setLanguageId(Integer languageId) {
         this.languageId = languageId;
+    }
+
+    public Language getLanguage() {
+        return language;
+    }
+
+    public void setLanguage(Language language) {
+        this.language = language;
     }
     
 }

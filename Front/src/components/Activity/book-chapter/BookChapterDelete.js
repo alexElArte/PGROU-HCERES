@@ -2,15 +2,13 @@ import {useState} from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import LoadingIcon from "../../util/LoadingIcon";
-import PostDocElement from "./PostDocElement";
-import {deletePostDoc} from "../../../services/Activity/post-doc/PostDocActions";
-import { withTranslation } from 'react-i18next';
+import BookChapterElement from "./BookChapterElement";
+import {deleteBookChapter} from "../../../services/Activity/book-chapter/BookChapterActions";
 
-function PostDocDelete(props) {
-    const { t } = props;
+function BookChapterDelete(props) {
     const [show, setShow] = useState(true);
     const [isLoading, setIsLoading] = useState(false);
-    const targetPostDoc = props.targetPostDoc;
+    const targetBookChapter = props.targetBookChapter;
 
     const handleClose = (msg = null) => {
         setShow(false);
@@ -19,16 +17,16 @@ function PostDocDelete(props) {
 
     const handleDelete = () => {
         setIsLoading(true);
-        deletePostDoc(targetPostDoc.idActivity)
+        deleteBookChapter(targetBookChapter.idActivity)
             .then(response => {
                 const msg = {
-                    successMsg: t('activity.post-docs.success delete') + ' ' + response.data.idActivity,
+                    "successMsg": "Chapitre supprimé ayant l'id " + targetBookChapter.idActivity,
                 }
                 handleClose(msg);
             }).catch(error => {
             console.log(error);
             const msg = {
-                errorMsg: t('activity.post-docs.error delete') + ' ' + error.response.status,
+                "errorMsg": "Chapitre non supprimé, response status: " + error.response.status,
             }
             handleClose(msg);
         })
@@ -38,18 +36,18 @@ function PostDocDelete(props) {
     return (
         <Modal show={show} onHide={handleClose}>
             <Modal.Header closeButton>
-                <Modal.Title>{t('activity.post-docs.delete')}</Modal.Title>
+                <Modal.Title>Êtes-vous sûr de vouloir supprimer le chapitre sélectionné?</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <PostDocElement targetPostDoc={targetPostDoc}/>
+                <BookChapterElement targetBookChapter={targetBookChapter}/>
             </Modal.Body>
             <Modal.Footer>
                 <Button variant="secondary" onClick={handleClose}>
-                    {t('activity.close')}
+                    Non
                 </Button>
                 <Button variant="danger" onClick={handleDelete} disabled={isLoading}>
                     {isLoading ? <LoadingIcon color={"white"}/> : null}
-                    {isLoading ? t('activity.deleting') : t('activity.delete')}
+                    {isLoading ? 'Suppression en cours...' : 'Oui, Supprimer'}
                 </Button>
             </Modal.Footer>
         </Modal>
@@ -57,5 +55,5 @@ function PostDocDelete(props) {
 }
 
 
-export default withTranslation()(PostDocDelete);
+export default BookChapterDelete;
 

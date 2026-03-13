@@ -106,12 +106,8 @@ public class Activity implements Serializable {
     private PostDoc postDoc;
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "activity")
     private Patent patent;
-
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "activity")
-    //@JsonIgnore
     private Book book;
-    
-
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "activity")
     @JsonIgnore
     private InvitedSeminar invitedSeminar;
@@ -119,12 +115,10 @@ public class Activity implements Serializable {
     @JsonIgnore
     private MeetingCongressOrg meetingCongressOrg;
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "activity")
-    @JsonIgnore
     private BookChapter bookChapter;
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "activity")
     private Platform platform;
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "activity")
-    @JsonIgnore
     private Network network;
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "activity")
     @JsonIgnore
@@ -151,7 +145,6 @@ public class Activity implements Serializable {
     private OralComPoster oralComPoster;
 
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "activity")
-    
     private ResearchContractFundedCharit researchContractFundedCharit;
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "activity")
     @JsonIgnore
@@ -339,6 +332,14 @@ public class Activity implements Serializable {
         this.book = book;
     }
 
+    public BookChapter getBookChapter() {
+        return bookChapter;
+    }
+
+    public void setBookChapter(BookChapter bookChapter) {
+        this.bookChapter = bookChapter;
+    }
+
     public InvitedSeminar getInvitedSeminar() {
         return invitedSeminar;
     }
@@ -353,14 +354,6 @@ public class Activity implements Serializable {
 
     public void setMeetingCongressOrg(MeetingCongressOrg meetingCongressOrg) {
         this.meetingCongressOrg = meetingCongressOrg;
-    }
-
-    public BookChapter getBookChapter() {
-        return bookChapter;
-    }
-
-    public void setBookChapter(BookChapter bookChapter) {
-        this.bookChapter = bookChapter;
     }
 
     public Platform getPlatform() {

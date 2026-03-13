@@ -22,10 +22,12 @@ import OutgoingMobilityList from "./outgoing-mobility/OutgoingMobilityList";
 import CompanyCreationList from "./company-creation/CompanyCreationList";
 import PatentList from "./patent/PatentList";
 import BookList from "./book/BookList";
+import BookChapterList from "./book-chapter/BookChapterList";
 import ContractList from "../Other/contract/ContractList";
 import PublicationList from "./publication/PublicationList";
 import ResearchContractFundedCharitList from "./research-contract-funded-charit/ResearchContractFundedCharitList";
 import TrainingThesisList from "./training-thesis/TrainingThesisList";
+import NetworkList from "./network/NetworkList";
 
 import { withTranslation } from 'react-i18next';
 
@@ -54,23 +56,24 @@ function ActivityList(props) {
     const [showPostDoctoratList, setShowPostDoctoratList] = React.useState(showListByDefault);
     const [showPatentList, setShowPatentList] = React.useState(showListByDefault);
     const [showReviewList, setShowReviewList] = React.useState(showListByDefault);
-
     const [showBookList, setShowBookList] = React.useState(showListByDefault);
-
+    const [showBookChapterList, setShowBookChapterList] = React.useState(showListByDefault);
     const [showPublicationList, setShowPublicationList] = React.useState(showListByDefault);
     const [showResearchContractFundedCharitList, setShowResearchContractFundedCharitList] = React.useState(showListByDefault);
     const [showTrainingThesisList, setShowTrainingThesisList] = React.useState(showListByDefault);
+    const [showNetworkList, setShowNetworkList] = React.useState(showListByDefault);
 
     // Other list
     const [showContractList, setShowContractList] = React.useState(showListByDefault);
 
     const setShowAllList = (isShow) => {
+        setShowNetworkList(isShow)
         //setShowEducationList(isShow)
         setShowPrixList(isShow)
         //setShowPlatformList(isShow)
         //setShowOralComPosterList(isShow)
         setShowSeiIndustrialRDContractList(isShow)
-        //setShowInterCollaborationList(isShow)
+        setShowInterCollaborationList(isShow)
         //setShowScientificExpertiseList(isShow)
         //setShowEssaiCliniqueList(isShow)
         //setShowIncomingMobilityList(isShow)
@@ -83,7 +86,9 @@ function ActivityList(props) {
         setShowResearchContractFundedCharitList(isShow)
         setShowTrainingThesisList(isShow)
 
-        //setShowBookList(isShow)
+        // setShowBookList(isShow)
+        // setShowBookChapterList(isShow)
+
         //setShowPublicationList(isShow)
 
         // Other list
@@ -127,7 +132,7 @@ function ActivityList(props) {
                                     className={showPrixList ? activeItemClass : inactiveItemClass}>
                                     {showPrixList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    {t('activity.scientific recognition')}
+                                    {t('activity.scientific-recognition.title')}
                                 </ListGroup.Item>
 
                                 {/* <ListGroup.Item onClick={() => setShowPlatformList(!showPlatformList)}
@@ -149,25 +154,25 @@ function ActivityList(props) {
                                     className={showSeiIndustrialRDContractList ? activeItemClass : inactiveItemClass}>
                                     {showSeiIndustrialRDContractList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    {t('activity.industrial contracts')}
+                                    {t('activity.industrial-contracts.title')}
                                 </ListGroup.Item>
 
                                 <ListGroup.Item onClick={() => setShowTrainingThesisList(!showTrainingThesisList)}
                                     className={showTrainingThesisList ? activeItemClass : inactiveItemClass}>
                                     {showTrainingThesisList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    {t('activity.training thesis')}
+                                    {t('activity.training-thesis.title')}
                                 </ListGroup.Item>
 
                             </ListGroup>
 
                             <ListGroup horizontal={true}>
-                                {/* <ListGroup.Item onClick={() => setShowInterCollaborationList(!showInterCollaborationList)}
+                                <ListGroup.Item onClick={() => setShowInterCollaborationList(!showInterCollaborationList)}
                                             className={showInterCollaborationList ? activeItemClass : inactiveItemClass}>
                                 {showInterCollaborationList ? <BiShow/> : <BiHide/>}
                                 &nbsp;
                                 Collaboration internationale
-                            </ListGroup.Item> */}
+                            </ListGroup.Item>
 
                                 {/* <ListGroup.Item onClick={() => setShowScientificExpertiseList(!showScientificExpertiseList)}
                                             className={showScientificExpertiseList ? activeItemClass : inactiveItemClass}>
@@ -209,14 +214,14 @@ function ActivityList(props) {
                                     className={showComparnyCreationList ? activeItemClass : inactiveItemClass}>
                                     {showComparnyCreationList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    {t('activity.creation')}
+                                    {t('activity.creation.title')}
                                 </ListGroup.Item>
 
                                 <ListGroup.Item onClick={() => setShowPostDoctoratList(!showPostDoctoratList)}
                                     className={showPostDoctoratList ? activeItemClass : inactiveItemClass}>
                                     {showPostDoctoratList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    {t('activity.post-docs')}
+                                    {t('activity.post-docs.title')}
                                 </ListGroup.Item>
 
                                 {/* <ListGroup.Item onClick={() => setShowPatentList(!showPatentList)}
@@ -238,7 +243,14 @@ function ActivityList(props) {
                                 {showBookList ? <BiShow/> : <BiHide/>}
                                 &nbsp;
                                 Livres
-                            </ListGroup.Item> */}
+                                </ListGroup.Item> */}
+
+                                {/* <ListGroup.Item onClick={() => setShowBookChapterList(!showBookChapterList)}
+                                            className={showBookChapterList ? activeItemClass : inactiveItemClass}>
+                                {showBookChapterList ? <BiShow/> : <BiHide/>}
+                                &nbsp;
+                                Chapitres de livres
+                                </ListGroup.Item> */}
 
                                 {/* <ListGroup.Item onClick={() => setShowPublicationList(!showPublicationList)}
                                             className={showPublicationList ? activeItemClass : inactiveItemClass}>
@@ -250,7 +262,14 @@ function ActivityList(props) {
                                     className={showResearchContractFundedCharitList ? activeItemClass : inactiveItemClass}>
                                     {showResearchContractFundedCharitList ? <BiShow /> : <BiHide />}
                                     &nbsp;
-                                    {t('activity.research contract')}
+                                    {t('activity.research-contract.title')}
+                                </ListGroup.Item>
+
+                                <ListGroup.Item onClick={() => setShowNetworkList(!showNetworkList)}
+                                    className={showNetworkList ? activeItemClass : inactiveItemClass}>
+                                    {showNetworkList ? <BiShow /> : <BiHide />}
+                                    &nbsp;
+                                    {t('activity.network.title')}
                                 </ListGroup.Item>
 
                             </ListGroup>
@@ -337,6 +356,10 @@ function ActivityList(props) {
                                 <div>{showBookList && <BookList targetResearcher={targetResearcher} />}</div>
                             </Collapse>
 
+                            <Collapse in={showBookChapterList}>
+                                <div>{showBookChapterList && <BookChapterList targetResearcher={targetResearcher} />}</div>
+                            </Collapse>
+
                             <Collapse in={showPublicationList}>
                                 <div>{showPublicationList && <PublicationList targetResearcher={targetResearcher} />}</div>
                             </Collapse>
@@ -349,7 +372,9 @@ function ActivityList(props) {
                                 <div>{showTrainingThesisList && <TrainingThesisList targetResearcher={targetResearcher} />}</div>
                             </Collapse>
 
-
+                            <Collapse in={showNetworkList}>
+                                <div>{setShowNetworkList && <NetworkList targetResearcher={targetResearcher} />}</div>
+                            </Collapse>
                         </div>
                     </div>
                 </div>

@@ -30,10 +30,12 @@ class MyClass {
         this.listePublications = null;
         this.listeLaboratories = null;
         this.listeBook = null;
+        this.listeBookChapter = null;
         this.listeActivityStats = {};
         this.listeTrainingTheses =  null; 
+        this.listeNetworks = null;
     }
-
+    
     deleteActivity(activityList, idActivity) {
         if (activityList) {
             activityList = activityList.filter(edu => edu.idActivity !== idActivity)
