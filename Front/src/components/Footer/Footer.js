@@ -8,7 +8,7 @@ const Footer = () => {
         <FooterBody>
             <div className="footer-left"></div>
             <div className="footer-center">
-                <FooterText> ©2026 - CR2TI - École Centrale Nantes - France </FooterText>
+                <FooterText> © 2026 - CR2TI - École Centrale Nantes - France </FooterText>
             </div>
             <div className="footer-right">
                 <AboutImg to="/About">
