@@ -5,7 +5,7 @@ import aboutblue from '../../assets/about_blue.png';
 const Footer = () => {
     authToken(localStorage.jwtToken);
     return (
-        <FooterBody>
+        <FooterBody role="contentinfo">
             <div className="footer-left"></div>
             <div className="footer-center">
                 <FooterText> © 2026 - CR2TI - École Centrale Nantes - France </FooterText>
