@@ -114,7 +114,8 @@
     "error loading teams": "Error loading teams",
     "edit team info": "Edit team information",
     "delete team": "Delete team",
-    "show members": "Show members"
+    "show members": "Show members",
+    "hide members": "Hide members"
   },
   "activity": {
     "title": "List of Activities",

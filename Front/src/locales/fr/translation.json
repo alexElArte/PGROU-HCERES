@@ -114,7 +114,8 @@
     "error loading teams": "Erreur lors du chargement des équipes",
     "edit team info": "Éditer les informations de l'équipe",
     "delete team": "Supprimer l'équipe",
-    "show members": "Afficher les membres"
+    "show members": "Afficher les membres",
+    "hide members": "Masquer les membres"
   },
   "activity": {
     "title": "Liste des Activités",
