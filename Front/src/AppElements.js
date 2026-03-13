@@ -8,6 +8,28 @@ export const GlobaleStyle = createGlobalStyle`
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.app-layout {
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    height: 100vh;
+}
+
+.app-main {
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 `;
 
 export const Container = styled.div`

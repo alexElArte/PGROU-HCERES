@@ -55,7 +55,7 @@ export default function ActivityStatSelector() {
     const [selectedActivityStat, setSelectedActivityStat] = React.useState(activityStatTemplates[0]);
 
     return (
-        <div style={{justifyContent: 'center', alignItems: 'center', height: '100vh'}}>
+        <div style={{justifyContent: 'center', alignItems: 'center', minHeight: '100%'}}>
             <FixRequiredSelect
                 SelectComponent={Select}
                 options={activityStatOptions}
