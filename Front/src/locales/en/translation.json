@@ -294,8 +294,10 @@
     "by": "By"
   },
   "filter": {
-    "book published after" : "Livre publie après le",
-    "book published before" : "Livre publie avant le",
+    "network start after" : "Network created after",
+    "network active" : "Active networks",
+    "book published after" : "Book published after",
+    "book published before" : "Book published before",
     "year" : "year",
     "company created after" : "Company created after",
     "company created before" : "Company created before",

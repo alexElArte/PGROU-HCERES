@@ -5,7 +5,7 @@ class PostDocStat extends ActivityStatTemplate {
     constructor() {
         super({
             idTypeActivity: ActivityTypes.POST_DOC,
-            label: "activity.post-docs",
+            label: "activity.post-docs.title",
         });
     }
 

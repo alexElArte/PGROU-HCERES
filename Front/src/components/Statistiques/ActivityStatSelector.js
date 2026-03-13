@@ -13,6 +13,8 @@ import IndustrialContractStat from './industrial-contract/IndustrialContractStat
 import TrainingThesisStat from './training-thesis/TrainingThesisStat';
 import SrAwardStat from './sraward/SrAwardStat';
 
+import NetworkStat from "./network/NetworkStat";
+
 import { useTranslation } from 'react-i18next';
 
 //Permet de mettre les filtres
@@ -27,6 +29,8 @@ const activityStatTemplates = [
     TrainingThesisStat,
     SrAwardStat,
     CompanyCreationStat,
+
+    NetworkStat,
     
 
     // ...Object.keys(ActivityTypes).map(activityType => new ActivityStatTemplate({
@@ -52,7 +56,7 @@ export default function ActivityStatSelector() {
         }
     });
 
-    const [selectedActivityStat, setSelectedActivityStat] = React.useState(activityStatTemplates[0]);
+    const [selectedOption, setSelectedOption] = React.useState(activityStatOptions[0]);
 
     return (
         <div style={{justifyContent: 'center', alignItems: 'center', height: '100vh'}}>
@@ -60,13 +64,13 @@ export default function ActivityStatSelector() {
                 SelectComponent={Select}
                 options={activityStatOptions}
                 onChange={(option) => {
-                    setSelectedActivityStat(option.value)
+                    setSelectedOption(option)
                 }}
-                value={selectedActivityStat}
+                value={selectedOption}
                 required={true}
             />
             <ActivityStatDisplay
-                activityStatEntry={selectedActivityStat}
+                activityStatEntry={selectedOption.value}
             />
         </div>
     );

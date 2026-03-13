@@ -5,7 +5,7 @@ class SrAwardsStat extends ActivityStatTemplate {
     constructor() {
         super({
             idTypeActivity: ActivityTypes.SR_AWARD,
-            label: "activity.scientific recognition",
+            label: "activity.scientific-recognition.title",
         });
 
         // filets de sécurité au cas où

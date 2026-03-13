@@ -8,7 +8,7 @@ class IndustrialContractStat extends ActivityStatTemplate {
         super({
             // adapte ce nom si ton enum diffère
             idTypeActivity: ActivityTypes.SEI_INDUSTRIAL_R_D_CONTRACT,
-            label: "activity.industrial contracts",
+            label: "activity.industrial-contracts.title",
         });
     }
 

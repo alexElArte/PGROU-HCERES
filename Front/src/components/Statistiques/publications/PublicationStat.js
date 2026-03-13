@@ -6,7 +6,7 @@ class PublicationStat extends ActivityStatTemplate {
     constructor() {
         super({
             idTypeActivity: ActivityTypes.PUBLICATION,
-            label: "activity.publication",
+            label: "activity.publication.title",
         });
     }
 

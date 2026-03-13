@@ -5,7 +5,7 @@ class CompanyCreationStat extends ActivityStatTemplate {
     constructor() {
         super({
             idTypeActivity: ActivityTypes.SEI_COMPANY_CREATION,
-            label: "activity.creation",
+            label: "activity.creation.title",
         });
     }
 

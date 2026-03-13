@@ -5,7 +5,7 @@ class ResearchContractFundedCharitStat extends ActivityStatTemplate {
     constructor() {
         super({
             idTypeActivity: ActivityTypes.RESEARCH_CONTRACT_FUNDED_PUBLIC_CHARITABLE_INST,
-            label: "activity.research contract",
+            label: "activity.research-contract.title",
         });
     }
 

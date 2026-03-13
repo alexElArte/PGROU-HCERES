@@ -7,7 +7,7 @@ class TrainingThesisStat extends ActivityStatTemplate {
     constructor() {
         super({
             idTypeActivity: ActivityTypes.TRAINING_THESIS_PUBLICATION,
-            label: "activity.training thesis",
+            label: "activity.training-thesis.title",
         });
     }
 

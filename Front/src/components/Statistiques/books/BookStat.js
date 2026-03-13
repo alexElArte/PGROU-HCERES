@@ -5,7 +5,7 @@ class BookStat extends ActivityStatTemplate {
     constructor() {
         super({
             idTypeActivity: ActivityTypes.BOOK,
-            label: "activity.book",
+            label: "activity.book.title",
         });
     }
 

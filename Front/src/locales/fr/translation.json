@@ -295,6 +295,8 @@
     "by": "Par"
   },
   "filter": {
+    "network start after" : "Réseau créé après le",
+    "network active" : "Réseau actif",
     "book published after": "Livre publié après le",
     "book published before": "Livre publié avant le",
     "year": "année",
