@@ -11,7 +11,7 @@ import { useTranslation } from 'react-i18next';
 function About() {
     const { t } = useTranslation();
     return (
-        <div className="container2">
+        <div className="container2" role="article">
             <div className="left-side1">
                 <img className="labo1" src={welcomImage} alt="Hello"/>
             </div>

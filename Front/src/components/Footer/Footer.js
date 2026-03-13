@@ -7,7 +7,7 @@ const Footer = () => {
     authToken(localStorage.jwtToken);
     return (
         <div>
-            <FooterBody className={"fixed-bottom"}>
+            <FooterBody className={"fixed-bottom"} role="contentinfo">
                 <div className="text5"></div>
                 <div className="text2">
                     <FooterText> ©2025 - CR2TI - Ecole Centrale Nantes - France </FooterText>
