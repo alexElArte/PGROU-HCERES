@@ -4,8 +4,10 @@ import Button from "react-bootstrap/Button";
 import TeamElement from "./TeamElement";
 import LoadingIcon from "../util/LoadingIcon";
 import {deleteTeam} from "../../services/Team/TeamActions";
+import {useTranslation} from "react-i18next";
 
 function DeleteTeam(props) {
+    const { t } = useTranslation();
     const [show, setShow] = useState(true);
     const [isLoading, setIsLoading] = React.useState(false);
     const targetTeam = props.targetTeam;
@@ -25,13 +27,14 @@ function DeleteTeam(props) {
             .then(response => {
                 const msg = {
                     "teamDeleted": targetTeam,
-                    "successMsg": "Equipe supprimé ayant l'id " + targetTeam.teamId,
+                    "successMsg": t("team.delete success", {id: targetTeam.teamId}),
                 }
                 handleClose(msg);
             }).catch(error => {
             console.log(error);
+            const status = error.response?.status;
             const msg = {
-                "errorMsg": "Equipe non supprimé, response status: " + error.response.status,
+                "errorMsg": t("team.delete failed status", {status: status ?? "unknown"}),
             }
             handleClose(msg);
         })
@@ -41,18 +44,18 @@ function DeleteTeam(props) {
     return (
         <Modal show={show} onHide={silentClose}>
             <Modal.Header closeButton>
-                <Modal.Title>Êtes-vous sûr de vouloir supprimer l'équipe sélectionné?</Modal.Title>
+                <Modal.Title>{t("team.confirm delete selected")}</Modal.Title>
             </Modal.Header>
             <Modal.Body>
                 <TeamElement targetTeam={targetTeam} />
             </Modal.Body>
             <Modal.Footer>
                 <Button variant="secondary" onClick={silentClose}>
-                    Non
+                    {t("common.no")}
                 </Button>
                 <Button variant="danger" onClick={handleDelete} disabled={isLoading}>
                     {isLoading ? <LoadingIcon color={"white"}/> : null}
-                    {isLoading ? 'Suppression en cours...' : 'Oui, Supprimer'}
+                    {isLoading ? t("common.deleting") : t("common.yes delete")}
                 </Button>
             </Modal.Footer>
         </Modal>

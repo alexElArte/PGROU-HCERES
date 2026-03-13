@@ -4,8 +4,10 @@ import Button from "react-bootstrap/Button";
 import ResearcherElement from "./ResearcherElement";
 import LoadingIcon from "../util/LoadingIcon";
 import {deleteResearcher} from "../../services/Researcher/ResearcherActions";
+import {useTranslation} from "react-i18next";
 
 function DeleteResearcher(props) {
+    const { t } = useTranslation();
     const [show, setShow] = useState(true);
     const [isLoading, setIsLoading] = React.useState(false);
     const targetResearcher = props.targetResearcher;
@@ -25,13 +27,14 @@ function DeleteResearcher(props) {
             .then(response => {
                 const msg = {
                     "researcherDeleted": targetResearcher,
-                    "successMsg": "Researcher supprimé ayant l'id " + targetResearcher.researcherId,
+                    "successMsg": t("members.researcher delete success", {id: targetResearcher.researcherId}),
                 }
                 handleClose(msg);
             }).catch(error => {
             console.log(error);
+            const status = error.response?.status;
             const msg = {
-                "errorMsg": "Researcher non supprimé, response status: " + error.response.status,
+                "errorMsg": t("members.researcher delete failed status", {status: status ?? "unknown"}),
             }
             handleClose(msg);
         })
@@ -41,18 +44,18 @@ function DeleteResearcher(props) {
     return (
         <Modal show={show} onHide={silentClose}>
             <Modal.Header closeButton>
-                <Modal.Title>Delete researcher ?</Modal.Title>
+                <Modal.Title>{t("members.confirm delete researcher")}</Modal.Title>
             </Modal.Header>
             <Modal.Body>
                 <ResearcherElement targetResearcher={targetResearcher} />
             </Modal.Body>
             <Modal.Footer>
                 <Button variant="secondary" onClick={silentClose}>
-                    No
+                    {t("common.no")}
                 </Button>
                 <Button variant="danger" onClick={handleDelete} disabled={isLoading}>
                     {isLoading ? <LoadingIcon color={"white"}/> : null}
-                    {isLoading ? 'Suppression en cours...' : 'Oui, Supprimer'}
+                    {isLoading ? t("common.deleting") : t("common.yes delete")}
                 </Button>
             </Modal.Footer>
         </Modal>

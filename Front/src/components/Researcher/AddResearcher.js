@@ -6,11 +6,13 @@ import Button from "react-bootstrap/Button";
 import LoadingIcon from "../util/LoadingIcon";
 import TeamSelect from "../util/TeamSelect";
 import {addResearcher, updateResearcher} from "../../services/Researcher/ResearcherActions";
+import {useTranslation} from "react-i18next";
 
 /**
  * add or edit researcher if present in props.targetResearcher
  */
 function AddResearcher(props) {
+    const { t } = useTranslation();
     const [showModal, setShowModal] = React.useState(true);
     const [isLoading, setIsLoading] = React.useState(false);
 
@@ -52,7 +54,7 @@ function AddResearcher(props) {
                 const researcherId = response.data.researcherId;
                 const msg = {
                     "researcherUpdated": response.data,
-                    "successMsg": "Mise à jour du chercheur réussie. [id= " + researcherId + "]"
+                    "successMsg": t("members.researcher update success", {id: researcherId})
                 }
                 handleClose(msg);
             }).catch(error => {
@@ -61,8 +63,10 @@ function AddResearcher(props) {
             const status = error.response?.status;
             const msg = {
                 errorMsg: status
-                    ? `Échec de la mise à jour du chercheur, statut de réponse : ${status}`
-                    : `Échec de la mise à jour du chercheur. ${error.message || 'Aucune réponse du serveur.'}`
+                    ? t("members.researcher update failed status", {status})
+                    : t("members.researcher update failed", {
+                        message: error.message || t("members.no server response")
+                    })
             };
             handleClose(msg);
         })
@@ -76,7 +80,7 @@ function AddResearcher(props) {
                 const researcherId = response.data.researcherId;
                 const msg = {
                     "researcherAdded": response.data,
-                    "successMsg": "Chercheur ajouté avec l'id " + researcherId,
+                    "successMsg": t("members.researcher add success", {id: researcherId}),
                 }
                 handleClose(msg);
             }).catch(error => {
@@ -85,8 +89,10 @@ function AddResearcher(props) {
             const status = error.response?.status;
             const msg = {
                 errorMsg: status
-                    ? `Échec de l'ajout, statut de réponse : ${status}`
-                    : `Échec de l'ajout. ${error.message || 'Aucune réponse du serveur.'}`
+                    ? t("members.researcher add failed status", {status})
+                    : t("members.researcher add failed", {
+                        message: error.message || t("members.no server response")
+                    })
             };
             handleClose(msg);
         })
@@ -99,48 +105,48 @@ function AddResearcher(props) {
                 <form onSubmit={handleSubmit}>
                     <Modal.Header closeButton>
                         <Modal.Title>
-                            {!targetResearcher && <div>Add a Researcher</div>}
-                            {targetResearcher && <div>Update a Researcher</div>}
+                            {!targetResearcher && <div>{t("members.add researcher title")}</div>}
+                            {targetResearcher && <div>{t("members.update researcher title")}</div>}
                         </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
                         <label className='label'>
-                            Name of the researcher
+                            {t("members.first name")}
                         </label>
                         <input
-                            placeholder='Prénom'
+                            placeholder={t("members.first name")}
                             className='input-container'
                             name="AddResearcherFirstName"
-                            type="AddResearcherFirstName"
+                            type="text"
                             value={AddResearcherFirstName}
                             onChange={e => setAddResearcherFirstName(e.target.value)}
                             required/>
                         <label className='label'>
-                            Surname of the researcher
+                            {t("members.last name")}
                         </label>
                         <input
-                            placeholder='Nom'
+                            placeholder={t("members.last name")}
                             className='input-container'
                             name="AddResearcherLastName"
-                            type="AddResearcherLastName"
+                            type="text"
                             value={AddResearcherLastName}
                             onChange={e => setAddResearcherLastName(e.target.value)}
                             required/>
 
                         <label className='label'>
-                            Email of the researcher
+                            {t("members.email")}
                         </label>
                         <input
-                            placeholder='Email'
+                            placeholder={t("members.email")}
                             className='input-container'
                             name="AddResearcherEmail"
-                            type="AddResearcherEmail"
+                            type="email"
                             value={AddResearcherEmail}
                             onChange={e => setAddResearcherEmail(e.target.value)}
                             required/>
 
                         <label className='label'>
-                            Team of the researcher
+                            {t("members.team")}
                         </label>
                         <TeamSelect
                             onchange={React.useCallback(ids => setTeamIds(ids), [])}/>
@@ -148,15 +154,15 @@ function AddResearcher(props) {
                     </Modal.Body>
                     <Modal.Footer>
                         <Button variant="secondary" onClick={() => silentClose()}>
-                            Close
+                            {t("common.cancel")}
                         </Button>
                         <Button variant="outline-primary" type={"submit"} disabled={isLoading}>
                             {isLoading ? <LoadingIcon/> : null}
                             {!targetResearcher &&
-                                (isLoading ? 'Ajout en cours...' : "Ajouter")
+                                (isLoading ? t("members.add in progress") : t("common.add"))
                             }
                             {targetResearcher &&
-                                (isLoading ? 'Mise à jour en cours...' : "Mettre à jour")
+                                (isLoading ? t("members.update in progress") : t("members.update action"))
                             }
                         </Button>
                     </Modal.Footer>
