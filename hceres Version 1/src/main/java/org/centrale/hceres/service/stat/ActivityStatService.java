@@ -13,6 +13,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import static org.centrale.hceres.items.TypeActivityId.NETWORK;
 import static org.centrale.hceres.items.TypeActivityId.POST_DOC;
 import static org.centrale.hceres.items.TypeActivityId.RESEARCH_CONTRACT_FUNDED_PUBLIC_CHARITABLE_INST;
 import static org.centrale.hceres.items.TypeActivityId.SEI_COMPANY_CREATION;
@@ -41,6 +42,9 @@ public class ActivityStatService {
     @Autowired
     private SrAwardStatService srAwardStatService;
     
+    @Autowired
+    private NetworkStatService networkStatService;
+
     @Autowired
     private PostDocStatService postDocStatService;
     
@@ -81,7 +85,8 @@ public class ActivityStatService {
                 return trainingThesisStatService.createStatSumTrainingThesis();
             case SEI_INDUSTRIAL_R_D_CONTRACT:
                 return seiIndustrialRDContractStatService.createStatSumSeiIndustrialRDContract();  
-                
+            case NETWORK:
+                return networkStatService.createStatSumNetwork();
             default:
                 return new ActivityStatSumDto();
         }
@@ -120,7 +125,9 @@ public class ActivityStatService {
             case SEI_INDUSTRIAL_R_D_CONTRACT:
                 activityStatDto = seiIndustrialRDContractStatService.createStatSeiIndustrialRDContract(activity);
                 break;
-                
+            case NETWORK:
+                activityStatDto = networkStatService.createStatNetwork(activity);
+                break;
                 
             default:
                 activityStatDto = new ActivityStatDto();
