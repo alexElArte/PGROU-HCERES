@@ -196,7 +196,8 @@ class Researcher extends Component {
                                             })
                                         })
                                     }
-                                }} className={"btn btn-outline-secondary"}>
+                                }} className={"btn btn-outline-secondary"}  
+                                aria-label={t('members.show searcher activities')}>
                                     <MdPendingActions/>
                                 </button>
                             </OverlayTrigger>
@@ -211,7 +212,8 @@ class Researcher extends Component {
                                         targetResearcher: row,
                                         showAddResearcher: true
                                     })
-                                }} className="btn btn-outline-info">
+                                }} className="btn btn-outline-info"
+                                aria-label={t('members.edit searcher info')}>
                                     <FaEdit/></button>
                             </OverlayTrigger>
 
@@ -225,7 +227,9 @@ class Researcher extends Component {
                                         targetResearcher: row,
                                         showDeleteResearcher: true
                                     })
-                                }}><AiFillDelete/></button>
+                                }}
+                                aria-label={t('members.delete searcher')}>
+                                <AiFillDelete/></button>
                             </OverlayTrigger>
                         </div>
                     )
@@ -260,7 +264,9 @@ class Researcher extends Component {
                                 overlay={this.showTooltip(this.state.showFilter ? 'members.hide search' : 'members.show search')}
                             >
                                 <button className={"border-0 btn-lg"}
-                                        onClick={() => this.setState({showFilter: !this.state.showFilter})}>{
+                                        onClick={() => this.setState({showFilter: !this.state.showFilter})}
+                                        aria-label={t(this.state.showFilter ? 'members.hide search' : 'members.show search')}
+                                >{
                                     <MdSearch/>}
                                 </button>
                             </OverlayTrigger>
@@ -284,7 +290,8 @@ class Researcher extends Component {
                                     targetResearcher: null,
                                     showAddResearcher: true
                                 })
-                            }}>
+                            }}
+                            aria-label={t('members.add')}>
                                 <AiOutlinePlusCircle/>
                                 <span>{t('members.add')}</span>
                             </button>
@@ -312,7 +319,8 @@ class Researcher extends Component {
                 };
                 return (
                     <button className={"border-0  btn-lg"}
-                            onClick={handleClick}>{
+                            onClick={handleClick}
+                            aria-label={t('members.csv export')}    >{
                         <GrDocumentCsv/>}
                     </button>
                 );

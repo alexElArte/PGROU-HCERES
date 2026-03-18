@@ -30,7 +30,10 @@
     "actions": "Actions",
     "researcher": "Researcher",
     "researchers": "Researchers",
-    "count of": "Count of"
+    "count of": "Count of",
+    "csv export": "Export as CSV",
+    "hide search": "Hide search fields",
+    "show search": "Show search fields"
   },
   "login": {
     "title": "Login",

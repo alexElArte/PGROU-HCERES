@@ -76,7 +76,8 @@ function NetworkList(props) {
                 <div className={"col-4"}>
                     {showNetworkAdd && <NetworkAdd targetResearcher={targetResearcher} onHideAction={handleHideModal} />}
                     <button className="btn btn-primary" data-bs-toggle="button"
-                        onClick={() => setShowNetworkAdd(true)}>
+                        onClick={() => setShowNetworkAdd(true)}
+                        aria-label={t('activity.network.add')}>
                         <AiOutlinePlusCircle /> &nbsp; {t('activity.network.add')}
                     </button>
                 </div>
@@ -99,7 +100,8 @@ function NetworkList(props) {
                         <button className="btn btn-outline-danger btn-sm" onClick={() => {
                             setTargetNetwork(row);
                             setShowNetworkDelete(true);
-                        }}>
+                        }}
+                        aria-label={t('activity.delete')}>
                             <AiFillDelete />
                         </button>
                     </OverlayTrigger>
@@ -160,7 +162,7 @@ function NetworkList(props) {
         const CaptionElement = <div><h3>{title}</h3></div>;
 
         const MyExportCSV = (props) => (
-            <button className={"border-0"} onClick={() => props.onExport()}>
+            <button className={"border-0"} onClick={() => props.onExport()} aria-label={t('common.csv export')}>
                 <GrDocumentCsv />
             </button>
         );
@@ -190,13 +192,33 @@ function NetworkList(props) {
                                 </div>
                                 <div className="row">
                                     <div className="col-4">
-                                        <button className={"border-0 btn-lg"} onClick={() => setShowFilter(!showFilter)}>
-                                            <MdSearch />
-                                        </button>
+                                        <OverlayTrigger
+                                            placement="bottom"
+                                            delay={{show: 250, hide: 400}}
+                                            overlay={<Tooltip id="search-tooltip">
+                                                        {t(showFilter ? 'team.hide search' : 'team.show search')}
+                                                        </Tooltip>
+                                                    }
+                                        >
+                                            <button className={"border-0 btn-lg"} onClick={() => setShowFilter(!showFilter)} aria-label={t(showFilter ? 'common.hide search' : 'common.show search')}>{
+                                                <MdSearch />}
+                                            </button>
+                                        </OverlayTrigger>
                                     </div>
-                                    <div className="col-4"><h3><MyExportCSV {...props.csvProps} /></h3></div>
                                     <div className="col-4">
-                                        <button className="btn btn-primary" data-bs-toggle="button" onClick={() => setShowNetworkAdd(true)}>
+                                        <h3><OverlayTrigger
+                                            placement="bottom"
+                                            delay={{show: 250, hide: 400}}
+                                            overlay={<Tooltip id="search-tooltip">
+                                                        {t('common.csv export')}
+                                                        </Tooltip>
+                                                    }
+                                        >
+                                            <span><MyExportCSV {...props.csvProps} /></span>
+                                        </OverlayTrigger></h3>
+                                    </div>
+                                    <div className="col-4">
+                                        <button className="btn btn-primary" data-bs-toggle="button" onClick={() => setShowNetworkAdd(true)} aria-label={t('activity.network.add')}>
                                             <AiOutlinePlusCircle /> &nbsp; {t('activity.network.add')}
                                         </button>
                                     </div>

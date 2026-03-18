@@ -31,7 +31,10 @@
     "actions": "Actions",
     "researcher": "Chercheur",
     "researchers": "Chercheurs",
-    "count of": "Nombre de"
+    "count of": "Nombre de",
+    "csv export": "Exporter en CSV",
+    "delete team": "Supprimer l'équipe",
+    "show members": "Afficher les membres"
   },
   "login": {
     "title": "Connexion",

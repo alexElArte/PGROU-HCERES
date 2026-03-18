@@ -255,6 +255,7 @@ class Team extends Component {
                                         });
                                     }}
                                     className="btn btn-outline-secondary"
+                                    aria-label={t('team.show members')}
                                 >
                                     <MdPendingActions />
                                 </button>
@@ -270,7 +271,8 @@ class Team extends Component {
                                         targetTeam: row,
                                         showAddTeam: true
                                     })
-                                }} className="btn btn-outline-info">
+                                }} className="btn btn-outline-info"
+                                aria-label={t('team.edit team info')}>
                                     <FaEdit /></button>
                             </OverlayTrigger>
 
@@ -284,7 +286,8 @@ class Team extends Component {
                                         targetTeam: row,
                                         showDeleteTeam: true
                                     })
-                                }}><AiFillDelete /></button>
+                                }} aria-label={t('team.delete team')}>
+                                <AiFillDelete /></button>
                             </OverlayTrigger>
                         </div>
                     )
@@ -319,7 +322,8 @@ class Team extends Component {
                                 overlay={this.showTooltip(this.state.showFilter ? 'team.hide search' : 'team.show search')}
                             >
                                 <button className={"border-0 btn-lg"}
-                                    onClick={(e) => this.setState({ showFilter: !this.state.showFilter })}>{
+                                    onClick={(e) => this.setState({ showFilter: !this.state.showFilter })}
+                                    aria-label={t(this.state.showFilter ? 'team.hide search' : 'team.show search')}>{
                                         <MdSearch />}
                                 </button>
                             </OverlayTrigger>
@@ -343,7 +347,8 @@ class Team extends Component {
                                     targetTeam: null,
                                     showAddTeam: true
                                 })
-                            }}>
+                            }}
+                            aria-label={t('team.add')}>
                                 <AiOutlinePlusCircle /> 
                                 <span>{t('team.add')}</span>
                             </button>
@@ -371,7 +376,8 @@ class Team extends Component {
                 };
                 return (
                     <button className={"border-0  btn-lg"}
-                        onClick={handleClick}>{
+                        onClick={handleClick}
+                        aria-label={t('team.csv export')}>{
                             <GrDocumentCsv />}
                     </button>
                 );
