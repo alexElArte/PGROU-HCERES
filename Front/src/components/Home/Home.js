@@ -14,7 +14,7 @@ function Home() {
     const { t } = useTranslation();
     const auth = useSelector((state) => state.auth);
     return (
-        <div className="container1">
+        <div className="container1" role="main">
             <div className="left-side">
                 <div className="pg">
                     <h1>{t("home.welcome")} { auth.username }!</h1>

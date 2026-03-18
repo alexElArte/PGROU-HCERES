@@ -23,15 +23,15 @@ export default function TeamMembersList({ team, allResearchers = [], teamResearc
       ? teamResearchers
       : getMembersFromAll(team, allResearchers);
 
-  if (!team) return <div>{t("no team selected")}</div>;
+  if (!team) return <div>{t("team.no team selected")}</div>;
   if (!members.length) {
     return (
       <div className="card">
         <div className="card-header">
-          {t("member of")} « {team.teamName} »
+          {t("team.member of")} « {team.teamName} »
         </div>
         <div className="card-body">
-          {t("no team")}
+          {t("team.no team")}
         </div>
       </div>
     );
@@ -40,7 +40,7 @@ export default function TeamMembersList({ team, allResearchers = [], teamResearc
   return (
     <div className="card team-list-table">
       <div className="card-header">
-        {t("member of")} « {team.teamName} » ({members.length})
+        {t("team.member of")} « {team.teamName} » ({members.length})
       </div>
       <ul className="list-group list-group-flush">
         {members.map(m => (

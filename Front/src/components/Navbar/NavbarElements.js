@@ -132,5 +132,14 @@ padding: 8px 16px;
 height: 100%;
 width: 100%;
 border: none;
+border-radius : 11px 11px 11px 11px;
 outline: none;
+background-color: #00008b;
+color: #ffffff;
+
+&:hover {
+  background-color: #9f9f9f;
+  transition: all 0.5s ease;
+}
 `
+
