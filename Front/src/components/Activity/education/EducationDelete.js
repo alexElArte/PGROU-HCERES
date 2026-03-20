@@ -6,6 +6,8 @@ import EducationElement from "./EducationElement";
 import {deleteEducation} from "../../../services/Activity/education/EducationActions";
 
 function EducationDelete(props) {
+    const { t } = props;
+
     const [show, setShow] = useState(true);
     const [isLoading, setIsLoading] = useState(false);
     const targetEducation = props.targetEducation;
@@ -20,13 +22,13 @@ function EducationDelete(props) {
         deleteEducation(targetEducation.idActivity)
             .then(response => {
                 const msg = {
-                    "successMsg": "Education supprimé ayant l'id " + targetEducation.idActivity,
+                    "successMsg": t("activity.education.success delete") + " " + targetEducation.idActivity,
                 }
                 handleClose(msg);
             }).catch(error => {
             console.log(error);
             const msg = {
-                "errorMsg": "Education non supprimé, response status: " + error.response.status,
+                "errorMsg": t("activity.education.error delete") + " " + targetEducation.idActivity,
             }
             handleClose(msg);
         })
@@ -36,7 +38,7 @@ function EducationDelete(props) {
     return (
         <Modal show={show} onHide={handleClose}>
             <Modal.Header closeButton>
-                <Modal.Title>Êtes-vous sûr de vouloir supprimer l'education sélectionné?</Modal.Title>
+                <Modal.Title>{t("common.confirm delete")}</Modal.Title>
             </Modal.Header>
             <Modal.Body>
                 <EducationElement targetEducation={targetEducation}/>

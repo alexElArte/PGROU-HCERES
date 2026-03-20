@@ -22,9 +22,13 @@ import EducationDelete from "./EducationDelete";
 import EducationAdd from "./EducationAdd";
 import Tooltip from "react-bootstrap/Tooltip";
 
+import { useTranslation } from 'react-i18next';
+
 // If targetResearcher is set in props display related information only (
 // else load list des tous les educations du database
 function EducationList(props) {
+    const { t } = useTranslation();
+
     // parameter constant (List Template)
     const targetResearcher = props.targetResearcher;
 
@@ -92,21 +96,21 @@ function EducationList(props) {
             return <div className={"row"}>
                 <br/>
                 <div className={"col-8"}>
-                    <h3>Aucun enseignement n'est enregistré</h3>
+                    <h3>{t("activity.education.no")}</h3>
                 </div>
                 <div className={"col-4"}>
                     {showEducationAdd &&
                         <EducationAdd targetResearcher={targetResearcher} onHideAction={handleHideModal}/>}
                     <button className="btn btn-primary" data-bs-toggle="button"
                             onClick={() => setShowEducationAdd(true)}>
-                        <AiOutlinePlusCircle/> &nbsp; Ajouter un enseignement
+                        <AiOutlinePlusCircle/> &nbsp; {t("activity.education.add")}
                     </button>
                 </div>
             </div>;
         }
         const deleteTooltip = (props) => (
             <Tooltip id="button-tooltip" {...props}>
-                Supprimer l'activité
+                {t("activity.education.delete")}
             </Tooltip>
         )
         const columns = [{
@@ -131,32 +135,32 @@ function EducationList(props) {
                 </div>)
             }
         }, {
-            dataField: 'education.educationCourseName',
+            dataField: 'activity.education.educationCourseName',
             text: 'Course',
             sort: true,
             filter: showFilter ? textFilter({placeholder: 'Course...'}) : null,
         }, {
-            dataField: 'education.educationDescription',
+            dataField: 'activity.education.educationDescription',
             text: 'Description',
         }, {
-            dataField: 'education.educationFormation',
+            dataField: 'activity.education.educationFormation',
             text: 'Formation',
             sort: true,
             filter: showFilter ? textFilter({placeholder: 'Formation...'}) : null,
         }, {
-            dataField: 'education.educationCompletion',
+            dataField: 'activity.education.educationCompletion',
             text: 'date d\'achèvement',
             sort: true,
             filter: showFilter ? dateFilter() : null,
         }];
 
-        let title = "Education"
+        let title = "activity.education.title"
         if (!targetResearcher) {
             columns.push(chercheursColumnOfActivity)
-            title = "Liste des educations pour les Chercheurs"
+            title = "activity.education.list"
         }
         const CaptionElement = <div>
-            <h3> {title}
+            <h3> {t(title)}
             </h3>
         </div>
 
@@ -220,7 +224,7 @@ function EducationList(props) {
                                     <div className="col-4">
                                         <button className="btn btn-primary" data-bs-toggle="button"
                                                 onClick={() => setShowEducationAdd(true)}>
-                                            <AiOutlinePlusCircle/> &nbsp; Ajouter une education
+                                            <AiOutlinePlusCircle/> &nbsp; {t("activity.education.add")}
                                         </button>
                                     </div>
                                 </div>

@@ -68,7 +68,7 @@ function ActivityList(props) {
 
     const setShowAllList = (isShow) => {
         setShowNetworkList(isShow)
-        //setShowEducationList(isShow)
+        setShowEducationList(isShow)
         setShowPrixList(isShow)
         //setShowPlatformList(isShow)
         //setShowOralComPosterList(isShow)
@@ -120,13 +120,13 @@ function ActivityList(props) {
                             </ListGroup>
                             {targetResearcher && <ResearcherElement targetResearcher={targetResearcher} horizontal />}
                             <ListGroup horizontal={true}>
-                                {/*
+                                {
                                 <ListGroup.Item onClick={() => setShowEducationList(!showEducationList)}
                                                 className={showEducationList ? activeItemClass : inactiveItemClass}>
                                     {showEducationList ? <BiShow/> : <BiHide/>}
                                     &nbsp;
-                                    Enseignement
-                                </ListGroup.Item> */}
+                                    {t('activity.education.title')}
+                                </ListGroup.Item>}
 
                                 <ListGroup.Item onClick={() => setShowPrixList(!showPrixList)}
                                     className={showPrixList ? activeItemClass : inactiveItemClass}>

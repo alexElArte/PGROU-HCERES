@@ -5,9 +5,13 @@ import {addEducation} from "../../../services/Activity/education/EducationAction
 import ResearcherSelect from "../../util/ResearcherSelect";
 import LoadingIcon from "../../util/LoadingIcon";
 
+import { useTranslation } from 'react-i18next';
+
 // If targetResearcher is set in props use it as default without charging list from database
 // else load list de chercheurs from database
 function EducationAdd(props) {
+    const { t } = useTranslation();
+    
     // parameter constant (Add Template)
     const targetResearcher = props.targetResearcher;
     const onHideParentAction = props.onHideAction
@@ -48,14 +52,14 @@ function EducationAdd(props) {
         addEducation(data).then(response => {
             // const activityId = response.data.researcherId;
             const msg = {
-                "successMsg": "Education ajouté avec un id " + response.data.idActivity,
+                "successMsg": t("activity.education.success add") + " " + response.data.idActivity,
             }
             handleClose(msg);
         })
             .finally(() => setIsLoading(false)).catch(error => {
             console.log(error);
             const msg = {
-                "errorMsg": "Erreur Education non ajouté, response status: " + error.response.status,
+                "errorMsg": t("activity.education.error add") + " " + error.response.status,
             }
             handleClose(msg);
         })
@@ -67,21 +71,21 @@ function EducationAdd(props) {
             <Modal show={showModal} onHide={handleClose}>
                 <form onSubmit={handleSubmit}>
                     <Modal.Header closeButton>
-                        <Modal.Title>Education</Modal.Title>
+                        <Modal.Title>{t("activity.education.title")}</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
                         <label className='label'>
-                            Chercheur
+                            {t("common.researcher")}
                         </label>
                         <ResearcherSelect
                             targetResearcher={targetResearcher}
                             onchange={React.useCallback(resId => setResearcherId(resId), [])}
                         />
                         <label className='label'>
-                            Nom du cours d'éducation
+                            {t("activity.education.nameTeaching")}
                         </label>
                         <input
-                            placeholder='educationCourseName'
+                            placeholder={t("activity.education.nameTeaching")}
                             className='input-container'
                             name="educationCourseName"
                             type="educationCourseName"
@@ -90,10 +94,10 @@ function EducationAdd(props) {
                             required/>
 
                         <label className='label'>
-                            Formation d'éducation
+                            {t("activity.education.formation")}
                         </label>
                         <input
-                            placeholder='educationFormation'
+                            placeholder={t("activity.education.formation")}
                             className='input-container'
                             name="educationFormation"
                             type="educationFormation"
@@ -102,10 +106,10 @@ function EducationAdd(props) {
                             required/>
 
                         <label className='label'>
-                            Description de l'éducation
+                            {t("activity.education.description")}
                         </label>
                         <input
-                            placeholder='educationDescription'
+                            placeholder={t("activity.education.description")}
                             className='input-container'
                             name="educationDescription"
                             type="educationDescription"
@@ -114,10 +118,10 @@ function EducationAdd(props) {
                             required/>
 
                         <label className='label'>
-                            Texte sur la participation à l'éducation
+                            {t("activity.education.involvement")}
                         </label>
                         <input
-                            placeholder='educationInvolvementName'
+                            placeholder={t("activity.education.involvement")}
                             className='input-container'
                             name="educationInvolvementName"
                             type="educationInvolvementName"
@@ -126,10 +130,10 @@ function EducationAdd(props) {
                             required/>
 
                         <label className='label'>
-                            Niveau d'éducation
+                            {t("activity.education.level")}
                         </label>
                         <input
-                            placeholder='educationLevelText'
+                            placeholder={t("activity.education.level")}
                             className='input-container'
                             name="educationLevelText"
                             type="educationLevelText"
@@ -138,7 +142,7 @@ function EducationAdd(props) {
                             required/>
 
                         <label className='label'>
-                            Achèvement de l'éducation
+                            {t("activity.education.completionDate")}
                         </label>
                         <input
                             type="date"
@@ -149,11 +153,11 @@ function EducationAdd(props) {
                     </Modal.Body>
                     <Modal.Footer>
                         <Button variant="secondary" onClick={handleClose}>
-                            Close
+                            {t("common.cancel")}
                         </Button>
                         <Button variant="outline-primary" type={"submit"} disabled={isLoading}>
                             {isLoading ? <LoadingIcon/> : null}
-                            {isLoading ? 'Ajout en cours...' : 'Ajouter'}
+                            {t(isLoading ? 'common.adding' : 'common.add')}
                         </Button>
                     </Modal.Footer>
                 </form>

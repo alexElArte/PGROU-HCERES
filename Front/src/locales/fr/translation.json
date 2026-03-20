@@ -9,6 +9,7 @@
     "submit": "Soumettre",
     "cancel": "Annuler",
     "add": "Ajouter",
+    "adding": "Ajout en cours...",
     "edit": "Éditer",
     "delete": "Supprimer",
     "rows": "  Affichage des lignes",
@@ -150,6 +151,28 @@
       "originalLab": "Laboratoire d’origine",
       "associatedFunding": "Financement associé",
       "associatedPubliRef": "Références des publications associées"
+    },
+
+    "education": {
+      "title": "Enseignements",
+      "success add": "Education ajouté avec l'id:",
+      "error add": "Erreur : Enseignement non ajouté, statut:",
+      "success delete": "Enseignement supprimé avec l'id:",
+      "error delete": "Erreur : Enseignement non supprimé, statut:",
+      "nameTeaching": "Nom de l'enseignement",
+      "formation": "Formation d'enseignement",
+      "description": "Description de l'enseignement",
+      "involvment": "Participation à l'enseignement",
+      "level": "Niveau de l'enseignement",
+      "completionDate": "Achèvement de l'enseignement",
+      "nameTeachingShort": "Nom",
+      "descriptionShort": "Description",
+      "formationShort": "Formation",
+      "endDate": "Date de fin",
+      "no": "Aucun enseignement enregistré",
+      "add": "Ajouter un enseignement",
+      "delete": "Supprimer un enseignement",
+      "list": "Liste des enseignements pour le chercheur"
     },
 
     "network": {
