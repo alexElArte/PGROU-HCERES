@@ -85,8 +85,8 @@ java -jar backend.jar
 
 ### Front-end
 
--*8080* correpond au port, vous pouvez le changer si nécessaire
--*build* correspon au dossier
+- *8080* correpond au port, vous pouvez le changer si nécessaire
+- *build* correspon au dossier
 
 ```bash
 serve -s build -p 8080
@@ -95,6 +95,8 @@ serve -s build -p 8080
 # Annexe
 
 Fichier *application.properties* dans *hceres Version 1/src/main/resources*
+
+Les éléments à changer sont entre crochets.
 
 ``` apache
 # Copier ce fichier et le renommer en "application.properties"
@@ -105,6 +107,7 @@ server.port = 9000
 
 logging.level.org.springframework=error
 
+# Connexion à la base de données
 #spring.datasource.url = jdbc:postgresql://[ip address]:[port]/[database]
 #spring.datasource.username = [bdd username]
 #spring.datasource.password = [bdd password]
