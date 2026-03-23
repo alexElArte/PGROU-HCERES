@@ -342,7 +342,7 @@ class Team extends Component {
                         </div>
 
                         <div className="col-4">
-                            <button className="btn btn-primary btn-lg btn-icon-text" data-bs-toggle="button" onClick={() => {
+                            <button className="btn btn-blue" data-bs-toggle="button" onClick={() => {
                                 this.setState({
                                     targetTeam: null,
                                     showAddTeam: true
@@ -385,7 +385,26 @@ class Team extends Component {
 
             const selectRow = {
                 mode: 'checkbox',
-                clickToSelect: true
+                clickToSelect: true,
+                selectionHeaderRenderer: ({ mode, checked, indeterminate }) => (
+                    <input 
+                        type={mode} 
+                        checked={checked} 
+                        aria-label={t('common.select all rows')}
+                        ref={input => {
+                            if (input) input.indeterminate = indeterminate;
+                        }}
+                        onChange={() => {}} 
+                    />
+                ),
+                selectionRenderer: ({ mode, ...rest }) => (
+                    <input 
+                        type={mode} 
+                        {...rest}
+                        aria-label={t('common.select row')}
+                        onChange={() => {}} 
+                    />
+                )
             };
 
             return (

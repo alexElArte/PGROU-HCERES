@@ -229,7 +229,7 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
     const renderDownloadButton = (chartTemplateKey) => {
         return (
             <button
-                className={'btn btn-primary'}
+                className="btn btn-blue"
                 disabled={isPngLoading}
                 onClick={() => {
                     switch (chartTemplateKey) {
@@ -580,7 +580,7 @@ function ActivityStatDisplay({ activityStatEntry, t }) {
                         <br />
                     </div>
                     <div className={"card-apply-filters-action"}>
-                        <button className={"btn btn-primary"} onClick={() => handleApplyFilters()}>{t('stats.apply filters')}</button>
+                        <button className="btn btn-blue" onClick={() => handleApplyFilters()}>{t('stats.apply filters')}</button>
                     </div>
                 </div>
 

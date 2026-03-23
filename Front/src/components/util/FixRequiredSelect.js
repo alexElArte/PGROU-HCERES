@@ -30,13 +30,57 @@ class FixRequiredSelect extends React.Component {
     };
 
     render() {
-        const { SelectComponent, required, ...props } = this.props;
+        const { SelectComponent, required, styles, inputId, ...props } = this.props;
         const { isDisabled } = this.props;
         const enableRequired = !isDisabled;
+
+        const selectorStyles = {
+            ...styles,
+            control: (base, state) => ({
+                ...base,
+                borderColor: state.isFocused ? '#0056b3' : '#6c757d',
+                backgroundColor: 'transparent',
+                borderRadius: '5px',
+                padding: '0.25em 0.75em',
+                fontWeight: '700',
+                cursor: 'pointer',
+                transition: 'all 0.3s',
+                boxShadow: 'none',
+                '&:hover': {
+                    borderColor: '#0175E4',
+                    backgroundColor: '#f8f9fa',
+                },
+                ...(styles && styles.control ? styles.control(base, state) : {}),
+            }),
+            placeholder: (base) => ({
+                ...base,
+                color: '#6c757d',
+                ...(styles && styles.placeholder ? styles.placeholder(base) : {}),
+            }),
+            singleValue: (base, state) => ({
+                ...base,
+                color: '#6c757d',
+                ...(styles && styles.singleValue ? styles.singleValue(base, state) : {}),
+            }),
+            option: (base, state) => ({
+                ...base,
+                backgroundColor: state.isSelected ? '#0056b3' : state.isFocused ? '#f8f9fa' : 'transparent',
+                color: state.isSelected ? '#ffffff' : state.isFocused ? '#0175E4' : '#6c757d',
+                fontWeight: '700',
+                cursor: 'pointer',
+                '&:active': {
+                    backgroundColor: '#0056b3',
+                },
+                ...(styles && styles.option ? styles.option(base, state) : {}),
+            })
+        };
+
         return (
             <div>
                 <SelectComponent
                     {...props}
+                    inputId={inputId}
+                    styles={selectorStyles}
                     ref={this.setSelectRef}
                     onChange={this.onChange}
                 />

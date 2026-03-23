@@ -33,7 +33,9 @@
     "count of": "Count of",
     "csv export": "Export as CSV",
     "hide search": "Hide search fields",
-    "show search": "Show search fields"
+    "show search": "Show search fields",
+    "select row": "Select row",
+    "select all rows": "Select all rows"
   },
   "login": {
     "title": "Login",

@@ -167,7 +167,29 @@ function NetworkList(props) {
             </button>
         );
 
-        const selectRow = { mode: 'checkbox', clickToSelect: true };
+        const selectRow = {
+                mode: 'checkbox',
+                clickToSelect: true,
+                selectionHeaderRenderer: ({ mode, checked, indeterminate }) => (
+                    <input 
+                        type={mode} 
+                        checked={checked} 
+                        aria-label={t('common.select all rows')}
+                        ref={input => {
+                            if (input) input.indeterminate = indeterminate;
+                        }}
+                        onChange={() => {}}
+                    />
+                ),
+                selectionRenderer: ({ mode, ...rest }) => (
+                    <input 
+                        type={mode} 
+                        {...rest}
+                        aria-label={t('common.select row')}
+                        onChange={() => {}} 
+                    />
+                )
+            };
 
         return (
             <div>
@@ -218,7 +240,7 @@ function NetworkList(props) {
                                         </OverlayTrigger></h3>
                                     </div>
                                     <div className="col-4">
-                                        <button className="btn btn-primary" data-bs-toggle="button" onClick={() => setShowNetworkAdd(true)} aria-label={t('activity.network.add')}>
+                                        <button className="btn btn-blue" data-bs-toggle="button" onClick={() => setShowNetworkAdd(true)} aria-label={t('activity.network.add')}>
                                             <AiOutlinePlusCircle /> &nbsp; {t('activity.network.add')}
                                         </button>
                                     </div>

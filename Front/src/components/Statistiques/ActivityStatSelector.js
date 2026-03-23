@@ -59,8 +59,9 @@ export default function ActivityStatSelector() {
     const [selectedOption, setSelectedOption] = React.useState(activityStatOptions[0]);
 
     return (
-        <div style={{justifyContent: 'center', alignItems: 'center', minHeight: '100%'}} role="main">
+        <div style={{justifyContent: 'center', alignItems: 'center', minHeight: '100%', paddingTop: '20px', paddingBottom: '20px'}} role="main">
             <FixRequiredSelect
+                inputId="activity-stat-select"
                 SelectComponent={Select}
                 options={activityStatOptions}
                 onChange={(option) => {

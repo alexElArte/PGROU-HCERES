@@ -34,12 +34,12 @@
     outline: none;
 }
 
-.login input[type='submit']:focus,
-.login input[type='submit']:hover {
-    background-color: #198d98;
+.login button[type='submit']:focus,
+.login button[type='submit']:hover {
+    background-color: #0056b3;
 }
 
-.login input[type='submit'] {
+.login button[type='submit'] {
     background-color: #0175E4;
     border-radius: 5px;
     color: #fff;

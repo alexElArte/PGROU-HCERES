@@ -3,6 +3,8 @@ import BootstrapTable from "react-bootstrap-table-next";
 import getRandomBackgroundColor from "../util/ColorGenerator";
 import filterFactory, {textFilter} from "react-bootstrap-table2-filter";
 
+import { withTranslation } from 'react-i18next';
+
 export default React.memo(function SelectFilterDisplay({selectOptions, onChange}) {
     const [selectedRows, setSelectedRows] = React.useState([]);
 

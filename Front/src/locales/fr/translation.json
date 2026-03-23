@@ -34,7 +34,9 @@
     "count of": "Nombre de",
     "csv export": "Exporter en CSV",
     "delete team": "Supprimer l'équipe",
-    "show members": "Afficher les membres"
+    "show members": "Afficher les membres",
+    "select row": "Sélectionner ligne",
+    "select all rows": "Sélectionner toute les lignes"
   },
   "login": {
     "title": "Connexion",

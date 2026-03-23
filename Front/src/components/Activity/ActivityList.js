@@ -97,8 +97,8 @@ function ActivityList(props) {
 
     const showAllList = () => setShowAllList(true)
     const hideAllList = () => setShowAllList(false)
-    const activeItemClass = "border-primary text-primary flex-fill"
-    const inactiveItemClass = "flex-fill"
+    const activeItemClass = "active-item-custom"
+    const inactiveItemClass = "inactive-item-custom"
     return (
 
         <div>
@@ -113,9 +113,9 @@ function ActivityList(props) {
                         <div className={"list_container"} role={"button"}>
                             <ListGroup horizontal={true}>
                                 <ButtonGroup>
-                                    <Button onClick={showAllList} variant={"outline-primary"}
+                                    <Button onClick={showAllList} className="btn-blue-outline"
                                         id={"showAllActivityListBtn"}>{t('activity.see all')}</Button>
-                                    <Button onClick={hideAllList} variant={"outline-secondary"}>{t('activity.hide all')}</Button>
+                                    <Button onClick={hideAllList} className="btn-blue-outline">{t('activity.hide all')}</Button>
                                 </ButtonGroup>
                             </ListGroup>
                             {targetResearcher && <ResearcherElement targetResearcher={targetResearcher} horizontal />}

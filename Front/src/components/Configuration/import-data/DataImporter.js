@@ -330,7 +330,7 @@ const DataImporter = () => {
                     <div className="form-group">
                         <div className="btn-group" role="group">
                             <Button variant="danger"
-                                    className={"btn-group"}
+                                    className="btn-red btn-group"
                                     disabled={state.isPurgingDatabase || state.isInsertingIntoDataBase}
                                     onClick={() => {
                                         const hasConfirmedPurge = window.confirm(
@@ -349,7 +349,7 @@ const DataImporter = () => {
                                 {state.isPurgingDatabase ? t("import data.suppressing") : t("import data.delete all data")}
                             </Button>
                             <Button variant="primary"
-                                    className={"btn-group"}
+                                    className="btn-blue btn-group"
                                     onClick={() => {
                                         dispatch({
                                             type: 'download-csv-samples'
@@ -365,14 +365,13 @@ const DataImporter = () => {
                         <br/>
                         <br/>
                         <div className="btn-group" role="group">
-                            <Button variant="success" className="btn-group">
+                            <Button variant="success" className="btn-green btn-group">
                                 <label htmlFor="csv-file" className="file-upload-label border-0">
                                     <FaUpload/>
                                     {t("import data.upload csv")}
                                 </label>
                                 <Form.File
                                     id="csv-file"
-                                    label={t("import data.upload csv")}
                                     accept=".csv"
                                     onChange={(e) => {
                                         dispatch({
@@ -386,7 +385,9 @@ const DataImporter = () => {
                                     style={{display: "none"}}
                                 />
                             </Button>
-                            <Button variant={"primary"}
+                            <Button 
+                                    className="btn-blue btn-group"
+                                    variant={"primary"}
                                     disabled={state.isInsertingIntoDataBase || state.isPurgingDatabase}
                                     onClick={() => dispatch({
                                         type: 'insert-into-database'
@@ -396,6 +397,7 @@ const DataImporter = () => {
                                 {state.isInsertingIntoDataBase ? t("import data.inserting") : t("import data.title")}
                             </Button>
                             <Button
+                                className="btn-green btn-group"
                                 variant={"info"}
                                 onClick={() => dispatch({
                                     type: 'clear-non-associated-files'
@@ -405,6 +407,7 @@ const DataImporter = () => {
                                 {t("import data.delete non linked")}
                             </Button>
                             <Button
+                                className="btn-red btn-group"
                                 variant={"danger"}
                                 onClick={() => dispatch({
                                     type: 'clear-all-files'
