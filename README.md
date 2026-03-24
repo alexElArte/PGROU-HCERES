@@ -9,6 +9,7 @@ Vous avez le lien du drive avec tous les rapports en
 Vous devez au préalable installez **NodeJS** et **Maven** sur votre ordinateur<br>
 Clonez le repository.<br>
 Changez si nécessaire la connexion au serveur dans les fichier *application.properties* dans "*hceres Version 1/src/main/ressources/*"<br>
+Vous avez un fichier template dans la section **Annexe**
 
 ## Prérequis
 Allez dans le dossier *hceres Version 1* et exécutez:
@@ -86,7 +87,7 @@ java -jar backend.jar
 ### Front-end
 
 - *8080* correpond au port, vous pouvez le changer si nécessaire
-- *build* correspon au dossier
+- *build* correspond au dossier
 
 ```bash
 serve -s build -p 8080
