@@ -72,11 +72,13 @@ const Login = (props) => {
                 </div>
 
                 <label className="username_label fadeIn second">
+                    <span style={{display: "none"}}>{t("login.username")}</span>
                     <i><FaUserAlt/></i>
                     <input type="username" placeholder={t("login.username")} name="login" value={user.login}
                            onChange={credentialChange}/>
                 </label>
                 <label className="password_label fadeIn third">
+                    <span style={{display: "none"}}>{t("login.password")}</span>
                     <i><FaKey/></i>
                     <input type="password" placeholder={t("login.password")} name="password" value={user.password}
                            onChange={credentialChange}/>
